@@ -1,0 +1,42 @@
+[
+  {
+    "id": "chanticleer-shakespeare-company",
+    "name": "Chanticleer Shakespeare Company",
+    "city": "Fresno",
+    "website": "https://www.chanticleershakes.com/",
+    "reason": "No future production schedule currently published on the official site",
+    "reactivateWhen": "A future production, performance date, or audition is published"
+  },
+  {
+    "id": "ur-here-theater",
+    "name": "UR Here Theater",
+    "city": "Fresno/Clovis",
+    "website": "https://www.urheretheater.com/",
+    "reason": "Official site shows past 2026 projects but no clearly dated future production",
+    "reactivateWhen": "A future production, performance date, or audition is published"
+  },
+  {
+    "id": "rogue-festival",
+    "name": "Rogue Festival",
+    "city": "Fresno",
+    "website": "https://fresnoroguefestival.org/",
+    "reason": "The published 2026 festival schedule has ended",
+    "reactivateWhen": "The 2027 performance schedule is published"
+  },
+  {
+    "id": "labyrinth-art-collective",
+    "name": "The LAByrinth Art Collective",
+    "city": "Fresno",
+    "website": "https://www.labyrinthartcollective.org/",
+    "reason": "Website directs visitors to Instagram and does not publish dated show listings",
+    "reactivateWhen": "A verifiable future theater production or audition is published"
+  },
+  {
+    "id": "fresno-pacific-university-theater",
+    "name": "Fresno Pacific University Theater",
+    "city": "Fresno",
+    "website": "https://www.fresno.edu/arts/theater",
+    "reason": "University states that it is not currently offering full-scale productions",
+    "reactivateWhen": "A new public production season or dated performance is announced"
+  }
+]

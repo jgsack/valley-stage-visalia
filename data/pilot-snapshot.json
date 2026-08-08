@@ -1,0 +1,104 @@
+{
+  "center": {
+    "label": "Visalia, CA 93291",
+    "radiusMiles": 50
+  },
+  "verifiedAt": "August 8, 2026",
+  "shows": [
+    {
+      "id": "little-shop",
+      "title": "Little Shop of Horrors",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "September 11–26",
+      "next": "Fri, Sep 11 · 7:00 PM",
+      "performanceCount": "10 performances",
+      "description": "A meek florist finds success—and trouble—with the help of a mysterious, R&B-singing carnivorous plant.",
+      "status": "soon",
+      "sourceUrl": "https://www.encoretulare.org/current-show.html",
+      "detailsUrl": "https://www.encoretulare.org/current-show.html",
+      "image": "https://www.encoretulare.org/uploads/7/5/7/8/75783967/littleshop-working-1_orig.jpg",
+      "imageMode": "cover",
+      "featured": true
+    },
+    {
+      "id": "the-father",
+      "title": "The Father",
+      "theater": "Visalia Players · Ice House Theatre",
+      "city": "Visalia",
+      "distance": 2,
+      "run": "September 11–26",
+      "next": "Fri, Sep 11 · 7:30 PM",
+      "performanceCount": "9 performances",
+      "description": "An intimate, disorienting drama that asks the audience to experience a changing world through one man's eyes.",
+      "status": "soon",
+      "sourceUrl": "https://www.visaliaicehouse.com/",
+      "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/696725c5bfcbe23be0a2d08e",
+      "image": "https://static.wixstatic.com/media/cf6fcc_11f8d3d1476e406e8a3e98b19238a705~mv2.png",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
+      "id": "normal-heart",
+      "title": "The Normal Heart",
+      "theater": "Visalia Players · Ice House Theatre",
+      "city": "Visalia",
+      "distance": 2,
+      "run": "November 6–21",
+      "next": "Fri, Nov 6 · 7:30 PM",
+      "performanceCount": "9 performances",
+      "description": "Larry Kramer's landmark drama of love, anger, and advocacy during the early years of the AIDS crisis.",
+      "status": "soon",
+      "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+      "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/69672365a9c779105c7532ec"
+    },
+    {
+      "id": "few-good-men",
+      "title": "A Few Good Men",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "November 2026",
+      "next": "Exact dates pending",
+      "performanceCount": "Season announced",
+      "description": "Aaron Sorkin's gripping courtroom drama about duty, honor, and an illegal order hidden inside the chain of command.",
+      "status": "soon",
+      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
+      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
+      "image": "https://www.encoretulare.org/uploads/7/5/7/8/75783967/goodmen-working-1_orig.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "holiday-cabaret",
+      "title": "Holiday Cabaret",
+      "theater": "Visalia Players · Ice House Theatre",
+      "city": "Visalia",
+      "distance": 2,
+      "run": "December 11–13",
+      "next": "Fri, Dec 11 · 7:30 PM",
+      "performanceCount": "4 performances",
+      "description": "A compact holiday engagement bringing local performers together on the Ice House stage.",
+      "status": "soon",
+      "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+      "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/6967274997fa065b04425dc4"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ice House Theatre",
+      "note": "Production page, season page, and ticket schedule agree.",
+      "waiting": false
+    },
+    {
+      "name": "Encore Theatre",
+      "note": "Current-show and season pages yielded dates and poster art.",
+      "waiting": false
+    },
+    {
+      "name": "COS Theatre Arts",
+      "note": "Official page has no qualifying future performance yet.",
+      "waiting": true
+    }
+  ]
+}

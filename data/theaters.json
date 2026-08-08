@@ -1,0 +1,222 @@
+[
+  {
+    "id": "visalia-players",
+    "name": "Visalia Players",
+    "city": "Visalia",
+    "organizationType": "community_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": ["Ice House Theatre"],
+    "website": "https://www.visaliaicehouse.com/"
+  },
+  {
+    "id": "encore-theatre-company",
+    "name": "Encore Theatre Company",
+    "city": "Tulare",
+    "organizationType": "community_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": ["Encore Theatre"],
+    "website": "https://www.encoretulare.org/"
+  },
+  {
+    "id": "lindsay-community-theater",
+    "name": "Lindsay Community Theater",
+    "city": "Lindsay",
+    "organizationType": "community_theater",
+    "coverageTier": "regional",
+    "status": "confirmed_by_user",
+    "venues": ["Lindsay Community Theater"],
+    "website": "https://www.lindsaycommunitytheater.com/"
+  },
+  {
+    "id": "porterville-barn-theater",
+    "name": "Porterville Barn Theater",
+    "city": "Porterville",
+    "organizationType": "community_theater",
+    "coverageTier": "regional",
+    "status": "confirmed_by_user",
+    "venues": ["Barn Theater"],
+    "website": "https://portervillebarntheater.com/"
+  },
+  {
+    "id": "river-city-theatre-company",
+    "name": "Reedley's River City Theatre Company",
+    "city": "Reedley",
+    "organizationType": "community_theater",
+    "coverageTier": "regional",
+    "status": "confirmed_by_user",
+    "venues": ["Reedley Opera House"],
+    "website": "https://www.rctcreedley.com/"
+  },
+  {
+    "id": "selma-arts-center",
+    "name": "Selma Arts Center",
+    "city": "Selma",
+    "organizationType": "community_arts_presenter",
+    "coverageTier": "regional",
+    "status": "confirmed_by_user",
+    "venues": ["Selma Arts Center"],
+    "website": "https://www.selmaartscenter.com/"
+  },
+  {
+    "id": "good-company-players",
+    "name": "Good Company Players",
+    "city": "Fresno",
+    "organizationType": "community_theater",
+    "coverageTier": "extended",
+    "status": "confirmed_by_user",
+    "venues": ["Roger Rocka's Dinner Theater", "2nd Space Theatre"],
+    "website": "https://www.gcplayers.com/"
+  },
+  {
+    "id": "college-of-the-sequoias-dramatic-arts",
+    "name": "College of the Sequoias Dramatic Arts",
+    "city": "Visalia",
+    "organizationType": "college_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": ["COS Theatre"],
+    "website": "https://www.cos.edu/theatre"
+  },
+  {
+    "id": "fresno-state-theatre-and-dance",
+    "name": "Fresno State Department of Theatre and Dance",
+    "city": "Fresno",
+    "organizationType": "university_theater",
+    "coverageTier": "extended",
+    "status": "confirmed_by_user",
+    "venues": ["University Theatre venues"],
+    "website": "https://cah.fresnostate.edu/theatrearts/performances/"
+  },
+  {
+    "id": "redwood-high-school-theatre",
+    "name": "Redwood High School Theatre Program",
+    "city": "Visalia",
+    "organizationType": "high_school_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": ["L.J. Williams Theater"],
+    "website": "https://redwood.vusd.org/"
+  },
+  {
+    "id": "mt-whitney-high-school-drama",
+    "name": "Mt. Whitney High School Drama",
+    "city": "Visalia",
+    "organizationType": "high_school_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": [],
+    "website": "https://mtwhitney.vusd.org/"
+  },
+  {
+    "id": "golden-west-high-school-drama",
+    "name": "Golden West High School Drama",
+    "city": "Visalia",
+    "organizationType": "high_school_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": [],
+    "website": "https://goldenwest.vusd.org/"
+  },
+  {
+    "id": "el-diamante-high-school-drama",
+    "name": "El Diamante High School Drama",
+    "city": "Visalia",
+    "organizationType": "high_school_theater",
+    "coverageTier": "local",
+    "status": "confirmed_by_user",
+    "venues": ["El Diamante theater", "District venues"],
+    "website": "https://eldiamante.vusd.org/"
+  },
+  {
+    "id": "kings-players",
+    "name": "Kings Players",
+    "city": "Hanford",
+    "organizationType": "community_theater",
+    "coverageTier": "regional",
+    "status": "research_candidate",
+    "venues": ["Temple Theatre / Kings Players Theatre"],
+    "website": "https://www.kingsplayers.org/"
+  },
+  {
+    "id": "tcoe-theatre-company",
+    "name": "TCOE Theatre Company",
+    "city": "Visalia",
+    "organizationType": "youth_theater",
+    "coverageTier": "local",
+    "status": "research_candidate",
+    "venues": ["Rotary Theatre", "Other local venues"],
+    "website": "https://www.tcoe.org/TheatreCo"
+  },
+  {
+    "id": "enchanted-playhouse",
+    "name": "Enchanted Playhouse Theatre Company",
+    "city": "Visalia",
+    "organizationType": "childrens_theater",
+    "coverageTier": "local",
+    "status": "research_candidate",
+    "venues": [],
+    "website": "https://www.enchantedplayhouse.org/"
+  },
+  {
+    "id": "centerstage-clovis",
+    "name": "CenterStage Clovis Community Theatre",
+    "city": "Clovis",
+    "organizationType": "community_theater",
+    "coverageTier": "extended",
+    "status": "research_candidate",
+    "venues": ["Clovis-area venues"],
+    "website": "https://www.centerstageclovis.com/"
+  },
+  {
+    "id": "childrens-musical-theaterworks",
+    "name": "Children's Musical Theaterworks",
+    "city": "Fresno",
+    "organizationType": "youth_theater",
+    "coverageTier": "extended",
+    "status": "research_candidate",
+    "venues": ["Fresno-area venues"],
+    "website": "https://www.cmtworks.org/"
+  },
+  {
+    "id": "fresno-city-college-theatre-arts",
+    "name": "Fresno City College Theatre Arts",
+    "city": "Fresno",
+    "organizationType": "college_theater",
+    "coverageTier": "extended",
+    "status": "research_candidate",
+    "venues": ["FCC Theatre", "Studio Theatre"],
+    "website": "https://www.fresnocitycollege.edu/campus-life/events-and-places/performing-arts/theatre/"
+  },
+  {
+    "id": "hanford-multicultural-theater-company",
+    "name": "Hanford Multicultural Theater Company",
+    "city": "Hanford",
+    "organizationType": "community_theater",
+    "coverageTier": "regional",
+    "status": "research_candidate",
+    "venues": ["Lil' Brick Theater"],
+    "website": "https://www.hanfordmtc.com/"
+  },
+  {
+    "id": "visalia-fox-theatre",
+    "name": "Visalia Fox Theatre",
+    "city": "Visalia",
+    "organizationType": "touring_presenter",
+    "coverageTier": "local",
+    "status": "research_candidate",
+    "venues": ["Visalia Fox Theatre"],
+    "website": "https://www.foxvisalia.org/"
+  },
+  {
+    "id": "broadway-fresno-saroyan",
+    "name": "Broadway Fresno / Saroyan Theatre",
+    "city": "Fresno",
+    "organizationType": "touring_presenter",
+    "coverageTier": "extended",
+    "status": "research_candidate",
+    "venues": ["Saroyan Theatre"],
+    "website": "https://events.fresnoconventioncenter.com/"
+  }
+]
