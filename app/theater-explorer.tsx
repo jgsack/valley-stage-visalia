@@ -154,8 +154,14 @@ export function TheaterExplorer() {
                   <h2>{show.title}</h2>
                   <p className="description">{show.description}</p>
                   <ul className="details-list" aria-label="Production details">
-                    <li><span>Next performance</span><strong>{show.next}</strong></li>
-                    <li><span>Run</span><strong>{show.performanceCount}</strong></li>
+                    <li>
+                      <span>{show.status === "auditions" ? "Next audition" : "Next performance"}</span>
+                      <strong>{show.next}</strong>
+                    </li>
+                    <li>
+                      <span>{show.status === "auditions" ? "Audition type" : "Run"}</span>
+                      <strong>{show.performanceCount}</strong>
+                    </li>
                     <li><span>From Visalia</span><strong>{show.distance} miles</strong></li>
                   </ul>
                   <div className="card-actions">
