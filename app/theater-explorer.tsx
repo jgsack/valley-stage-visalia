@@ -26,7 +26,9 @@ type Show = {
 const shows = snapshot.shows as Show[];
 
 export function TheaterExplorer() {
-  const [view, setView] = useState<ViewMode>("soon");
+  const [view, setView] = useState<ViewMode>(
+    shows.some((show) => show.status === "now") ? "now" : "soon",
+  );
   const [radius, setRadius] = useState(50);
   const [query, setQuery] = useState("");
 
@@ -189,8 +191,8 @@ export function TheaterExplorer() {
       <section className="source-section" id="sources">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Daily monitoring pilot</p>
-            <h2>Five sources. One stage door.</h2>
+            <p className="eyebrow">Expanded daily monitor</p>
+            <h2>{snapshot.sources.length} sources. One stage door.</h2>
           </div>
           <p>Checked daily. No uploads or manual event entry.</p>
         </div>

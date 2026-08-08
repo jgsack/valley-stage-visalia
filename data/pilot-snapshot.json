@@ -57,6 +57,65 @@
       "featured": true
     },
     {
+      "id": "merry-wives-lindsay",
+      "title": "The Merry Wives of Windsor",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "August 20–29",
+      "next": "Thu, Aug 20 · 7:30 PM",
+      "performanceCount": "4 free performances",
+      "description": "Shakespeare's comedy arrives as Lindsay's free summer production, presented over two weekends.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/shakespeare"
+    },
+    {
+      "id": "spelling-bee-selma",
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "theater": "Selma Arts Center",
+      "city": "Selma",
+      "distance": 31,
+      "run": "September 25–October 17",
+      "next": "Fri, Sep 25",
+      "performanceCount": "2026 season production",
+      "description": "The fast, funny musical follows six young competitors—and a few audience volunteers—through an unforgettable spelling championship.",
+      "status": "soon",
+      "sourceUrl": "https://www.selmaartscenter.com/season-2026",
+      "detailsUrl": "https://www.selmaartscenter.com/season-2026"
+    },
+    {
+      "id": "is-this-a-room-fresno-state",
+      "title": "Is This a Room",
+      "theater": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distance": 48,
+      "run": "October 2–10",
+      "next": "Fri, Oct 2",
+      "performanceCount": "Mainstage production",
+      "description": "A tense verbatim drama built from the FBI transcript of Reality Winner's arrest and interrogation.",
+      "status": "soon",
+      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "image": "/posters/fresno-state-is-this-a-room.png",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
+      "id": "nerdy-prudes-lindsay",
+      "title": "Nerdy Prudes Must Die",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "October 23–November 1",
+      "next": "Fri, Oct 23 · 7:30 PM",
+      "performanceCount": "6 performances",
+      "description": "A horror-comedy musical brings high-school rivals, supernatural revenge, and an irreverent score to Lindsay.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical"
+    },
+    {
       "id": "normal-heart",
       "title": "The Normal Heart",
       "theater": "Visalia Players · Ice House Theatre",
@@ -87,6 +146,36 @@
       "imageMode": "cover"
     },
     {
+      "id": "edward-tulane-fresno-state",
+      "title": "The Miraculous Journey of Edward Tulane",
+      "theater": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distance": 48,
+      "run": "November 13–21",
+      "next": "Fri, Nov 13",
+      "performanceCount": "Mainstage production",
+      "description": "A cherished toy rabbit travels through loss, kindness, and discovery in this stage adaptation of Kate DiCamillo's novel.",
+      "status": "soon",
+      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "image": "/posters/fresno-state-edward-tulane.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "nutcracker-lindsay",
+      "title": "Children's Nutcracker",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "December 4–13",
+      "next": "Fri, Dec 4 · 7:00 PM",
+      "performanceCount": "6 performances",
+      "description": "Lindsay's holiday production gives young performers a chance to tell the classic Nutcracker story.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/christmas-show"
+    },
+    {
       "id": "holiday-cabaret",
       "title": "Holiday Cabaret",
       "theater": "Visalia Players · Ice House Theatre",
@@ -99,6 +188,20 @@
       "status": "soon",
       "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
       "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/6967274997fa065b04425dc4"
+    },
+    {
+      "id": "lightning-thief-lindsay",
+      "title": "The Lightning Thief: The Percy Jackson Musical",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "January 15–24, 2027",
+      "next": "Fri, Jan 15 · 7:30 PM",
+      "performanceCount": "6 performances",
+      "description": "Percy Jackson discovers unexpected powers and sets out on a mythic quest in this energetic youth musical.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school"
     },
     {
       "id": "frog-and-toad",
@@ -133,6 +236,38 @@
       "imageMode": "cover"
     },
     {
+      "id": "yo-te-esperaba-fresno-state",
+      "title": "Yo Te Esperaba: An Abolition Story",
+      "theater": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distance": 48,
+      "run": "March 11–14, 2027",
+      "next": "Thu, Mar 11",
+      "performanceCount": "Staged reading",
+      "description": "A staged reading in Fresno State's 2026–27 theatre season.",
+      "status": "soon",
+      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "image": "/posters/fresno-state-yo-te-esperaba.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "shawshank-fresno-state",
+      "title": "The Shawshank Redemption",
+      "theater": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distance": 48,
+      "run": "April 30–May 8, 2027",
+      "next": "Fri, Apr 30",
+      "performanceCount": "Mainstage production",
+      "description": "The stage adaptation follows Andy Dufresne's fight for hope and dignity inside Shawshank prison.",
+      "status": "soon",
+      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "image": "/posters/fresno-state-shawshank.png",
+      "imageMode": "contain"
+    },
+    {
       "id": "james-giant-peach",
       "title": "James and the Giant Peach",
       "theater": "Encore Theatre Company",
@@ -147,6 +282,36 @@
       "detailsUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
       "image": "/posters/encore-james-and-the-giant-peach.jpg",
       "imageMode": "cover"
+    },
+    {
+      "id": "lindsay-nerdy-prudes-auditions",
+      "title": "Nerdy Prudes Must Die Auditions",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "August 24–25",
+      "next": "Mon, Aug 24 · 6:30 PM",
+      "performanceCount": "2 audition evenings",
+      "description": "Open auditions for Lindsay's fall horror-comedy musical production.",
+      "status": "auditions",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical"
+    },
+    {
+      "id": "fresno-state-fall-auditions",
+      "title": "Fresno State Fall Theatre Auditions",
+      "theater": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distance": 48,
+      "run": "August 25",
+      "next": "Tue, Aug 25 · 6:00 PM",
+      "performanceCount": "Community eligible",
+      "description": "Auditions for Is This a Room and The Miraculous Journey of Edward Tulane are open to Fresno State students and community members.",
+      "status": "auditions",
+      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
+      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
+      "image": "/posters/fresno-state-is-this-a-room.png",
+      "imageMode": "contain"
     },
     {
       "id": "roger-rockas-fall-auditions",
@@ -173,22 +338,62 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "The official homepage yielded all five announced productions and their poster art.",
+      "note": "The official site yielded five announced productions and their poster art.",
+      "waiting": false
+    },
+    {
+      "name": "Lindsay Community Theater",
+      "note": "The official 2026–27 season supplies dated productions and audition notices.",
+      "waiting": false
+    },
+    {
+      "name": "Porterville Barn Theater",
+      "note": "The active official site is being watched for the next production with confirmed performance dates.",
+      "waiting": true
+    },
+    {
+      "name": "Reedley River City Theatre",
+      "note": "The official season and ticket pages are being watched for dated production announcements.",
+      "waiting": true
+    },
+    {
+      "name": "Selma Arts Center",
+      "note": "The 2026 season page and official audition information supplied the next dated production.",
+      "waiting": false
+    },
+    {
+      "name": "Roger Rocka's / GCP",
+      "note": "Current production and upcoming community auditions are verified on official sites.",
       "waiting": false
     },
     {
       "name": "COS Theatre Arts",
-      "note": "Official page has no qualifying future performance yet.",
+      "note": "The official page has no qualifying future performance yet.",
       "waiting": true
     },
     {
-      "name": "Roger Rocka's / GCP",
-      "note": "Current production and upcoming community auditions verified across the official theater and GCP sites.",
+      "name": "Fresno State Theatre Arts",
+      "note": "The official 2026–27 season and community-eligible fall audition are verified.",
       "waiting": false
     },
     {
       "name": "Redwood High School",
-      "note": "School, district, venue, and local announcement sources are being watched for the next production.",
+      "note": "School, district, venue, and local announcement sources are being watched.",
+      "waiting": true
+    },
+    {
+      "name": "Mt. Whitney High School",
+      "note": "The official school and district calendars are being watched for the next theatre production.",
+      "waiting": true
+    },
+    {
+      "name": "Golden West High School",
+      "note": "The official school and district calendars are being watched for the next theatre production.",
+      "waiting": true
+    },
+    {
+      "name": "El Diamante High School",
+      "note": "The official school and district calendars are being watched for the next theatre production.",
       "waiting": true
     }
   ]

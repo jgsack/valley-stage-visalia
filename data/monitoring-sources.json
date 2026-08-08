@@ -1,5 +1,5 @@
 {
-  "pilotName": "Valley Stage daily five-source monitor",
+  "pilotName": "Valley Stage confirmed-source monitor",
   "center": "Visalia, CA 93291",
   "cadence": "daily",
   "publishPolicy": "Publish only when an official source or corroborating ticket page supports the listing.",
@@ -31,6 +31,48 @@
       "secondaryHosts": ["app.arts-people.com"]
     },
     {
+      "id": "lindsay",
+      "name": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distanceMiles": 17,
+      "status": "active",
+      "officialUrls": [
+        "https://www.lindsaycommunitytheater.com/",
+        "https://www.lindsaycommunitytheater.com/theater-season"
+      ],
+      "secondaryHosts": []
+    },
+    {
+      "id": "porterville-barn",
+      "name": "Porterville Barn Theater",
+      "city": "Porterville",
+      "distanceMiles": 31,
+      "status": "watching",
+      "officialUrls": ["https://portervillebarntheater.com/"],
+      "secondaryHosts": []
+    },
+    {
+      "id": "reedley-river-city",
+      "name": "Reedley's River City Theatre Company",
+      "city": "Reedley",
+      "distanceMiles": 34,
+      "status": "watching",
+      "officialUrls": ["https://www.rctcreedley.com/"],
+      "secondaryHosts": []
+    },
+    {
+      "id": "selma-arts",
+      "name": "Selma Arts Center",
+      "city": "Selma",
+      "distanceMiles": 31,
+      "status": "active",
+      "officialUrls": [
+        "https://www.selmaartscenter.com/season-2026",
+        "https://www.selmaartscenter.com/audition"
+      ],
+      "secondaryHosts": []
+    },
+    {
       "id": "cos",
       "name": "College of the Sequoias Theatre Arts",
       "city": "Visalia",
@@ -54,6 +96,18 @@
       "secondaryHosts": ["tickets.gcplayers.com"]
     },
     {
+      "id": "fresno-state",
+      "name": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distanceMiles": 48,
+      "status": "active",
+      "officialUrls": [
+        "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+        "https://cah.fresnostate.edu/theatrearts/students/auditions.html"
+      ],
+      "secondaryHosts": []
+    },
+    {
       "id": "redwood-high",
       "name": "Redwood High School Theatre",
       "city": "Visalia",
@@ -64,6 +118,33 @@
         "https://www.vusd.org/departments/business-services/business-functions/facilities/construction-projects/vusd-invests/lj-williams-theater"
       ],
       "secondaryHosts": ["redwoodgigantea.com"]
+    },
+    {
+      "id": "mt-whitney-high",
+      "name": "Mt. Whitney High School Drama",
+      "city": "Visalia",
+      "distanceMiles": 3,
+      "status": "watching",
+      "officialUrls": ["https://mtwhitney.vusd.org/"],
+      "secondaryHosts": []
+    },
+    {
+      "id": "golden-west-high",
+      "name": "Golden West High School Drama",
+      "city": "Visalia",
+      "distanceMiles": 4,
+      "status": "watching",
+      "officialUrls": ["https://goldenwest.vusd.org/"],
+      "secondaryHosts": []
+    },
+    {
+      "id": "el-diamante-high",
+      "name": "El Diamante High School Drama",
+      "city": "Visalia",
+      "distanceMiles": 5,
+      "status": "watching",
+      "officialUrls": ["https://eldiamante.vusd.org/"],
+      "secondaryHosts": []
     }
   ],
   "requiredFields": [
