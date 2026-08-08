@@ -16,9 +16,9 @@
       "performanceCount": "10 performances",
       "description": "A meek florist finds success—and trouble—with the help of a mysterious, R&B-singing carnivorous plant.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/current-show.html",
-      "detailsUrl": "https://www.encoretulare.org/current-show.html",
-      "image": "https://www.encoretulare.org/uploads/7/5/7/8/75783967/littleshop-working-1_orig.jpg",
+      "sourceUrl": "https://www.encoretulare.org/shows/little-shop-of-horrors",
+      "detailsUrl": "https://www.encoretulare.org/shows/little-shop-of-horrors",
+      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-little-shop-of-horrors.jpg",
       "imageMode": "cover",
       "featured": true
     },
@@ -64,9 +64,9 @@
       "performanceCount": "Season announced",
       "description": "Aaron Sorkin's gripping courtroom drama about duty, honor, and an illegal order hidden inside the chain of command.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
-      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
-      "image": "https://www.encoretulare.org/uploads/7/5/7/8/75783967/goodmen-working-1_orig.jpg",
+      "sourceUrl": "https://www.encoretulare.org/shows/a-few-good-men",
+      "detailsUrl": "https://www.encoretulare.org/shows/a-few-good-men",
+      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-a-few-good-men.jpg",
       "imageMode": "cover"
     },
     {
@@ -82,6 +82,54 @@
       "status": "soon",
       "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
       "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/6967274997fa065b04425dc4"
+    },
+    {
+      "id": "frog-and-toad",
+      "title": "A Year with Frog and Toad",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "February 2027",
+      "next": "Exact dates pending",
+      "performanceCount": "Season announced",
+      "description": "A warm, jazzy family musical following best friends Frog and Toad through four seasons of adventures.",
+      "status": "soon",
+      "sourceUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
+      "detailsUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
+      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-a-year-with-frog-and-toad.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "seussical",
+      "title": "Seussical the Musical",
+      "theater": "Encore Theatre Company · Stages Musical",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "Spring 2027",
+      "next": "Exact dates pending",
+      "performanceCount": "Season announced",
+      "description": "A colorful musical adventure bringing Horton, the Cat in the Hat, and the citizens of Whoville to the stage.",
+      "status": "soon",
+      "sourceUrl": "https://www.encoretulare.org/shows/seussical-the-musical",
+      "detailsUrl": "https://www.encoretulare.org/shows/seussical-the-musical",
+      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-seussical.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "james-giant-peach",
+      "title": "James and the Giant Peach",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "Summer 2027",
+      "next": "Exact dates pending",
+      "performanceCount": "Season announced",
+      "description": "Roald Dahl's whimsical musical adventure sends James across the ocean inside a giant peach with an unlikely group of friends.",
+      "status": "soon",
+      "sourceUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
+      "detailsUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
+      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-james-and-the-giant-peach.jpg",
+      "imageMode": "cover"
     }
   ],
   "sources": [
@@ -92,7 +140,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "Current-show and season pages yielded dates and poster art.",
+      "note": "The official homepage yielded all five announced productions and their poster art.",
       "waiting": false
     },
     {

@@ -18,6 +18,10 @@ test("renders the Valley Stage prototype", async () => {
   const html = await response.text();
   assert.match(html, /<title>Valley Stage \| Live theater near Visalia<\/title>/i);
   assert.match(html, /Little Shop of Horrors/);
+  assert.match(html, /A Year with Frog and Toad/);
+  assert.match(html, /Seussical the Musical/);
+  assert.match(html, /James and the Giant Peach/);
+  assert.match(html, /2026-27-a-year-with-frog-and-toad\.jpg/);
   assert.match(html, /The Father/);
   assert.match(html, /COS Theatre Arts/);
   assert.match(html, /og:image/);
