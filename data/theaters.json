@@ -135,7 +135,7 @@
     "city": "Hanford",
     "organizationType": "community_theater",
     "coverageTier": "regional",
-    "status": "research_candidate",
+    "status": "verified_active",
     "venues": ["Temple Theatre / Kings Players Theatre"],
     "website": "https://www.kingsplayers.org/"
   },
@@ -145,7 +145,7 @@
     "city": "Visalia",
     "organizationType": "youth_theater",
     "coverageTier": "local",
-    "status": "research_candidate",
+    "status": "verified_active",
     "venues": ["Rotary Theatre", "Other local venues"],
     "website": "https://www.tcoe.org/TheatreCo"
   },

@@ -23,6 +23,23 @@
       "featured": true
     },
     {
+      "id": "mousetrap-kings-players",
+      "title": "The Mousetrap",
+      "theater": "Kings Players",
+      "city": "Hanford",
+      "distance": 22,
+      "run": "August 14–30",
+      "next": "Fri, Aug 14 · 7:00 PM",
+      "performanceCount": "10 performances",
+      "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
+      "status": "soon",
+      "sourceUrl": "https://www.kingsplayers.org/",
+      "detailsUrl": "https://app.arts-people.com/?show=309074",
+      "image": "/posters/kings-players-2026-season.jpg",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
       "id": "little-shop",
       "title": "Little Shop of Horrors",
       "theater": "Encore Theatre Company",
@@ -162,6 +179,36 @@
       "imageMode": "contain"
     },
     {
+      "id": "how-to-train-your-dragon-tcoe",
+      "title": "How to Train Your Dragon JR.",
+      "theater": "TCOE Theatre Company",
+      "city": "Visalia",
+      "distance": 7,
+      "run": "Week of November 16",
+      "next": "Exact performance dates pending",
+      "performanceCount": "Fall youth production",
+      "description": "Hiccup and Toothless take flight in a youth musical adaptation filled with adventure, friendship, and fire-breathing fun.",
+      "status": "soon",
+      "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
+      "detailsUrl": "https://www.tcoe.org/TheatreCo/callboard",
+      "image": "/posters/tcoe-how-to-train-your-dragon.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "christmas-double-feature-kings-players",
+      "title": "A Christmas Double Feature",
+      "theater": "Kings Players",
+      "city": "Hanford",
+      "distance": 22,
+      "run": "November 20–December 6",
+      "next": "Fri, Nov 20 · time pending",
+      "performanceCount": "10 performances",
+      "description": "Two holiday one-acts pair O. Henry's tender Gift of the Magi with the comedy Scrooge Has Left the Building.",
+      "status": "soon",
+      "sourceUrl": "https://www.kingsplayers.org/",
+      "detailsUrl": "https://app.arts-people.com/?show=309075"
+    },
+    {
       "id": "nutcracker-lindsay",
       "title": "Children's Nutcracker",
       "theater": "Lindsay Community Theater",
@@ -284,6 +331,22 @@
       "imageMode": "cover"
     },
     {
+      "id": "tcoe-dragon-auditions",
+      "title": "How to Train Your Dragon JR. Auditions",
+      "theater": "TCOE Theatre Company",
+      "city": "Visalia",
+      "distance": 7,
+      "run": "Week of August 10",
+      "next": "Auditions begin the week of Mon, Aug 10",
+      "performanceCount": "Tulare County students · grades 1–12",
+      "description": "Vocal, acting, and dance auditions for TCOE's fall youth production take place at the Planetarium and Science Center.",
+      "status": "auditions",
+      "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
+      "detailsUrl": "https://www.tcoe.org/TheatreCo/callboard",
+      "image": "/posters/tcoe-how-to-train-your-dragon.jpg",
+      "imageMode": "cover"
+    },
+    {
       "id": "lindsay-nerdy-prudes-auditions",
       "title": "Nerdy Prudes Must Die Auditions",
       "theater": "Lindsay Community Theater",
@@ -328,6 +391,20 @@
       "detailsUrl": "https://www.gcplayers.com/rr-auditions",
       "image": "/posters/roger-rockas-shrek-auditions.jpg",
       "imageMode": "cover"
+    },
+    {
+      "id": "kings-players-christmas-auditions",
+      "title": "Christmas Double Feature Auditions",
+      "theater": "Kings Players",
+      "city": "Hanford",
+      "distance": 22,
+      "run": "September 21–22",
+      "next": "Mon, Sep 21 · 6:30 PM",
+      "performanceCount": "2 audition evenings",
+      "description": "Community auditions for Gift of the Magi and Scrooge Has Left the Building, Kings Players' holiday double feature.",
+      "status": "auditions",
+      "sourceUrl": "https://www.kingsplayers.org/",
+      "detailsUrl": "https://www.kingsplayers.org/"
     }
   ],
   "sources": [
@@ -395,6 +472,16 @@
       "name": "El Diamante High School",
       "note": "The official school and district calendars are being watched for the next theatre production.",
       "waiting": true
+    },
+    {
+      "name": "Kings Players",
+      "note": "The official Hanford season supplies dated productions, audition notices, and poster artwork.",
+      "waiting": false
+    },
+    {
+      "name": "TCOE Theatre Company",
+      "note": "The official callboard confirms the fall youth production and its August audition week.",
+      "waiting": false
     }
   ]
 }

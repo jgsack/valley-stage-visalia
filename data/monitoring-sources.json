@@ -145,6 +145,30 @@
       "status": "watching",
       "officialUrls": ["https://eldiamante.vusd.org/"],
       "secondaryHosts": []
+    },
+    {
+      "id": "kings-players",
+      "name": "Kings Players",
+      "city": "Hanford",
+      "distanceMiles": 22,
+      "status": "active",
+      "officialUrls": [
+        "https://www.kingsplayers.org/"
+      ],
+      "secondaryHosts": ["app.arts-people.com"]
+    },
+    {
+      "id": "tcoe-theatre",
+      "name": "TCOE Theatre Company",
+      "city": "Visalia",
+      "distanceMiles": 7,
+      "status": "active",
+      "officialUrls": [
+        "https://www.tcoe.org/TheatreCo",
+        "https://www.tcoe.org/TheatreCo/callboard",
+        "https://www.tcoe.org/TheatreCo/tickets"
+      ],
+      "secondaryHosts": []
     }
   ],
   "requiredFields": [

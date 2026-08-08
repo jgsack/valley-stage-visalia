@@ -28,12 +28,19 @@ The intended coverage area is configurable:
 | Golden West High School Drama | Visalia | High-school theater program | School venue to verify | https://goldenwest.vusd.org/ |
 | El Diamante High School Drama | Visalia | High-school theater program | El Diamante theater and district venues | https://eldiamante.vusd.org/ |
 
+## Verified active additions
+
+These organizations were discovered during coverage research and promoted after their official sites supplied current dated productions or auditions.
+
+| Organization | City | Type | Known venue(s) | Official source |
+|---|---|---|---|---|
+| Kings Players | Hanford | Community theater | Temple Theatre / Kings Players Theatre | https://www.kingsplayers.org/ |
+| TCOE Theatre Company | Visalia | Youth and educational theater | Rotary Theatre and other local venues | https://www.tcoe.org/TheatreCo |
+
 ## Research candidates to verify and include
 
 | Organization or presenter | City | Type | Known venue(s) | Official source |
 |---|---|---|---|---|
-| Kings Players | Hanford | Community theater | Temple Theatre / Kings Players Theatre | https://www.kingsplayers.org/ |
-| TCOE Theatre Company | Visalia | Youth and educational theater | Rotary Theatre and other local venues | https://www.tcoe.org/TheatreCo |
 | Enchanted Playhouse Theatre Company | Visalia | Children's theater | Varies; current venue needs verification | https://www.enchantedplayhouse.org/ |
 | CenterStage Clovis Community Theatre | Clovis | Community theater | Clovis-area venues | https://www.centerstageclovis.com/ |
 | Children's Musical Theaterworks | Fresno | Youth musical theater | Fresno-area venues | https://www.cmtworks.org/ |

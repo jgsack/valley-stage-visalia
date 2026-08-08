@@ -21,9 +21,11 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /\/posters\/roger-rockas-annie\.jpg/);
   assert.match(html, /Roger Rocka/);
   assert.match(html, /Playing now<span class="count">1<\/span>/);
-  assert.match(html, /13(?:<!-- -->)? sources\. One stage door\./);
+  assert.match(html, /15(?:<!-- -->)? sources\. One stage door\./);
   assert.match(html, /Lindsay Community Theater/);
   assert.match(html, /Fresno State Theatre Arts/);
+  assert.match(html, /Kings Players/);
+  assert.match(html, /TCOE Theatre Company/);
   assert.match(html, /COS Theatre Arts/);
   assert.match(html, /og:image/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
