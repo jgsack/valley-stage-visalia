@@ -27,7 +27,7 @@ const shows = snapshot.shows as Show[];
 
 export function TheaterExplorer() {
   const [view, setView] = useState<ViewMode>("soon");
-  const [radius, setRadius] = useState(15);
+  const [radius, setRadius] = useState(50);
   const [query, setQuery] = useState("");
 
   const visibleShows = useMemo(() => {
@@ -77,7 +77,7 @@ export function TheaterExplorer() {
             next audition opens around Visalia.
           </p>
           <div className="scan-note">
-            Automatic source snapshot · verified {snapshot.verifiedAt}
+            Daily agent pilot · last verified {snapshot.verifiedAt}
           </div>
         </div>
       </section>
@@ -189,10 +189,10 @@ export function TheaterExplorer() {
       <section className="source-section" id="sources">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Proof-of-concept sources</p>
-            <h2>Three sites. One stage door.</h2>
+            <p className="eyebrow">Daily monitoring pilot</p>
+            <h2>Five sources. One stage door.</h2>
           </div>
-          <p>No uploads. No manual event entry.</p>
+          <p>Checked daily. No uploads or manual event entry.</p>
         </div>
         <div className="source-grid">
           {snapshot.sources.map((source) => (

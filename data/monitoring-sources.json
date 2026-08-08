@@ -1,0 +1,81 @@
+{
+  "pilotName": "Valley Stage daily five-source monitor",
+  "center": "Visalia, CA 93291",
+  "cadence": "daily",
+  "publishPolicy": "Publish only when an official source or corroborating ticket page supports the listing.",
+  "sources": [
+    {
+      "id": "ice-house",
+      "name": "Ice House Theatre / Visalia Players",
+      "city": "Visalia",
+      "distanceMiles": 2,
+      "status": "active",
+      "officialUrls": [
+        "https://www.visaliaicehouse.com/",
+        "https://www.visaliaicehouse.com/projects-6",
+        "https://www.visaliaicehouse.com/auditions"
+      ],
+      "secondaryHosts": ["onthestage.tickets"]
+    },
+    {
+      "id": "encore",
+      "name": "Encore Theatre Company",
+      "city": "Tulare",
+      "distanceMiles": 10,
+      "status": "active",
+      "officialUrls": [
+        "https://www.encoretulare.org/",
+        "https://www.encoretulare.org/shows",
+        "https://www.encoretulare.org/auditions"
+      ],
+      "secondaryHosts": ["app.arts-people.com"]
+    },
+    {
+      "id": "cos",
+      "name": "College of the Sequoias Theatre Arts",
+      "city": "Visalia",
+      "distanceMiles": 3,
+      "status": "watching",
+      "officialUrls": [
+        "https://www.cos.edu/en-us/academics/fine-arts/cos-performances"
+      ],
+      "secondaryHosts": []
+    },
+    {
+      "id": "roger-rockas",
+      "name": "Roger Rocka's / Good Company Players",
+      "city": "Fresno",
+      "distanceMiles": 46,
+      "status": "active",
+      "officialUrls": [
+        "https://rogerrockas.com/",
+        "https://www.gcplayers.com/rr-auditions"
+      ],
+      "secondaryHosts": ["tickets.gcplayers.com"]
+    },
+    {
+      "id": "redwood-high",
+      "name": "Redwood High School Theatre",
+      "city": "Visalia",
+      "distanceMiles": 1,
+      "status": "watching",
+      "officialUrls": [
+        "https://redwood.vusd.org/",
+        "https://www.vusd.org/departments/business-services/business-functions/facilities/construction-projects/vusd-invests/lj-williams-theater"
+      ],
+      "secondaryHosts": ["redwoodgigantea.com"]
+    }
+  ],
+  "requiredFields": [
+    "title",
+    "theater",
+    "venue",
+    "performanceDates",
+    "ticketUrl",
+    "officialSourceUrl",
+    "posterUrl",
+    "listingType",
+    "confidence",
+    "checkedAt"
+  ]
+}

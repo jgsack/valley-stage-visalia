@@ -6,6 +6,23 @@
   "verifiedAt": "August 8, 2026",
   "shows": [
     {
+      "id": "annie-roger-rockas",
+      "title": "Annie",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "July 24–September 20",
+      "next": "See the official performance calendar",
+      "performanceCount": "Now playing",
+      "description": "The beloved family musical brings Annie, Daddy Warbucks, and a determined search for family to the Roger Rocka's stage.",
+      "status": "now",
+      "sourceUrl": "https://rogerrockas.com/",
+      "detailsUrl": "https://rogerrockas.com/",
+      "image": "/posters/roger-rockas-annie.jpg",
+      "imageMode": "cover",
+      "featured": true
+    },
+    {
       "id": "little-shop",
       "title": "Little Shop of Horrors",
       "theater": "Encore Theatre Company",
@@ -18,7 +35,7 @@
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows/little-shop-of-horrors",
       "detailsUrl": "https://www.encoretulare.org/shows/little-shop-of-horrors",
-      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-little-shop-of-horrors.jpg",
+      "image": "/posters/encore-little-shop.jpg",
       "imageMode": "cover",
       "featured": true
     },
@@ -35,7 +52,7 @@
       "status": "soon",
       "sourceUrl": "https://www.visaliaicehouse.com/",
       "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/696725c5bfcbe23be0a2d08e",
-      "image": "https://static.wixstatic.com/media/cf6fcc_11f8d3d1476e406e8a3e98b19238a705~mv2.png",
+      "image": "/posters/icehouse-the-father.png",
       "imageMode": "contain",
       "featured": true
     },
@@ -66,7 +83,7 @@
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows/a-few-good-men",
       "detailsUrl": "https://www.encoretulare.org/shows/a-few-good-men",
-      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-a-few-good-men.jpg",
+      "image": "/posters/encore-a-few-good-men.jpg",
       "imageMode": "cover"
     },
     {
@@ -96,7 +113,7 @@
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
       "detailsUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
-      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-a-year-with-frog-and-toad.jpg",
+      "image": "/posters/encore-frog-and-toad.jpg",
       "imageMode": "cover"
     },
     {
@@ -112,7 +129,7 @@
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows/seussical-the-musical",
       "detailsUrl": "https://www.encoretulare.org/shows/seussical-the-musical",
-      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-seussical.jpg",
+      "image": "/posters/encore-seussical.jpg",
       "imageMode": "cover"
     },
     {
@@ -128,7 +145,23 @@
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
       "detailsUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
-      "image": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/2026-27-james-and-the-giant-peach.jpg",
+      "image": "/posters/encore-james-and-the-giant-peach.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "roger-rockas-fall-auditions",
+      "title": "Shrek & Les Misérables Auditions",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "August 29",
+      "next": "Sat, Aug 29 · 10:00 AM",
+      "performanceCount": "Open community auditions",
+      "description": "One open musical audition call for the upcoming productions of Shrek the Musical and Les Misérables.",
+      "status": "auditions",
+      "sourceUrl": "https://www.gcplayers.com/rr-auditions",
+      "detailsUrl": "https://www.gcplayers.com/rr-auditions",
+      "image": "/posters/roger-rockas-shrek-auditions.jpg",
       "imageMode": "cover"
     }
   ],
@@ -146,6 +179,16 @@
     {
       "name": "COS Theatre Arts",
       "note": "Official page has no qualifying future performance yet.",
+      "waiting": true
+    },
+    {
+      "name": "Roger Rocka's / GCP",
+      "note": "Current production and upcoming community auditions verified across the official theater and GCP sites.",
+      "waiting": false
+    },
+    {
+      "name": "Redwood High School",
+      "note": "School, district, venue, and local announcement sources are being watched for the next production.",
       "waiting": true
     }
   ]
