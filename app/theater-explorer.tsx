@@ -136,12 +136,16 @@ export function TheaterExplorer() {
                 className={`show-card ${show.featured && index < 2 ? "featured" : ""}`}
                 key={show.id}
               >
-                <div className={`poster ${show.imageMode === "contain" ? "contain" : ""}`}>
+                <div className="poster">
                   <span className="date-flag">{show.run}</span>
                   {show.image ? (
-                    // Posters come from changing official-theater domains, so the source image is intentional.
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={show.image} alt={`${show.title} promotional artwork`} />
+                    <>
+                      {/* The blurred copy fills the frame; the foreground preserves every edge of the poster. */}
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img className="poster-backdrop" src={show.image} alt="" aria-hidden="true" />
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img className="poster-art" src={show.image} alt={`${show.title} promotional artwork`} />
+                    </>
                   ) : (
                     <div className="poster-placeholder" aria-label={`${show.title} poster placeholder`}>
                       <small>Poster pending</small>

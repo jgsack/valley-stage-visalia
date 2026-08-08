@@ -19,6 +19,8 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /<title>Valley Stage \| Live theater near Visalia<\/title>/i);
   assert.match(html, /Annie/);
   assert.match(html, /\/posters\/roger-rockas-annie\.jpg/);
+  assert.match(html, /class="poster-backdrop"/);
+  assert.match(html, /class="poster-art"/);
   assert.match(html, /Roger Rocka/);
   assert.match(html, /Playing now<span class="count">1<\/span>/);
   assert.match(html, /15(?:<!-- -->)? sources\. One stage door\./);
