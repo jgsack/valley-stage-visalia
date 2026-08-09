@@ -217,7 +217,9 @@
       "description": "A horror-comedy musical brings high-school rivals, supernatural revenge, and an irreverent score to Lindsay.",
       "status": "soon",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical"
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical",
+      "image": "/posters/lindsay-nerdy-prudes.png",
+      "imageMode": "contain"
     },
     {
       "id": "normal-heart",
@@ -339,7 +341,9 @@
       "description": "Lindsay's holiday production gives young performers a chance to tell the classic Nutcracker story.",
       "status": "soon",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/christmas-show"
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/christmas-show",
+      "image": "/posters/lindsay-childrens-nutcracker.jpg",
+      "imageMode": "contain"
     },
     {
       "id": "seussical-reedley",
@@ -383,7 +387,9 @@
       "description": "Percy Jackson discovers unexpected powers and sets out on a mythic quest in this energetic youth musical.",
       "status": "soon",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school"
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school",
+      "image": "/posters/lindsay-lightning-thief.png",
+      "imageMode": "contain"
     },
     {
       "id": "frog-and-toad",
@@ -400,6 +406,20 @@
       "detailsUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
       "image": "/posters/encore-frog-and-toad.jpg",
       "imageMode": "cover"
+    },
+    {
+      "id": "last-five-years-lindsay",
+      "title": "The Last 5 Years",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "February 26–March 7, 2027",
+      "next": "Fri, Feb 26 · 7:30 PM",
+      "performanceCount": "6 performances",
+      "description": "Jason Robert Brown's intimate musical follows a relationship from two directions, with one story moving forward and the other backward.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/hot-dog-melodrama"
     },
     {
       "id": "seussical",
@@ -450,6 +470,22 @@
       "imageMode": "contain"
     },
     {
+      "id": "we-are-the-tigers-lindsay",
+      "title": "We Are the Tigers",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "April 16–25, 2027",
+      "next": "Fri, Apr 16 · 7:30 PM",
+      "performanceCount": "6 performances",
+      "description": "A cheerleading sleepover turns into a pop-rock murder mystery in this energetic musical comedy.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/spring-musical",
+      "image": "/posters/lindsay-we-are-the-tigers.png",
+      "imageMode": "contain"
+    },
+    {
       "id": "shawshank-fresno-state",
       "title": "The Shawshank Redemption",
       "theater": "Fresno State Theatre Arts",
@@ -479,6 +515,22 @@
       "sourceUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
       "detailsUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
       "image": "/posters/cos-great-comet.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "aladdin-lindsay",
+      "title": "Disney's Aladdin: Dual Language Edition",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "May 15–24, 2027",
+      "next": "Sat, May 15 · 7:30 PM",
+      "performanceCount": "6 performances",
+      "description": "Disney's musical adventure is presented in a dual-language edition that moves between English and Spanish.",
+      "status": "soon",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/childrens-theater",
+      "image": "/posters/lindsay-aladdin.jpg",
       "imageMode": "contain"
     },
     {
@@ -525,7 +577,87 @@
       "description": "Open auditions for Lindsay's fall horror-comedy musical production.",
       "status": "auditions",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical"
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical",
+      "image": "/posters/lindsay-nerdy-prudes.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "lindsay-nutcracker-auditions",
+      "title": "Children's Nutcracker Auditions",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "October 5–6",
+      "next": "Mon, Oct 5 · 4:00 PM",
+      "performanceCount": "2 audition afternoons",
+      "description": "Auditions for Lindsay's Children's Nutcracker holiday production.",
+      "status": "auditions",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/christmas-show",
+      "image": "/posters/lindsay-childrens-nutcracker.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "lindsay-lightning-thief-auditions",
+      "title": "The Lightning Thief Auditions",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "November 2–3",
+      "next": "Mon, Nov 2 · 6:30 PM",
+      "performanceCount": "2 audition evenings",
+      "description": "Auditions for Lindsay's high-school production of The Lightning Thief.",
+      "status": "auditions",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school",
+      "image": "/posters/lindsay-lightning-thief.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "lindsay-last-five-years-auditions",
+      "title": "The Last 5 Years Auditions",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "December 22–23",
+      "next": "Tue, Dec 22 · 6:30 PM",
+      "performanceCount": "2 audition evenings",
+      "description": "Auditions for Lindsay's production of Jason Robert Brown's intimate two-person musical.",
+      "status": "auditions",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/hot-dog-melodrama"
+    },
+    {
+      "id": "lindsay-we-are-the-tigers-auditions",
+      "title": "We Are the Tigers Auditions",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "January 27–28, 2027",
+      "next": "Wed, Jan 27 · 7:00 PM",
+      "performanceCount": "2 audition evenings",
+      "description": "Auditions for Lindsay's spring pop-rock musical mystery.",
+      "status": "auditions",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/spring-musical",
+      "image": "/posters/lindsay-we-are-the-tigers.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "lindsay-aladdin-auditions",
+      "title": "Disney's Aladdin Auditions",
+      "theater": "Lindsay Community Theater",
+      "city": "Lindsay",
+      "distance": 17,
+      "run": "March 16–17, 2027",
+      "next": "Tue, Mar 16 · 4:00 PM",
+      "performanceCount": "2 audition afternoons",
+      "description": "Auditions for Lindsay's children's dual-language production of Disney's Aladdin.",
+      "status": "auditions",
+      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/childrens-theater",
+      "image": "/posters/lindsay-aladdin.jpg",
+      "imageMode": "contain"
     },
     {
       "id": "fresno-state-fall-auditions",
