@@ -23,6 +23,23 @@
       "featured": true
     },
     {
+      "id": "the-prom-selma",
+      "title": "The Prom: High School Edition",
+      "theater": "Selma Arts Center · SACTeen",
+      "city": "Selma",
+      "distance": 31,
+      "run": "July 24–August 8",
+      "next": "Tonight, Aug 8 · 7:30 PM",
+      "performanceCount": "Final performance tonight",
+      "description": "Four Broadway stars rally around a student who wants to bring her girlfriend to prom in this exuberant musical comedy.",
+      "status": "now",
+      "sourceUrl": "https://www.selmaartscenter.com/on-stage",
+      "detailsUrl": "https://ci.ovationtix.com/35468/production/1281168",
+      "image": "/posters/selma-the-prom.png",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
       "id": "mousetrap-kings-players",
       "title": "The Mousetrap",
       "theater": "Kings Players",
@@ -435,7 +452,7 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "The 2026 season page and official audition information supplied the next dated production.",
+      "note": "The current-show page, ticket link, 2026 season, and official audition information are monitored.",
       "waiting": false
     },
     {
