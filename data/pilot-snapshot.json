@@ -136,7 +136,9 @@
       "description": "Shakespeare's comedy arrives as Lindsay's free summer production, presented over two weekends.",
       "status": "soon",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/shakespeare"
+      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/shakespeare",
+      "image": "/posters/lindsay-merry-wives.jpg",
+      "imageMode": "contain"
     },
     {
       "id": "spelling-bee-selma",
