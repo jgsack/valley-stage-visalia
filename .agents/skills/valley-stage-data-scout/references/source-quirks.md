@@ -78,6 +78,15 @@ Never bypass a login, paywall, CAPTCHA, or access control. Search-engine thumbna
 - Reconcile general season announcements with individual production and ticket pages.
 - A missing homepage card does not establish that a future production is absent; inspect the full season and ticket inventory.
 
+## Saroyan Theatre and Broadway in Fresno
+
+- Saroyan listings are split across three official systems: the [Fresno Convention & Entertainment Center calendar](https://events.fresnoconventioncenter.com/), the [Saroyan Theatre ATG calendar](https://us.atgtickets.com/venues/saroyan-theatre/whats-on/), and the [Broadway in Fresno season](https://fresno.broadway.com/). None is complete alone; reconcile all three on every refresh.
+- Broadway in Fresno may announce subscription productions and complete performance schedules before those shows appear in the venue calendar or individual ticket inventory. Include officially announced productions even when individual sales are not yet open.
+- ATG may carry family, dance, or touring-stage events missing from the convention-center calendar. Conversely, the convention-center calendar may contain stage events missing from ATG and Broadway in Fresno. Apply the site's live-theater scope to every candidate; do not import concerts, stand-up comedy, or unrelated events merely because they use the venue.
+- Deduplicate records that share a title, venue, and performance run across the feeds. Do not merge genuinely separate productions with the same generic title; for example, independently promoted touring productions of *The Nutcracker* can have different presenters and dates.
+- Prefer the most specific official production page for `detailsUrl`, while retaining all three calendar roots in `monitoring-sources.json` so later refreshes continue to discover split inventory.
+- Broadway in Fresno production pages commonly expose square key art through WordPress-hosted images. ATG commonly serves hero art through Cloudinary and may lazy-load it only after the rendered page is scrolled. The convention-center event pages may expose production art through LeadConnector-hosted images. Verify each asset against its production page, then save it locally rather than hotlinking it.
+
 ## Official social media
 
 - Use only an organization's official account or an official post it published.

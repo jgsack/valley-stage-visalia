@@ -84,6 +84,7 @@ For every poster search, read and follow the complete discovery ladder in [sourc
 
 ## Reconcile before editing
 
+- Treat every official URL configured for an organization as an independent feed. Some venues split subscription shows, touring events, ticket inventory, and venue-calendar entries across different official systems; reconcile all of them before declaring the organization complete.
 - Maintain source-filter aliases so every listing appears when its organization is selected.
 - Deduplicate the same production when a season page, production page, and ticket page all describe it.
 - Prefer the most specific stable official URL for `detailsUrl`; retain the broader source page when useful for provenance.
