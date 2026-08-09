@@ -166,7 +166,12 @@ export function TheaterExplorer() {
                       <span>{show.status === "auditions" ? "Audition type" : "Run"}</span>
                       <strong>{show.performanceCount}</strong>
                     </li>
-                    <li><span>From Visalia</span><strong>{show.distance} miles</strong></li>
+                    <li>
+                      <span>{show.city === "Visalia" ? "Location" : "From Visalia"}</span>
+                      <strong>
+                        {show.city === "Visalia" ? "In Visalia" : `${show.distance} miles`}
+                      </strong>
+                    </li>
                   </ul>
                   <div className="card-actions">
                     <a className="primary-link" href={show.detailsUrl} target="_blank" rel="noreferrer">
