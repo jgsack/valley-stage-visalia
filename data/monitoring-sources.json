@@ -47,8 +47,15 @@
       "name": "Porterville Barn Theater",
       "city": "Porterville",
       "distanceMiles": 31,
-      "status": "watching",
-      "officialUrls": ["https://portervillebarntheater.com/"],
+      "status": "active",
+      "officialUrls": [
+        "https://portervillebarntheater.com/",
+        "https://portervillebarntheater.com/2026-season/",
+        "https://portervillebarntheater.com/product-category/events/77th-season-2026/",
+        "https://portervillebarntheater.com/barnwiki/plays-by-season/",
+        "https://portervillebarntheater.com/barnwiki/the-philadelphia-story-2026/",
+        "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/"
+      ],
       "secondaryHosts": []
     },
     {

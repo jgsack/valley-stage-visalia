@@ -91,6 +91,23 @@
       "featured": true
     },
     {
+      "id": "philadelphia-story-porterville",
+      "title": "The Philadelphia Story",
+      "theater": "Porterville Barn Theater",
+      "city": "Porterville",
+      "distance": 31,
+      "run": "September 11–20",
+      "next": "Fri, Sep 11 · 7:00 PM",
+      "performanceCount": "6 performances",
+      "description": "A headstrong Philadelphia socialite's wedding weekend is complicated by her ex-husband and visiting reporters in Philip Barry's classic comedy of manners.",
+      "status": "soon",
+      "sourceUrl": "https://portervillebarntheater.com/barnwiki/the-philadelphia-story-2026/",
+      "detailsUrl": "https://portervillebarntheater.com/barnwiki/the-philadelphia-story-2026/",
+      "image": "/posters/porterville-philadelphia-story.png",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
       "id": "merry-wives-lindsay",
       "title": "The Merry Wives of Windsor",
       "theater": "Lindsay Community Theater",
@@ -193,6 +210,22 @@
       "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
       "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
       "image": "/posters/fresno-state-edward-tulane.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "ride-the-cyclone-porterville",
+      "title": "Ride the Cyclone",
+      "theater": "Porterville Barn Theater",
+      "city": "Porterville",
+      "distance": 31,
+      "run": "November 13–29",
+      "next": "Fri, Nov 13 · 7:00 PM",
+      "performanceCount": "9 performances",
+      "description": "Six teenagers from a Canadian chamber choir awaken in limbo after a roller-coaster accident and compete for one chance to return to life.",
+      "status": "soon",
+      "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+      "detailsUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+      "image": "/posters/porterville-ride-the-cyclone.png",
       "imageMode": "contain"
     },
     {
@@ -442,8 +475,8 @@
     },
     {
       "name": "Porterville Barn Theater",
-      "note": "The active official site is being watched for the next production with confirmed performance dates.",
-      "waiting": true
+      "note": "The official season artwork and production pages confirm The Philadelphia Story and Ride the Cyclone.",
+      "waiting": false
     },
     {
       "name": "Reedley River City Theatre",
