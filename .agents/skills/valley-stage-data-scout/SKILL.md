@@ -80,7 +80,7 @@ Keep auditions as distinct records with audition dates, requirements, and an aud
 8. Use `imageMode: contain` for posters and title artwork. Use `cover` only for photography that can be safely cropped.
 9. If no candidate can be verified, omit the image rather than inventing or guessing.
 
-Read [source-quirks.md](references/source-quirks.md) when a page is blocked, image labels are misleading, or the only evidence is on social media.
+For every poster search, read and follow the complete discovery ladder in [source-quirks.md](references/source-quirks.md). It also covers blocked pages, misleading image labels, social media, embedded ticketing, OCR, and safe screenshot recovery.
 
 ## Reconcile before editing
 

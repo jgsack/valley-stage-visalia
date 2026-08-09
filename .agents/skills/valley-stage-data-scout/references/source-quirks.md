@@ -12,6 +12,39 @@ When an official page returns 403, incomplete HTML, or misleading metadata:
 
 Do not trust a filename, alt text, DOM order, or search snippet by itself. These are clues, not proof.
 
+## Complete poster discovery ladder
+
+Try these routes in order, stopping when a high-quality official image is verified:
+
+1. **Visible production artwork:** Inspect the official production, season, calendar, and audition pages in a rendered browser.
+2. **Related official pages:** Follow links to the individual show page, full-season page, official ticketing page, school or municipal page, and official social post. A homepage may omit artwork that appears on a deeper page.
+3. **Image element variants:** Inspect `<img>`, `<picture>`, and `<source>` elements, including `srcset`, lazy-load attributes, and links around thumbnails. Choose the largest supplied variant of the same verified image.
+4. **Page metadata:** Inspect Open Graph and social-card metadata such as `og:image` and `twitter:image`. Verify that the image describes the production rather than the theater's generic brand.
+5. **Structured data:** Inspect JSON-LD and other embedded page data for production-specific `image`, event, or offer records. Reject generic organization logos.
+6. **CSS artwork:** Inspect `background-image`, inline styles, and computed styles when the poster is displayed as a background rather than an image element.
+7. **Embedded ticketing or widgets:** Inspect official ticketing frames and linked event pages. Match the organization, production title, and dates before accepting their artwork.
+8. **Browser page assets:** Inspect the rendered page's loaded images or network assets when HTML is incomplete, JavaScript creates the page, or direct requests are blocked. Use dimensions and page context to narrow candidates, then inspect them visually.
+9. **Official social media:** Open the organization's permanent post or media viewer and inspect the official attachment or its supplied high-resolution variant. Do not rely on comments, shares, or unofficial reposts as evidence.
+10. **Official PDF or digital program:** Inspect season brochures and programs. Prefer extracting the embedded image; otherwise render the relevant page cleanly at high resolution.
+11. **Screenshot recovery:** If an official poster is clearly rendered but the underlying asset cannot be downloaded, capture and crop the poster from the rendered page. Exclude browser controls, captions, reactions, and unrelated page material; preserve the complete artwork and readable text.
+
+Never bypass a login, paywall, CAPTCHA, or access control. Search-engine thumbnails and snippets may locate an official page but are not final artwork sources.
+
+## Read and validate poster text
+
+- Use visual inspection first and OCR as an aid for small dates, times, titles, and venue text.
+- Compare OCR output with the visible poster and another official page when characters are unclear; OCR is not proof by itself.
+- Transcribe only legible facts. Do not infer a year, time, or performance date from a partial crop.
+- Confirm that the title, organization, venue, and season align with the listing before accepting the image.
+
+## Preserve the best verified asset
+
+- Prefer the largest official variant actually supplied by the page, `srcset`, media viewer, document, or CDN. Do not invent undocumented URLs merely by changing dimensions or filenames.
+- Confirm the downloaded file's real media type, dimensions, and contents; use the matching extension.
+- Compare near-duplicates and keep the cleanest complete version without social-media controls or unrelated borders.
+- Do not upscale a small image and call it higher resolution. Keep it if it remains the best verified official asset and let the site's `contain` presentation handle it.
+- Save the final file under `public/posters/`, use a stable production-specific name, and avoid hotlinks whose URLs or access tokens may expire.
+
 ## Selma Arts Center
 
 - Image files can have generic names such as `Copy_of_SAC...`.
