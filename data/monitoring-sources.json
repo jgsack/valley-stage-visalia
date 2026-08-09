@@ -67,10 +67,11 @@
       "distanceMiles": 31,
       "status": "active",
       "officialUrls": [
+        "https://www.selmaartscenter.com/on-stage",
         "https://www.selmaartscenter.com/season-2026",
         "https://www.selmaartscenter.com/audition"
       ],
-      "secondaryHosts": []
+      "secondaryHosts": ["ci.ovationtix.com"]
     },
     {
       "id": "cos",
