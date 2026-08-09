@@ -150,7 +150,9 @@
       "description": "The fast, funny musical follows six young competitors—and a few audience volunteers—through an unforgettable spelling championship.",
       "status": "soon",
       "sourceUrl": "https://www.selmaartscenter.com/season-2026",
-      "detailsUrl": "https://www.selmaartscenter.com/season-2026"
+      "detailsUrl": "https://www.selmaartscenter.com/season-2026",
+      "image": "/posters/selma-spelling-bee.png",
+      "imageMode": "contain"
     },
     {
       "id": "wizard-of-oz-reedley",
