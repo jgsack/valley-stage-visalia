@@ -1,0 +1,4 @@
+interface:
+  display_name: "Valley Stage Data Scout"
+  short_description: "Find and verify Central Valley theater listings"
+  default_prompt: "Use $valley-stage-data-scout to audit the monitored theaters, update verified listings and posters, and report any uncertain findings."
