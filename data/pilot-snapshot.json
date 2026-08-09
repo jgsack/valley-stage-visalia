@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 8, 2026",
+  "verifiedAt": "August 9, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -23,31 +23,14 @@
       "featured": true
     },
     {
-      "id": "the-prom-selma",
-      "title": "The Prom: High School Edition",
-      "theater": "Selma Arts Center · SACTeen",
-      "city": "Selma",
-      "distance": 31,
-      "run": "July 24–August 8",
-      "next": "Tonight, Aug 8 · 7:30 PM",
-      "performanceCount": "Final performance tonight",
-      "description": "Four Broadway stars rally around a student who wants to bring her girlfriend to prom in this exuberant musical comedy.",
-      "status": "now",
-      "sourceUrl": "https://www.selmaartscenter.com/on-stage",
-      "detailsUrl": "https://ci.ovationtix.com/35468/production/1281168",
-      "image": "/posters/selma-the-prom.png",
-      "imageMode": "contain",
-      "featured": true
-    },
-    {
       "id": "into-the-woods-reedley",
       "title": "Into the Woods",
       "theater": "Reedley's River City Theatre Company",
       "city": "Reedley",
       "distance": 34,
       "run": "July 31–August 16",
-      "next": "Tonight, Aug 8 · 7:00 PM",
-      "performanceCount": "9 performances",
+      "next": "Today, Aug 9 · 2:00 PM",
+      "performanceCount": "4 performances remaining",
       "description": "Familiar fairy-tale characters venture into the woods to pursue their wishes—and discover the consequences—in Stephen Sondheim's musical.",
       "status": "now",
       "sourceUrl": "https://www.rctcreedley.com/",
@@ -84,8 +67,8 @@
       "performanceCount": "10 performances",
       "description": "A meek florist finds success—and trouble—with the help of a mysterious, R&B-singing carnivorous plant.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/shows/little-shop-of-horrors",
-      "detailsUrl": "https://www.encoretulare.org/shows/little-shop-of-horrors",
+      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
+      "detailsUrl": "https://www.encoretulare.org/auditions.html",
       "image": "/posters/encore-little-shop.jpg",
       "imageMode": "cover",
       "featured": true
@@ -262,8 +245,8 @@
       "performanceCount": "Dates confirmed on official poster",
       "description": "Aaron Sorkin's gripping courtroom drama about duty, honor, and an illegal order hidden inside the chain of command.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/shows/a-few-good-men",
-      "detailsUrl": "https://www.encoretulare.org/shows/a-few-good-men",
+      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
+      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
       "image": "/posters/encore-a-few-good-men.jpg",
       "imageMode": "cover"
     },
@@ -402,8 +385,8 @@
       "performanceCount": "Season announced",
       "description": "A warm, jazzy family musical following best friends Frog and Toad through four seasons of adventures.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
-      "detailsUrl": "https://www.encoretulare.org/shows/a-year-with-frog-and-toad",
+      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
+      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
       "image": "/posters/encore-frog-and-toad.jpg",
       "imageMode": "cover"
     },
@@ -432,8 +415,8 @@
       "performanceCount": "Season announced",
       "description": "A colorful musical adventure bringing Horton, the Cat in the Hat, and the citizens of Whoville to the stage.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/shows/seussical-the-musical",
-      "detailsUrl": "https://www.encoretulare.org/shows/seussical-the-musical",
+      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
+      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
       "image": "/posters/encore-seussical.jpg",
       "imageMode": "cover"
     },
@@ -544,9 +527,41 @@
       "performanceCount": "Season announced",
       "description": "Roald Dahl's whimsical musical adventure sends James across the ocean inside a giant peach with an unlikely group of friends.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
-      "detailsUrl": "https://www.encoretulare.org/shows/james-and-the-giant-peach",
+      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
+      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
       "image": "/posters/encore-james-and-the-giant-peach.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "shrek-roger-rockas",
+      "title": "Shrek the Musical",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "November 20, 2026–January 17, 2027",
+      "next": "Performances begin Fri, Nov 20",
+      "performanceCount": "Run announced",
+      "description": "The irreverent fairy-tale musical follows Shrek, Donkey, and Princess Fiona on a big-hearted quest that turns storybook expectations upside down.",
+      "status": "soon",
+      "sourceUrl": "https://www.gcplayers.com/rr-auditions",
+      "detailsUrl": "https://www.gcplayers.com/rr-auditions",
+      "image": "/posters/roger-rockas-shrek-auditions.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "les-miserables-roger-rockas",
+      "title": "Les Misérables",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "January 22–April 4, 2027",
+      "next": "Performances begin Fri, Jan 22",
+      "performanceCount": "Run announced",
+      "description": "The epic musical follows Jean Valjean's pursuit of redemption amid revolution, sacrifice, and the enduring struggle for justice.",
+      "status": "soon",
+      "sourceUrl": "https://www.gcplayers.com/rr-auditions",
+      "detailsUrl": "https://www.gcplayers.com/rr-auditions",
+      "image": "/posters/roger-rockas-les-miserables.webp",
       "imageMode": "cover"
     },
     {
@@ -704,6 +719,22 @@
       "status": "auditions",
       "sourceUrl": "https://www.kingsplayers.org/",
       "detailsUrl": "https://www.kingsplayers.org/"
+    },
+    {
+      "id": "porterville-ride-the-cyclone-auditions",
+      "title": "Ride the Cyclone Auditions",
+      "theater": "Porterville Barn Theater",
+      "city": "Porterville",
+      "distance": 31,
+      "run": "August 29–30",
+      "next": "Sat, Aug 29 · 1:00 PM",
+      "performanceCount": "2 audition afternoons · all roles available",
+      "description": "Open auditions begin with a dance call; video submissions are also accepted for Porterville Barn Theater's November production.",
+      "status": "auditions",
+      "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+      "detailsUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+      "image": "/posters/porterville-ride-the-cyclone.png",
+      "imageMode": "contain"
     }
   ],
   "sources": [
@@ -714,7 +745,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "The official site yielded five announced productions and their poster art.",
+      "note": "The redesigned official season, current-show, and audition pages are monitored; five 2026–27 productions remain announced.",
       "waiting": false
     },
     {
@@ -724,12 +755,12 @@
     },
     {
       "name": "Porterville Barn Theater",
-      "note": "The official season artwork and production pages confirm The Philadelphia Story and Ride the Cyclone.",
+      "note": "The official production pages confirm The Philadelphia Story, Ride the Cyclone, and Ride the Cyclone auditions on August 29–30.",
       "waiting": false
     },
     {
       "name": "Reedley River City Theatre",
-      "note": "The official 2026 season artwork and linked ticket pages confirm one current and two upcoming productions.",
+      "note": "The official 2026 season page and linked ticket page confirm one current and two upcoming productions.",
       "waiting": false
     },
     {
@@ -739,7 +770,7 @@
     },
     {
       "name": "Roger Rocka's / GCP",
-      "note": "Current production and upcoming community auditions are verified on official sites.",
+      "note": "The official sites confirm Annie, the announced Shrek and Les Misérables runs, and the August 29 community audition.",
       "waiting": false
     },
     {

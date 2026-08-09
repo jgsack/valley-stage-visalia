@@ -13,9 +13,11 @@
       "officialUrls": [
         "https://www.visaliaicehouse.com/",
         "https://www.visaliaicehouse.com/projects-6",
-        "https://www.visaliaicehouse.com/auditions"
+        "https://www.visaliaicehouse.com/auditions-coming-up"
       ],
-      "secondaryHosts": ["onthestage.tickets"]
+      "secondaryHosts": [
+        "onthestage.tickets"
+      ]
     },
     {
       "id": "encore",
@@ -25,10 +27,13 @@
       "status": "active",
       "officialUrls": [
         "https://www.encoretulare.org/",
-        "https://www.encoretulare.org/shows",
-        "https://www.encoretulare.org/auditions"
+        "https://www.encoretulare.org/current-show.html",
+        "https://www.encoretulare.org/2026-2027.html",
+        "https://www.encoretulare.org/auditions.html"
       ],
-      "secondaryHosts": ["app.arts-people.com"]
+      "secondaryHosts": [
+        "app.arts-people.com"
+      ]
     },
     {
       "id": "lindsay",
@@ -66,13 +71,17 @@
       "status": "active",
       "officialUrls": [
         "https://www.rctcreedley.com/",
+        "https://www.rctcreedley.com/2026-season",
         "https://www.rctcreedley.com/box-office-hours-1",
         "https://ci.ovationtix.com/36374",
         "https://ci.ovationtix.com/36374/production/1264343",
         "https://ci.ovationtix.com/36374/production/1264344",
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
-      "secondaryHosts": ["ci.ovationtix.com", "theatermania.com"]
+      "secondaryHosts": [
+        "ci.ovationtix.com",
+        "theatermania.com"
+      ]
     },
     {
       "id": "selma-arts",
@@ -85,7 +94,9 @@
         "https://www.selmaartscenter.com/season-2026",
         "https://www.selmaartscenter.com/audition"
       ],
-      "secondaryHosts": ["ci.ovationtix.com"]
+      "secondaryHosts": [
+        "ci.ovationtix.com"
+      ]
     },
     {
       "id": "cos",
@@ -99,7 +110,10 @@
         "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
         "https://app.arts-people.com/index.php?ticketing=cosfd"
       ],
-      "secondaryHosts": ["facebook.com", "app.arts-people.com"]
+      "secondaryHosts": [
+        "facebook.com",
+        "app.arts-people.com"
+      ]
     },
     {
       "id": "roger-rockas",
@@ -111,7 +125,9 @@
         "https://rogerrockas.com/",
         "https://www.gcplayers.com/rr-auditions"
       ],
-      "secondaryHosts": ["tickets.gcplayers.com"]
+      "secondaryHosts": [
+        "tickets.gcplayers.com"
+      ]
     },
     {
       "id": "fresno-state",
@@ -135,7 +151,9 @@
         "https://redwood.vusd.org/",
         "https://www.vusd.org/departments/business-services/business-functions/facilities/construction-projects/vusd-invests/lj-williams-theater"
       ],
-      "secondaryHosts": ["redwoodgigantea.com"]
+      "secondaryHosts": [
+        "redwoodgigantea.com"
+      ]
     },
     {
       "id": "mt-whitney-high",
@@ -143,7 +161,9 @@
       "city": "Visalia",
       "distanceMiles": 3,
       "status": "watching",
-      "officialUrls": ["https://mtwhitney.vusd.org/"],
+      "officialUrls": [
+        "https://mtwhitney.vusd.org/"
+      ],
       "secondaryHosts": []
     },
     {
@@ -152,7 +172,9 @@
       "city": "Visalia",
       "distanceMiles": 4,
       "status": "watching",
-      "officialUrls": ["https://goldenwest.vusd.org/"],
+      "officialUrls": [
+        "https://goldenwest.vusd.org/"
+      ],
       "secondaryHosts": []
     },
     {
@@ -161,7 +183,9 @@
       "city": "Visalia",
       "distanceMiles": 5,
       "status": "watching",
-      "officialUrls": ["https://eldiamante.vusd.org/"],
+      "officialUrls": [
+        "https://eldiamante.vusd.org/"
+      ],
       "secondaryHosts": []
     },
     {
@@ -173,7 +197,9 @@
       "officialUrls": [
         "https://www.kingsplayers.org/"
       ],
-      "secondaryHosts": ["app.arts-people.com"]
+      "secondaryHosts": [
+        "app.arts-people.com"
+      ]
     },
     {
       "id": "tcoe-theatre",
