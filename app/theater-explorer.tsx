@@ -62,6 +62,9 @@ export function TheaterExplorer() {
   const [query, setQuery] = useState("");
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
 
+  const searchQuery = query.trim();
+  const isSearching = searchQuery.length > 0;
+
   const sourceFilteredShows = useMemo(
     () =>
       selectedSource
@@ -71,17 +74,28 @@ export function TheaterExplorer() {
   );
 
   const visibleShows = useMemo(() => {
-    const needle = query.trim().toLowerCase();
+    const needle = searchQuery.toLowerCase();
+
+    if (needle) {
+      return shows.filter((show) => {
+        const searchableText = [
+          show.title,
+          show.theater,
+          show.city,
+          show.description,
+          show.run,
+        ]
+          .join(" ")
+          .toLowerCase();
+
+        return show.distance <= radius && searchableText.includes(needle);
+      });
+    }
+
     return sourceFilteredShows.filter(
-      (show) =>
-        show.status === view &&
-        show.distance <= radius &&
-        (!needle ||
-          show.title.toLowerCase().includes(needle) ||
-          show.theater.toLowerCase().includes(needle) ||
-          show.city.toLowerCase().includes(needle)),
+      (show) => show.status === view && show.distance <= radius,
     );
-  }, [query, radius, sourceFilteredShows, view]);
+  }, [radius, searchQuery, sourceFilteredShows, view]);
 
   const viewCounts: Record<ViewMode, number> = {
     now: sourceFilteredShows.filter((show) => show.status === "now").length,
@@ -146,7 +160,10 @@ export function TheaterExplorer() {
                 <button
                   className={`tab ${view === key ? "active" : ""}`}
                   key={key}
-                  onClick={() => setView(key)}
+                  onClick={() => {
+                    setView(key);
+                    setQuery("");
+                  }}
                   role="tab"
                   aria-selected={view === key}
                   type="button"
@@ -161,8 +178,11 @@ export function TheaterExplorer() {
             <span className="sr-only">Search shows or theaters</span>
             <input
               className="search-input"
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search shows or theaters"
+              onChange={(event) => {
+                setQuery(event.target.value);
+                if (event.target.value.trim()) setSelectedSource(null);
+              }}
+              placeholder="Search all shows or theaters"
               type="search"
               value={query}
             />
@@ -183,7 +203,16 @@ export function TheaterExplorer() {
           </div>
         </div>
 
-        {selectedSource ? (
+        {isSearching ? (
+          <div className="source-filter-bar" role="status">
+            <span>
+              <strong>{visibleShows.length}</strong> {visibleShows.length === 1 ? "result" : "results"} for <strong>“{searchQuery}”</strong> across all listings
+            </span>
+            <button type="button" onClick={() => setQuery("")}>
+              Clear search
+            </button>
+          </div>
+        ) : selectedSource ? (
           <div className="source-filter-bar" role="status">
             <span>Showing listings from <strong>{selectedSource}</strong></span>
             <button type="button" onClick={() => setSelectedSource(null)}>
@@ -252,7 +281,7 @@ export function TheaterExplorer() {
               <strong>
                 {selectedSource && !sourceFilteredShows.length
                   ? `No published listings for ${selectedSource}`
-                  : query
+                  : isSearching
                   ? "No matching listings"
                   : view === "now"
                     ? "No shows playing today"
@@ -263,8 +292,8 @@ export function TheaterExplorer() {
               <p>
                 {selectedSource && !sourceFilteredShows.length
                   ? "This source is still being monitored. Its next confirmed production will appear here automatically."
-                  : query
-                  ? "Try another title, theater, or a wider radius."
+                  : isSearching
+                  ? "Try another title or theater, or choose a wider radius. Search checks playing, upcoming, and audition listings together."
                   : "The agents are still watching every registered official source and will publish the next verified update automatically."}
               </p>
             </div>
