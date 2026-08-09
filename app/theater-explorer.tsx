@@ -25,16 +25,50 @@ type Show = {
 
 const shows = snapshot.shows as Show[];
 
+const sourceAliases: Record<string, string[]> = {
+  "Ice House Theatre": ["Ice House Theatre"],
+  "Encore Theatre": ["Encore Theatre"],
+  "Lindsay Community Theater": ["Lindsay Community Theater"],
+  "Porterville Barn Theater": ["Porterville Barn Theater"],
+  "Reedley River City Theatre": ["Reedley's River City Theatre"],
+  "Selma Arts Center": ["Selma Arts Center"],
+  "Roger Rocka's / GCP": ["Roger Rocka's"],
+  "COS Theatre Arts": ["College of the Sequoias"],
+  "Fresno State Theatre Arts": ["Fresno State Theatre Arts"],
+  "Redwood High School": ["Redwood High School"],
+  "Mt. Whitney High School": ["Mt. Whitney High School"],
+  "Golden West High School": ["Golden West High School"],
+  "El Diamante High School": ["El Diamante High School"],
+  "Kings Players": ["Kings Players"],
+  "TCOE Theatre Company": ["TCOE Theatre Company"],
+};
+
+function matchesSource(show: Show, sourceName: string) {
+  const aliases = sourceAliases[sourceName] ?? [sourceName];
+  return aliases.some((alias) =>
+    show.theater.toLowerCase().includes(alias.toLowerCase()),
+  );
+}
+
 export function TheaterExplorer() {
   const [view, setView] = useState<ViewMode>(
     shows.some((show) => show.status === "now") ? "now" : "soon",
   );
   const [radius, setRadius] = useState(50);
   const [query, setQuery] = useState("");
+  const [selectedSource, setSelectedSource] = useState<string | null>(null);
+
+  const sourceFilteredShows = useMemo(
+    () =>
+      selectedSource
+        ? shows.filter((show) => matchesSource(show, selectedSource))
+        : shows,
+    [selectedSource],
+  );
 
   const visibleShows = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return shows.filter(
+    return sourceFilteredShows.filter(
       (show) =>
         show.status === view &&
         show.distance <= radius &&
@@ -43,13 +77,29 @@ export function TheaterExplorer() {
           show.theater.toLowerCase().includes(needle) ||
           show.city.toLowerCase().includes(needle)),
     );
-  }, [query, radius, view]);
+  }, [query, radius, sourceFilteredShows, view]);
 
   const viewCounts: Record<ViewMode, number> = {
-    now: shows.filter((show) => show.status === "now").length,
-    soon: shows.filter((show) => show.status === "soon").length,
-    auditions: shows.filter((show) => show.status === "auditions").length,
+    now: sourceFilteredShows.filter((show) => show.status === "now").length,
+    soon: sourceFilteredShows.filter((show) => show.status === "soon").length,
+    auditions: sourceFilteredShows.filter((show) => show.status === "auditions").length,
   };
+
+  function showSourceListings(sourceName: string) {
+    const matchingShows = shows.filter((show) => matchesSource(show, sourceName));
+    const preferredView = (["now", "soon", "auditions"] as ViewMode[]).find(
+      (mode) => matchingShows.some((show) => show.status === mode),
+    );
+
+    setSelectedSource(sourceName);
+    setView(preferredView ?? "soon");
+    setQuery("");
+    setRadius(50);
+
+    requestAnimationFrame(() => {
+      document.getElementById("shows")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 
   return (
     <main className="site-shell">
@@ -129,6 +179,15 @@ export function TheaterExplorer() {
           </div>
         </div>
 
+        {selectedSource ? (
+          <div className="source-filter-bar" role="status">
+            <span>Showing listings from <strong>{selectedSource}</strong></span>
+            <button type="button" onClick={() => setSelectedSource(null)}>
+              Show all theaters
+            </button>
+          </div>
+        ) : null}
+
         <div className="show-grid" aria-live="polite">
           {visibleShows.length ? (
             visibleShows.map((show, index) => (
@@ -187,14 +246,20 @@ export function TheaterExplorer() {
           ) : (
             <div className="empty-state">
               <strong>
-                {query
+                {selectedSource && !sourceFilteredShows.length
+                  ? `No published listings for ${selectedSource}`
+                  : query
                   ? "No matching listings"
                   : view === "now"
                     ? "No shows playing today"
-                    : "No open auditions detected"}
+                    : view === "soon"
+                      ? "No upcoming shows detected"
+                      : "No open auditions detected"}
               </strong>
               <p>
-                {query
+                {selectedSource && !sourceFilteredShows.length
+                  ? "This source is still being monitored. Its next confirmed production will appear here automatically."
+                  : query
                   ? "Try another title, theater, or a wider radius."
                   : "The agents are still watching every registered official source and will publish the next verified update automatically."}
               </p>
@@ -212,15 +277,29 @@ export function TheaterExplorer() {
           <p>Checked daily. No uploads or manual event entry.</p>
         </div>
         <div className="source-grid">
-          {snapshot.sources.map((source) => (
-            <article className="source-card" key={source.name}>
+          {snapshot.sources.map((source) => {
+            const listingCount = shows.filter((show) => matchesSource(show, source.name)).length;
+
+            return (
+            <button
+              aria-label={`Show listings from ${source.name}`}
+              aria-pressed={selectedSource === source.name}
+              className={`source-card source-card-button ${selectedSource === source.name ? "selected" : ""}`}
+              key={source.name}
+              onClick={() => showSourceListings(source.name)}
+              type="button"
+            >
               <div className={`source-status ${source.waiting ? "waiting" : ""}`}>
                 {source.waiting ? "Watching for season" : "Source verified"}
               </div>
               <h3>{source.name}</h3>
               <p>{source.note}</p>
-            </article>
-          ))}
+              <span className="source-card-action">
+                {listingCount ? `${listingCount} ${listingCount === 1 ? "listing" : "listings"}` : "No listings yet"}
+                <span aria-hidden="true">→</span>
+              </span>
+            </button>
+          )})}
         </div>
       </section>
 
