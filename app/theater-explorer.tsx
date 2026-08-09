@@ -25,6 +25,9 @@ type Show = {
 
 const shows = snapshot.shows as Show[];
 
+const contactFormUrl =
+  "https://docs.google.com/forms/d/e/1FAIpQLSe1ZFD-xNR7gG-3wkzXmFDjMXf2q0ruceq7nsUE-5HVVjsO4A/viewform";
+
 const sourceAliases: Record<string, string[]> = {
   "Ice House Theatre": ["Ice House Theatre"],
   "Encore Theatre": ["Encore Theatre"],
@@ -305,7 +308,10 @@ export function TheaterExplorer() {
 
       <footer className="footer">
         <strong>Valley Stage</strong>
-        <span>Automated theater discovery centered on {snapshot.center.label}</span>
+        <div className="footer-meta">
+          <span>Automated theater discovery centered on {snapshot.center.label}</span>
+          <a href={contactFormUrl} target="_blank" rel="noreferrer">Contact</a>
+        </div>
       </footer>
     </main>
   );
