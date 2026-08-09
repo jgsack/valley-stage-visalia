@@ -130,6 +130,24 @@
       ]
     },
     {
+      "id": "broadway-fresno-saroyan",
+      "name": "Saroyan Theatre",
+      "city": "Fresno",
+      "distanceMiles": 44,
+      "status": "active",
+      "officialUrls": [
+        "https://events.fresnoconventioncenter.com/",
+        "https://events.fresnoconventioncenter.com/blueys-big-play",
+        "https://events.fresnoconventioncenter.com/swan-lake-2026",
+        "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
+        "https://events.fresnoconventioncenter.com/nutcracker-2026"
+      ],
+      "secondaryHosts": [
+        "us.atgtickets.com",
+        "ticketmaster.com"
+      ]
+    },
+    {
       "id": "fresno-state",
       "name": "Fresno State Theatre Arts",
       "city": "Fresno",

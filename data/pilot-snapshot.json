@@ -533,6 +533,70 @@
       "imageMode": "cover"
     },
     {
+      "id": "blueys-big-play-saroyan",
+      "title": "Bluey's Big Play",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "November 11–12",
+      "next": "Wed, Nov 11 · 7:00 PM",
+      "performanceCount": "2 performances",
+      "description": "Bluey, Bingo, Mum, and Dad come to life through puppetry, music, and play in this family stage adventure written by Bluey creator Joe Brumm.",
+      "status": "soon",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/blueys-big-play",
+      "detailsUrl": "https://us.atgtickets.com/events/blueys-big-play/saroyan-theatre/",
+      "image": "/posters/saroyan-blueys-big-play.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "swan-lake-saroyan",
+      "title": "Swan Lake with a Live Orchestra",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "November 21",
+      "next": "Sat, Nov 21 · 7:00 PM",
+      "performanceCount": "1 performance",
+      "description": "World Ballet Company brings Tchaikovsky's classic ballet to the Saroyan stage with a live orchestra.",
+      "status": "soon",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+      "detailsUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+      "image": "/posters/saroyan-swan-lake.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "magical-cirque-christmas-saroyan",
+      "title": "A Magical Cirque Christmas",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "December 15",
+      "next": "Tue, Dec 15 · 7:30 PM",
+      "performanceCount": "1 performance",
+      "description": "A holiday variety show combines world-class cirque performances, seasonal music, nostalgia, and family-friendly spectacle.",
+      "status": "soon",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
+      "detailsUrl": "https://us.atgtickets.com/events/magical-cirque-christmas/saroyan-theatre/",
+      "image": "/posters/saroyan-magical-cirque-christmas.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "nutcracker-saroyan",
+      "title": "World Ballet Company: The Nutcracker",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "December 21–22",
+      "next": "Mon, Dec 21 · 7:00 PM",
+      "performanceCount": "2 performances",
+      "description": "World Ballet Company's holiday production features 40 dancers, hand-crafted sets, and more than 150 costumes in a family-friendly staging of the classic ballet.",
+      "status": "soon",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
+      "detailsUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
+      "image": "/posters/saroyan-nutcracker.jpg",
+      "imageMode": "contain"
+    },
+    {
       "id": "shrek-roger-rockas",
       "title": "Shrek the Musical",
       "theater": "Good Company Players · Roger Rocka's",
@@ -771,6 +835,11 @@
     {
       "name": "Roger Rocka's / GCP",
       "note": "The official sites confirm Annie, the announced Shrek and Les Misérables runs, and the August 29 community audition.",
+      "waiting": false
+    },
+    {
+      "name": "Saroyan Theatre",
+      "note": "The official Saroyan calendar and linked ticket pages confirm four upcoming stage productions; concerts and unrelated events are excluded.",
       "waiting": false
     },
     {

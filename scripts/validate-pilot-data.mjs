@@ -5,7 +5,7 @@ import { resolve } from "node:path";
 const snapshot = JSON.parse(readFileSync(resolve("data/pilot-snapshot.json"), "utf8"));
 const monitor = JSON.parse(readFileSync(resolve("data/monitoring-sources.json"), "utf8"));
 
-assert.equal(monitor.sources.length, 15, "the daily monitor must cover all 15 confirmed sources");
+assert.equal(monitor.sources.length, 16, "the daily monitor must cover all 16 confirmed sources");
 assert.equal(snapshot.sources.length, monitor.sources.length, "the site must show every monitored source");
 
 const ids = new Set();
