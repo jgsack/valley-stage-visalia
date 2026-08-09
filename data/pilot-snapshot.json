@@ -40,6 +40,23 @@
       "featured": true
     },
     {
+      "id": "into-the-woods-reedley",
+      "title": "Into the Woods",
+      "theater": "Reedley's River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "July 31–August 16",
+      "next": "Tonight, Aug 8 · 7:00 PM",
+      "performanceCount": "9 performances",
+      "description": "Familiar fairy-tale characters venture into the woods to pursue their wishes—and discover the consequences—in Stephen Sondheim's musical.",
+      "status": "now",
+      "sourceUrl": "https://www.rctcreedley.com/",
+      "detailsUrl": "https://ci.ovationtix.com/36374/production/1264343",
+      "image": "/posters/reedley-2026-season.png",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
       "id": "mousetrap-kings-players",
       "title": "The Mousetrap",
       "theater": "Kings Players",
@@ -134,6 +151,22 @@
       "status": "soon",
       "sourceUrl": "https://www.selmaartscenter.com/season-2026",
       "detailsUrl": "https://www.selmaartscenter.com/season-2026"
+    },
+    {
+      "id": "wizard-of-oz-reedley",
+      "title": "The Wizard of Oz",
+      "theater": "Reedley's River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "September 25–October 11",
+      "next": "Fri, Sep 25 · 7:00 PM",
+      "performanceCount": "9 performances",
+      "description": "Dorothy, Toto, and their unforgettable companions follow the Yellow Brick Road in the beloved stage musical.",
+      "status": "soon",
+      "sourceUrl": "https://www.rctcreedley.com/",
+      "detailsUrl": "https://ci.ovationtix.com/36374/production/1264344",
+      "image": "/posters/reedley-2026-season.png",
+      "imageMode": "contain"
     },
     {
       "id": "is-this-a-room-fresno-state",
@@ -271,6 +304,22 @@
       "status": "soon",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
       "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/christmas-show"
+    },
+    {
+      "id": "seussical-reedley",
+      "title": "Seussical the Musical",
+      "theater": "Reedley's River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "December 5–20",
+      "next": "Sat, Dec 5 · 7:00 PM",
+      "performanceCount": "8 performances",
+      "description": "The Cat in the Hat guides Jojo through a colorful musical adventure featuring Horton, the Whos, and other Dr. Seuss favorites.",
+      "status": "soon",
+      "sourceUrl": "https://www.rctcreedley.com/",
+      "detailsUrl": "https://ci.ovationtix.com/36374/production/1264345",
+      "image": "/posters/reedley-2026-season.png",
+      "imageMode": "contain"
     },
     {
       "id": "holiday-cabaret",
@@ -480,8 +529,8 @@
     },
     {
       "name": "Reedley River City Theatre",
-      "note": "The official season and ticket pages are being watched for dated production announcements.",
-      "waiting": true
+      "note": "The official 2026 season artwork and linked ticket pages confirm one current and two upcoming productions.",
+      "waiting": false
     },
     {
       "name": "Selma Arts Center",

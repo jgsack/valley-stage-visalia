@@ -63,9 +63,16 @@
       "name": "Reedley's River City Theatre Company",
       "city": "Reedley",
       "distanceMiles": 34,
-      "status": "watching",
-      "officialUrls": ["https://www.rctcreedley.com/"],
-      "secondaryHosts": []
+      "status": "active",
+      "officialUrls": [
+        "https://www.rctcreedley.com/",
+        "https://www.rctcreedley.com/box-office-hours-1",
+        "https://ci.ovationtix.com/36374",
+        "https://ci.ovationtix.com/36374/production/1264343",
+        "https://ci.ovationtix.com/36374/production/1264344",
+        "https://ci.ovationtix.com/36374/production/1264345"
+      ],
+      "secondaryHosts": ["ci.ovationtix.com", "theatermania.com"]
     },
     {
       "id": "selma-arts",
