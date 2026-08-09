@@ -186,6 +186,22 @@
       "featured": true
     },
     {
+      "id": "rosencrantz-guildenstern-cos",
+      "title": "Rosencrantz & Guildenstern Are Dead",
+      "theater": "College of the Sequoias Theatre",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "October 8–17",
+      "next": "Thu, Oct 8 · time pending",
+      "performanceCount": "Mainstage production",
+      "description": "Tom Stoppard's ingenious comedy retells Hamlet through two bewildered minor characters caught inside a story they cannot control.",
+      "status": "soon",
+      "sourceUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "detailsUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "image": "/posters/cos-rosencrantz-guildenstern.jpg",
+      "imageMode": "contain"
+    },
+    {
       "id": "nerdy-prudes-lindsay",
       "title": "Nerdy Prudes Must Die",
       "theater": "Lindsay Community Theater",
@@ -212,6 +228,22 @@
       "status": "soon",
       "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
       "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/69672365a9c779105c7532ec"
+    },
+    {
+      "id": "thanksgiving-play-cos",
+      "title": "The Thanksgiving Play",
+      "theater": "College of the Sequoias Theatre",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "November 12–21",
+      "next": "Thu, Nov 12 · time pending",
+      "performanceCount": "Mainstage production",
+      "description": "Larissa FastHorse's sharp satire follows four well-meaning teachers struggling to create an elementary-school Thanksgiving pageant that gets everything right.",
+      "status": "soon",
+      "sourceUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "detailsUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "image": "/posters/cos-thanksgiving-play.jpg",
+      "imageMode": "contain"
     },
     {
       "id": "few-good-men",
@@ -398,6 +430,22 @@
       "imageMode": "contain"
     },
     {
+      "id": "lend-me-a-tenor-cos",
+      "title": "Lend Me a Tenor",
+      "theater": "College of the Sequoias Theatre",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "March 11–20, 2027",
+      "next": "Thu, Mar 11 · time pending",
+      "performanceCount": "Mainstage production",
+      "description": "Ken Ludwig's fast-moving farce turns an opera star's troubled visit into a night of mistaken identities, slamming doors, and comic catastrophe.",
+      "status": "soon",
+      "sourceUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "detailsUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "image": "/posters/cos-lend-me-a-tenor.jpg",
+      "imageMode": "contain"
+    },
+    {
       "id": "shawshank-fresno-state",
       "title": "The Shawshank Redemption",
       "theater": "Fresno State Theatre Arts",
@@ -411,6 +459,22 @@
       "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
       "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
       "image": "/posters/fresno-state-shawshank.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "great-comet-cos",
+      "title": "Natasha, Pierre & The Great Comet of 1812",
+      "theater": "College of the Sequoias Theatre",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "April 30–May 8, 2027",
+      "next": "Fri, Apr 30 · time pending",
+      "performanceCount": "South Valley premiere",
+      "description": "Dave Malloy's exuberant electro-pop musical draws a passionate, surprising love story from a section of Tolstoy's War and Peace.",
+      "status": "soon",
+      "sourceUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "detailsUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "image": "/posters/cos-great-comet.jpg",
       "imageMode": "contain"
     },
     {
@@ -544,8 +608,8 @@
     },
     {
       "name": "COS Theatre Arts",
-      "note": "The official page has no qualifying future performance yet.",
-      "waiting": true
+      "note": "The official performing-arts Facebook page confirms four productions in the newly announced 2026–27 theatre season.",
+      "waiting": false
     },
     {
       "name": "Fresno State Theatre Arts",

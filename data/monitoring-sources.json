@@ -92,11 +92,14 @@
       "name": "College of the Sequoias Theatre Arts",
       "city": "Visalia",
       "distanceMiles": 3,
-      "status": "watching",
+      "status": "active",
       "officialUrls": [
-        "https://www.cos.edu/en-us/academics/fine-arts/cos-performances"
+        "https://www.cos.edu/en-us/academics/fine-arts/cos-performances",
+        "https://www.facebook.com/COSmusicdancetheatre/",
+        "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+        "https://app.arts-people.com/index.php?ticketing=cosfd"
       ],
-      "secondaryHosts": []
+      "secondaryHosts": ["facebook.com", "app.arts-people.com"]
     },
     {
       "id": "roger-rockas",
