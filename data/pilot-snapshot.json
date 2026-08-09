@@ -533,6 +533,22 @@
       "imageMode": "cover"
     },
     {
+      "id": "water-for-elephants-saroyan",
+      "title": "Water for Elephants",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "November 3–4",
+      "next": "Tue, Nov 3 · 7:30 PM",
+      "performanceCount": "2 performances",
+      "description": "The bestselling novel becomes a spectacle-filled Broadway musical about a young man who jumps a moving train and finds a new home, purpose, and love with a traveling circus.",
+      "status": "soon",
+      "sourceUrl": "https://fresno.broadway.com/",
+      "detailsUrl": "https://fresno.broadway.com/shows/water-for-elephants/",
+      "image": "/posters/saroyan-water-for-elephants.jpg",
+      "imageMode": "contain"
+    },
+    {
       "id": "blueys-big-play-saroyan",
       "title": "Bluey's Big Play",
       "theater": "Saroyan Theatre",
@@ -565,6 +581,22 @@
       "imageMode": "contain"
     },
     {
+      "id": "laf-nutcracker-saroyan",
+      "title": "Lively Arts Foundation: The Nutcracker",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "December 12–13",
+      "next": "Sat, Dec 12 · 6:30 PM",
+      "performanceCount": "2 performances",
+      "description": "Marie journeys through the Land of Snow and Sweets in Lively Arts Foundation's production, featuring former Joffrey Ballet stars Molly Groeschel and Lucas Segovia.",
+      "status": "soon",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
+      "image": "/posters/saroyan-laf-nutcracker.webp",
+      "imageMode": "cover"
+    },
+    {
       "id": "magical-cirque-christmas-saroyan",
       "title": "A Magical Cirque Christmas",
       "theater": "Saroyan Theatre",
@@ -594,6 +626,54 @@
       "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
       "detailsUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
       "image": "/posters/saroyan-nutcracker.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "jersey-boys-saroyan",
+      "title": "Jersey Boys",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "February 2–4, 2027",
+      "next": "Tue, Feb 2 · 7:30 PM",
+      "performanceCount": "3 performances",
+      "description": "The Tony Award-winning musical goes behind the music and inside the story of Frankie Valli and The Four Seasons.",
+      "status": "soon",
+      "sourceUrl": "https://fresno.broadway.com/",
+      "detailsUrl": "https://fresno.broadway.com/shows/jersey-boys/",
+      "image": "/posters/saroyan-jersey-boys.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "the-bodyguard-saroyan",
+      "title": "The Bodyguard",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "March 15–16, 2027",
+      "next": "Mon, Mar 15 · 7:30 PM",
+      "performanceCount": "2 performances",
+      "description": "The romantic thriller musical follows former Secret Service agent Frank Farmer as he protects superstar Rachel Marron from an unknown stalker.",
+      "status": "soon",
+      "sourceUrl": "https://fresno.broadway.com/",
+      "detailsUrl": "https://fresno.broadway.com/shows/the-bodyguard/",
+      "image": "/posters/saroyan-the-bodyguard.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "a-beautiful-noise-saroyan",
+      "title": "A Beautiful Noise: The Neil Diamond Musical",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "June 8–9, 2027",
+      "next": "Tue, Jun 8 · 7:30 PM",
+      "performanceCount": "2 performances",
+      "description": "Created with Neil Diamond, this musical memoir tells how a Brooklyn kid became a chart-topping American music icon through the songs that defined his career.",
+      "status": "soon",
+      "sourceUrl": "https://fresno.broadway.com/",
+      "detailsUrl": "https://fresno.broadway.com/shows/a-beautiful-noise/",
+      "image": "/posters/saroyan-a-beautiful-noise.jpg",
       "imageMode": "contain"
     },
     {
@@ -839,7 +919,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "The official Saroyan calendar and linked ticket pages confirm four upcoming stage productions; concerts and unrelated events are excluded.",
+      "note": "The Saroyan venue calendar, ATG schedule, and Broadway in Fresno season are reconciled into nine stage productions; concerts and unrelated events are excluded.",
       "waiting": false
     },
     {
