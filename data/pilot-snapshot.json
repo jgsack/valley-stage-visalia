@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 9, 2026",
+  "verifiedAt": "August 10, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -29,8 +29,8 @@
       "city": "Reedley",
       "distance": 34,
       "run": "July 31–August 16",
-      "next": "Today, Aug 9 · 2:00 PM",
-      "performanceCount": "4 performances remaining",
+      "next": "Fri, Aug 14 · 7:00 PM",
+      "performanceCount": "3 performances remaining",
       "description": "Familiar fairy-tale characters venture into the woods to pursue their wishes—and discover the consequences—in Stephen Sondheim's musical.",
       "status": "now",
       "sourceUrl": "https://www.rctcreedley.com/",
@@ -67,8 +67,8 @@
       "performanceCount": "10 performances",
       "description": "A meek florist finds success—and trouble—with the help of a mysterious, R&B-singing carnivorous plant.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
-      "detailsUrl": "https://www.encoretulare.org/auditions.html",
+      "sourceUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-little-shop.jpg",
       "imageMode": "cover",
       "featured": true
@@ -245,8 +245,8 @@
       "performanceCount": "Dates confirmed on official poster",
       "description": "Aaron Sorkin's gripping courtroom drama about duty, honor, and an illegal order hidden inside the chain of command.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
-      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
+      "sourceUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-a-few-good-men.jpg",
       "imageMode": "cover"
     },
@@ -385,8 +385,8 @@
       "performanceCount": "Season announced",
       "description": "A warm, jazzy family musical following best friends Frog and Toad through four seasons of adventures.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
-      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
+      "sourceUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-frog-and-toad.jpg",
       "imageMode": "cover"
     },
@@ -415,8 +415,8 @@
       "performanceCount": "Season announced",
       "description": "A colorful musical adventure bringing Horton, the Cat in the Hat, and the citizens of Whoville to the stage.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
-      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
+      "sourceUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-seussical.jpg",
       "imageMode": "cover"
     },
@@ -527,8 +527,8 @@
       "performanceCount": "Season announced",
       "description": "Roald Dahl's whimsical musical adventure sends James across the ocean inside a giant peach with an unlikely group of friends.",
       "status": "soon",
-      "sourceUrl": "https://www.encoretulare.org/2026-2027.html",
-      "detailsUrl": "https://www.encoretulare.org/2026-2027.html",
+      "sourceUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-james-and-the-giant-peach.jpg",
       "imageMode": "cover"
     },
@@ -889,7 +889,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "The redesigned official season, current-show, and audition pages are monitored; five 2026–27 productions remain announced.",
+      "note": "Encore's redesigned official shows and auditions pages are accessible, but currently omit the previously published 2026–27 season details; the still-future verified listings are retained while the new pages are monitored.",
       "waiting": false
     },
     {

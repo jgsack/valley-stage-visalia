@@ -27,9 +27,8 @@
       "status": "active",
       "officialUrls": [
         "https://www.encoretulare.org/",
-        "https://www.encoretulare.org/current-show.html",
-        "https://www.encoretulare.org/2026-2027.html",
-        "https://www.encoretulare.org/auditions.html"
+        "https://www.encoretulare.org/shows",
+        "https://www.encoretulare.org/auditions"
       ],
       "secondaryHosts": [
         "app.arts-people.com"
