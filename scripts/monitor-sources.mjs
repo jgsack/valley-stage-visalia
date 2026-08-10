@@ -6,6 +6,7 @@ import { pathToFileURL } from "node:url";
 const STATE_VERSION = 1;
 const DEFAULT_TIMEOUT_MS = 20_000;
 const DEFAULT_CONCURRENCY = 6;
+const FAILURE_REVIEW_THRESHOLD = 2;
 
 function parseArgs(argv) {
   const args = {
@@ -254,13 +255,22 @@ async function checkUrl(url, previous, timeoutMs, checkedAt) {
 
 export function classifyChange(previous, current) {
   if (!previous) return { type: "baseline", requiresReview: false };
-  if (previous.status !== current.status) {
+  if (current.status === "failed") {
+    if (current.consecutiveFailures === FAILURE_REVIEW_THRESHOLD) {
+      return { type: "source_failed", requiresReview: true };
+    }
     return {
-      type: current.status === "ok" ? "source_recovered" : "source_failed",
-      requiresReview: true,
+      type: current.consecutiveFailures < FAILURE_REVIEW_THRESHOLD ? "transient_failure" : "persistent_failure",
+      requiresReview: false,
     };
   }
-  if (current.status === "failed") return { type: "persistent_failure", requiresReview: false };
+  if (previous.status === "failed") {
+    const wasReported = previous.consecutiveFailures >= FAILURE_REVIEW_THRESHOLD;
+    return {
+      type: wasReported ? "source_recovered" : "transient_failure_recovered",
+      requiresReview: wasReported,
+    };
+  }
   if (previous.finalUrl && previous.finalUrl !== current.finalUrl) {
     return { type: "redirect_changed", requiresReview: true };
   }
@@ -378,7 +388,11 @@ export async function runMonitor(options) {
       unreachable: checks.filter((check) => check.current.status === "failed").length,
       reviewSignals: changes.length,
       baselined: checks.filter((check) => check.change.type === "baseline").length,
-      unchanged: checks.filter((check) => ["unchanged", "persistent_failure"].includes(check.change.type)).length,
+      unchanged: checks.filter((check) =>
+        ["unchanged", "transient_failure", "persistent_failure", "transient_failure_recovered"].includes(
+          check.change.type,
+        ),
+      ).length,
     },
     changes,
   };

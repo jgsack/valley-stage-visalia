@@ -109,12 +109,14 @@ run. The first GitHub-hosted run establishes its own network baseline without
 creating review work. Steady-state failures and unchanged pages do not create
 work.
 
-When a source fails, recovers, redirects, or changes materially, the workflow
-opens or updates one GitHub issue and attaches a machine-readable report. That
-issue is a lead for the Valley Stage data-scout skill; it is not permission to
-publish an unverified fact. The AI refresh should investigate that issue and
-the affected organizations only, while a weekly audit can catch sources whose
-rendered content cannot be monitored reliably with ordinary HTTP requests.
+When a source fails on two consecutive daily checks, recovers from a reported
+failure, redirects, or changes materially, the workflow opens or updates one
+GitHub issue and attaches a machine-readable report. A one-off timeout stays
+silent. The issue is a lead for the Valley Stage data-scout skill; it is not
+permission to publish an unverified fact. The AI refresh should investigate
+that issue and the affected organizations only, while a weekly audit can catch
+sources whose rendered content cannot be monitored reliably with ordinary HTTP
+requests.
 
 ## Learn More
 
