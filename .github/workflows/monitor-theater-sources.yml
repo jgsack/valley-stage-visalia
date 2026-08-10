@@ -34,14 +34,6 @@ jobs:
           restore-keys: |
             valley-stage-source-monitor-${{ runner.os }}-
 
-      - name: Establish the initial baseline
-        shell: bash
-        run: |
-          mkdir -p .cache
-          if [[ ! -f .cache/source-monitor-state.json && -f data/source-monitor-baseline.json ]]; then
-            cp data/source-monitor-baseline.json .cache/source-monitor-state.json
-          fi
-
       - name: Check official sources
         id: monitor
         run: >-

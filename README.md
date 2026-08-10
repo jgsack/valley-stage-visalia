@@ -105,7 +105,9 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 The `Monitor theater sources` GitHub workflow runs once per day without an AI
 model. It follows every configured official URL, extracts structured events and
 event-relevant visible text, and compares stable fingerprints with the previous
-run. Steady-state failures and unchanged pages do not create work.
+run. The first GitHub-hosted run establishes its own network baseline without
+creating review work. Steady-state failures and unchanged pages do not create
+work.
 
 When a source fails, recovers, redirects, or changes materially, the workflow
 opens or updates one GitHub issue and attaches a machine-readable report. That
