@@ -10,6 +10,8 @@
     "build": "vinext build",
     "start": "vinext start",
     "check:data": "node scripts/validate-pilot-data.mjs",
+    "monitor:sources": "node scripts/monitor-sources.mjs",
+    "test:monitor": "node --test --test-isolation=none tests/source-monitor.test.mjs",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"

@@ -1,4 +1,7 @@
-# vinext-starter
+# Valley Stage
+
+Valley Stage is an automation-first guide to verified live theater within 50
+miles of Visalia, California.
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
@@ -91,8 +94,25 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
+- `npm run check:data`: validate listings, source coverage, and local posters
+- `npm run monitor:sources`: fingerprint event-relevant content from every configured official URL
+- `npm run test:monitor`: test deterministic source normalization and change classification
+- `npm test`: build the site and verify its rendered content
 - `npm run db:generate`: generate Drizzle migrations after schema changes
+
+## Low-token daily monitoring
+
+The `Monitor theater sources` GitHub workflow runs once per day without an AI
+model. It follows every configured official URL, extracts structured events and
+event-relevant visible text, and compares stable fingerprints with the previous
+run. Steady-state failures and unchanged pages do not create work.
+
+When a source fails, recovers, redirects, or changes materially, the workflow
+opens or updates one GitHub issue and attaches a machine-readable report. That
+issue is a lead for the Valley Stage data-scout skill; it is not permission to
+publish an unverified fact. The AI refresh should investigate that issue and
+the affected organizations only, while a weekly audit can catch sources whose
+rendered content cannot be monitored reliably with ordinary HTTP requests.
 
 ## Learn More
 
