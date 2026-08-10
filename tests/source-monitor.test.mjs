@@ -36,14 +36,33 @@ test("structured event changes are material", () => {
 
 test("change classification suppresses steady-state AI work", () => {
   const ok = { status: "ok", finalUrl: "https://example.com/shows", contentHash: "one" };
-  const failed = { status: "failed", error: "HTTP 403" };
+  const transientFailure = { status: "failed", error: "request timed out", consecutiveFailures: 1 };
+  const confirmedFailure = { status: "failed", error: "HTTP 403", consecutiveFailures: 2 };
 
   assert.deepEqual(classifyChange(undefined, ok), { type: "baseline", requiresReview: false });
   assert.deepEqual(classifyChange(ok, ok), { type: "unchanged", requiresReview: false });
-  assert.deepEqual(classifyChange(failed, failed), { type: "persistent_failure", requiresReview: false });
+  assert.deepEqual(classifyChange(ok, transientFailure), {
+    type: "transient_failure",
+    requiresReview: false,
+  });
+  assert.deepEqual(classifyChange(transientFailure, confirmedFailure), {
+    type: "source_failed",
+    requiresReview: true,
+  });
+  assert.deepEqual(classifyChange(confirmedFailure, { ...confirmedFailure, consecutiveFailures: 3 }), {
+    type: "persistent_failure",
+    requiresReview: false,
+  });
   assert.deepEqual(classifyChange(ok, { ...ok, contentHash: "two" }), {
     type: "content_changed",
     requiresReview: true,
   });
-  assert.deepEqual(classifyChange(failed, ok), { type: "source_recovered", requiresReview: true });
+  assert.deepEqual(classifyChange(transientFailure, ok), {
+    type: "transient_failure_recovered",
+    requiresReview: false,
+  });
+  assert.deepEqual(classifyChange(confirmedFailure, ok), {
+    type: "source_recovered",
+    requiresReview: true,
+  });
 });
