@@ -38,3 +38,6 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+/.cache/
+/source-monitor-report.json
+/source-monitor-report.md

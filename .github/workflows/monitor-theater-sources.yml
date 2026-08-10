@@ -1,0 +1,76 @@
+name: Monitor theater sources
+
+on:
+  schedule:
+    - cron: "15 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: valley-stage-source-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore the previous source fingerprints
+        uses: actions/cache@v4
+        with:
+          path: .cache/source-monitor-state.json
+          key: valley-stage-source-monitor-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            valley-stage-source-monitor-${{ runner.os }}-
+
+      - name: Establish the initial baseline
+        shell: bash
+        run: |
+          mkdir -p .cache
+          if [[ ! -f .cache/source-monitor-state.json && -f data/source-monitor-baseline.json ]]; then
+            cp data/source-monitor-baseline.json .cache/source-monitor-state.json
+          fi
+
+      - name: Check official sources
+        id: monitor
+        run: >-
+          node scripts/monitor-sources.mjs
+          --state .cache/source-monitor-state.json
+          --report source-monitor-report.json
+          --markdown source-monitor-report.md
+          --github-output "$GITHUB_OUTPUT"
+
+      - name: Save the review report
+        if: steps.monitor.outputs.requires_review == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: valley-stage-source-monitor-${{ github.run_id }}
+          path: |
+            source-monitor-report.json
+            source-monitor-report.md
+          retention-days: 14
+
+      - name: Open or update the AI review issue
+        if: steps.monitor.outputs.requires_review == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_TITLE: "[Automation] Valley Stage sources need review"
+        run: |
+          issue_number="$(gh issue list --state open --search "$ISSUE_TITLE in:title" --json number,title --jq ".[] | select(.title == env.ISSUE_TITLE) | .number" | head -n 1)"
+          if [[ -n "$issue_number" ]]; then
+            gh issue edit "$issue_number" --body-file source-monitor-report.md
+          else
+            gh issue create --title "$ISSUE_TITLE" --body-file source-monitor-report.md
+          fi
