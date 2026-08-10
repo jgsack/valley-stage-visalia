@@ -26,6 +26,9 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /\/posters\/roger-rockas-annie\.jpg/);
   assert.match(html, /class="poster-backdrop"/);
   assert.match(html, /class="poster-art"/);
+  assert.match(html, /On the valley marquee/);
+  assert.match(html, /Now playing &amp; coming soon/);
+  assert.match(html, /class="marquee-track"/);
   assert.match(html, /Roger Rocka/);
   assert.match(
     html,

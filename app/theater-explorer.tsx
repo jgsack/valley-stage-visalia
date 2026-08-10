@@ -25,6 +25,11 @@ type Show = {
 
 const shows = snapshot.shows as Show[];
 
+const marqueeShows = [
+  ...shows.filter((show) => show.status === "now" && show.image),
+  ...shows.filter((show) => show.status === "soon" && show.image),
+].slice(0, 12);
+
 const contactFormUrl =
   "https://docs.google.com/forms/d/e/1FAIpQLSe1ZFD-xNR7gG-3wkzXmFDjMXf2q0ruceq7nsUE-5HVVjsO4A/viewform";
 
@@ -151,6 +156,60 @@ export function TheaterExplorer() {
           </div>
         </div>
       </section>
+
+      {marqueeShows.length > 0 ? (
+        <section className="marquee-section" aria-labelledby="marquee-title">
+          <div className="marquee-heading">
+            <div>
+              <p className="eyebrow">On the valley marquee</p>
+              <h2 id="marquee-title">Now playing &amp; coming soon</h2>
+            </div>
+            <a href="#shows">See all listings <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <div className="marquee-window">
+            <div className="marquee-track">
+              {[...marqueeShows, ...marqueeShows].map((show, index) => {
+                const isDuplicate = index >= marqueeShows.length;
+
+                return (
+                  <a
+                    aria-hidden={isDuplicate || undefined}
+                    className="marquee-card"
+                    href={show.detailsUrl}
+                    key={`${show.id}-${index}`}
+                    rel="noreferrer"
+                    tabIndex={isDuplicate ? -1 : undefined}
+                    target="_blank"
+                  >
+                    <div className="marquee-poster">
+                      <img
+                        alt=""
+                        aria-hidden="true"
+                        className="marquee-backdrop"
+                        src={show.image}
+                      />
+                      <img
+                        alt={`${show.title} promotional artwork`}
+                        className="marquee-art"
+                        src={show.image}
+                      />
+                      <span className={`marquee-badge ${show.status}`}>
+                        {show.status === "now" ? "Playing now" : "Coming soon"}
+                      </span>
+                    </div>
+                    <div className="marquee-copy">
+                      <strong>{show.title}</strong>
+                      <span>{show.theater}</span>
+                      <small>{show.run}</small>
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section className="explorer" id="shows" aria-label="Theater listings">
         <div className="controls">
