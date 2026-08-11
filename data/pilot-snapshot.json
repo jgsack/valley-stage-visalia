@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 10, 2026",
+  "verifiedAt": "August 11, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -98,7 +98,7 @@
       "distance": 31,
       "run": "September 11–20",
       "next": "Fri, Sep 11 · 7:00 PM",
-      "performanceCount": "6 performances",
+      "performanceCount": "7 performances",
       "description": "A headstrong Philadelphia socialite's wedding weekend is complicated by her ex-husband and visiting reporters in Philip Barry's classic comedy of manners.",
       "status": "soon",
       "sourceUrl": "https://portervillebarntheater.com/barnwiki/the-philadelphia-story-2026/",
@@ -130,14 +130,28 @@
       "city": "Selma",
       "distance": 31,
       "run": "September 25–October 17",
-      "next": "Fri, Sep 25",
-      "performanceCount": "2026 season production",
+      "next": "Fri, Sep 25 · 7:30 PM",
+      "performanceCount": "Four weekends",
       "description": "The fast, funny musical follows six young competitors—and a few audience volunteers—through an unforgettable spelling championship.",
       "status": "soon",
-      "sourceUrl": "https://www.selmaartscenter.com/season-2026",
+      "sourceUrl": "https://www.selmaartscenter.com/audition",
       "detailsUrl": "https://www.selmaartscenter.com/season-2026",
       "image": "/posters/selma-spelling-bee.png",
       "imageMode": "contain"
+    },
+    {
+      "id": "diary-wimpy-kid-selma",
+      "title": "Diary of a Wimpy Kid the Musical",
+      "theater": "Selma Arts Center",
+      "city": "Selma",
+      "distance": 31,
+      "run": "2026 season · exact dates pending",
+      "next": "Exact dates pending",
+      "performanceCount": "Season production announced",
+      "description": "Selma Arts Center has announced the musical as a 2026 in-house production; performance dates have not yet been published.",
+      "status": "soon",
+      "sourceUrl": "https://www.selmaartscenter.com/season-2026",
+      "detailsUrl": "https://www.selmaartscenter.com/season-2026"
     },
     {
       "id": "wizard-of-oz-reedley",
@@ -909,7 +923,7 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "The current-show page, ticket link, 2026 season, and official audition information are monitored.",
+      "note": "The recovered official feeds confirm Spelling Bee's four-weekend schedule and announce Diary of a Wimpy Kid the Musical with dates pending.",
       "waiting": false
     },
     {
