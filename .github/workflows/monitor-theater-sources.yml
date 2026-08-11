@@ -2,7 +2,8 @@ name: Monitor theater sources
 
 on:
   schedule:
-    - cron: "15 14 * * *"
+    # Run before the 3:00 AM America/Los_Angeles AI review in both PST and PDT.
+    - cron: "15 9 * * *"
   workflow_dispatch:
 
 permissions:

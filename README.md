@@ -102,8 +102,8 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 ## Low-token daily monitoring
 
-The `Monitor theater sources` GitHub workflow runs once per day without an AI
-model. It follows every configured official URL, extracts structured events and
+The `Monitor theater sources` GitHub workflow runs once per day, ahead of the
+3:00 AM Pacific AI review, without using an AI model. It follows every configured official URL, extracts structured events and
 event-relevant visible text, and compares stable fingerprints with the previous
 run. The first GitHub-hosted run establishes its own network baseline without
 creating review work. Steady-state failures and unchanged pages do not create
@@ -112,7 +112,8 @@ work.
 When a source fails on two consecutive daily checks, recovers from a reported
 failure, redirects, or changes materially, the workflow opens or updates one
 GitHub issue and attaches a machine-readable report. A one-off timeout stays
-silent. The issue is a lead for the Valley Stage data-scout skill; it is not
+silent. At 3:00 AM Pacific, the AI refresh checks for that issue and stops early
+when there is nothing to review. The issue is a lead for the Valley Stage data-scout skill; it is not
 permission to publish an unverified fact. The AI refresh should investigate
 that issue and the affected organizations only, while a weekly audit can catch
 sources whose rendered content cannot be monitored reliably with ordinary HTTP
