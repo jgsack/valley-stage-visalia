@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 11, 2026",
+  "verifiedAt": "August 12, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -302,13 +302,13 @@
       "theater": "TCOE Theatre Company",
       "city": "Visalia",
       "distance": 7,
-      "run": "Week of November 16",
-      "next": "Exact performance dates pending",
-      "performanceCount": "Fall youth production",
+      "run": "November 19–21",
+      "next": "Thu, Nov 19 · time pending",
+      "performanceCount": "3-day performance run",
       "description": "Hiccup and Toothless take flight in a youth musical adaptation filled with adventure, friendship, and fire-breathing fun.",
       "status": "soon",
       "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
-      "detailsUrl": "https://www.tcoe.org/TheatreCo/callboard",
+      "detailsUrl": "https://www.tcoe.org/docs/default-source/theatre-co/audition-and-show-info.pdf?sfvrsn=8e6f6a25_1",
       "image": "/posters/tcoe-how-to-train-your-dragon.jpg",
       "imageMode": "cover"
     },
@@ -728,13 +728,13 @@
       "theater": "TCOE Theatre Company",
       "city": "Visalia",
       "distance": 7,
-      "run": "Week of August 10",
-      "next": "Auditions begin the week of Mon, Aug 10",
-      "performanceCount": "Tulare County students · grades 1–12",
-      "description": "Vocal, acting, and dance auditions for TCOE's fall youth production take place at the Planetarium and Science Center.",
+      "run": "August 11–15",
+      "next": "Wed, Aug 12 · 4:00 PM check-in",
+      "performanceCount": "Grades 1–6 today · last-chance auditions Sat, Aug 15",
+      "description": "Vocal, acting, and dance auditions for TCOE's fall youth production continue at the Planetarium and Science Center; Saturday offers last-chance auditions for all grades.",
       "status": "auditions",
       "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
-      "detailsUrl": "https://www.tcoe.org/TheatreCo/callboard",
+      "detailsUrl": "https://www.tcoe.org/docs/default-source/theatre-co/audition-and-show-info.pdf?sfvrsn=8e6f6a25_1",
       "image": "/posters/tcoe-how-to-train-your-dragon.jpg",
       "imageMode": "cover"
     },
@@ -973,7 +973,7 @@
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "The official callboard confirms the fall youth production and its August audition week.",
+      "note": "The official callboard and audition packet confirm August 11–15 audition activity and November 19–21 performances at LJ Williams Theater.",
       "waiting": false
     }
   ]
