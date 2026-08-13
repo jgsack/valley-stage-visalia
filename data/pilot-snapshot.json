@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 12, 2026",
+  "verifiedAt": "August 13, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -729,9 +729,9 @@
       "city": "Visalia",
       "distance": 7,
       "run": "August 11–15",
-      "next": "Wed, Aug 12 · 4:00 PM check-in",
-      "performanceCount": "Grades 1–6 today · last-chance auditions Sat, Aug 15",
-      "description": "Vocal, acting, and dance auditions for TCOE's fall youth production continue at the Planetarium and Science Center; Saturday offers last-chance auditions for all grades.",
+      "next": "Sat, Aug 15 · 8:30 AM",
+      "performanceCount": "Last-chance auditions for all grades",
+      "description": "TCOE's final open audition opportunity for the fall youth production is Saturday morning at the Planetarium and Science Center; invitation-only callbacks follow.",
       "status": "auditions",
       "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
       "detailsUrl": "https://www.tcoe.org/docs/default-source/theatre-co/audition-and-show-info.pdf?sfvrsn=8e6f6a25_1",
