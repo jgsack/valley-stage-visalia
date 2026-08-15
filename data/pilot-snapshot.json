@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 14, 2026",
+  "verifiedAt": "August 15, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -29,8 +29,8 @@
       "city": "Reedley",
       "distance": 34,
       "run": "July 31–August 16",
-      "next": "Fri, Aug 14 · 7:00 PM",
-      "performanceCount": "3 performances remaining",
+      "next": "Sat, Aug 15 · 7:00 PM",
+      "performanceCount": "2 performances remaining",
       "description": "Familiar fairy-tale characters venture into the woods to pursue their wishes—and discover the consequences—in Stephen Sondheim's musical.",
       "status": "now",
       "sourceUrl": "https://www.rctcreedley.com/",
@@ -46,8 +46,8 @@
       "city": "Hanford",
       "distance": 22,
       "run": "August 14–30",
-      "next": "Fri, Aug 14 · 7:00 PM",
-      "performanceCount": "10 performances",
+      "next": "Sat, Aug 15 · 7:00 PM",
+      "performanceCount": "9 performances remaining",
       "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
       "status": "now",
       "sourceUrl": "https://www.kingsplayers.org/",
@@ -948,7 +948,7 @@
     },
     {
       "name": "Redwood High School",
-      "note": "School, district, venue, and local announcement sources are being watched.",
+      "note": "The school homepage is active, but its official Redwood Theater Program link currently redirects to a Google sign-in/edit page; school, district, venue, and local announcement sources remain under watch.",
       "waiting": true
     },
     {
