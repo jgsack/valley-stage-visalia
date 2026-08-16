@@ -3,7 +3,7 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "verifiedAt": "August 15, 2026",
+  "verifiedAt": "August 16, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -29,8 +29,8 @@
       "city": "Reedley",
       "distance": 34,
       "run": "July 31–August 16",
-      "next": "Sat, Aug 15 · 7:00 PM",
-      "performanceCount": "2 performances remaining",
+      "next": "Sun, Aug 16 · 2:00 PM",
+      "performanceCount": "1 performance remaining",
       "description": "Familiar fairy-tale characters venture into the woods to pursue their wishes—and discover the consequences—in Stephen Sondheim's musical.",
       "status": "now",
       "sourceUrl": "https://www.rctcreedley.com/",
@@ -46,8 +46,8 @@
       "city": "Hanford",
       "distance": 22,
       "run": "August 14–30",
-      "next": "Sat, Aug 15 · 7:00 PM",
-      "performanceCount": "9 performances remaining",
+      "next": "Sun, Aug 16 · 2:00 PM",
+      "performanceCount": "8 performances remaining",
       "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
       "status": "now",
       "sourceUrl": "https://www.kingsplayers.org/",
@@ -122,6 +122,22 @@
       "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/shakespeare",
       "image": "/posters/lindsay-merry-wives.jpg",
       "imageMode": "contain"
+    },
+    {
+      "id": "how-to-train-your-dragon-selma",
+      "title": "DreamWorks How to Train Your Dragon JR.",
+      "theater": "Selma Arts Center · Cool Kid Players",
+      "city": "Selma",
+      "distance": 31,
+      "run": "August 27–September 6",
+      "next": "Thu, Aug 27 · 7:00 PM",
+      "performanceCount": "12 performances",
+      "description": "Hiccup defies Viking tradition and befriends Toothless in a youth musical adaptation filled with dragons, adventure, and big laughs.",
+      "status": "soon",
+      "sourceUrl": "https://www.selmaartscenter.com/on-stage",
+      "detailsUrl": "https://ci.ovationtix.com/35468/production/1283833",
+      "image": "/posters/selma-how-to-train-your-dragon.png",
+      "imageMode": "cover"
     },
     {
       "id": "spelling-bee-selma",
@@ -723,22 +739,6 @@
       "imageMode": "cover"
     },
     {
-      "id": "tcoe-dragon-auditions",
-      "title": "How to Train Your Dragon JR. Auditions",
-      "theater": "TCOE Theatre Company",
-      "city": "Visalia",
-      "distance": 7,
-      "run": "August 11–15",
-      "next": "Sat, Aug 15 · 8:30 AM",
-      "performanceCount": "Last-chance auditions for all grades",
-      "description": "TCOE's final open audition opportunity for the fall youth production is Saturday morning at the Planetarium and Science Center; invitation-only callbacks follow.",
-      "status": "auditions",
-      "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
-      "detailsUrl": "https://www.tcoe.org/docs/default-source/theatre-co/audition-and-show-info.pdf?sfvrsn=8e6f6a25_1",
-      "image": "/posters/tcoe-how-to-train-your-dragon.jpg",
-      "imageMode": "cover"
-    },
-    {
       "id": "lindsay-nerdy-prudes-auditions",
       "title": "Nerdy Prudes Must Die Auditions",
       "theater": "Lindsay Community Theater",
@@ -923,7 +923,7 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "The recovered official feeds confirm Spelling Bee's four-weekend schedule and announce Diary of a Wimpy Kid the Musical with dates pending.",
+      "note": "The official on-stage page confirms How to Train Your Dragon JR.'s 12-performance August 27–September 6 run and Spelling Bee's four-weekend schedule; Diary of a Wimpy Kid remains announced with dates pending.",
       "waiting": false
     },
     {
@@ -973,7 +973,7 @@
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "The official callboard and audition packet confirm August 11–15 audition activity and November 19–21 performances at LJ Williams Theater.",
+      "note": "The official callboard confirms the closed August 11–15 audition window and November 19–21 performances at LJ Williams Theater.",
       "waiting": false
     }
   ]
