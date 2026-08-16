@@ -40,7 +40,7 @@ const sourceAliases: Record<string, string[]> = {
   "Porterville Barn Theater": ["Porterville Barn Theater"],
   "Reedley River City Theatre": ["Reedley's River City Theatre"],
   "Selma Arts Center": ["Selma Arts Center"],
-  "Roger Rocka's / GCP": ["Roger Rocka's"],
+  "Roger Rocka's / GCP": ["Roger Rocka's", "Good Company Players"],
   "Saroyan Theatre": ["Saroyan Theatre"],
   "COS Theatre Arts": ["College of the Sequoias"],
   "Fresno State Theatre Arts": ["Fresno State Theatre Arts"],

@@ -23,6 +23,23 @@
       "featured": true
     },
     {
+      "id": "good-night-oscar-gcp",
+      "title": "Good Night, Oscar",
+      "theater": "Good Company Players · 2nd Space Theatre",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "June 26–August 16",
+      "next": "Today, Aug 16 · 2:00 PM",
+      "performanceCount": "Final performance today",
+      "description": "Oscar Levant slips out of a psychiatric hospital to appear on Jack Paar's live television show in Doug Wright's sharp, moving comedy-drama.",
+      "status": "now",
+      "sourceUrl": "https://www.gcplayers.com/see-a-show/goodnight-oscar",
+      "detailsUrl": "https://www.simpletix.com/e/good-night-oscar-tickets-215188",
+      "image": "/posters/gcp-good-night-oscar.png",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
       "id": "into-the-woods-reedley",
       "title": "Into the Woods",
       "theater": "Reedley's River City Theatre Company",
@@ -140,6 +157,22 @@
       "imageMode": "cover"
     },
     {
+      "id": "cemetery-club-gcp",
+      "title": "The Cemetery Club",
+      "theater": "Good Company Players · 2nd Space Theatre",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "August 28–October 18",
+      "next": "Fri, Aug 28 · 8:00 PM",
+      "performanceCount": "Thursday–Sunday performances",
+      "description": "Three widows find friendship and laughter during their monthly cemetery visits—until a budding romance unsettles the group.",
+      "status": "soon",
+      "sourceUrl": "https://www.gcplayers.com/see-a-show/cemetery-club",
+      "detailsUrl": "https://www.simpletix.com/e/the-cemetery-club-tickets-215195",
+      "image": "/posters/gcp-cemetery-club.png",
+      "imageMode": "contain"
+    },
+    {
       "id": "spelling-bee-selma",
       "title": "The 25th Annual Putnam County Spelling Bee",
       "theater": "Selma Arts Center",
@@ -153,6 +186,39 @@
       "sourceUrl": "https://www.selmaartscenter.com/audition",
       "detailsUrl": "https://www.selmaartscenter.com/season-2026",
       "image": "/posters/selma-spelling-bee.png",
+      "imageMode": "contain"
+    },
+    {
+      "id": "come-from-away-gcp",
+      "title": "Come From Away",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "September 25–November 15",
+      "next": "Fri, Sep 25 · 8:00 PM",
+      "performanceCount": "See the official performance calendar",
+      "description": "The acclaimed musical shares the true story of thousands of travelers welcomed by the people of Gander, Newfoundland, after September 11.",
+      "status": "soon",
+      "sourceUrl": "https://www.gcplayers.com/see-a-show/comefromaway",
+      "detailsUrl": "https://www.gcplayers.com/see-a-show/comefromaway",
+      "image": "/posters/gcp-come-from-away.jpg",
+      "imageMode": "contain",
+      "featured": true
+    },
+    {
+      "id": "little-women-christmas-gcp",
+      "title": "Little Women: A Victorian Christmas Card",
+      "theater": "Good Company Players · 2nd Space Theatre",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "November 5–December 20",
+      "next": "Thu, Nov 5 · 7:30 PM",
+      "performanceCount": "Thursday–Sunday performances",
+      "description": "Jo, Meg, Beth, and Amy's timeless story unfolds against a Civil War-era Christmas backdrop in this returning holiday production.",
+      "status": "soon",
+      "sourceUrl": "https://www.gcplayers.com/see-a-show/little-women",
+      "detailsUrl": "https://www.simpletix.com/e/little-women-a-victorian-christmas-card-tickets-215196",
+      "image": "/posters/gcp-little-women.png",
       "imageMode": "contain"
     },
     {
@@ -928,7 +994,7 @@
     },
     {
       "name": "Roger Rocka's / GCP",
-      "note": "The official sites confirm Annie, the announced Shrek and Les Misérables runs, and the August 29 community audition.",
+      "note": "The full Good Company Players calendar, 2026 season, ticket inventory, and audition calendar now cover both Roger Rocka's and 2nd Space Theatre.",
       "waiting": false
     },
     {

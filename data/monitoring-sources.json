@@ -122,10 +122,16 @@
       "status": "active",
       "officialUrls": [
         "https://rogerrockas.com/",
-        "https://www.gcplayers.com/rr-auditions"
+        "https://www.gcplayers.com/see-a-show",
+        "https://www.gcplayers.com/seasonlineup26",
+        "https://www.gcplayers.com/gcp-audition-calendar",
+        "https://www.gcplayers.com/rr-auditions",
+        "https://gcplayers.simpletix.com/"
       ],
       "secondaryHosts": [
-        "tickets.gcplayers.com"
+        "tickets.gcplayers.com",
+        "gcplayers.simpletix.com",
+        "www.simpletix.com"
       ]
     },
     {
