@@ -24,14 +24,19 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /<title>Valley Stage \| Live theater near Visalia<\/title>/i);
   assert.match(html, /Annie/);
   assert.match(html, /\/posters\/roger-rockas-annie\.jpg/);
-  assert.match(html, /Good Night, Oscar/);
-  assert.match(html, /\/posters\/gcp-good-night-oscar\.png/);
+  assert.doesNotMatch(html, /Good Night, Oscar/);
   assert.match(html, /Come From Away/);
   assert.match(html, /class="poster-backdrop"/);
   assert.match(html, /class="poster-art"/);
   assert.match(html, /On the valley marquee/);
   assert.match(html, /Now playing &amp; coming soon/);
   assert.match(html, /class="marquee-track"/);
+  assert.ok(
+    html.indexOf("The Merry Wives of Windsor") <
+      html.indexOf("The Cemetery Club") &&
+      html.indexOf("The Cemetery Club") < html.indexOf("Little Shop of Horrors"),
+    "coming-soon marquee listings should be chronological",
+  );
   assert.match(html, /Listings updated/);
   assert.match(html, /source check daily at 3 AM/);
   assert.match(html, /Roger Rocka/);

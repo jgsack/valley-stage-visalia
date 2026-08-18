@@ -25,9 +25,48 @@ type Show = {
 
 const shows = snapshot.shows as Show[];
 
+const monthNumbers: Record<string, number> = {
+  january: 0,
+  february: 1,
+  march: 2,
+  april: 3,
+  may: 4,
+  june: 5,
+  july: 6,
+  august: 7,
+  september: 8,
+  october: 9,
+  november: 10,
+  december: 11,
+};
+
+function showStartTime(show: Show) {
+  const monthMatch = show.run.match(
+    /\b(January|February|March|April|May|June|July|August|September|October|November|December)\b/i,
+  );
+  const explicitYear = show.run.match(/\b(20\d{2})\b/)?.[1];
+  const year = explicitYear ? Number(explicitYear) : 2026;
+
+  if (monthMatch) {
+    const month = monthNumbers[monthMatch[1].toLowerCase()];
+    const remainder = show.run.slice((monthMatch.index ?? 0) + monthMatch[0].length);
+    const day = Number(remainder.match(/\d{1,2}/)?.[0] ?? 1);
+    return Date.UTC(year, month, day);
+  }
+
+  if (/spring/i.test(show.run)) return Date.UTC(year, 2, 1);
+  if (/summer/i.test(show.run)) return Date.UTC(year, 5, 1);
+  if (explicitYear) return Date.UTC(year, 11, 31);
+  return Number.POSITIVE_INFINITY;
+}
+
+function byStartDate(a: Show, b: Show) {
+  return showStartTime(a) - showStartTime(b) || a.title.localeCompare(b.title);
+}
+
 const marqueeShows = [
   ...shows.filter((show) => show.status === "now" && show.image),
-  ...shows.filter((show) => show.status === "soon" && show.image),
+  ...shows.filter((show) => show.status === "soon" && show.image).sort(byStartDate),
 ].slice(0, 12);
 
 const contactFormUrl =
@@ -97,9 +136,13 @@ export function TheaterExplorer() {
       });
     }
 
-    return sourceFilteredShows.filter(
+    const filtered = sourceFilteredShows.filter(
       (show) => show.status === view && show.distance <= radius,
     );
+
+    return view === "soon" || view === "auditions"
+      ? filtered.toSorted(byStartDate)
+      : filtered;
   }, [radius, searchQuery, sourceFilteredShows, view]);
 
   const viewCounts: Record<ViewMode, number> = {
