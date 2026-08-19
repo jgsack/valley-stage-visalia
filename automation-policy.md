@@ -28,7 +28,7 @@ For each organization, agents check sources in this order:
 5. **Verify:** Confirm that the source is official, dates are internally consistent, the venue belongs inside the configured radius, and the event is live theater or an allowed adjacent category.
 6. **Select media:** Choose the best eligible production image using the rules below.
 7. **Publish:** Publish automatically only when the confidence threshold is met.
-8. **Monitor:** Recheck for cancellations, extensions, venue changes, new performances, and audition deadlines.
+8. **Monitor:** Recheck for cancellations, extensions, venue changes, new performances, and audition deadlines. After every successful complete check, advance `checkedAt` in `data/pilot-snapshot.json` to the current America/Los_Angeles date, even when no listings changed. Keep `verifiedAt` at the date of the latest material listing change. Validate, commit, and publish the new check date so visitors can distinguish a successful no-change run from a missed run.
 9. **Expire:** Remove past items from current views while preserving their history for deduplication and auditing.
 
 Low-confidence items remain unpublished. Agents retry alternate official sources and re-evaluate them later; routine publication does not depend on a human review queue.

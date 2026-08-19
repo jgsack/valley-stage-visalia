@@ -195,7 +195,8 @@ export function TheaterExplorer() {
             next audition opens around Visalia.
           </p>
           <div className="scan-note">
-            Listings updated {snapshot.verifiedAt} · source check daily at 3 AM
+            Sources checked {snapshot.checkedAt} · latest listing changes {snapshot.verifiedAt}
+            {" · "}next check daily at 3 AM
           </div>
         </div>
       </section>

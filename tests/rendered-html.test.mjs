@@ -37,8 +37,9 @@ test("renders the Valley Stage prototype", async () => {
       html.indexOf("The Cemetery Club") < html.indexOf("Little Shop of Horrors"),
     "coming-soon marquee listings should be chronological",
   );
-  assert.match(html, /Listings updated/);
-  assert.match(html, /source check daily at 3 AM/);
+  assert.match(html, /Sources checked/);
+  assert.match(html, /latest listing changes/);
+  assert.match(html, /next check daily at 3 AM/);
   assert.match(html, /Roger Rocka/);
   assert.match(
     html,
