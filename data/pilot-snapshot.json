@@ -3,8 +3,8 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "August 19, 2026",
-  "verifiedAt": "August 18, 2026",
+  "checkedAt": "August 20, 2026",
+  "verifiedAt": "August 20, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -101,7 +101,7 @@
       "next": "Thu, Aug 20 · 7:30 PM",
       "performanceCount": "4 free performances",
       "description": "Shakespeare's comedy arrives as Lindsay's free summer production, presented over two weekends.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
       "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/shakespeare",
       "image": "/posters/lindsay-merry-wives.jpg",
@@ -1156,7 +1156,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "The Saroyan venue calendar, ATG schedule, and Broadway in Fresno season are reconciled into nine stage productions; concerts and unrelated events are excluded.",
+      "note": "The Broadway in Fresno pages remain blocked to automated checks (HTTP 403), but the official Saroyan venue calendar and ATG schedule confirm the nine retained stage productions; concerts and unrelated events are excluded.",
       "waiting": false
     },
     {
