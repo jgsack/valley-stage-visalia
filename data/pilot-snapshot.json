@@ -5,6 +5,7 @@
   },
   "checkedAt": "August 20, 2026",
   "verifiedAt": "August 20, 2026",
+  "reviewedAt": "August 21, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -352,7 +353,7 @@
       "city": "Visalia",
       "distance": 7,
       "run": "November 19–21",
-      "next": "Thu, Nov 19 · time pending",
+      "next": "Thu, Nov 19",
       "performanceCount": "3-day performance run",
       "description": "Hiccup and Toothless take flight in a youth musical adaptation filled with adventure, friendship, and fire-breathing fun.",
       "status": "soon",
