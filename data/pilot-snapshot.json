@@ -1158,7 +1158,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "The Broadway in Fresno pages remain blocked to automated checks (HTTP 403), but the official Saroyan venue calendar and ATG schedule confirm the nine retained stage productions; concerts and unrelated events are excluded.",
+      "note": "The August 23 automated check received HTTP 403 from all five configured Broadway in Fresno pages; the accessible official Saroyan venue calendar and ATG schedule continue to support the nine retained stage productions, while concerts and unrelated events are excluded.",
       "waiting": false
     },
     {
