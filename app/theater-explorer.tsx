@@ -195,8 +195,7 @@ export function TheaterExplorer() {
             next audition opens around Visalia.
           </p>
           <div className="scan-note">
-            {snapshot.reviewSummary ?? `Listing review ${snapshot.reviewedAt ?? snapshot.verifiedAt}`} · last full source check {snapshot.checkedAt}
-            {" · "}next check daily at 3 AM
+            {snapshot.reviewSummary ?? `Last updated: ${snapshot.reviewedAt ?? snapshot.verifiedAt}`}
           </div>
         </div>
       </section>
