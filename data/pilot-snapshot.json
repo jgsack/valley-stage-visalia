@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 20, 2026",
-  "verifiedAt": "August 20, 2026",
-  "reviewedAt": "August 23, 2026",
-  "reviewSummary": "Last updated: August 23, 2026",
+  "verifiedAt": "August 24, 2026",
+  "reviewedAt": "August 24, 2026",
+  "reviewSummary": "Last updated: August 24, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -32,8 +32,8 @@
       "city": "Hanford",
       "distance": 22,
       "run": "August 14–30",
-      "next": "Fri, Aug 21 · 7:00 PM",
-      "performanceCount": "7 performances remaining",
+      "next": "Thu, Aug 27 · 7:00 PM",
+      "performanceCount": "4 performances remaining",
       "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
       "status": "now",
       "sourceUrl": "https://www.kingsplayers.org/",
@@ -100,8 +100,8 @@
       "city": "Lindsay",
       "distance": 17,
       "run": "August 20–29",
-      "next": "Thu, Aug 20 · 7:30 PM",
-      "performanceCount": "4 free performances",
+      "next": "Thu, Aug 27 · 7:30 PM",
+      "performanceCount": "2 free performances remaining",
       "description": "Shakespeare's comedy arrives as Lindsay's free summer production, presented over two weekends.",
       "status": "now",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
@@ -1158,7 +1158,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "The August 23 automated check received HTTP 403 from all five configured Broadway in Fresno pages; the accessible official Saroyan venue calendar and ATG schedule continue to support the nine retained stage productions, while concerts and unrelated events are excluded.",
+      "note": "The August 24 automated check received HTTP 403 from all five configured Broadway in Fresno pages; the accessible official Saroyan venue calendar and ATG schedule continue to support the nine retained stage productions, while concerts and unrelated events are excluded.",
       "waiting": false
     },
     {
@@ -1198,7 +1198,7 @@
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "The official callboard confirms the closed August 11–15 audition window and November 19–21 performances at LJ Williams Theater.",
+      "note": "All three configured TCOE Theatre Company pages returned HTTP 502 on August 24; the November 19–21 performances at LJ Williams Theater remain retained from the last successful official callboard check.",
       "waiting": false
     }
   ]
