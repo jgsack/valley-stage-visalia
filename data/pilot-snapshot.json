@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 20, 2026",
-  "verifiedAt": "August 24, 2026",
-  "reviewedAt": "August 24, 2026",
-  "reviewSummary": "Last updated: August 24, 2026",
+  "verifiedAt": "August 25, 2026",
+  "reviewedAt": "August 25, 2026",
+  "reviewSummary": "Last updated: August 25, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -924,7 +924,7 @@
       "city": "Fresno",
       "distance": 46,
       "run": "November 4–December 19, 2027",
-      "next": "Thu, Nov 4 · 8:00 PM",
+      "next": "Thu, Nov 4 · 7:30 PM",
       "performanceCount": "Thursday–Sunday performances",
       "description": "The American holiday classic is staged as a live 1940s radio broadcast, bringing George Bailey's story to life through voices and sound effects.",
       "status": "soon",
@@ -956,8 +956,8 @@
       "city": "Lindsay",
       "distance": 17,
       "run": "August 24–25",
-      "next": "Mon, Aug 24 · 6:30 PM",
-      "performanceCount": "2 audition evenings",
+      "next": "Tue, Aug 25 · 6:30 PM",
+      "performanceCount": "1 audition evening remaining",
       "description": "Open auditions for Lindsay's fall horror-comedy musical production.",
       "status": "auditions",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
@@ -1133,7 +1133,7 @@
     },
     {
       "name": "Lindsay Community Theater",
-      "note": "The official 2026–27 season supplies dated productions and audition notices.",
+      "note": "The official 2026–27 season supplies dated productions and audition notices; Nerdy Prudes Must Die auditions conclude August 25 at 6:30 PM.",
       "waiting": false
     },
     {
@@ -1158,7 +1158,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "The August 24 automated check received HTTP 403 from all five configured Broadway in Fresno pages; the accessible official Saroyan venue calendar and ATG schedule continue to support the nine retained stage productions, while concerts and unrelated events are excluded.",
+      "note": "The August 25 automated check received HTTP 403 from all five configured Broadway in Fresno pages; the accessible official Saroyan venue calendar and ATG schedule continue to support the nine retained stage productions, while concerts and unrelated events are excluded.",
       "waiting": false
     },
     {
@@ -1168,7 +1168,7 @@
     },
     {
       "name": "Fresno State Theatre Arts",
-      "note": "The official 2026–27 season and community-eligible fall audition are verified.",
+      "note": "The official 2026–27 season is accessible, and the community-eligible fall audition is confirmed for August 25 from 6:00–10:00 PM.",
       "waiting": false
     },
     {
@@ -1198,7 +1198,7 @@
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "All three configured TCOE Theatre Company pages returned HTTP 502 on August 24; the November 19–21 performances at LJ Williams Theater remain retained from the last successful official callboard check.",
+      "note": "All three configured TCOE Theatre Company pages recovered on August 25; the official callboard continues to identify the November performance week and LJ Williams Theater, while the previously verified November 19–21 dates remain retained.",
       "waiting": false
     }
   ]
