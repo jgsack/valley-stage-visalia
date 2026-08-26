@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 20, 2026",
-  "verifiedAt": "August 25, 2026",
-  "reviewedAt": "August 25, 2026",
-  "reviewSummary": "Last updated: August 25, 2026",
+  "verifiedAt": "August 26, 2026",
+  "reviewedAt": "August 26, 2026",
+  "reviewSummary": "Last updated: August 26, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -608,8 +608,8 @@
       "performanceCount": "2 performances",
       "description": "The bestselling novel becomes a spectacle-filled Broadway musical about a young man who jumps a moving train and finds a new home, purpose, and love with a traveling circus.",
       "status": "soon",
-      "sourceUrl": "https://fresno.broadway.com/",
-      "detailsUrl": "https://fresno.broadway.com/shows/water-for-elephants/",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/events/water-for-elephants/saroyan-theatre/",
       "image": "/posters/saroyan-water-for-elephants.jpg",
       "imageMode": "contain"
     },
@@ -704,8 +704,8 @@
       "performanceCount": "3 performances",
       "description": "The Tony Award-winning musical goes behind the music and inside the story of Frankie Valli and The Four Seasons.",
       "status": "soon",
-      "sourceUrl": "https://fresno.broadway.com/",
-      "detailsUrl": "https://fresno.broadway.com/shows/jersey-boys/",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/events/jersey-boys/saroyan-theatre/",
       "image": "/posters/saroyan-jersey-boys.jpg",
       "imageMode": "contain"
     },
@@ -720,8 +720,8 @@
       "performanceCount": "2 performances",
       "description": "The romantic thriller musical follows former Secret Service agent Frank Farmer as he protects superstar Rachel Marron from an unknown stalker.",
       "status": "soon",
-      "sourceUrl": "https://fresno.broadway.com/",
-      "detailsUrl": "https://fresno.broadway.com/shows/the-bodyguard/",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/events/the-bodyguard/saroyan-theatre/",
       "image": "/posters/saroyan-the-bodyguard.jpg",
       "imageMode": "contain"
     },
@@ -736,8 +736,8 @@
       "performanceCount": "2 performances",
       "description": "Created with Neil Diamond, this musical memoir tells how a Brooklyn kid became a chart-topping American music icon through the songs that defined his career.",
       "status": "soon",
-      "sourceUrl": "https://fresno.broadway.com/",
-      "detailsUrl": "https://fresno.broadway.com/shows/a-beautiful-noise/",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/events/a-beautiful-noise/saroyan-theatre/",
       "image": "/posters/saroyan-a-beautiful-noise.jpg",
       "imageMode": "contain"
     },
@@ -950,22 +950,6 @@
       "imageMode": "contain"
     },
     {
-      "id": "lindsay-nerdy-prudes-auditions",
-      "title": "Nerdy Prudes Must Die Auditions",
-      "theater": "Lindsay Community Theater",
-      "city": "Lindsay",
-      "distance": 17,
-      "run": "August 24–25",
-      "next": "Tue, Aug 25 · 6:30 PM",
-      "performanceCount": "1 audition evening remaining",
-      "description": "Open auditions for Lindsay's fall horror-comedy musical production.",
-      "status": "auditions",
-      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical",
-      "image": "/posters/lindsay-nerdy-prudes.png",
-      "imageMode": "contain"
-    },
-    {
       "id": "lindsay-nutcracker-auditions",
       "title": "Children's Nutcracker Auditions",
       "theater": "Lindsay Community Theater",
@@ -1044,22 +1028,6 @@
       "imageMode": "contain"
     },
     {
-      "id": "fresno-state-fall-auditions",
-      "title": "Fresno State Fall Theatre Auditions",
-      "theater": "Fresno State Theatre Arts",
-      "city": "Fresno",
-      "distance": 48,
-      "run": "August 25",
-      "next": "Tue, Aug 25 · 6:00 PM",
-      "performanceCount": "Community eligible",
-      "description": "Auditions for Is This a Room and The Miraculous Journey of Edward Tulane are open to Fresno State students and community members.",
-      "status": "auditions",
-      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
-      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
-      "image": "/posters/fresno-state-is-this-a-room.png",
-      "imageMode": "contain"
-    },
-    {
       "id": "roger-rockas-fall-auditions",
       "title": "Shrek & Les Misérables Auditions",
       "theater": "Good Company Players · Roger Rocka's",
@@ -1133,7 +1101,7 @@
     },
     {
       "name": "Lindsay Community Theater",
-      "note": "The official 2026–27 season supplies dated productions and audition notices; Nerdy Prudes Must Die auditions conclude August 25 at 6:30 PM.",
+      "note": "The official 2026–27 season supplies dated productions and future audition notices; the August 24–25 Nerdy Prudes Must Die audition has concluded.",
       "waiting": false
     },
     {
@@ -1148,7 +1116,7 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "The official on-stage page confirms How to Train Your Dragon JR.'s 12-performance August 27–September 6 run and Spelling Bee's four-weekend schedule; Diary of a Wimpy Kid remains announced with dates pending.",
+      "note": "All three configured Selma URLs timed out during the August 26 automated attempts. The official on-stage page was independently accessible and continued to confirm How to Train Your Dragon JR.'s August 27–September 6 run and Spelling Bee's four-weekend schedule; no unreachable page was treated as newly verified.",
       "waiting": false
     },
     {
@@ -1158,7 +1126,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "The August 25 automated check received HTTP 403 from all five configured Broadway in Fresno pages; the accessible official Saroyan venue calendar and ATG schedule continue to support the nine retained stage productions, while concerts and unrelated events are excluded.",
+      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 26. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and now provide direct official details and ticket links for the four Broadway productions; concerts and unrelated events are excluded.",
       "waiting": false
     },
     {
@@ -1168,7 +1136,7 @@
     },
     {
       "name": "Fresno State Theatre Arts",
-      "note": "The official 2026–27 season is accessible, and the community-eligible fall audition is confirmed for August 25 from 6:00–10:00 PM.",
+      "note": "The official 2026–27 season remains accessible; the August 25 community-eligible fall audition has concluded and was removed after its published date.",
       "waiting": false
     },
     {
@@ -1198,7 +1166,7 @@
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "All three configured TCOE Theatre Company pages recovered on August 25; the official callboard continues to identify the November performance week and LJ Williams Theater, while the previously verified November 19–21 dates remain retained.",
+      "note": "All three configured TCOE Theatre Company pages returned HTTP 502 on August 26. The November 19–21 listing is retained from earlier verified official materials without claiming a fresh verification.",
       "waiting": false
     }
   ]
