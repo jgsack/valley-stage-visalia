@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 20, 2026",
-  "verifiedAt": "August 26, 2026",
-  "reviewedAt": "August 26, 2026",
-  "reviewSummary": "Last updated: August 26, 2026",
+  "verifiedAt": "August 27, 2026",
+  "reviewedAt": "August 27, 2026",
+  "reviewSummary": "Last updated: August 27, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -54,7 +54,7 @@
       "description": "A meek florist finds success—and trouble—with the help of a mysterious, R&B-singing carnivorous plant.",
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows",
-      "detailsUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://app.arts-people.com/index.php?show=347649",
       "image": "/posters/encore-little-shop.jpg",
       "imageMode": "cover",
       "featured": true
@@ -119,7 +119,7 @@
       "next": "Thu, Aug 27 · 7:00 PM",
       "performanceCount": "12 performances",
       "description": "Hiccup defies Viking tradition and befriends Toothless in a youth musical adaptation filled with dragons, adventure, and big laughs.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://www.selmaartscenter.com/on-stage",
       "detailsUrl": "https://ci.ovationtix.com/35468/production/1283833",
       "image": "/posters/selma-how-to-train-your-dragon.jpg",
@@ -1091,12 +1091,12 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "Production page, season page, and ticket schedule agree.",
+      "note": "The production, season, audition, and ticket pages are accessible; the homepage returned HTTP 502 on the first attempt but recovered on retry.",
       "waiting": false
     },
     {
       "name": "Encore Theatre",
-      "note": "Encore's redesigned official shows and auditions pages are accessible, but currently omit the previously published 2026–27 season details; the still-future verified listings are retained while the new pages are monitored.",
+      "note": "Encore's redesigned official pages are accessible. The shows page now links directly to the official Little Shop of Horrors ticket page, confirming ten performances September 11–26; later previously verified season listings remain retained while the redesigned pages omit their details.",
       "waiting": false
     },
     {
@@ -1106,7 +1106,7 @@
     },
     {
       "name": "Porterville Barn Theater",
-      "note": "The official production pages confirm The Philadelphia Story, Ride the Cyclone, and Ride the Cyclone auditions on August 29–30.",
+      "note": "The official production pages confirm The Philadelphia Story, Ride the Cyclone, and Ride the Cyclone auditions on August 29–30; today's Philadelphia Story page change affected cast information, not listing dates or times.",
       "waiting": false
     },
     {
@@ -1116,17 +1116,17 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "All three configured Selma URLs timed out during the August 26 automated attempts. The official on-stage page was independently accessible and continued to confirm How to Train Your Dragon JR.'s August 27–September 6 run and Spelling Bee's four-weekend schedule; no unreachable page was treated as newly verified.",
+      "note": "All three configured Selma pages returned HTTP 403 on August 27. The accessible linked official Ovation ticket page continues to confirm How to Train Your Dragon JR.'s August 27–September 6 run; other retained Selma facts were not represented as freshly verified.",
       "waiting": false
     },
     {
       "name": "Roger Rocka's / GCP",
-      "note": "The official calendars, ticket inventory, and newly published 2027 season confirm dated productions at Roger Rocka's and 2nd Space Theatre; the retired 2026 season URL now returns 404, while the live show calendar retains the current 2026 dates. The audition calendar also lists the September 19 Junior Company call.",
+      "note": "The official calendars and ticket inventory remain accessible and support the retained 2026 and 2027 productions; today's SimpleTix content change added no eligible listing absent from the site. The audition calendar continues to list the August 29 and September 19 calls.",
       "waiting": false
     },
     {
       "name": "Saroyan Theatre",
-      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 26. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and now provide direct official details and ticket links for the four Broadway productions; concerts and unrelated events are excluded.",
+      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 27. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and their official ticket links; newly surfaced concerts and unrelated events were excluded.",
       "waiting": false
     },
     {
@@ -1136,7 +1136,7 @@
     },
     {
       "name": "Fresno State Theatre Arts",
-      "note": "The official 2026–27 season remains accessible; the August 25 community-eligible fall audition has concluded and was removed after its published date.",
+      "note": "The official 2026–27 season remains accessible. The auditions page, updated August 25, states that preliminary fall auditions have concluded; no open call is currently published.",
       "waiting": false
     },
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "All three configured TCOE Theatre Company pages returned HTTP 502 on August 26. The November 19–21 listing is retained from earlier verified official materials without claiming a fresh verification.",
+      "note": "All three configured TCOE Theatre Company pages recovered and were accessible on August 27; the November 19–21 production remains supported by the official materials.",
       "waiting": false
     }
   ]
