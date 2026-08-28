@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 20, 2026",
-  "verifiedAt": "August 27, 2026",
-  "reviewedAt": "August 27, 2026",
-  "reviewSummary": "Last updated: August 27, 2026",
+  "verifiedAt": "August 28, 2026",
+  "reviewedAt": "August 28, 2026",
+  "reviewSummary": "Last updated: August 28, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -32,8 +32,8 @@
       "city": "Hanford",
       "distance": 22,
       "run": "August 14–30",
-      "next": "Thu, Aug 27 · 7:00 PM",
-      "performanceCount": "4 performances remaining",
+      "next": "Fri, Aug 28 · 7:00 PM",
+      "performanceCount": "3 performances remaining",
       "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
       "status": "now",
       "sourceUrl": "https://www.kingsplayers.org/",
@@ -100,8 +100,8 @@
       "city": "Lindsay",
       "distance": 17,
       "run": "August 20–29",
-      "next": "Thu, Aug 27 · 7:30 PM",
-      "performanceCount": "2 free performances remaining",
+      "next": "Sat, Aug 29 · about 7:30 PM",
+      "performanceCount": "1 free performance remaining",
       "description": "Shakespeare's comedy arrives as Lindsay's free summer production, presented over two weekends.",
       "status": "now",
       "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
@@ -135,7 +135,7 @@
       "next": "Fri, Aug 28 · 8:00 PM",
       "performanceCount": "Thursday–Sunday performances",
       "description": "Three widows find friendship and laughter during their monthly cemetery visits—until a budding romance unsettles the group.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://www.gcplayers.com/see-a-show/cemetery-club",
       "detailsUrl": "https://www.simpletix.com/e/the-cemetery-club-tickets-215195",
       "image": "/posters/gcp-cemetery-club.png",
@@ -1091,7 +1091,7 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "The production, season, audition, and ticket pages are accessible; the homepage returned HTTP 502 on the first attempt but recovered on retry.",
+      "note": "The production, season, audition, and ticket pages were accessible on August 28 and continue to support the retained listings.",
       "waiting": false
     },
     {
@@ -1101,12 +1101,12 @@
     },
     {
       "name": "Lindsay Community Theater",
-      "note": "The official 2026–27 season supplies dated productions and future audition notices; the August 24–25 Nerdy Prudes Must Die audition has concluded.",
+      "note": "The official 2026–27 season remains accessible; The Merry Wives of Windsor has one final free performance on August 29 at dusk, about 7:30 PM.",
       "waiting": false
     },
     {
       "name": "Porterville Barn Theater",
-      "note": "The official production pages confirm The Philadelphia Story, Ride the Cyclone, and Ride the Cyclone auditions on August 29–30; today's Philadelphia Story page change affected cast information, not listing dates or times.",
+      "note": "The official production pages continue to confirm The Philadelphia Story, Ride the Cyclone, and Ride the Cyclone auditions on August 29–30; the recent Philadelphia Story page change affected cast information, not listing dates or times.",
       "waiting": false
     },
     {
@@ -1116,17 +1116,17 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "All three configured Selma pages returned HTTP 403 on August 27. The accessible linked official Ovation ticket page continues to confirm How to Train Your Dragon JR.'s August 27–September 6 run; other retained Selma facts were not represented as freshly verified.",
+      "note": "All three configured Selma pages returned HTTP 403 on August 28. The accessible linked official Ovation ticket page continues to support How to Train Your Dragon JR.; other retained Selma facts were not represented as freshly verified.",
       "waiting": false
     },
     {
       "name": "Roger Rocka's / GCP",
-      "note": "The official calendars and ticket inventory remain accessible and support the retained 2026 and 2027 productions; today's SimpleTix content change added no eligible listing absent from the site. The audition calendar continues to list the August 29 and September 19 calls.",
+      "note": "The official calendars and ticket inventory remain accessible. The Cemetery Club begins August 28, and the audition calendar continues to confirm the August 29 and September 19 calls.",
       "waiting": false
     },
     {
       "name": "Saroyan Theatre",
-      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 27. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and their official ticket links; newly surfaced concerts and unrelated events were excluded.",
+      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 28. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and their official ticket links; concerts and unrelated events were excluded.",
       "waiting": false
     },
     {
@@ -1136,7 +1136,7 @@
     },
     {
       "name": "Fresno State Theatre Arts",
-      "note": "The official 2026–27 season remains accessible. The auditions page, updated August 25, states that preliminary fall auditions have concluded; no open call is currently published.",
+      "note": "The official 2026–27 season remains accessible. The auditions page was updated August 27 with cast lists and continues to state that preliminary fall auditions have concluded; no open call is published.",
       "waiting": false
     },
     {
@@ -1161,12 +1161,12 @@
     },
     {
       "name": "Kings Players",
-      "note": "The official Hanford season supplies dated productions, audition notices, and poster artwork.",
+      "note": "The official ticket page confirms The Mousetrap on August 28 at 7:00 PM, with August 29 and 30 matinees also remaining; the season page continues to supply future productions and auditions.",
       "waiting": false
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "All three configured TCOE Theatre Company pages recovered and were accessible on August 27; the November 19–21 production remains supported by the official materials.",
+      "note": "All three configured TCOE Theatre Company pages were accessible on August 28; the November 19–21 production remains supported by the official materials.",
       "waiting": false
     }
   ]
