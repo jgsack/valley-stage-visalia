@@ -3,10 +3,153 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "August 20, 2026",
+  "checkedAt": "August 29, 2026",
   "verifiedAt": "August 29, 2026",
   "reviewedAt": "August 29, 2026",
   "reviewSummary": "Last updated: August 29, 2026",
+  "socialDiscovery": {
+    "checkedAt": "August 29, 2026",
+    "tasksCompleted": 17,
+    "outcomes": [
+      {
+        "organization": "Ice House Theatre / Visalia Players",
+        "discoveryMode": "account-review",
+        "platform": "facebook",
+        "accountUrl": "https://www.facebook.com/visaliaplayers/",
+        "status": "verified-announcement",
+        "evidenceUrl": "https://www.facebook.com/visaliaplayers/posts/announcing-auditions-for-larry-kramers-the-normal-heart-directed-by-jj-pestanowh/1626400199528019/",
+        "note": "The permanent official post was opened in a supported browser. Its text and artwork confirm The Normal Heart auditions September 15 and 16 at 6:30 PM at the Ice House Theater."
+      },
+      {
+        "organization": "Ice House Theatre / Visalia Players",
+        "discoveryMode": "account-review",
+        "platform": "instagram",
+        "accountUrl": "https://www.instagram.com/visaliaplayers/",
+        "status": "reviewed",
+        "note": "The public search index for the configured official account surfaced the same current audition announcement; the Facebook permanent post is retained as the publication evidence."
+      },
+      {
+        "organization": "Encore Theatre Company",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/encoretulare/",
+        "status": "reviewed-no-new-fact",
+        "note": "Official Facebook and Instagram accounts were identified and recent indexed posts were reviewed; no new publishable announcement was found."
+      },
+      {
+        "organization": "Lindsay Community Theater",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/lindsaycommunitytheater/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official social accounts and recent season announcement were reviewed; no listing fact beyond the current official season was found."
+      },
+      {
+        "organization": "Porterville Barn Theater",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/barntheaterporterville/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official Facebook and Instagram accounts were identified and recent indexed posts were reviewed; no new publishable announcement was found."
+      },
+      {
+        "organization": "Reedley's River City Theatre Company",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/reedleyrivercitytheatre/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official Facebook and Instagram accounts were identified and recent indexed posts were reviewed; no new publishable announcement was found."
+      },
+      {
+        "organization": "Selma Arts Center",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.facebook.com/SelmaArtsCenter/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official social account and recent indexed posts were reviewed; the visible audition leads were concluded or already represented by official listings."
+      },
+      {
+        "organization": "College of the Sequoias Theatre Arts",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/cos.theatre/",
+        "status": "reviewed-expired-lead",
+        "note": "Official College and theatre accounts were identified. Recent indexed audition posts referred to the concluded August 18–19 auditions, so no listing was added."
+      },
+      {
+        "organization": "Roger Rocka's / Good Company Players",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.facebook.com/Good.Company.Players/",
+        "status": "reviewed-no-new-fact",
+        "note": "Official social accounts were identified and recent audition material was reviewed; current calls are already represented by official calendar listings."
+      },
+      {
+        "organization": "Saroyan Theatre",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/fresnoconventioncentersaroyan/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official venue social account and recent indexed posts were reviewed; no new stage-production change was found."
+      },
+      {
+        "organization": "Fresno State Theatre Arts",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/fresnostatetheatre/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official University Theatre social accounts were identified and recent indexed posts were reviewed; no open audition beyond the concluded fall calls was found."
+      },
+      {
+        "organization": "Redwood High School Theatre",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/redwoodtheater/",
+        "status": "reviewed-expired-lead",
+        "note": "The school theatre account was identified. Its recent indexed Beauty IS the Beast audition announcement covered August 25 and 27 and had already concluded, so it was not published."
+      },
+      {
+        "organization": "Mt. Whitney High School Drama",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/mt.whitney.drama/",
+        "status": "reviewed-no-new-fact",
+        "note": "A school drama account was identified and its indexed posts were reviewed; no dated current production or open audition could be verified."
+      },
+      {
+        "organization": "Golden West High School Drama",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.instagram.com/gwhs_drama/",
+        "status": "reviewed-no-new-fact",
+        "note": "The school drama and performing-arts accounts were identified and indexed posts were reviewed; no dated current production or open audition could be verified."
+      },
+      {
+        "organization": "El Diamante High School Drama",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.facebook.com/p/El-Diamante-High-School-Drama-100089281329059/",
+        "status": "reviewed-no-new-fact",
+        "note": "The school drama page was identified and indexed material was reviewed; no dated current production or open audition could be verified."
+      },
+      {
+        "organization": "Kings Players",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.facebook.com/kingsplayers/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official social account and recent indexed audition posts were reviewed; future calls are already represented by the official season listing."
+      },
+      {
+        "organization": "TCOE Theatre Company",
+        "discoveryMode": "account-discovery",
+        "platform": "social search",
+        "accountUrl": "https://www.facebook.com/tularecountyofficeofeducation/",
+        "status": "reviewed-no-new-fact",
+        "note": "The official county education account was identified and indexed theatre posts were reviewed; no new dated announcement beyond current official TCOE materials was found."
+      }
+    ]
+  },
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -1058,6 +1201,20 @@
       "detailsUrl": "https://www.gcplayers.com/gcp-audition-calendar/jc-auditions-fall-winter2026"
     },
     {
+      "id": "normal-heart-auditions",
+      "title": "The Normal Heart Auditions",
+      "theater": "Visalia Players · Ice House Theatre",
+      "city": "Visalia",
+      "distance": 2,
+      "run": "September 15–16",
+      "next": "Tue, Sep 15 · 6:30 PM",
+      "performanceCount": "2 audition evenings",
+      "description": "Community auditions for Larry Kramer's The Normal Heart, directed by JJ Pestano; the production opens November 6 for a three-weekend run.",
+      "status": "auditions",
+      "sourceUrl": "https://www.facebook.com/visaliaplayers/posts/announcing-auditions-for-larry-kramers-the-normal-heart-directed-by-jj-pestanowh/1626400199528019/",
+      "detailsUrl": "https://www.facebook.com/visaliaplayers/posts/announcing-auditions-for-larry-kramers-the-normal-heart-directed-by-jj-pestanowh/1626400199528019/"
+    },
+    {
       "id": "kings-players-christmas-auditions",
       "title": "Christmas Double Feature Auditions",
       "theater": "Kings Players",
@@ -1091,7 +1248,7 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "The production, season, audition, and ticket pages were accessible on August 29 and continue to support the retained listings.",
+      "note": "The production, season, audition, and ticket pages were accessible on August 29. Mandatory Facebook and Instagram review found a new official post for The Normal Heart auditions; the permanent Facebook post was opened and its text and artwork verified before publication.",
       "waiting": false
     },
     {
