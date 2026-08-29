@@ -19,6 +19,12 @@ For each organization, agents check sources in this order:
 5. Official social-media embeds or authorized APIs when the information is unavailable elsewhere
 6. Credible secondary sources only as discovery leads, never as the sole authority for publication
 
+### Required official-social discovery
+
+An unchanged theater website does not mean that nothing was announced. On every daily run, agents must review recent posts from every account in an organization's `officialSocialAccounts` list, using supported browser access, public search indexes, official embeds, or authorized APIs. If no official account has been mapped, agents must search by organization name for recent Facebook and Instagram posts and verify that the account belongs to the organization before trusting it. Use the organization's `socialDiscoveryTerms` to search for auditions, casting calls, new productions, added performances, cancellations, and poster announcements.
+
+Search snippets and thumbnails are leads only. Before publishing, open a permanent post from the configured official account and verify the relevant text or clearly legible artwork. Store that permanent post URL as evidence. If an account cannot be reached, record the access failure and retry it on the next run; do not silently treat the social check as having found no announcements.
+
 ## Automated production pipeline
 
 1. **Discover:** Find new season, production, performance, and audition URLs from the registered sources.

@@ -7,6 +7,7 @@ const STATE_VERSION = 1;
 const DEFAULT_TIMEOUT_MS = 20_000;
 const DEFAULT_CONCURRENCY = 6;
 const FAILURE_REVIEW_THRESHOLD = 2;
+const DEFAULT_SOCIAL_DISCOVERY_TERMS = ["audition", "auditions", "casting", "show", "tickets"];
 
 function parseArgs(argv) {
   const args = {
@@ -309,6 +310,57 @@ function writeJson(path, value) {
   writeFileSync(path, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
+function quotedSearchValue(value) {
+  return `"${String(value).replaceAll('"', "").trim()}"`;
+}
+
+export function buildSocialDiscoveryTasks(monitor, checkedAt) {
+  return monitor.sources.flatMap((source) => {
+    const accounts = source.officialSocialAccounts ?? [];
+    const terms = [...new Set(source.socialDiscoveryTerms ?? DEFAULT_SOCIAL_DISCOVERY_TERMS)];
+    const termExpression = terms.map(quotedSearchValue).join(" OR ");
+
+    if (accounts.length === 0) {
+      return [
+        {
+          organization: source.name,
+          organizationId: source.id,
+          discoveryMode: "account-discovery",
+          platform: "social search",
+          handle: null,
+          accountUrl: null,
+          checkedAt,
+          searchQueries: [
+            `${quotedSearchValue(source.name)} (${termExpression}) (site:facebook.com OR site:instagram.com)`,
+            `${quotedSearchValue(source.name)} ("Facebook" OR "Instagram")`,
+          ],
+        },
+      ];
+    }
+
+    return accounts.map((account) => {
+      const accountUrl = new URL(account.url);
+      const accountPath = accountUrl.pathname.replace(/^\/+|\/+$/g, "");
+      const siteTarget = accountPath
+        ? `site:${accountUrl.hostname}/${accountPath}`
+        : `site:${accountUrl.hostname}`;
+      return {
+        organization: source.name,
+        organizationId: source.id,
+        platform: account.platform,
+        discoveryMode: "account-review",
+        handle: account.handle ?? null,
+        accountUrl: account.url,
+        checkedAt,
+        searchQueries: [
+          `${siteTarget} (${termExpression})`,
+          `${quotedSearchValue(source.name)} (${termExpression})`,
+        ],
+      };
+    });
+  });
+}
+
 function makeMarkdown(report) {
   const lines = [
     "# Valley Stage source-monitor report",
@@ -318,6 +370,8 @@ function makeMarkdown(report) {
     `- Review signals: **${report.summary.reviewSignals}**`,
     `- Reachable: **${report.summary.reachable}**`,
     `- Unreachable: **${report.summary.unreachable}**`,
+    `- Social discovery tasks required: **${report.summary.socialDiscoveryTasks}**`,
+    `- Configured official social accounts: **${report.summary.socialAccounts}**`,
     "",
   ];
   if (report.changes.length === 0) {
@@ -331,6 +385,20 @@ function makeMarkdown(report) {
     }
     lines.push("", "These signals are leads, not publishable facts. Verify them against the official page before changing listings.", "");
   }
+  if (report.socialDiscoveryTasks.length > 0) {
+    lines.push("## Required official-social discovery", "");
+    lines.push(
+      "Complete every task below even when the organization's website is unchanged. For account-discovery tasks, identify an official account before trusting a post. Search results are leads only; open a permanent post from the official account before publishing any fact.",
+      "",
+    );
+    for (const task of report.socialDiscoveryTasks) {
+      const identity = task.handle ? `${task.platform} ${task.handle}` : task.platform;
+      const target = task.accountUrl ? `[${identity}](${task.accountUrl})` : identity;
+      lines.push(`- **${task.organization}** — ${target}`);
+      for (const query of task.searchQueries) lines.push(`  - Search: \`${query}\``);
+    }
+    lines.push("");
+  }
   return `${lines.join("\n")}\n`;
 }
 
@@ -339,6 +407,7 @@ export async function runMonitor(options) {
   const monitor = JSON.parse(readFileSync(monitorPath, "utf8"));
   const previousState = loadState(resolve(options.state));
   const checkedAt = new Date().toISOString();
+  const socialDiscoveryTasks = buildSocialDiscoveryTasks(monitor, checkedAt);
   const feeds = monitor.sources.flatMap((source) =>
     source.officialUrls.map((url) => ({ organizationId: source.id, organization: source.name, url })),
   );
@@ -380,13 +449,15 @@ export async function runMonitor(options) {
   const report = {
     version: STATE_VERSION,
     checkedAt,
-    requiresReview: changes.length > 0,
+    requiresReview: changes.length > 0 || socialDiscoveryTasks.length > 0,
     summary: {
       organizations: monitor.sources.length,
       checked: checks.length,
       reachable: checks.filter((check) => check.current.status === "ok").length,
       unreachable: checks.filter((check) => check.current.status === "failed").length,
       reviewSignals: changes.length,
+      socialDiscoveryTasks: socialDiscoveryTasks.length,
+      socialAccounts: socialDiscoveryTasks.filter((task) => task.discoveryMode === "account-review").length,
       baselined: checks.filter((check) => check.change.type === "baseline").length,
       unchanged: checks.filter((check) =>
         ["unchanged", "transient_failure", "persistent_failure", "transient_failure_recovered"].includes(
@@ -395,6 +466,7 @@ export async function runMonitor(options) {
       ).length,
     },
     changes,
+    socialDiscoveryTasks,
   };
 
   writeJson(resolve(options.state), { version: STATE_VERSION, checkedAt, sources: nextSources });

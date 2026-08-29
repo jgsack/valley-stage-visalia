@@ -2,10 +2,59 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  buildSocialDiscoveryTasks,
   canonicalizeHtml,
   classifyChange,
   fingerprintContent,
 } from "../scripts/monitor-sources.mjs";
+
+test("official social accounts create mandatory daily discovery tasks", () => {
+  const tasks = buildSocialDiscoveryTasks(
+    {
+      sources: [
+        {
+          id: "ice-house",
+          name: "Ice House Theatre / Visalia Players",
+          officialSocialAccounts: [
+            {
+              platform: "facebook",
+              handle: "@visaliaplayers",
+              url: "https://www.facebook.com/visaliaplayers/",
+            },
+          ],
+          socialDiscoveryTerms: ["audition", "casting"],
+        },
+      ],
+    },
+    "2026-08-29T10:00:00.000Z",
+  );
+
+  assert.equal(tasks.length, 1);
+  assert.equal(tasks[0].organizationId, "ice-house");
+  assert.equal(tasks[0].accountUrl, "https://www.facebook.com/visaliaplayers/");
+  assert.match(tasks[0].searchQueries[0], /facebook\.com\/visaliaplayers/);
+  assert.match(tasks[0].searchQueries[0], /audition/);
+});
+
+test("organizations without mapped accounts still create social account discovery tasks", () => {
+  const tasks = buildSocialDiscoveryTasks(
+    {
+      sources: [
+        {
+          id: "unmapped-theater",
+          name: "Unmapped Theater",
+          officialUrls: ["https://example.com/events"],
+        },
+      ],
+    },
+    "2026-08-29T10:00:00.000Z",
+  );
+
+  assert.equal(tasks.length, 1);
+  assert.equal(tasks[0].discoveryMode, "account-discovery");
+  assert.equal(tasks[0].accountUrl, null);
+  assert.match(tasks[0].searchQueries[0], /site:facebook\.com OR site:instagram\.com/);
+});
 
 test("HTML fingerprints ignore scripts and formatting noise", () => {
   const first = `

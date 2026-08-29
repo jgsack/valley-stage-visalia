@@ -3,6 +3,7 @@
   "center": "Visalia, CA 93291",
   "cadence": "daily",
   "publishPolicy": "Publish only when an official source or corroborating ticket page supports the listing.",
+  "socialDiscoveryPolicy": "Review recent posts from every configured official social account on each daily run. For organizations without a configured account, search by organization name for recent Facebook and Instagram posts, then verify that the account is official. Search results are discovery leads only; publish only after opening a permanent post from the official account and verifying its text or artwork.",
   "sources": [
     {
       "id": "ice-house",
@@ -14,6 +15,25 @@
         "https://www.visaliaicehouse.com/",
         "https://www.visaliaicehouse.com/projects-6",
         "https://www.visaliaicehouse.com/auditions-coming-up"
+      ],
+      "officialSocialAccounts": [
+        {
+          "platform": "facebook",
+          "handle": "@visaliaplayers",
+          "url": "https://www.facebook.com/visaliaplayers/"
+        },
+        {
+          "platform": "instagram",
+          "handle": "@visaliaplayers",
+          "url": "https://www.instagram.com/visaliaplayers/"
+        }
+      ],
+      "socialDiscoveryTerms": [
+        "audition",
+        "auditions",
+        "casting",
+        "callback",
+        "open call"
       ],
       "secondaryHosts": [
         "onthestage.tickets"
