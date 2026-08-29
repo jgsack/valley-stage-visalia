@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 20, 2026",
-  "verifiedAt": "August 28, 2026",
-  "reviewedAt": "August 28, 2026",
-  "reviewSummary": "Last updated: August 28, 2026",
+  "verifiedAt": "August 29, 2026",
+  "reviewedAt": "August 29, 2026",
+  "reviewSummary": "Last updated: August 29, 2026",
   "shows": [
     {
       "id": "annie-roger-rockas",
@@ -32,8 +32,8 @@
       "city": "Hanford",
       "distance": 22,
       "run": "August 14–30",
-      "next": "Fri, Aug 28 · 7:00 PM",
-      "performanceCount": "3 performances remaining",
+      "next": "Sat, Aug 29 · 2:00 PM",
+      "performanceCount": "2 performances remaining",
       "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
       "status": "now",
       "sourceUrl": "https://www.kingsplayers.org/",
@@ -116,7 +116,7 @@
       "city": "Selma",
       "distance": 31,
       "run": "August 27–September 6",
-      "next": "Thu, Aug 27 · 7:00 PM",
+      "next": "Sat, Aug 29 · 2:00 PM",
       "performanceCount": "12 performances",
       "description": "Hiccup defies Viking tradition and befriends Toothless in a youth musical adaptation filled with dragons, adventure, and big laughs.",
       "status": "now",
@@ -132,7 +132,7 @@
       "city": "Fresno",
       "distance": 46,
       "run": "August 28–October 18",
-      "next": "Fri, Aug 28 · 8:00 PM",
+      "next": "Sat, Aug 29 · 8:00 PM",
       "performanceCount": "Thursday–Sunday performances",
       "description": "Three widows find friendship and laughter during their monthly cemetery visits—until a budding romance unsettles the group.",
       "status": "now",
@@ -1091,7 +1091,7 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "The production, season, audition, and ticket pages were accessible on August 28 and continue to support the retained listings.",
+      "note": "The production, season, audition, and ticket pages were accessible on August 29 and continue to support the retained listings.",
       "waiting": false
     },
     {
@@ -1116,17 +1116,17 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "All three configured Selma pages returned HTTP 403 on August 28. The accessible linked official Ovation ticket page continues to support How to Train Your Dragon JR.; other retained Selma facts were not represented as freshly verified.",
+      "note": "All three configured Selma pages returned HTTP 403 on August 29. The linked official Ovation ticket page was accessible, and current official promotional material confirms How to Train Your Dragon JR. at 2:00 PM and 7:00 PM on August 29; other retained Selma facts were not represented as freshly verified.",
       "waiting": false
     },
     {
       "name": "Roger Rocka's / GCP",
-      "note": "The official calendars and ticket inventory remain accessible. The Cemetery Club begins August 28, and the audition calendar continues to confirm the August 29 and September 19 calls.",
+      "note": "The official calendars and ticket inventory remain accessible. The Cemetery Club ticket page confirms its August 29 performance at 8:00 PM, and the audition calendar continues to confirm the August 29 and September 19 calls.",
       "waiting": false
     },
     {
       "name": "Saroyan Theatre",
-      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 28. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and their official ticket links; concerts and unrelated events were excluded.",
+      "note": "All five configured Broadway in Fresno pages returned HTTP 403 on August 29. Accessible official Saroyan and ATG pages continue to support the nine retained stage productions and their official ticket links; concerts and unrelated events were excluded.",
       "waiting": false
     },
     {
@@ -1161,12 +1161,12 @@
     },
     {
       "name": "Kings Players",
-      "note": "The official ticket page confirms The Mousetrap on August 28 at 7:00 PM, with August 29 and 30 matinees also remaining; the season page continues to supply future productions and auditions.",
+      "note": "The official ticket page confirms The Mousetrap matinees on August 29 and 30 at 2:00 PM; the season page continues to supply future productions and auditions.",
       "waiting": false
     },
     {
       "name": "TCOE Theatre Company",
-      "note": "All three configured TCOE Theatre Company pages were accessible on August 28; the November 19–21 production remains supported by the official materials.",
+      "note": "All three configured TCOE Theatre Company pages were accessible on August 29; the November 19–21 production remains supported by the official materials.",
       "waiting": false
     }
   ]
