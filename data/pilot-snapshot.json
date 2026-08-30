@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 29, 2026",
-  "verifiedAt": "August 29, 2026",
-  "reviewedAt": "August 29, 2026",
-  "reviewSummary": "Last updated: August 29, 2026",
+  "verifiedAt": "August 30, 2026",
+  "reviewedAt": "August 30, 2026",
+  "reviewSummary": "Last updated: August 30, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -175,8 +175,8 @@
       "city": "Hanford",
       "distance": 22,
       "run": "August 14–30",
-      "next": "Sat, Aug 29 · 2:00 PM",
-      "performanceCount": "2 performances remaining",
+      "next": "Sun, Aug 30 · 2:00 PM",
+      "performanceCount": "Final performance today",
       "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
       "status": "now",
       "sourceUrl": "https://www.kingsplayers.org/",
@@ -237,29 +237,13 @@
       "featured": true
     },
     {
-      "id": "merry-wives-lindsay",
-      "title": "The Merry Wives of Windsor",
-      "theater": "Lindsay Community Theater",
-      "city": "Lindsay",
-      "distance": 17,
-      "run": "August 20–29",
-      "next": "Sat, Aug 29 · about 7:30 PM",
-      "performanceCount": "1 free performance remaining",
-      "description": "Shakespeare's comedy arrives as Lindsay's free summer production, presented over two weekends.",
-      "status": "now",
-      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/shakespeare",
-      "image": "/posters/lindsay-merry-wives.jpg",
-      "imageMode": "contain"
-    },
-    {
       "id": "how-to-train-your-dragon-selma",
       "title": "DreamWorks How to Train Your Dragon JR.",
       "theater": "Selma Arts Center · Cool Kid Players",
       "city": "Selma",
       "distance": 31,
       "run": "August 27–September 6",
-      "next": "Sat, Aug 29 · 2:00 PM",
+      "next": "See official ticket availability",
       "performanceCount": "12 performances",
       "description": "Hiccup defies Viking tradition and befriends Toothless in a youth musical adaptation filled with dragons, adventure, and big laughs.",
       "status": "now",
@@ -275,7 +259,7 @@
       "city": "Fresno",
       "distance": 46,
       "run": "August 28–October 18",
-      "next": "Sat, Aug 29 · 8:00 PM",
+      "next": "See the official performance calendar",
       "performanceCount": "Thursday–Sunday performances",
       "description": "Three widows find friendship and laughter during their monthly cemetery visits—until a budding romance unsettles the group.",
       "status": "now",
@@ -1171,22 +1155,6 @@
       "imageMode": "contain"
     },
     {
-      "id": "roger-rockas-fall-auditions",
-      "title": "Shrek & Les Misérables Auditions",
-      "theater": "Good Company Players · Roger Rocka's",
-      "city": "Fresno",
-      "distance": 46,
-      "run": "August 29",
-      "next": "Sat, Aug 29 · 10:00 AM",
-      "performanceCount": "Open community auditions",
-      "description": "One open musical audition call for the upcoming productions of Shrek the Musical and Les Misérables.",
-      "status": "auditions",
-      "sourceUrl": "https://www.gcplayers.com/rr-auditions",
-      "detailsUrl": "https://www.gcplayers.com/rr-auditions",
-      "image": "/posters/roger-rockas-shrek-auditions.jpg",
-      "imageMode": "cover"
-    },
-    {
       "id": "gcp-junior-company-fall-2026-auditions",
       "title": "Junior Company Auditions",
       "theater": "Good Company Players · Roger Rocka's",
@@ -1235,8 +1203,8 @@
       "city": "Porterville",
       "distance": 31,
       "run": "August 29–30",
-      "next": "Sat, Aug 29 · 1:00 PM",
-      "performanceCount": "2 audition afternoons · all roles available",
+      "next": "Sun, Aug 30 · 1:00 PM",
+      "performanceCount": "Final audition afternoon · all roles available",
       "description": "Open auditions begin with a dance call; video submissions are also accepted for Porterville Barn Theater's November production.",
       "status": "auditions",
       "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
@@ -1258,12 +1226,12 @@
     },
     {
       "name": "Lindsay Community Theater",
-      "note": "The official 2026–27 season remains accessible; The Merry Wives of Windsor has one final free performance on August 29 at dusk, about 7:30 PM.",
+      "note": "The official 2026–27 season remains accessible. The Merry Wives of Windsor concluded after its August 29 performance and has been removed from the current listings.",
       "waiting": false
     },
     {
       "name": "Porterville Barn Theater",
-      "note": "The official production pages continue to confirm The Philadelphia Story, Ride the Cyclone, and Ride the Cyclone auditions on August 29–30; the recent Philadelphia Story page change affected cast information, not listing dates or times.",
+      "note": "The official production pages continue to confirm The Philadelphia Story, Ride the Cyclone, and the final Ride the Cyclone audition afternoon on August 30; the recent Philadelphia Story page change affected cast information, not listing dates or times.",
       "waiting": false
     },
     {
@@ -1273,12 +1241,12 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "All three configured Selma pages returned HTTP 403 on August 29. The linked official Ovation ticket page was accessible, and current official promotional material confirms How to Train Your Dragon JR. at 2:00 PM and 7:00 PM on August 29; other retained Selma facts were not represented as freshly verified.",
+      "note": "All three configured Selma pages returned HTTP 403 on August 30. The linked official ticket page was unavailable for a precise August 30 time, so the current run is retained without claiming a new exact performance time.",
       "waiting": false
     },
     {
       "name": "Roger Rocka's / GCP",
-      "note": "The official calendars and ticket inventory remain accessible. The Cemetery Club ticket page confirms its August 29 performance at 8:00 PM, and the audition calendar continues to confirm the August 29 and September 19 calls.",
+      "note": "The official calendars and ticket inventory remain accessible. The Cemetery Club run continues through October 18; its next exact performance time is left to the official calendar. The audition calendar continues to confirm the September 19 call.",
       "waiting": false
     },
     {
@@ -1318,7 +1286,7 @@
     },
     {
       "name": "Kings Players",
-      "note": "The official ticket page confirms The Mousetrap matinees on August 29 and 30 at 2:00 PM; the season page continues to supply future productions and auditions.",
+      "note": "The official ticket page confirms The Mousetrap's final matinee on August 30 at 2:00 PM; the season page continues to supply future productions and auditions.",
       "waiting": false
     },
     {
