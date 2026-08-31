@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "August 29, 2026",
-  "verifiedAt": "August 30, 2026",
-  "reviewedAt": "August 30, 2026",
-  "reviewSummary": "Last updated: August 30, 2026",
+  "checkedAt": "August 31, 2026",
+  "verifiedAt": "August 31, 2026",
+  "reviewedAt": "August 31, 2026",
+  "reviewSummary": "Last updated: August 31, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -166,23 +166,6 @@
       "detailsUrl": "https://rogerrockas.com/",
       "image": "/posters/roger-rockas-annie.jpg",
       "imageMode": "cover",
-      "featured": true
-    },
-    {
-      "id": "mousetrap-kings-players",
-      "title": "The Mousetrap",
-      "theater": "Kings Players",
-      "city": "Hanford",
-      "distance": 22,
-      "run": "August 14–30",
-      "next": "Sun, Aug 30 · 2:00 PM",
-      "performanceCount": "Final performance today",
-      "description": "Agatha Christie's classic murder mystery traps a group of strangers together during a snowstorm—with a killer among them.",
-      "status": "now",
-      "sourceUrl": "https://www.kingsplayers.org/",
-      "detailsUrl": "https://app.arts-people.com/?show=309074",
-      "image": "/posters/kings-players-2026-season.jpg",
-      "imageMode": "contain",
       "featured": true
     },
     {
@@ -1195,22 +1178,6 @@
       "status": "auditions",
       "sourceUrl": "https://www.kingsplayers.org/",
       "detailsUrl": "https://www.kingsplayers.org/"
-    },
-    {
-      "id": "porterville-ride-the-cyclone-auditions",
-      "title": "Ride the Cyclone Auditions",
-      "theater": "Porterville Barn Theater",
-      "city": "Porterville",
-      "distance": 31,
-      "run": "August 29–30",
-      "next": "Sun, Aug 30 · 1:00 PM",
-      "performanceCount": "Final audition afternoon · all roles available",
-      "description": "Open auditions begin with a dance call; video submissions are also accepted for Porterville Barn Theater's November production.",
-      "status": "auditions",
-      "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
-      "detailsUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
-      "image": "/posters/porterville-ride-the-cyclone.png",
-      "imageMode": "contain"
     }
   ],
   "sources": [
@@ -1231,7 +1198,7 @@
     },
     {
       "name": "Porterville Barn Theater",
-      "note": "The official production pages continue to confirm The Philadelphia Story, Ride the Cyclone, and the final Ride the Cyclone audition afternoon on August 30; the recent Philadelphia Story page change affected cast information, not listing dates or times.",
+      "note": "The official production pages confirm The Philadelphia Story and Ride the Cyclone performance runs. Ride the Cyclone auditions concluded after August 30 and have been removed from current listings.",
       "waiting": false
     },
     {
@@ -1286,7 +1253,7 @@
     },
     {
       "name": "Kings Players",
-      "note": "The official ticket page confirms The Mousetrap's final matinee on August 30 at 2:00 PM; the season page continues to supply future productions and auditions.",
+      "note": "The official schedule confirms The Mousetrap concluded after its August 30 matinee; it has been removed from current listings. The season page continues to supply future productions and auditions.",
       "waiting": false
     },
     {
