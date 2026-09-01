@@ -4,9 +4,9 @@
     "radiusMiles": 50
   },
   "checkedAt": "August 31, 2026",
-  "verifiedAt": "August 31, 2026",
-  "reviewedAt": "August 31, 2026",
-  "reviewSummary": "Last updated: August 31, 2026",
+  "verifiedAt": "September 1, 2026",
+  "reviewedAt": "September 1, 2026",
+  "reviewSummary": "Last updated: September 1, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -226,7 +226,7 @@
       "city": "Selma",
       "distance": 31,
       "run": "August 27–September 6",
-      "next": "See official ticket availability",
+      "next": "Thu, Sep 3 · 7:00 PM",
       "performanceCount": "12 performances",
       "description": "Hiccup defies Viking tradition and befriends Toothless in a youth musical adaptation filled with dragons, adventure, and big laughs.",
       "status": "now",
@@ -1178,6 +1178,34 @@
       "status": "auditions",
       "sourceUrl": "https://www.kingsplayers.org/",
       "detailsUrl": "https://www.kingsplayers.org/"
+    },
+    {
+      "id": "guys-and-dolls-reedley",
+      "title": "Guys and Dolls",
+      "theater": "Reedley River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "February 27–March 15, 2027",
+      "next": "Performances begin Sat, Feb 27",
+      "performanceCount": "Dates announced · exact times pending",
+      "description": "A classic musical comedy following gamblers, showgirls, and two unlikely romances in 1950s New York.",
+      "status": "soon",
+      "sourceUrl": "https://www.rctcreedley.com/2026-season",
+      "detailsUrl": "https://www.rctcreedley.com/2026-season"
+    },
+    {
+      "id": "legendary-summer-reedley",
+      "title": "A Legendary Summer",
+      "theater": "Reedley River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "May 15–31, 2027",
+      "next": "Performances begin Sat, May 15",
+      "performanceCount": "Dates announced · exact times pending",
+      "description": "River City Theatre Company announced late-spring 2027 production.",
+      "status": "soon",
+      "sourceUrl": "https://www.rctcreedley.com/2026-season",
+      "detailsUrl": "https://www.rctcreedley.com/2026-season"
     }
   ],
   "sources": [
@@ -1203,12 +1231,12 @@
     },
     {
       "name": "Reedley River City Theatre",
-      "note": "The official 2026 season page and linked ticket page confirm one current and two upcoming productions.",
+      "note": "The official 2026–27 season page confirms The Wizard of Oz, Seussical the Musical, Guys and Dolls, and A Legendary Summer; the latter two were added September 1 with published date ranges but no exact performance times.",
       "waiting": false
     },
     {
       "name": "Selma Arts Center",
-      "note": "All three configured Selma pages returned HTTP 403 on August 30. The linked official ticket page was unavailable for a precise August 30 time, so the current run is retained without claiming a new exact performance time.",
+      "note": "The official youth page now exposes the remaining How to Train Your Dragon JR. schedule. There is no September 1 performance; the next confirmed performance is September 3 at 7:00 PM.",
       "waiting": false
     },
     {
