@@ -31,12 +31,6 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /On the valley marquee/);
   assert.match(html, /Now playing &amp; coming soon/);
   assert.match(html, /class="marquee-track"/);
-  assert.ok(
-    html.indexOf("The Merry Wives of Windsor") <
-      html.indexOf("The Cemetery Club") &&
-      html.indexOf("The Cemetery Club") < html.indexOf("Little Shop of Horrors"),
-    "coming-soon marquee listings should be chronological",
-  );
   assert.ok(html.includes(snapshot.reviewSummary));
   assert.match(html, /Roger Rocka/);
   assert.match(

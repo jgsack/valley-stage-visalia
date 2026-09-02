@@ -2,12 +2,12 @@ name: Monitor theater sources
 
 on:
   schedule:
-    # Run before the 3:00 AM America/Los_Angeles AI review in both PST and PDT.
-    - cron: "15 9 * * *"
+    # Trigger hourly; the time gate below selects 3:15 AM Pacific through DST changes.
+    - cron: "15 * * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 concurrency:
@@ -27,7 +27,18 @@ jobs:
         with:
           node-version: 22
 
+      - name: Run only at 3:15 AM Pacific time
+        id: pacific_time
+        shell: bash
+        run: |
+          if [[ "$(TZ=America/Los_Angeles date +%H)" == "03" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Restore the previous source fingerprints
+        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/cache@v4
         with:
           path: .cache/source-monitor-state.json
@@ -37,6 +48,7 @@ jobs:
 
       - name: Check official sources
         id: monitor
+        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: >-
           node scripts/monitor-sources.mjs
           --state .cache/source-monitor-state.json
@@ -54,7 +66,7 @@ jobs:
             source-monitor-report.md
           retention-days: 14
 
-      - name: Open or update the AI review issue
+      - name: Open or update the review issue
         if: steps.monitor.outputs.requires_review == 'true'
         shell: bash
         env:
@@ -67,3 +79,20 @@ jobs:
           else
             gh issue create --title "$ISSUE_TITLE" --body-file source-monitor-report.md
           fi
+
+      - name: Record the completed daily check
+        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        run: node scripts/record-daily-refresh.mjs
+
+      - name: Commit the daily check date
+        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        shell: bash
+        run: |
+          if git diff --quiet -- data/pilot-snapshot.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pilot-snapshot.json
+          git commit -m "Record Valley Stage daily check"
+          git push

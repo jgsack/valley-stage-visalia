@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import snapshot from "../data/pilot-snapshot.json";
 
 type ViewMode = "now" | "soon" | "auditions";
@@ -23,7 +23,10 @@ type Show = {
   featured?: boolean;
 };
 
-const shows = snapshot.shows as Show[];
+type Snapshot = typeof snapshot;
+
+const liveSnapshotUrl =
+  "https://raw.githubusercontent.com/jgsack/valley-stage-visalia/main/data/pilot-snapshot.json";
 
 const monthNumbers: Record<string, number> = {
   january: 0,
@@ -64,11 +67,6 @@ function byStartDate(a: Show, b: Show) {
   return showStartTime(a) - showStartTime(b) || a.title.localeCompare(b.title);
 }
 
-const marqueeShows = [
-  ...shows.filter((show) => show.status === "now" && show.image),
-  ...shows.filter((show) => show.status === "soon" && show.image).sort(byStartDate),
-].slice(0, 12);
-
 const contactFormUrl =
   "https://docs.google.com/forms/d/e/1FAIpQLSe1ZFD-xNR7gG-3wkzXmFDjMXf2q0ruceq7nsUE-5HVVjsO4A/viewform";
 
@@ -99,12 +97,34 @@ function matchesSource(show: Show, sourceName: string) {
 }
 
 export function TheaterExplorer() {
+  const [data, setData] = useState<Snapshot>(snapshot);
+  const shows = data.shows as Show[];
   const [view, setView] = useState<ViewMode>(
-    shows.some((show) => show.status === "now") ? "now" : "soon",
+    snapshot.shows.some((show) => show.status === "now") ? "now" : "soon",
   );
   const [radius, setRadius] = useState(50);
   const [query, setQuery] = useState("");
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    fetch(liveSnapshotUrl, { cache: "no-store", signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : Promise.reject()))
+      .then((next: Snapshot) => {
+        if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
+      })
+      .catch(() => {
+        // The deployed snapshot remains a safe fallback if GitHub is unavailable.
+      });
+
+    return () => controller.abort();
+  }, []);
+
+  const marqueeShows = [
+    ...shows.filter((show) => show.status === "now" && show.image),
+    ...shows.filter((show) => show.status === "soon" && show.image).sort(byStartDate),
+  ].slice(0, 12);
 
   const searchQuery = query.trim();
   const isSearching = searchQuery.length > 0;
@@ -114,7 +134,7 @@ export function TheaterExplorer() {
       selectedSource
         ? shows.filter((show) => matchesSource(show, selectedSource))
         : shows,
-    [selectedSource],
+    [selectedSource, shows],
   );
 
   const visibleShows = useMemo(() => {
@@ -143,7 +163,7 @@ export function TheaterExplorer() {
     return view === "soon" || view === "auditions"
       ? filtered.toSorted(byStartDate)
       : filtered;
-  }, [radius, searchQuery, sourceFilteredShows, view]);
+  }, [radius, searchQuery, sourceFilteredShows, shows, view]);
 
   const viewCounts: Record<ViewMode, number> = {
     now: sourceFilteredShows.filter((show) => show.status === "now").length,
@@ -195,7 +215,7 @@ export function TheaterExplorer() {
             next audition opens around Visalia.
           </p>
           <div className="scan-note">
-            {snapshot.reviewSummary ?? `Last updated: ${snapshot.reviewedAt ?? snapshot.verifiedAt}`}
+            {data.reviewSummary ?? `Last updated: ${data.reviewedAt ?? data.verifiedAt}`}
           </div>
         </div>
       </section>
@@ -407,12 +427,12 @@ export function TheaterExplorer() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Expanded daily monitor</p>
-            <h2>{snapshot.sources.length} sources. One stage door.</h2>
+            <h2>{data.sources.length} sources. One stage door.</h2>
           </div>
           <p>Checked daily. No uploads or manual event entry.</p>
         </div>
         <div className="source-grid">
-          {snapshot.sources.map((source) => {
+          {data.sources.map((source) => {
             const listingCount = shows.filter((show) => matchesSource(show, source.name)).length;
 
             return (
@@ -441,7 +461,7 @@ export function TheaterExplorer() {
       <footer className="footer">
         <strong>Valley Stage</strong>
         <div className="footer-meta">
-          <span>Automated theater discovery centered on {snapshot.center.label}</span>
+          <span>Automated theater discovery centered on {data.center.label}</span>
           <a href={contactFormUrl} target="_blank" rel="noreferrer">Contact</a>
         </div>
       </footer>
