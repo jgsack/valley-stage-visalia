@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "September 2, 2026",
-  "verifiedAt": "September 1, 2026",
-  "reviewedAt": "September 2, 2026",
-  "reviewSummary": "Last updated: September 2, 2026",
+  "checkedAt": "September 3, 2026",
+  "verifiedAt": "September 3, 2026",
+  "reviewedAt": "September 3, 2026",
+  "reviewSummary": "Last updated: September 3, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1206,6 +1206,20 @@
       "status": "soon",
       "sourceUrl": "https://www.rctcreedley.com/2026-season",
       "detailsUrl": "https://www.rctcreedley.com/2026-season"
+    },
+    {
+      "id": "beauty-is-the-beast-redwood",
+      "title": "Beauty IS the Beast",
+      "theater": "Redwood High School Theatre",
+      "city": "Visalia",
+      "distance": 1,
+      "run": "October 2026 � exact dates pending",
+      "next": "Exact dates pending",
+      "performanceCount": "Redwood Theatre production announced",
+      "description": "Redwood High School Theatre has announced its October production.",
+      "status": "soon",
+      "sourceUrl": "https://www.instagram.com/redwoodtheater/",
+      "detailsUrl": "https://www.instagram.com/redwoodtheater/"
     }
   ],
   "sources": [
@@ -1261,7 +1275,7 @@
     },
     {
       "name": "Redwood High School",
-      "note": "The school homepage is active, but its official Redwood Theater Program link currently redirects to a Google sign-in/edit page; school, district, venue, and local announcement sources remain under watch.",
+      "note": "Redwood Theatre official social posts announce Beauty IS the Beast for October 2026. Exact performance dates and times have not yet been recovered from a public official listing.",
       "waiting": true
     },
     {

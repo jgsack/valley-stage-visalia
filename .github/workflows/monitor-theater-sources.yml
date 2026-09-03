@@ -2,8 +2,9 @@ name: Monitor theater sources
 
 on:
   schedule:
-    # Trigger hourly; the time gate below selects 3:15 AM Pacific through DST changes.
-    - cron: "15 * * * *"
+    # Two UTC triggers keep the daily check resilient across Pacific daylight-saving changes.
+    - cron: "15 10 * * *"
+    - cron: "15 11 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,18 +28,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Run only at 3:15 AM Pacific time
-        id: pacific_time
-        shell: bash
-        run: |
-          if [[ "$(TZ=America/Los_Angeles date +%H)" == "03" ]]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
 
       - name: Restore the previous source fingerprints
-        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/cache@v4
         with:
           path: .cache/source-monitor-state.json
@@ -48,7 +39,6 @@ jobs:
 
       - name: Check official sources
         id: monitor
-        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: >-
           node scripts/monitor-sources.mjs
           --state .cache/source-monitor-state.json
@@ -81,11 +71,9 @@ jobs:
           fi
 
       - name: Record the completed daily check
-        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: node scripts/record-daily-refresh.mjs
 
       - name: Commit the daily check date
-        if: steps.pacific_time.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         shell: bash
         run: |
           if git diff --quiet -- data/pilot-snapshot.json; then
