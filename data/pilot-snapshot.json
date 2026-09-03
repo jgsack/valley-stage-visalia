@@ -1220,6 +1220,20 @@
       "status": "soon",
       "sourceUrl": "https://www.instagram.com/redwoodtheater/",
       "detailsUrl": "https://www.instagram.com/redwoodtheater/"
+    },
+    {
+      "id": "seussical-auditions-reedley",
+      "title": "Seussical the Musical Auditions",
+      "theater": "Reedley's River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "Audition dates pending",
+      "next": "See official audition post",
+      "performanceCount": "Community auditions announced",
+      "description": "Reedley River City Theatre Company has announced auditions for its December production of Seussical the Musical. Dates and requirements will be added when published in an accessible official post.",
+      "status": "auditions",
+      "sourceUrl": "https://www.instagram.com/reedleyrivercitytheatre/",
+      "detailsUrl": "https://www.instagram.com/reedleyrivercitytheatre/"
     }
   ],
   "sources": [
