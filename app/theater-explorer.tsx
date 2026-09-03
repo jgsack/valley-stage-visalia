@@ -26,7 +26,7 @@ type Show = {
 type Snapshot = typeof snapshot;
 
 const liveSnapshotUrl =
-  "https://raw.githubusercontent.com/jgsack/valley-stage-visalia/main/data/pilot-snapshot.json";
+  "https://api.github.com/repos/jgsack/valley-stage-visalia/contents/data/pilot-snapshot.json?ref=main";
 
 const monthNumbers: Record<string, number> = {
   january: 0,
@@ -111,9 +111,7 @@ export function TheaterExplorer() {
 
     fetch(`${liveSnapshotUrl}?v=${Date.now()}`, { cache: "no-store", signal: controller.signal })
       .then((response) => (response.ok ? response.json() : Promise.reject()))
-      .then((next: Snapshot) => {
-        if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
-      })
+      \.then((file: { content?: string }) => {`n        if (!file.content) return;`n        const next = JSON.parse(atob(file.content.replace(/\s/g, ""))) as Snapshot;`n        if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);`n      })
       .catch(() => {
         // The deployed snapshot remains a safe fallback if GitHub is unavailable.
       });
