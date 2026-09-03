@@ -109,9 +109,13 @@ export function TheaterExplorer() {
   useEffect(() => {
     const controller = new AbortController();
 
-    fetch(`${liveSnapshotUrl}?v=${Date.now()}`, { cache: "no-store", signal: controller.signal })
+    fetch(`${liveSnapshotUrl}&v=${Date.now()}`, { cache: "no-store", signal: controller.signal })
       .then((response) => (response.ok ? response.json() : Promise.reject()))
-      \.then((file: { content?: string }) => {`n        if (!file.content) return;`n        const next = JSON.parse(atob(file.content.replace(/\s/g, ""))) as Snapshot;`n        if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);`n      })
+      .then((file: { content?: string }) => {
+        if (!file.content) return;
+        const next = JSON.parse(atob(file.content.replace(/\s/g, ""))) as Snapshot;
+        if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
+      })
       .catch(() => {
         // The deployed snapshot remains a safe fallback if GitHub is unavailable.
       });
