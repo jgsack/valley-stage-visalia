@@ -109,7 +109,7 @@ export function TheaterExplorer() {
   useEffect(() => {
     const controller = new AbortController();
 
-    fetch(liveSnapshotUrl, { cache: "no-store", signal: controller.signal })
+    fetch(`${liveSnapshotUrl}?v=${Date.now()}`, { cache: "no-store", signal: controller.signal })
       .then((response) => (response.ok ? response.json() : Promise.reject()))
       .then((next: Snapshot) => {
         if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
