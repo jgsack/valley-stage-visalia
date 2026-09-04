@@ -1214,12 +1214,14 @@
       "city": "Visalia",
       "distance": 1,
       "run": "October 7, 8 & 10, 2026",
-      "next": "Wed, Oct 7",
-      "performanceCount": "Redwood Theatre production announced",
-      "description": "Redwood High School Theatre presents Beauty IS the Beast on October 7, 8, and 10.",
+      "next": "Wed, Oct 7 - 7:00 PM",
+      "performanceCount": "3 evening performances at Rotary Theater",
+      "description": "Redwood Theatre presents Don Zolidis' twisted comedy Beauty IS the Beast at Rotary Theater.",
       "status": "soon",
-      "sourceUrl": "https://www.instagram.com/redwoodtheater/",
-      "detailsUrl": "https://www.instagram.com/redwoodtheater/"
+      "sourceUrl": "https://www.instagram.com/p/DcyqnbvAVZp/",
+      "detailsUrl": "https://www.instagram.com/p/DcyqnbvAVZp/",
+      "image": "/posters/redwood-beauty-is-the-beast.jpg",
+      "imageMode": "contain"
     },
     {
       "id": "seussical-auditions-reedley",
@@ -1319,7 +1321,7 @@
     },
     {
       "name": "Redwood High School",
-      "note": "Redwood Theatre social posting and school calendar support Beauty IS the Beast on October 7, 8, and 10. The official poster is still being located.",
+      "note": "Redwood Theatre official Instagram post confirms Beauty IS the Beast at Rotary Theater October 7, 8, and 10 at 7:00 PM; poster verified and added.",
       "waiting": false
     },
     {
