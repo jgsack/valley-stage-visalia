@@ -3,8 +3,7 @@ name: Monitor theater sources
 on:
   schedule:
     # Two UTC triggers keep the daily check resilient across Pacific daylight-saving changes.
-    - cron: "15 10 * * *"
-    - cron: "15 11 * * *"
+    - cron: "15 9-13 * * *"
   workflow_dispatch:
 
 permissions:
