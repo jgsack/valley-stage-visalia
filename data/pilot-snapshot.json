@@ -762,8 +762,8 @@
       "city": "Fresno",
       "distance": 44,
       "run": "December 12–13",
-      "next": "Sat, Dec 12 · 6:30 PM",
-      "performanceCount": "2 performances",
+      "next": "Sat, Dec 12 - 2:00 PM",
+      "performanceCount": "December 12-13 - 2:00 PM",
       "description": "Marie journeys through the Land of Snow and Sweets in Lively Arts Foundation's production, featuring former Joffrey Ballet stars Molly Groeschel and Lucas Segovia.",
       "status": "soon",
       "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
@@ -1227,13 +1227,43 @@
       "theater": "Reedley's River City Theatre Company",
       "city": "Reedley",
       "distance": 34,
-      "run": "Audition dates pending",
-      "next": "See official audition post",
-      "performanceCount": "Community auditions announced",
-      "description": "Reedley River City Theatre Company has announced auditions for its December production of Seussical the Musical. Dates and requirements will be added when published in an accessible official post.",
+      "run": "September 12, 2026",
+      "next": "Sat, Sep 12",
+      "performanceCount": "Community audition",
+      "description": "Community auditions for Reedley River City Theatre Company's December production of Seussical the Musical, directed by Stevie Barnett.",
       "status": "auditions",
-      "sourceUrl": "https://www.instagram.com/reedleyrivercitytheatre/",
-      "detailsUrl": "https://www.instagram.com/reedleyrivercitytheatre/"
+      "sourceUrl": "https://www.facebook.com/ReedleysRiverCityTheatreCompany/posts/pfbid02jERsEfBevGA3iatG47DUMFQy1QKYwseABX55mFPjJN7252qpJ1ziL8uY9df2PsGol",
+      "detailsUrl": "https://www.facebook.com/ReedleysRiverCityTheatreCompany/posts/pfbid02jERsEfBevGA3iatG47DUMFQy1QKYwseABX55mFPjJN7252qpJ1ziL8uY9df2PsGol",
+      "image": "/posters/reedley-seussical-auditions.jpg",
+      "imageMode": "contain"
+    },
+    {
+      "id": "into-the-woods-reedley",
+      "title": "Into the Woods",
+      "theater": "Reedley's River City Theatre Company",
+      "city": "Reedley",
+      "distance": 34,
+      "run": "July 31-August 16, 2027",
+      "next": "Performances begin Sat, Jul 31",
+      "performanceCount": "Dates announced - exact times pending",
+      "description": "Reedley River City Theatre Company's summer production is listed on its official 2026-27 season.",
+      "status": "soon",
+      "sourceUrl": "https://www.rctcreedley.com/2026-season",
+      "detailsUrl": "https://www.rctcreedley.com/2026-season"
+    },
+    {
+      "id": "drama-fall-show-el-diamante",
+      "title": "Drama Fall Show",
+      "theater": "El Diamante High School Drama",
+      "city": "Visalia",
+      "distance": 4,
+      "run": "October 1-3, 2026",
+      "next": "Thu, Oct 1 - 7:00 PM",
+      "performanceCount": "3 evening performances",
+      "description": "El Diamante High School's official calendar lists its fall drama production at the EDHS Theater; the production title has not yet been published.",
+      "status": "soon",
+      "sourceUrl": "https://eldiamante.vusd.org/calendar",
+      "detailsUrl": "https://eldiamante.vusd.org/calendar"
     }
   ],
   "sources": [
@@ -1259,7 +1289,7 @@
     },
     {
       "name": "Reedley River City Theatre",
-      "note": "The official 2026–27 season page confirms The Wizard of Oz, Seussical the Musical, Guys and Dolls, and A Legendary Summer; the latter two were added September 1 with published date ranges but no exact performance times.",
+      "note": "The official 2026-27 season confirms The Wizard of Oz, Seussical the Musical, Guys and Dolls, A Legendary Summer, and Into the Woods. A September 2 official Facebook post confirms Seussical auditions on September 12 and supplies the verified audition poster.",
       "waiting": false
     },
     {
@@ -1289,8 +1319,8 @@
     },
     {
       "name": "Redwood High School",
-      "note": "Redwood Theatre official social posts announce Beauty IS the Beast for October 2026. Exact performance dates and times have not yet been recovered from a public official listing.",
-      "waiting": true
+      "note": "Redwood Theatre social posting and school calendar support Beauty IS the Beast on October 7, 8, and 10. The official poster is still being located.",
+      "waiting": false
     },
     {
       "name": "Mt. Whitney High School",
@@ -1304,8 +1334,8 @@
     },
     {
       "name": "El Diamante High School",
-      "note": "The official school and district calendars are being watched for the next theatre production.",
-      "waiting": true
+      "note": "The official school calendar lists a Drama Fall Show at EDHS Theater on October 1-3 at 7:00 PM; title not yet published.",
+      "waiting": false
     },
     {
       "name": "Kings Players",
