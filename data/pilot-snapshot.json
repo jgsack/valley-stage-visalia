@@ -4,7 +4,7 @@
     "radiusMiles": 50
   },
   "checkedAt": "September 5, 2026",
-  "verifiedAt": "September 3, 2026",
+  "verifiedAt": "September 5, 2026",
   "reviewedAt": "September 5, 2026",
   "reviewSummary": "Last updated: September 5, 2026",
   "socialDiscovery": {
@@ -1266,6 +1266,20 @@
       "status": "soon",
       "sourceUrl": "https://eldiamante.vusd.org/calendar",
       "detailsUrl": "https://eldiamante.vusd.org/calendar"
+    },
+    {
+      "id": "contemporary-dance-ensemble-fresno-state",
+      "title": "The Contemporary Dance Ensemble",
+      "theater": "Fresno State Theatre Arts",
+      "city": "Fresno",
+      "distance": 48,
+      "run": "February 12-20, 2027",
+      "next": "Fri, Feb 12",
+      "performanceCount": "Mainstage dance concert",
+      "description": "Fresno State Theatre Arts presents its Contemporary Dance Ensemble in a mainstage concert.",
+      "status": "soon",
+      "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+      "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html"
     }
   ],
   "sources": [
@@ -1316,7 +1330,7 @@
     },
     {
       "name": "Fresno State Theatre Arts",
-      "note": "The official 2026–27 season remains accessible. The auditions page was updated August 27 with cast lists and continues to state that preliminary fall auditions have concluded; no open call is published.",
+      "note": "The official 2026-27 season page confirms Is This a Room, Edward Tulane, Yo Te Esperaba, Shawshank, and the Contemporary Dance Ensemble February 12-20, 2027. Fall auditions are closed; no open call is published.",
       "waiting": false
     },
     {
