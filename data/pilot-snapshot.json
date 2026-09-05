@@ -1153,6 +1153,8 @@
     },
     {
       "id": "normal-heart-auditions",
+      "image": "/posters/icehouse-normal-heart-auditions.jpg",
+      "imageMode": "contain",
       "title": "The Normal Heart Auditions",
       "theater": "Visalia Players · Ice House Theatre",
       "city": "Visalia",

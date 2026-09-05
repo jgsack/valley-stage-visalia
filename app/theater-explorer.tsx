@@ -113,7 +113,7 @@ export function TheaterExplorer() {
       .then((response) => (response.ok ? response.json() : Promise.reject()))
       .then((file: { content?: string }) => {
         if (!file.content) return;
-        const next = JSON.parse(atob(file.content.replace(/\s/g, ""))) as Snapshot;
+        const next = JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(Uint8Array.from(atob(file.content.replace(/\s/g, "")), (character) => character.charCodeAt(0)))) as Snapshot;
         if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
       })
       .catch(() => {
