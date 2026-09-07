@@ -50,6 +50,25 @@
         "https://www.encoretulare.org/shows",
         "https://www.encoretulare.org/auditions"
       ],
+      "officialSocialAccounts": [
+        {
+          "platform": "facebook",
+          "handle": "@encoretheatretulare",
+          "url": "https://www.facebook.com/encoretheatretulare/"
+        },
+        {
+          "platform": "instagram",
+          "handle": "@encoretulare",
+          "url": "https://www.instagram.com/encoretulare/"
+        }
+      ],
+      "socialDiscoveryTerms": [
+        "audition",
+        "auditions",
+        "casting",
+        "callback",
+        "open call"
+      ],
       "secondaryHosts": [
         "app.arts-people.com"
       ]

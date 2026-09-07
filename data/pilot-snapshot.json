@@ -226,7 +226,7 @@
       "city": "Selma",
       "distance": 31,
       "run": "August 27–September 6",
-      "next": "Thu, Sep 3 · 7:00 PM",
+      "next": "See the official performance calendar",
       "performanceCount": "12 performances",
       "description": "Hiccup defies Viking tradition and befriends Toothless in a youth musical adaptation filled with dragons, adventure, and big laughs.",
       "status": "now",
@@ -422,6 +422,22 @@
       "status": "soon",
       "sourceUrl": "https://www.encoretulare.org/shows",
       "detailsUrl": "https://www.encoretulare.org/shows",
+      "image": "/posters/encore-a-few-good-men.jpg",
+      "imageMode": "cover"
+    },
+    {
+      "id": "few-good-men-auditions",
+      "title": "A Few Good Men — Auditions",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "Dates to be announced",
+      "next": "See Encore's audition announcement",
+      "performanceCount": "Open community auditions",
+      "description": "Encore has announced auditions for its November production of Aaron Sorkin's A Few Good Men. See Encore's official announcement for casting details and dates.",
+      "status": "auditions",
+      "sourceUrl": "https://www.facebook.com/encoretheatretulare/",
+      "detailsUrl": "https://www.encoretulare.org/auditions",
       "image": "/posters/encore-a-few-good-men.jpg",
       "imageMode": "cover"
     },
@@ -1312,7 +1328,7 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "The official youth page now exposes the remaining How to Train Your Dragon JR. schedule. There is no September 1 performance; the next confirmed performance is September 3 at 7:00 PM.",
+      "note": "September 6: the previously verified run ends today. Official pages returned access errors and ticketing exposed no readable remaining schedule; the stale September 3 next-performance notice was removed.",
       "waiting": false
     },
     {
