@@ -2,8 +2,9 @@ name: Monitor theater sources
 
 on:
   schedule:
-    # Independent, staggered UTC windows keep the daily cloud check resilient if GitHub delays or misses one scheduled delivery around the Pacific overnight.
-    - cron: "7 9-15 * * *"
+    # Frequent early-morning wakeups make a delayed GitHub delivery harmless.
+    # A preflight below lets only the first successful wakeup run the source audit.
+    - cron: "7,27,47 8-16 * * *"
   workflow_dispatch:
 
 permissions:
@@ -28,7 +29,12 @@ jobs:
           node-version: 22
 
 
+      - name: Decide whether today's check is due
+        id: preflight
+        run: node scripts/daily-check-needed.mjs
+
       - name: Restore the previous source fingerprints
+        if: steps.preflight.outputs.needed == 'true'
         uses: actions/cache@v4
         with:
           path: .cache/source-monitor-state.json
@@ -38,6 +44,7 @@ jobs:
 
       - name: Check official sources
         id: monitor
+        if: steps.preflight.outputs.needed == 'true'
         run: >-
           node scripts/monitor-sources.mjs
           --state .cache/source-monitor-state.json
@@ -46,7 +53,7 @@ jobs:
           --github-output "$GITHUB_OUTPUT"
 
       - name: Save the review report
-        if: steps.monitor.outputs.requires_review == 'true'
+        if: steps.preflight.outputs.needed == 'true' && steps.monitor.outputs.requires_review == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: valley-stage-source-monitor-${{ github.run_id }}
@@ -56,7 +63,7 @@ jobs:
           retention-days: 14
 
       - name: Open or update the review issue
-        if: steps.monitor.outputs.requires_review == 'true'
+        if: steps.preflight.outputs.needed == 'true' && steps.monitor.outputs.requires_review == 'true'
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
@@ -70,9 +77,11 @@ jobs:
           fi
 
       - name: Record the completed daily check
+        if: steps.preflight.outputs.needed == 'true'
         run: node scripts/record-daily-refresh.mjs
 
       - name: Commit the daily check date
+        if: steps.preflight.outputs.needed == 'true'
         shell: bash
         run: |
           if git diff --quiet -- data/pilot-snapshot.json; then
