@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import snapshot from "../data/pilot-snapshot.json";
+import { currentShows, pacificDay } from "./show-dates";
 
 type ViewMode = "now" | "soon" | "auditions";
 
@@ -19,6 +20,7 @@ type Show = {
   sourceUrl: string;
   detailsUrl: string;
   image?: string;
+  imageCaption?: string;
   imageMode?: "cover" | "contain";
   featured?: boolean;
 };
@@ -98,13 +100,24 @@ function matchesSource(show: Show, sourceName: string) {
 
 export function TheaterExplorer() {
   const [data, setData] = useState<Snapshot>(snapshot);
-  const shows = data.shows as Show[];
+  const [today, setToday] = useState(() => pacificDay());
+  const shows = useMemo(() => currentShows(data.shows as Show[], today), [data.shows, today]);
   const [view, setView] = useState<ViewMode>(
-    snapshot.shows.some((show) => show.status === "now") ? "now" : "soon",
+    shows.some((show) => show.status === "now") ? "now" : "soon",
   );
   const [radius, setRadius] = useState(50);
   const [query, setQuery] = useState("");
   const [selectedSource, setSelectedSource] = useState<string | null>(null);
+
+  useEffect(() => {
+    const refreshDay = () => setToday(pacificDay());
+    const timer = window.setInterval(refreshDay, 30_000);
+    window.addEventListener("focus", refreshDay);
+    return () => {
+      window.clearInterval(timer);
+      window.removeEventListener("focus", refreshDay);
+    };
+  }, []);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -372,6 +385,7 @@ export function TheaterExplorer() {
                 <div className="card-copy">
                   <p className="theater-line">{show.theater} · {show.city}</p>
                   <h2>{show.title}</h2>
+                  {show.imageCaption ? <p className="theater-line">{show.imageCaption}</p> : null}
                   <p className="description">{show.description}</p>
                   <ul className="details-list" aria-label="Production details">
                     <li>

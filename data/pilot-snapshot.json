@@ -4,7 +4,7 @@
     "radiusMiles": 50
   },
   "checkedAt": "September 11, 2026",
-  "verifiedAt": "September 5, 2026",
+  "verifiedAt": "September 11, 2026",
   "reviewedAt": "September 11, 2026",
   "reviewSummary": "Last updated: September 11, 2026",
   "socialDiscovery": {
@@ -178,7 +178,7 @@
       "next": "Fri, Sep 11 · 7:00 PM",
       "performanceCount": "10 performances",
       "description": "A meek florist finds success—and trouble—with the help of a mysterious, R&B-singing carnivorous plant.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://www.encoretulare.org/shows",
       "detailsUrl": "https://app.arts-people.com/index.php?show=347649",
       "image": "/posters/encore-little-shop.jpg",
@@ -195,7 +195,7 @@
       "next": "Fri, Sep 11 · 7:30 PM",
       "performanceCount": "9 performances",
       "description": "An intimate, disorienting drama that asks the audience to experience a changing world through one man's eyes.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://www.visaliaicehouse.com/",
       "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/696725c5bfcbe23be0a2d08e",
       "image": "/posters/icehouse-the-father.png",
@@ -212,7 +212,7 @@
       "next": "Fri, Sep 11 · 7:00 PM",
       "performanceCount": "7 performances",
       "description": "A headstrong Philadelphia socialite's wedding weekend is complicated by her ex-husband and visiting reporters in Philip Barry's classic comedy of manners.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://portervillebarntheater.com/barnwiki/the-philadelphia-story-2026/",
       "detailsUrl": "https://portervillebarntheater.com/barnwiki/the-philadelphia-story-2026/",
       "image": "/posters/porterville-philadelphia-story.png",
@@ -391,7 +391,10 @@
       "description": "Larry Kramer's landmark drama of love, anger, and advocacy during the early years of the AIDS crisis.",
       "status": "soon",
       "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-      "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/69672365a9c779105c7532ec"
+      "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/69672365a9c779105c7532ec",
+      "image": "/posters/icehouse-normal-heart-auditions.jpg",
+      "imageMode": "contain",
+      "imageCaption": "Official audition artwork. Production runs November 6–21."
     },
     {
       "id": "thanksgiving-play-cos",

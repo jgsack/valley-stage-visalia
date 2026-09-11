@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
+import { currentShows, pacificDay } from "../app/show-dates.ts";
 
 const snapshot = JSON.parse(
   readFileSync(new URL("../data/pilot-snapshot.json", import.meta.url), "utf8"),
@@ -35,7 +36,7 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /Roger Rocka/);
   assert.match(
     html,
-    new RegExp(`Playing now<span class="count">${snapshot.shows.filter((show) => show.status === "now").length}<\\/span>`),
+    new RegExp(`Playing now<span class="count">${currentShows(snapshot.shows, pacificDay()).filter((show) => show.status === "now").length}<\\/span>`),
   );
   assert.match(
     html,
