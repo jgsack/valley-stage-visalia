@@ -122,18 +122,34 @@ export function TheaterExplorer() {
   useEffect(() => {
     const controller = new AbortController();
 
-    fetch(`${liveSnapshotUrl}&v=${Date.now()}`, { cache: "no-store", signal: controller.signal })
-      .then((response) => (response.ok ? response.json() : Promise.reject()))
-      .then((file: { content?: string }) => {
+    let inFlight = false;
+    const refresh = async () => {
+      if (inFlight || controller.signal.aborted) return;
+      inFlight = true;
+      try {
+        const response = await fetch(`${liveSnapshotUrl}&v=${Date.now()}`, {
+          cache: "no-store",
+          signal: AbortSignal.any([controller.signal, AbortSignal.timeout(15_000)]),
+        });
+        if (!response.ok) return;
+        const file = await response.json() as { content?: string };
         if (!file.content) return;
         const next = JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(Uint8Array.from(atob(file.content.replace(/\s/g, "")), (character) => character.charCodeAt(0)))) as Snapshot;
-        if (Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
-      })
-      .catch(() => {
-        // The deployed snapshot remains a safe fallback if GitHub is unavailable.
-      });
-
-    return () => controller.abort();
+        if (!controller.signal.aborted && Array.isArray(next.shows) && Array.isArray(next.sources)) setData(next);
+      } catch {
+        // Keep the last good snapshot; the next interval or focus retries.
+      } finally {
+        inFlight = false;
+      }
+    };
+    void refresh();
+    const timer = window.setInterval(refresh, 5 * 60_000);
+    window.addEventListener("focus", refresh);
+    return () => {
+      controller.abort();
+      window.clearInterval(timer);
+      window.removeEventListener("focus", refresh);
+    };
   }, []);
 
   const marqueeShows = [

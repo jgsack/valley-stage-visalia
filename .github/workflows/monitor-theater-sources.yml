@@ -2,9 +2,9 @@ name: Monitor theater sources
 
 on:
   schedule:
-    # Frequent early-morning wakeups make a delayed GitHub delivery harmless.
+    # Retry throughout the day if an early scheduled delivery is missed.
     # A preflight below lets only the first successful wakeup run the source audit.
-    - cron: "7,27,47 8-16 * * *"
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
 
 permissions:
