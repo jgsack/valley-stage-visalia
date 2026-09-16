@@ -92,10 +92,10 @@ async function ask(system,input){
   cache.calls++;saveCache();
   const r=await fetch("https://api.deepseek.com/chat/completions",{method:"POST",signal:AbortSignal.timeout(120000),
     headers:{"Content-Type":"application/json",Authorization:"Bearer "+process.env.DEEPSEEK_API_KEY},
-    body:JSON.stringify({model:process.env.DEEPSEEK_MODEL||"deepseek-flash",messages:[{role:"system",content:system},{role:"user",content:JSON.stringify(input)}],response_format:{type:"json_object"},max_tokens:6000})});
+    body:JSON.stringify({model:process.env.DEEPSEEK_MODEL||"deepseek-flash",thinking:{type:"disabled"},messages:[{role:"system",content:system},{role:"user",content:JSON.stringify(input)}],response_format:{type:"json_object"},max_tokens:12000})});
   if(!r.ok)throw Error("DeepSeek HTTP "+r.status);
   const body=await r.json();
-  if(body.choices?.[0]?.finish_reason!=="stop")throw Error("incomplete AI response");
+  if(body.choices?.[0]?.finish_reason!=="stop")throw Error("incomplete AI response: "+body.choices?.[0]?.finish_reason);
   const answer=JSON.parse(body.choices[0].message.content);cache.answers[hash]=answer;saveCache();return answer;
 }
 export async function main(){
