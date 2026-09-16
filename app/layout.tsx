@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://valley-stage-visalia.vidspfx.chatgpt.site"),
   title: "Valley Stage | Live theater near Visalia",
   description:
     "An automated guide to live theater, upcoming productions, and auditions around Visalia, California.",
