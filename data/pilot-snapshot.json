@@ -4,7 +4,7 @@
     "radiusMiles": 50
   },
   "checkedAt": "September 15, 2026",
-  "verifiedAt": "September 11, 2026",
+  "verifiedAt": "September 15, 2026",
   "reviewedAt": "September 15, 2026",
   "reviewSummary": "Last updated: September 15, 2026",
   "socialDiscovery": {
@@ -1301,6 +1301,66 @@
       "status": "soon",
       "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
       "detailsUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html"
+    },
+    {
+      "id": "broadway-fresno-saroyan-d5497a965d88",
+      "title": "Sonic Live In Concert",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "October 2, 2026",
+      "next": "Fri, Oct 2",
+      "performanceCount": "See performance calendar",
+      "description": "Sonic Live In Concert at Saroyan Theatre. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "organizationId": "broadway-fresno-saroyan",
+      "aiManaged": true,
+      "evidence": [
+        "Sonic Live In Concert Concert Saroyan Theatre Fri, Oct 2, 2026"
+      ],
+      "verifiedDate": "2026-09-15"
+    },
+    {
+      "id": "broadway-fresno-saroyan-dd21192cf7af",
+      "title": "The Terminator Live",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "October 10, 2026",
+      "next": "Sat, Oct 10",
+      "performanceCount": "See performance calendar",
+      "description": "The Terminator Live at Saroyan Theatre. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "organizationId": "broadway-fresno-saroyan",
+      "aiManaged": true,
+      "evidence": [
+        "The Terminator Live Concert Saroyan Theatre Sat, Oct 10, 2026"
+      ],
+      "verifiedDate": "2026-09-15"
+    },
+    {
+      "id": "broadway-fresno-saroyan-afd9761e5839",
+      "title": "World Ballet Company: The Sleeping Beauty",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "February 12, 2027",
+      "next": "Fri, Feb 12",
+      "performanceCount": "See performance calendar",
+      "description": "World Ballet Company: The Sleeping Beauty at Saroyan Theatre. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "organizationId": "broadway-fresno-saroyan",
+      "aiManaged": true,
+      "evidence": [
+        "World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
+      ],
+      "verifiedDate": "2026-09-15"
     }
   ],
   "sources": [
