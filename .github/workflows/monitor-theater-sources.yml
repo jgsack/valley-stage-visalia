@@ -76,6 +76,33 @@ jobs:
             gh issue create --title "$ISSUE_TITLE" --body-file source-monitor-report.md
           fi
 
+      - name: Restore AI extraction cache
+        if: steps.preflight.outputs.needed == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/ai-extractions.json
+          key: valley-stage-ai-${{ github.run_id }}
+          restore-keys: valley-stage-ai-
+
+      - name: Extract and verify listings with DeepSeek
+        if: steps.preflight.outputs.needed == 'true'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: node scripts/refresh-listings-ai.mjs
+
+      - name: Preserve AI results and daily request budget
+        if: always() && steps.preflight.outputs.needed == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/ai-extractions.json
+          key: valley-stage-ai-${{ github.run_id }}
+
+      - name: Validate refreshed listings
+        if: steps.preflight.outputs.needed == 'true'
+        run: |
+          node --test tests/ai-refresh.test.mjs
+          node scripts/validate-pilot-data.mjs
+
       - name: Record the completed daily check
         if: steps.preflight.outputs.needed == 'true'
         run: node scripts/record-daily-refresh.mjs
@@ -84,11 +111,11 @@ jobs:
         if: steps.preflight.outputs.needed == 'true'
         shell: bash
         run: |
-          if git diff --quiet -- data/pilot-snapshot.json; then
+          if git diff --quiet -- data/pilot-snapshot.json && test -z "$(git status --porcelain -- data/ai-refresh-report.json)"; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/pilot-snapshot.json
-          git commit -m "Record Valley Stage daily check"
+          git add data/pilot-snapshot.json data/ai-refresh-report.json
+          git commit -m "Refresh verified Valley Stage listings"
           git push
