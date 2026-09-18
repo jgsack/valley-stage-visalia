@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "September 17, 2026",
-  "verifiedAt": "September 17, 2026",
-  "reviewedAt": "September 17, 2026",
-  "reviewSummary": "Last updated: September 17, 2026",
+  "checkedAt": "September 18, 2026",
+  "verifiedAt": "September 18, 2026",
+  "reviewedAt": "September 18, 2026",
+  "reviewSummary": "Last updated: September 18, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1313,14 +1313,54 @@
       "performanceCount": "See performance calendar",
       "description": "World Ballet Company: The Sleeping Beauty at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
-      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/",
+      "detailsUrl": "https://events.fresnoconventioncenter.com/",
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
+        "World Ballet Company: The Sleeping Beauty @Saroyan Theatre February 12, 2027 Show Time : 7:00 PM"
       ],
-      "verifiedDate": "2026-09-17"
+      "verifiedDate": "2026-09-18"
+    },
+    {
+      "id": "broadway-fresno-saroyan-155670019f85",
+      "title": "Lively Arts Foundation Presents Central California Ballet's Nutcracker",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "December 12, 2026–December 13, 2026",
+      "next": "Sat, Dec 12",
+      "performanceCount": "See performance calendar",
+      "description": "Lively Arts Foundation Presents Central California Ballet's Nutcracker at Saroyan Theatre. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/",
+      "detailsUrl": "https://events.fresnoconventioncenter.com/",
+      "organizationId": "broadway-fresno-saroyan",
+      "aiManaged": true,
+      "evidence": [
+        "Lively Arts Foundation Presents Central California Ballet's Nutcracker @Saroyan Theatre December 12 & 13, 2026 Show Time : 2 PM"
+      ],
+      "verifiedDate": "2026-09-18"
+    },
+    {
+      "id": "broadway-fresno-saroyan-d8cbf955c9c2",
+      "title": "Be Like Blippi Tour",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "January 30, 2027",
+      "next": "Sat, Jan 30",
+      "performanceCount": "See performance calendar",
+      "description": "Be Like Blippi Tour at Saroyan Theatre. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/",
+      "detailsUrl": "https://events.fresnoconventioncenter.com/",
+      "organizationId": "broadway-fresno-saroyan",
+      "aiManaged": true,
+      "evidence": [
+        "Be Like Blippi Tour @Saroyan Theatre January 30, 2027 Show Time : 7:00 PM"
+      ],
+      "verifiedDate": "2026-09-18"
     }
   ],
   "sources": [
