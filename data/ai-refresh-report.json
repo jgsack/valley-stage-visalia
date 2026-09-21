@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-20T09:57:01.738Z",
-  "completedDay": "2026-09-20",
+  "startedAt": "2026-09-21T10:57:41.993Z",
+  "completedDay": "2026-09-21",
   "organizations": [
     {
       "id": "ice-house",
@@ -21,6 +21,28 @@
           "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
           "evidence": [
             "The Father Directed by Antony Lotenero September 2026"
+          ]
+        },
+        {
+          "title": "The Normal Heart",
+          "kind": "performance",
+          "venue": "Ice House Theater",
+          "start": "2026-11-01",
+          "end": "2026-11-30",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Normal Heart Directed by JJ Pestano November 2026"
+          ]
+        },
+        {
+          "title": "The Annual Holiday Cabaret",
+          "kind": "performance",
+          "venue": "Ice House Theater",
+          "start": "2026-12-01",
+          "end": "2026-12-31",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Annual Holiday Cabaret Directed by Charlotte Garcia Da Rosa December 2026"
           ]
         }
       ],
@@ -96,27 +118,8 @@
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "Seussical the Musical",
-          "kind": "performance",
-          "venue": "Historic 1903 Reedley Opera House",
-          "start": "2026-12-05",
-          "end": "2026-12-20",
-          "sourceUrl": "https://www.rctcreedley.com/2026-season",
-          "evidence": [
-            "Reedley’s River City Theater 2026 Season",
-            "Seussical the Musical December 5 - 20"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "Seussical the Musical",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "selma-arts",
@@ -179,31 +182,20 @@
       ],
       "candidates": [
         {
-          "title": "Annie",
+          "title": "Come From Away",
           "kind": "performance",
           "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-07-24",
-          "end": "2026-09-20",
+          "start": "2026-09-25",
+          "end": "2026-11-15",
           "sourceUrl": "https://rogerrockas.com/",
           "evidence": [
-            "Annie On Stage Jul. 24 &mdash; Sep. 20, 2026 Buy Now"
-          ]
-        },
-        {
-          "title": "The Cemetery Club",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-09-20",
-          "end": "2026-10-18",
-          "sourceUrl": "https://gcplayers.simpletix.com/",
-          "evidence": [
-            "The Cemetery Club 9/20/2026 2:00&#x202F;PM &#x2B; 14 more events"
+            "Come From Away On Stage Sep. 25 &mdash; Nov. 15, 2026 Buy Now"
           ]
         }
       ],
       "changes": [
         {
-          "title": "Annie",
+          "title": "Come From Away",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
@@ -221,8 +213,8 @@
         "https://events.fresnoconventioncenter.com/nutcracker-2026",
         "https://events.fresnoconventioncenter.com/the-fresno-event-card-and-collectible-show",
         "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/us/events/",
-        "https://us.atgtickets.com/events/adrian-uribe/saroyan-theatre/",
-        "https://us.atgtickets.com/events/adrian-uribe/saroyan-theatre/calendar/"
+        "https://us.atgtickets.com/events/sin-bandera/saroyan-theatre/",
+        "https://us.atgtickets.com/events/sin-bandera/saroyan-theatre/calendar/"
       ],
       "failures": [
         {
@@ -259,14 +251,26 @@
           ]
         },
         {
+          "title": "LAF Nutcracker",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-12-12",
+          "end": "2026-12-13",
+          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
+          "evidence": [
+            "LAF Nutcracker LAF Nutcracker Fresno",
+            "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT"
+          ]
+        },
+        {
           "title": "A Magical Cirque Christmas",
           "kind": "performance",
           "venue": "Saroyan Theatre",
           "start": "2026-12-15",
           "end": "2026-12-15",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE"
+            "A Magical Cirque Christmas A Magical Cirque Christmas Events Saroyan Theatre Tue, Dec 15, 2026"
           ]
         },
         {
@@ -278,17 +282,6 @@
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
             "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
-          ]
-        },
-        {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
-          "kind": "performance",
-          "venue": "William Saroyan Theatre",
-          "start": "2026-11-21",
-          "end": "2026-11-21",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
-          "evidence": [
-            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         },
         {
@@ -354,6 +347,11 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
+          "title": "LAF Nutcracker",
+          "action": "added",
+          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
+        },
+        {
           "title": "A Magical Cirque Christmas",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
@@ -362,11 +360,6 @@
           "title": "World Ballet Company: The Nutcracker",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
-          "action": "withheld",
-          "reason": "possible duplicate"
         },
         {
           "title": "Be Like Blippi",
@@ -549,5 +542,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-09-20T09:58:14.846Z"
+  "completedAt": "2026-09-21T10:58:54.002Z"
 }
