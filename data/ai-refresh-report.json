@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-21T10:57:41.993Z",
-  "completedDay": "2026-09-21",
+  "startedAt": "2026-09-22T09:53:43.756Z",
+  "completedDay": "2026-09-22",
   "organizations": [
     {
       "id": "ice-house",
@@ -11,41 +11,7 @@
         "https://www.visaliaicehouse.com/auditions"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "The Father",
-          "kind": "performance",
-          "venue": "Ice House Theater",
-          "start": "2026-09-01",
-          "end": "2026-09-30",
-          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-          "evidence": [
-            "The Father Directed by Antony Lotenero September 2026"
-          ]
-        },
-        {
-          "title": "The Normal Heart",
-          "kind": "performance",
-          "venue": "Ice House Theater",
-          "start": "2026-11-01",
-          "end": "2026-11-30",
-          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-          "evidence": [
-            "The Normal Heart Directed by JJ Pestano November 2026"
-          ]
-        },
-        {
-          "title": "The Annual Holiday Cabaret",
-          "kind": "performance",
-          "venue": "Ice House Theater",
-          "start": "2026-12-01",
-          "end": "2026-12-31",
-          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-          "evidence": [
-            "The Annual Holiday Cabaret Directed by Charlotte Garcia Da Rosa December 2026"
-          ]
-        }
-      ],
+      "candidates": [],
       "changes": []
     },
     {
@@ -56,7 +22,7 @@
         "https://www.encoretulare.org/auditions",
         "https://www.encoretulare.org/calendar",
         "https://www.encoretulare.org/past-productions",
-        "https://www.encoretulare.org/assets/shows.index-wU0RCktv.js"
+        "https://www.encoretulare.org/assets/shows.index-DNe5GRMh.js"
       ],
       "failures": [
         {
@@ -78,8 +44,44 @@
         "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Nerdy Prudes Must Die",
+          "kind": "performance",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-10-23",
+          "end": "2026-11-01",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "Fall Musical Nerdy Prudes Must Die Oct 23, 24, 30, & 31 at 7:30 Oct 25 & Nov 1 at 2:00 PM",
+            "2026-27 Season"
+          ]
+        },
+        {
+          "title": "The Children's Nutcracker",
+          "kind": "performance",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-12-04",
+          "end": "2026-12-13",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "Christmas Show The Children's Nutcracker Dec 4, 5, 11 & 12 at 7:00PM Dec 6 & 13 at 2:00 PM",
+            "2026-27 Season"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Nerdy Prudes Must Die",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Children's Nutcracker",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "porterville-barn",
@@ -118,8 +120,27 @@
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "The Wizard of Oz",
+          "kind": "performance",
+          "venue": "Historic 1903 Reedley Opera House",
+          "start": "2026-09-25",
+          "end": "2026-10-11",
+          "sourceUrl": "https://www.rctcreedley.com/2026-season",
+          "evidence": [
+            "2026 SEASON CALENDAR &mdash; Reedley's River City Theatre Company",
+            "Reedley’s River City Theater 2026 Season The Wizard of Oz September 25 - October 11"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "The Wizard of Oz",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "selma-arts",
@@ -158,13 +179,33 @@
           "error": "unapproved host or social source"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Hamlet",
+          "kind": "performance",
+          "venue": "COS Box Office, 915 S Mooney Blvd, Visalia, CA, 93277",
+          "start": "2026-10-08",
+          "end": "2026-10-17",
+          "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
+          "evidence": [
+            "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm",
+            "Contact COS Box Office 915 S Mooney Blvd Visalia, CA, 93277"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Hamlet",
+          "action": "added",
+          "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd"
+        }
+      ]
     },
     {
       "id": "roger-rockas",
       "pages": [
         "https://rogerrockas.com/",
+        "https://www.gcplayers.com/see-a-show",
         "https://www.gcplayers.com/seasonlineup27",
         "https://www.gcplayers.com/gcp-audition-calendar",
         "https://www.gcplayers.com/rr-auditions",
@@ -174,12 +215,7 @@
         "https://rogerrockas.com/shows/categories/roger-rockas/",
         "https://rogerrockas.com/dinner-shows/seating-map/"
       ],
-      "failures": [
-        {
-          "url": "https://www.gcplayers.com/see-a-show",
-          "error": "page too large"
-        }
-      ],
+      "failures": [],
       "candidates": [
         {
           "title": "Come From Away",
@@ -187,15 +223,207 @@
           "venue": "Roger Rocka's Dinner Theater",
           "start": "2026-09-25",
           "end": "2026-11-15",
-          "sourceUrl": "https://rogerrockas.com/",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
-            "Come From Away On Stage Sep. 25 &mdash; Nov. 15, 2026 Buy Now"
+            "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)"
+          ]
+        },
+        {
+          "title": "The Cemetery Club",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2026-08-28",
+          "end": "2026-10-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Aug 28 to Oct 18 The Cemetery Club Fri, Aug 28, 2026 8:00 PM Sun, Oct 18, 2026 4:00 PM 2nd Space Theatre (map)"
+          ]
+        },
+        {
+          "title": "Shrek the Musical",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2026-11-20",
+          "end": "2027-01-17",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Nov 20 to Jan 17 Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
+          ]
+        },
+        {
+          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-01-02",
+          "end": "2027-02-21",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Jan 2 to Feb 21 Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map)"
+          ]
+        },
+        {
+          "title": "Les Misérables",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-01-22",
+          "end": "2027-04-04",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Jan 22 to Apr 4 Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
+          ]
+        },
+        {
+          "title": "Private Lives",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-02-26",
+          "end": "2027-04-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Feb 26 to Apr 18 Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)"
+          ]
+        },
+        {
+          "title": "Little Shop of Horrors",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-04-09",
+          "end": "2027-05-23",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Apr 9 to May 23 Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
+          ]
+        },
+        {
+          "title": "Ripcord",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-04-30",
+          "end": "2027-06-20",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Apr 30 to Jun 20 Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map)"
+          ]
+        },
+        {
+          "title": "Clue",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-05-28",
+          "end": "2027-07-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "May 28 to Jul 18 Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
+          ]
+        },
+        {
+          "title": "Eleanor",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-06-25",
+          "end": "2027-08-15",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Jun 25 to Aug 15 Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map)"
+          ]
+        },
+        {
+          "title": "Disney's The Little Mermaid",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-07-23",
+          "end": "2027-09-19",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Jul 23 to Sep 19 Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
+          ]
+        },
+        {
+          "title": "An Old-Fashioned Family Murder",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-08-27",
+          "end": "2027-10-17",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Aug 27 to Oct 17 An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map)"
+          ]
+        },
+        {
+          "title": "She Loves Me",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-09-24",
+          "end": "2027-11-14",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Sep 24 to Nov 14 She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
           ]
         }
       ],
       "changes": [
         {
           "title": "Come From Away",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Cemetery Club",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Shrek the Musical",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Les Misérables",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Private Lives",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Little Shop of Horrors",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Ripcord",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Clue",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Eleanor",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Disney's The Little Mermaid",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "An Old-Fashioned Family Murder",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "She Loves Me",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
@@ -240,14 +468,14 @@
       ],
       "candidates": [
         {
-          "title": "Water For Elephants",
+          "title": "World Ballet Company: Swan Lake with a LIVE Orchestra",
           "kind": "performance",
           "venue": "Saroyan Theatre",
-          "start": "2026-11-03",
-          "end": "2026-11-04",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "start": "2026-11-21",
+          "end": "2026-11-21",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
           "evidence": [
-            "Water For Elephants Water For Elephants Musicals Saroyan Theatre Tue, Nov 3 - Wed, Nov 4, 2026"
+            "World Ballet Company: Swan Lake WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         },
         {
@@ -259,7 +487,7 @@
           "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
           "evidence": [
             "LAF Nutcracker LAF Nutcracker Fresno",
-            "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT"
+            "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT"
           ]
         },
         {
@@ -268,42 +496,20 @@
           "venue": "Saroyan Theatre",
           "start": "2026-12-15",
           "end": "2026-12-15",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
           "evidence": [
-            "A Magical Cirque Christmas A Magical Cirque Christmas Events Saroyan Theatre Tue, Dec 15, 2026"
+            "A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE"
           ]
         },
         {
           "title": "World Ballet Company: The Nutcracker",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-12-21",
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
             "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
-          ]
-        },
-        {
-          "title": "Be Like Blippi",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-01-30",
-          "end": "2027-01-30",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
-          ]
-        },
-        {
-          "title": "Jersey Boys",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-02-02",
-          "end": "2027-02-04",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
           ]
         },
         {
@@ -315,17 +521,6 @@
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
             "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
-          ]
-        },
-        {
-          "title": "The Bodyguard",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-03-15",
-          "end": "2027-03-16",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
           ]
         },
         {
@@ -342,13 +537,13 @@
       ],
       "changes": [
         {
-          "title": "Water For Elephants",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+          "title": "World Ballet Company: Swan Lake with a LIVE Orchestra",
+          "action": "withheld",
+          "reason": "possible duplicate"
         },
         {
           "title": "LAF Nutcracker",
-          "action": "added",
+          "action": "updated",
           "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
         },
         {
@@ -362,24 +557,9 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "Be Like Blippi",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        },
-        {
-          "title": "Jersey Boys",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
           "title": "World Ballet Company: The Sleeping Beauty",
           "action": "updated",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
-        },
-        {
-          "title": "The Bodyguard",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
           "title": "A Beautiful Noise: The Neil Diamond Musical",
@@ -542,5 +722,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-09-21T10:58:54.002Z"
+  "completedAt": "2026-09-22T09:55:05.971Z"
 }
