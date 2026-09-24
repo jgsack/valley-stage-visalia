@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "September 23, 2026",
-  "verifiedAt": "September 23, 2026",
-  "reviewedAt": "September 23, 2026",
-  "reviewSummary": "Last updated: September 23, 2026",
+  "checkedAt": "September 24, 2026",
+  "verifiedAt": "September 24, 2026",
+  "reviewedAt": "September 24, 2026",
+  "reviewSummary": "Last updated: September 24, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1313,14 +1313,14 @@
       "performanceCount": "See performance calendar",
       "description": "World Ballet Company: The Sleeping Beauty at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
-      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "sourceUrl": "https://events.fresnoconventioncenter.com/",
+      "detailsUrl": "https://events.fresnoconventioncenter.com/",
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
+        "World Ballet Company: The Sleeping Beauty @Saroyan Theatre February 12, 2027 Show Time : 7:00 PM"
       ],
-      "verifiedDate": "2026-09-23"
+      "verifiedDate": "2026-09-24"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1340,7 +1340,7 @@
       "evidence": [
         "Be Like Blippi Tour @Saroyan Theatre January 30, 2027 Show Time : 7:00 PM"
       ],
-      "verifiedDate": "2026-09-18"
+      "verifiedDate": "2026-09-24"
     },
     {
       "id": "broadway-fresno-saroyan-2d18780cd59d",
@@ -1379,9 +1379,10 @@
       "organizationId": "cos",
       "aiManaged": true,
       "evidence": [
-        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
+        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm",
+        "Contact COS Box Office 915 S Mooney Blvd Visalia, CA, 93277"
       ],
-      "verifiedDate": "2026-09-23"
+      "verifiedDate": "2026-09-24"
     }
   ],
   "sources": [
