@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-24T10:32:08.866Z",
-  "completedDay": "2026-09-24",
+  "startedAt": "2026-09-25T12:03:56.772Z",
+  "completedDay": "2026-09-25",
   "organizations": [
     {
       "id": "ice-house",
@@ -11,8 +11,26 @@
         "https://www.visaliaicehouse.com/auditions"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "The Father",
+          "kind": "performance",
+          "venue": "Ice House Theater",
+          "start": "2026-09-01",
+          "end": "2026-09-30",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Father Directed by Antony Lotenero September 2026"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "The Father",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "encore",
@@ -133,8 +151,7 @@
           "end": "2026-10-17",
           "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
           "evidence": [
-            "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm",
-            "Contact COS Box Office 915 S Mooney Blvd Visalia, CA, 93277"
+            "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
           ]
         }
       ],
@@ -187,7 +204,7 @@
           ]
         },
         {
-          "title": "Little Women: A Victorian Christmas",
+          "title": "Little Women: A Victorian Christmas Card",
           "kind": "performance",
           "venue": "2nd Space Theatre",
           "start": "2026-11-05",
@@ -367,9 +384,9 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "Little Women: A Victorian Christmas",
-          "action": "withheld",
-          "reason": "possible duplicate"
+          "title": "Little Women: A Victorian Christmas Card",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
           "title": "Shrek the Musical",
@@ -450,8 +467,8 @@
         "https://events.fresnoconventioncenter.com/nutcracker-2026",
         "https://events.fresnoconventioncenter.com/the-fresno-event-card-and-collectible-show",
         "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/us/events/",
-        "https://us.atgtickets.com/events/sin-bandera/saroyan-theatre/",
-        "https://us.atgtickets.com/events/sin-bandera/saroyan-theatre/calendar/"
+        "https://us.atgtickets.com/events/john-milton/saroyan-theatre/",
+        "https://us.atgtickets.com/events/john-milton/saroyan-theatre/calendar/"
       ],
       "failures": [
         {
@@ -488,14 +505,18 @@
           ]
         },
         {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "title": "LAF Nutcracker",
           "kind": "performance",
           "venue": "Saroyan Theatre",
-          "start": "2026-11-21",
-          "end": "2026-11-21",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+          "start": "2026-12-12",
+          "end": "2026-12-13",
+          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
           "evidence": [
-            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
+            "LAF Nutcracker Fresno",
+            "Saroyan Theatre, Fresno",
+            "Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
+            "Sat, Dec 12, 2026 2:00 PM PT",
+            "Sun, Dec 13, 2026 2:00 PM PT"
           ]
         },
         {
@@ -504,9 +525,9 @@
           "venue": "Saroyan Theatre",
           "start": "2026-12-15",
           "end": "2026-12-15",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE"
+            "A Magical Cirque Christmas A Magical Cirque Christmas Events Saroyan Theatre Tue, Dec 15, 2026"
           ]
         },
         {
@@ -517,18 +538,20 @@
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
-            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
+            "World Ballet Company: The Nutcracker WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
+            "Monday December 21",
+            "Tuesday December 22"
           ]
         },
         {
-          "title": "Be Like Blippi Tour",
+          "title": "Be Like Blippi",
           "kind": "performance",
           "venue": "Saroyan Theatre",
           "start": "2027-01-30",
           "end": "2027-01-30",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Be Like Blippi Tour @Saroyan Theatre January 30, 2027 Show Time : 7:00 PM"
+            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
           ]
         },
         {
@@ -537,9 +560,9 @@
           "venue": "Saroyan Theatre",
           "start": "2027-02-02",
           "end": "2027-02-04",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Jersey Boys @Saroyan Theatre February 2, 3, & 4, 2027 Show Time : 7:30 PM"
+            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
           ]
         },
         {
@@ -548,9 +571,9 @@
           "venue": "Saroyan Theatre",
           "start": "2027-02-12",
           "end": "2027-02-12",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "World Ballet Company: The Sleeping Beauty @Saroyan Theatre February 12, 2027 Show Time : 7:00 PM"
+            "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
           ]
         },
         {
@@ -559,9 +582,9 @@
           "venue": "Saroyan Theatre",
           "start": "2027-03-15",
           "end": "2027-03-16",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "The Bodyguard @Saroyan Theatre March 15 & 16, 2027 Show Time : 7:30 PM"
+            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
           ]
         },
         {
@@ -570,9 +593,20 @@
           "venue": "Saroyan Theatre",
           "start": "2027-06-08",
           "end": "2027-06-09",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical @Saroyan Theatre June 8 & 9, 2027 Show Time : 7:30 PM"
+            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+          ]
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-21",
+          "end": "2026-11-21",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+          "evidence": [
+            "World Ballet Company: Swan Lake WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         }
       ],
@@ -583,9 +617,9 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
-          "action": "withheld",
-          "reason": "possible duplicate"
+          "title": "LAF Nutcracker",
+          "action": "updated",
+          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
         },
         {
           "title": "A Magical Cirque Christmas",
@@ -598,9 +632,9 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "Be Like Blippi Tour",
-          "action": "updated",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/"
+          "title": "Be Like Blippi",
+          "action": "withheld",
+          "reason": "possible duplicate"
         },
         {
           "title": "Jersey Boys",
@@ -610,7 +644,7 @@
         {
           "title": "World Ballet Company: The Sleeping Beauty",
           "action": "updated",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/"
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
         },
         {
           "title": "The Bodyguard",
@@ -621,6 +655,11 @@
           "title": "A Beautiful Noise: The Neil Diamond Musical",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "action": "withheld",
+          "reason": "possible duplicate"
         }
       ]
     },
@@ -637,7 +676,7 @@
         {
           "title": "Is This a Room",
           "kind": "performance",
-          "venue": "University Theatre, Fresno State",
+          "venue": "Fresno State University Theatre",
           "start": "2026-10-02",
           "end": "2026-10-10",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -648,7 +687,7 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "University Theatre, Fresno State",
+          "venue": "Fresno State University Theatre",
           "start": "2026-11-13",
           "end": "2026-11-21",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -659,7 +698,7 @@
         {
           "title": "The Contemporary Dance Ensemble",
           "kind": "performance",
-          "venue": "University Theatre, Fresno State",
+          "venue": "Fresno State University Theatre",
           "start": "2027-02-12",
           "end": "2027-02-20",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -670,7 +709,7 @@
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "University Theatre, Fresno State",
+          "venue": "Fresno State University Theatre",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -681,7 +720,7 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "University Theatre, Fresno State",
+          "venue": "Fresno State University Theatre",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -788,29 +827,11 @@
         "https://www.tcoe.org/TheatreCo/Productions"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "How to Train Your Dragon JR.",
-          "kind": "performance",
-          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
-          "start": "2026-11-19",
-          "end": "2026-11-21",
-          "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
-          "evidence": [
-            "Our fall main stage production of How to Train Your Dragon JR. performs November 19-21, 2026."
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "How to Train Your Dragon JR.",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     }
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-09-24T10:33:39.929Z"
+  "completedAt": "2026-09-25T12:05:11.377Z"
 }
