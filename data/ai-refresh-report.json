@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-25T12:03:56.772Z",
-  "completedDay": "2026-09-25",
+  "startedAt": "2026-09-26T07:36:30.186Z",
+  "completedDay": "2026-09-26",
   "organizations": [
     {
       "id": "ice-house",
@@ -11,26 +11,8 @@
         "https://www.visaliaicehouse.com/auditions"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "The Father",
-          "kind": "performance",
-          "venue": "Ice House Theater",
-          "start": "2026-09-01",
-          "end": "2026-09-30",
-          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-          "evidence": [
-            "The Father Directed by Antony Lotenero September 2026"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "The Father",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "encore",
@@ -87,8 +69,27 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Ride the Cyclone",
+          "kind": "performance",
+          "venue": "Porterville Barn Theater",
+          "start": "2026-11-13",
+          "end": "2026-11-29",
+          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+          "evidence": [
+            "Ride the Cyclone (2026)",
+            "Director: Todd Mathenia Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm ) November 15, 22, 29 ( Sunday Matinees @2pm )"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Ride the Cyclone",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "reedley-river-city",
@@ -180,18 +181,6 @@
       "failures": [],
       "candidates": [
         {
-          "title": "Come From Away",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-09-25",
-          "end": "2026-11-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
           "title": "The Cemetery Club",
           "kind": "performance",
           "venue": "2nd Space Theatre",
@@ -204,7 +193,19 @@
           ]
         },
         {
-          "title": "Little Women: A Victorian Christmas Card",
+          "title": "Come From Away",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2026-09-25",
+          "end": "2026-11-15",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "Little Women: A Victorian Christmas",
           "kind": "performance",
           "venue": "2nd Space Theatre",
           "start": "2026-11-05",
@@ -374,19 +375,19 @@
       ],
       "changes": [
         {
-          "title": "Come From Away",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
           "title": "The Cemetery Club",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "Little Women: A Victorian Christmas Card",
+          "title": "Come From Away",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Little Women: A Victorian Christmas",
+          "action": "withheld",
+          "reason": "possible duplicate"
         },
         {
           "title": "Shrek the Musical",
@@ -467,8 +468,8 @@
         "https://events.fresnoconventioncenter.com/nutcracker-2026",
         "https://events.fresnoconventioncenter.com/the-fresno-event-card-and-collectible-show",
         "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/us/events/",
-        "https://us.atgtickets.com/events/john-milton/saroyan-theatre/",
-        "https://us.atgtickets.com/events/john-milton/saroyan-theatre/calendar/"
+        "https://us.atgtickets.com/events/eslabon-armado/saroyan-theatre/",
+        "https://us.atgtickets.com/events/eslabon-armado/saroyan-theatre/calendar/"
       ],
       "failures": [
         {
@@ -505,29 +506,14 @@
           ]
         },
         {
-          "title": "LAF Nutcracker",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2026-12-12",
-          "end": "2026-12-13",
-          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
-          "evidence": [
-            "LAF Nutcracker Fresno",
-            "Saroyan Theatre, Fresno",
-            "Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-            "Sat, Dec 12, 2026 2:00 PM PT",
-            "Sun, Dec 13, 2026 2:00 PM PT"
-          ]
-        },
-        {
           "title": "A Magical Cirque Christmas",
           "kind": "performance",
           "venue": "Saroyan Theatre",
           "start": "2026-12-15",
           "end": "2026-12-15",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
           "evidence": [
-            "A Magical Cirque Christmas A Magical Cirque Christmas Events Saroyan Theatre Tue, Dec 15, 2026"
+            "A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE"
           ]
         },
         {
@@ -538,9 +524,7 @@
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
-            "World Ballet Company: The Nutcracker WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
-            "Monday December 21",
-            "Tuesday December 22"
+            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         },
         {
@@ -597,17 +581,6 @@
           "evidence": [
             "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
           ]
-        },
-        {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2026-11-21",
-          "end": "2026-11-21",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
-          "evidence": [
-            "World Ballet Company: Swan Lake WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
-          ]
         }
       ],
       "changes": [
@@ -615,11 +588,6 @@
           "title": "Water For Elephants",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "LAF Nutcracker",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
         },
         {
           "title": "A Magical Cirque Christmas",
@@ -655,11 +623,6 @@
           "title": "A Beautiful Noise: The Neil Diamond Musical",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
-          "action": "withheld",
-          "reason": "possible duplicate"
         }
       ]
     },
@@ -827,11 +790,29 @@
         "https://www.tcoe.org/TheatreCo/Productions"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "How to Train Your Dragon JR.",
+          "kind": "performance",
+          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
+          "start": "2026-11-19",
+          "end": "2026-11-21",
+          "sourceUrl": "https://www.tcoe.org/StudentEvents",
+          "evidence": [
+            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia (Grades 1-12) Fee: $85/student participants (scholarships available). How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "How to Train Your Dragon JR.",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     }
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-09-25T12:05:11.377Z"
+  "completedAt": "2026-09-26T07:37:50.037Z"
 }
