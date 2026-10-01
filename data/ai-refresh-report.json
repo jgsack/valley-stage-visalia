@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-30T08:56:30.762Z",
-  "completedDay": "2026-09-30",
+  "startedAt": "2026-10-01T13:41:29.557Z",
+  "completedDay": "2026-10-01",
   "organizations": [
     {
       "id": "ice-house",
@@ -13,14 +13,25 @@
       "failures": [],
       "candidates": [
         {
-          "title": "The Father",
+          "title": "The Normal Heart",
           "kind": "performance",
           "venue": "Ice House Theater",
-          "start": "2026-09-01",
-          "end": "2026-09-30",
+          "start": "2026-11-01",
+          "end": "2026-11-30",
           "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
           "evidence": [
-            "The Father Directed by Antony Lotenero September 2026"
+            "The Normal Heart Directed by JJ Pestano November 2026"
+          ]
+        },
+        {
+          "title": "The Annual Holiday Cabaret",
+          "kind": "performance",
+          "venue": "Ice House Theater",
+          "start": "2026-12-01",
+          "end": "2026-12-31",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Annual Holiday Cabaret Directed by Charlotte Garcia Da Rosa December 2026"
           ]
         }
       ],
@@ -42,7 +53,19 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "title": "Halloween Escape",
+          "kind": "performance",
+          "venue": "Encore Theatre Company",
+          "start": "2026-10-24",
+          "end": "2026-10-24",
+          "sourceUrl": "https://www.encoretulare.org/",
+          "evidence": [
+            "One-Night Event Halloween Escape Saturday, October 24, 2026 Featuring CleVR Escape, dinner, prizes, and Halloween fun for all ages."
+          ]
+        }
+      ],
       "changes": []
     },
     {
@@ -140,7 +163,7 @@
         {
           "title": "Hamlet",
           "kind": "performance",
-          "venue": "COS Theatre",
+          "venue": "COS Box Office, 915 S Mooney Blvd, Visalia, CA, 93277",
           "start": "2026-10-08",
           "end": "2026-10-17",
           "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
@@ -183,18 +206,6 @@
           "evidence": [
             "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)",
             "Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "The Cemetery Club",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-08-28",
-          "end": "2026-10-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Aug 28 to Oct 18 The Cemetery Club Fri, Aug 28, 2026 8:00 PM Sun, Oct 18, 2026 4:00 PM 2nd Space Theatre (map)",
-            "The Cemetery Club will be playing August 28 - October 18 at 2nd Space Theatre."
           ]
         },
         {
@@ -328,42 +339,6 @@
             "Aug 27 to Oct 17 An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map)",
             "An Old-Fashioned Family Murder will be playing August 27 - October 17 at 2nd Space Theatre."
           ]
-        },
-        {
-          "title": "She Loves Me",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-09-24",
-          "end": "2027-11-14",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 24 to Nov 14 She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "She Loves Me will be playing September 24 - November 14 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-11-04",
-          "end": "2027-12-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 4 to Dec 19 It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map)",
-            "It’s a Wonderful Life: A Live Radio Play will be playing November 4 - December 19 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "The Addams Family",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-11-19",
-          "end": "2028-01-16",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 19 to Jan 16 The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
-          ]
         }
       ],
       "changes": [
@@ -371,16 +346,6 @@
           "title": "Come From Away",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Cemetery Club",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Little Women: A Victorian Christmas",
-          "action": "withheld",
-          "reason": "possible duplicate"
         },
         {
           "title": "Shrek the Musical",
@@ -431,21 +396,6 @@
           "title": "An Old-Fashioned Family Murder",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "She Loves Me",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Addams Family",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
       ]
     },
@@ -488,26 +438,14 @@
       ],
       "candidates": [
         {
-          "title": "Water For Elephants",
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
           "kind": "performance",
           "venue": "Saroyan Theatre",
-          "start": "2026-11-03",
-          "end": "2026-11-04",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "start": "2026-11-21",
+          "end": "2026-11-21",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
           "evidence": [
-            "Water For Elephants Water For Elephants Musicals Saroyan Theatre Tue, Nov 3 - Wed, Nov 4, 2026"
-          ]
-        },
-        {
-          "title": "LAF Nutcracker",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2026-12-12",
-          "end": "2026-12-13",
-          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
-          "evidence": [
-            "LAF Nutcracker Fresno See former Joffrey Ballet stars Molly Groeschel and Lucas Segovia headline The Nutcracker",
-            "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT"
+            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE World Ballet Company: Swan Lake with a Live Orchestra PURCHASE TICKETS HERE"
           ]
         },
         {
@@ -516,88 +454,29 @@
           "venue": "Saroyan Theatre",
           "start": "2026-12-15",
           "end": "2026-12-15",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
           "evidence": [
-            "A Magical Cirque Christmas A Magical Cirque Christmas Events Saroyan Theatre Tue, Dec 15, 2026"
+            "A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE A Magical Cirque Christmas Embrace the holiday spirit with A MAGICAL CIRQUE CHRISTMAS, a variety show full of nostalgia, charm, and awe-inspiring performances for all ages."
           ]
         },
         {
           "title": "World Ballet Company: The Nutcracker",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-12-21",
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
-            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
-          ]
-        },
-        {
-          "title": "Be Like Blippi",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-01-30",
-          "end": "2027-01-30",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
-          ]
-        },
-        {
-          "title": "Jersey Boys",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-02-02",
-          "end": "2027-02-04",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
-          ]
-        },
-        {
-          "title": "World Ballet Company: The Sleeping Beauty",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-02-12",
-          "end": "2027-02-12",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
-          ]
-        },
-        {
-          "title": "The Bodyguard",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-03-15",
-          "end": "2027-03-16",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
-          ]
-        },
-        {
-          "title": "A Beautiful Noise: The Neil Diamond Musical",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-06-08",
-          "end": "2027-06-09",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE World Ballet Company: The Nutcracker Pre-Sale tickets available now! Use code: SNOWFL A Magical Holiday Adventure Awaits!",
+            "Monday December 21 PURCHASE TICKETS HERE Tuesday December 22"
           ]
         }
       ],
       "changes": [
         {
-          "title": "Water For Elephants",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "LAF Nutcracker",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "action": "withheld",
+          "reason": "possible duplicate"
         },
         {
           "title": "A Magical Cirque Christmas",
@@ -606,31 +485,6 @@
         },
         {
           "title": "World Ballet Company: The Nutcracker",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Be Like Blippi",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        },
-        {
-          "title": "Jersey Boys",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "World Ballet Company: The Sleeping Beauty",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
-        },
-        {
-          "title": "The Bodyguard",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "A Beautiful Noise: The Neil Diamond Musical",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
@@ -658,17 +512,6 @@
           ]
         },
         {
-          "title": "Is This a Room",
-          "kind": "performance",
-          "venue": "Fresno State University Theatre",
-          "start": "2026-10-02",
-          "end": "2026-10-10",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
-          "evidence": [
-            "Is This a Room Conceived & Originally Directed Tina Satter Directed by Michelle Bellaver Performances: October 2-10, 2026"
-          ]
-        },
-        {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
           "venue": "Fresno State University Theatre",
@@ -677,17 +520,6 @@
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
           "evidence": [
             "The Miraculous Journey of Edward Tulane adapted by Dwayne Hartford from the book by Kate DiCamillo directed by J. Daniel Herring November 13 - 21, 2026"
-          ]
-        },
-        {
-          "title": "The Miraculous Journey of Edward Tulane",
-          "kind": "performance",
-          "venue": "Fresno State University Theatre",
-          "start": "2026-11-13",
-          "end": "2026-11-21",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
-          "evidence": [
-            "The Miraculous Journey of Edward Tulane From the Book by Kate DiCamillo | Adapted by Dwayne Hartford Directed by J. Daniel Herring Performances: November 13 – 21, 2026"
           ]
         },
         {
@@ -727,16 +559,6 @@
       "changes": [
         {
           "title": "Is This a Room",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Is This a Room",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Miraculous Journey of Edward Tulane",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
@@ -841,27 +663,12 @@
           "end": "2026-11-21",
           "sourceUrl": "https://www.tcoe.org/StudentEvents",
           "evidence": [
-            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia (Grades 1-12) Fee: $85/student participants (scholarships available). How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
-          ]
-        },
-        {
-          "title": "How to Train Your Dragon JR.",
-          "kind": "performance",
-          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
-          "start": "2026-11-19",
-          "end": "2026-11-21",
-          "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
-          "evidence": [
-            "Our fall main stage production of How to Train Your Dragon JR. performs November 19-21, 2026."
+            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia",
+            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
           ]
         }
       ],
       "changes": [
-        {
-          "title": "How to Train Your Dragon JR.",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
         {
           "title": "How to Train Your Dragon JR.",
           "action": "retained",
@@ -872,5 +679,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-09-30T08:57:50.281Z"
+  "completedAt": "2026-10-01T13:43:00.250Z"
 }
