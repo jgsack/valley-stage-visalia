@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 1, 2026",
-  "verifiedAt": "October 1, 2026",
-  "reviewedAt": "October 1, 2026",
-  "reviewSummary": "Last updated: October 1, 2026",
+  "checkedAt": "October 2, 2026",
+  "verifiedAt": "October 2, 2026",
+  "reviewedAt": "October 2, 2026",
+  "reviewSummary": "Last updated: October 2, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1372,16 +1372,16 @@
       "run": "October 8, 2026–October 17, 2026",
       "next": "Thu, Oct 8",
       "performanceCount": "See performance calendar",
-      "description": "Hamlet at COS Box Office, 915 S Mooney Blvd, Visalia, CA, 93277. See the official page for the complete schedule and details.",
+      "description": "Hamlet at COS Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
       "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
       "detailsUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
       "organizationId": "cos",
       "aiManaged": true,
       "evidence": [
-        "COS Theatre A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
+        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
       ],
-      "verifiedDate": "2026-10-01"
+      "verifiedDate": "2026-10-02"
     }
   ],
   "sources": [
