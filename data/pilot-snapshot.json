@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 3, 2026",
-  "verifiedAt": "October 3, 2026",
-  "reviewedAt": "October 3, 2026",
-  "reviewSummary": "Last updated: October 3, 2026",
+  "checkedAt": "October 4, 2026",
+  "verifiedAt": "October 4, 2026",
+  "reviewedAt": "October 4, 2026",
+  "reviewSummary": "Last updated: October 4, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1320,7 +1320,7 @@
       "evidence": [
         "World Ballet Company: The Sleeping Beauty @Saroyan Theatre February 12, 2027 Show Time : 7:00 PM"
       ],
-      "verifiedDate": "2026-10-03"
+      "verifiedDate": "2026-10-04"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1340,7 +1340,7 @@
       "evidence": [
         "Be Like Blippi Tour @Saroyan Theatre January 30, 2027 Show Time : 2:00 PM"
       ],
-      "verifiedDate": "2026-10-03"
+      "verifiedDate": "2026-10-04"
     },
     {
       "id": "broadway-fresno-saroyan-2d18780cd59d",
@@ -1353,15 +1353,14 @@
       "performanceCount": "See performance calendar",
       "description": "LAF Nutcracker at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
-      "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
-      "detailsUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "LAF Nutcracker Fresno See former Joffrey Ballet stars Molly Groeschel and Lucas Segovia headline The Nutcracker",
-        "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT"
+        "LAF Nutcracker LAF Nutcracker Dance Saroyan Theatre Sat, Dec 12 - Sun, Dec 13, 2026"
       ],
-      "verifiedDate": "2026-09-30"
+      "verifiedDate": "2026-10-04"
     },
     {
       "id": "cos-97d56ff6bf63",
@@ -1381,7 +1380,7 @@
       "evidence": [
         "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
       ],
-      "verifiedDate": "2026-10-02"
+      "verifiedDate": "2026-10-04"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1401,7 +1400,49 @@
       "evidence": [
         "Elmo's Got the Moves: Sesame Street @Saroyan Theatre February 18, 2027 Show Time : 6:00 PM"
       ],
-      "verifiedDate": "2026-10-03"
+      "verifiedDate": "2026-10-04"
+    },
+    {
+      "id": "roger-rockas-e4d05dad792f",
+      "title": "OPEN AUDITIONS - Private Lives & Ripcord",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "December 12, 2026",
+      "next": "Sat, Dec 12",
+      "performanceCount": "See audition details",
+      "description": "OPEN AUDITIONS - Private Lives & Ripcord at 2nd Space Theatre. See the official page for the complete schedule and details.",
+      "status": "auditions",
+      "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+      "detailsUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+      "organizationId": "roger-rockas",
+      "aiManaged": true,
+      "evidence": [
+        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+      ],
+      "verifiedDate": "2026-10-04"
+    },
+    {
+      "id": "roger-rockas-470a65e55033",
+      "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
+      "theater": "Good Company Players · Roger Rocka's",
+      "city": "Fresno",
+      "distance": 46,
+      "run": "January 9, 2027",
+      "next": "Sat, Jan 9",
+      "performanceCount": "See audition details",
+      "description": "OPEN AUDITIONS - Little Shop of Horrors & Clue at Roger Rocka's Dinner Theater. See the official page for the complete schedule and details.",
+      "status": "auditions",
+      "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+      "detailsUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+      "organizationId": "roger-rockas",
+      "aiManaged": true,
+      "evidence": [
+        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+      ],
+      "verifiedDate": "2026-10-04"
     }
   ],
   "sources": [
