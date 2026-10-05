@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 4, 2026",
-  "verifiedAt": "October 4, 2026",
-  "reviewedAt": "October 4, 2026",
-  "reviewSummary": "Last updated: October 4, 2026",
+  "checkedAt": "October 5, 2026",
+  "verifiedAt": "October 5, 2026",
+  "reviewedAt": "October 5, 2026",
+  "reviewSummary": "Last updated: October 5, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1313,14 +1313,14 @@
       "performanceCount": "See performance calendar",
       "description": "World Ballet Company: The Sleeping Beauty at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
-      "sourceUrl": "https://events.fresnoconventioncenter.com/",
-      "detailsUrl": "https://events.fresnoconventioncenter.com/",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "World Ballet Company: The Sleeping Beauty @Saroyan Theatre February 12, 2027 Show Time : 7:00 PM"
+        "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
       ],
-      "verifiedDate": "2026-10-04"
+      "verifiedDate": "2026-10-05"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1353,14 +1353,16 @@
       "performanceCount": "See performance calendar",
       "description": "LAF Nutcracker at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
-      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
+      "detailsUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "LAF Nutcracker LAF Nutcracker Dance Saroyan Theatre Sat, Dec 12 - Sun, Dec 13, 2026"
+        "LAF Nutcracker LAF Nutcracker Fresno",
+        "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
+        "Venue Saroyan Theatre, Fresno"
       ],
-      "verifiedDate": "2026-10-04"
+      "verifiedDate": "2026-10-05"
     },
     {
       "id": "cos-97d56ff6bf63",
@@ -1378,9 +1380,9 @@
       "organizationId": "cos",
       "aiManaged": true,
       "evidence": [
-        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
+        "COS Theatre A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
       ],
-      "verifiedDate": "2026-10-04"
+      "verifiedDate": "2026-10-05"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1418,10 +1420,9 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
-        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)"
       ],
-      "verifiedDate": "2026-10-04"
+      "verifiedDate": "2026-10-05"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1439,10 +1440,9 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
-        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+        "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)"
       ],
-      "verifiedDate": "2026-10-04"
+      "verifiedDate": "2026-10-05"
     }
   ],
   "sources": [
