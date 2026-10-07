@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 6, 2026",
-  "verifiedAt": "October 6, 2026",
-  "reviewedAt": "October 6, 2026",
-  "reviewSummary": "Last updated: October 6, 2026",
+  "checkedAt": "October 7, 2026",
+  "verifiedAt": "October 7, 2026",
+  "reviewedAt": "October 7, 2026",
+  "reviewSummary": "Last updated: October 7, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1318,9 +1318,9 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027 Buy tickets for World Ballet Company: The Sleeping Beauty"
+        "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
       ],
-      "verifiedDate": "2026-10-06"
+      "verifiedDate": "2026-10-07"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1380,9 +1380,10 @@
       "organizationId": "cos",
       "aiManaged": true,
       "evidence": [
-        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
+        "its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm",
+        "October 8-17, 2026"
       ],
-      "verifiedDate": "2026-10-06"
+      "verifiedDate": "2026-10-07"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1420,10 +1421,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
         "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-10-06"
+      "verifiedDate": "2026-10-07"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1441,10 +1442,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+        "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
         "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
       ],
-      "verifiedDate": "2026-10-06"
+      "verifiedDate": "2026-10-07"
     }
   ],
   "sources": [
