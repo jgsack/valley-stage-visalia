@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 7, 2026",
-  "verifiedAt": "October 7, 2026",
-  "reviewedAt": "October 7, 2026",
-  "reviewSummary": "Last updated: October 7, 2026",
+  "checkedAt": "October 8, 2026",
+  "verifiedAt": "October 8, 2026",
+  "reviewedAt": "October 8, 2026",
+  "reviewSummary": "Last updated: October 8, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1320,7 +1320,7 @@
       "evidence": [
         "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
       ],
-      "verifiedDate": "2026-10-07"
+      "verifiedDate": "2026-10-08"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1374,16 +1374,15 @@
       "next": "Thu, Oct 8",
       "performanceCount": "See performance calendar",
       "description": "Hamlet at COS Theatre. See the official page for the complete schedule and details.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
       "detailsUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
       "organizationId": "cos",
       "aiManaged": true,
       "evidence": [
-        "its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm",
-        "October 8-17, 2026"
+        "COS Theatre A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
       ],
-      "verifiedDate": "2026-10-07"
+      "verifiedDate": "2026-10-08"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1421,10 +1420,9 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
-        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)"
       ],
-      "verifiedDate": "2026-10-07"
+      "verifiedDate": "2026-10-08"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1442,10 +1440,29 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
-        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+        "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)"
       ],
-      "verifiedDate": "2026-10-07"
+      "verifiedDate": "2026-10-08"
+    },
+    {
+      "id": "broadway-fresno-saroyan-4e2e08a424d6",
+      "title": "Shen Yun",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "March 20, 2027–March 21, 2027",
+      "next": "Sat, Mar 20",
+      "performanceCount": "See performance calendar",
+      "description": "Shen Yun at Saroyan Theatre. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "organizationId": "broadway-fresno-saroyan",
+      "aiManaged": true,
+      "evidence": [
+        "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+      ],
+      "verifiedDate": "2026-10-08"
     }
   ],
   "sources": [
