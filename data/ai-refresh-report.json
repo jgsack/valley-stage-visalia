@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-08T07:47:15.279Z",
-  "completedDay": "2026-10-08",
+  "startedAt": "2026-10-09T14:19:56.650Z",
+  "completedDay": "2026-10-09",
   "organizations": [
     {
       "id": "ice-house",
@@ -20,9 +20,9 @@
         "https://www.encoretulare.org/",
         "https://www.encoretulare.org/shows",
         "https://www.encoretulare.org/auditions",
+        "https://www.encoretulare.org/assets/ShowTicketAction-JF5_lUxp.js",
         "https://www.encoretulare.org/calendar",
-        "https://www.encoretulare.org/past-productions",
-        "https://www.encoretulare.org/assets/shows.index-BH9-D2nd.js"
+        "https://www.encoretulare.org/past-productions"
       ],
       "failures": [
         {
@@ -30,7 +30,19 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
+      "candidates": [
+        {
+          "title": "Halloween Escape",
+          "kind": "performance",
+          "venue": "Encore Theatre Company",
+          "start": "2026-10-24",
+          "end": "2026-10-24",
+          "sourceUrl": "https://www.encoretulare.org/",
+          "evidence": [
+            "One-Night Event Halloween Escape Saturday, October 24, 2026 Featuring CleVR Escape, dinner, prizes, and Halloween fun for all ages."
+          ]
+        }
+      ],
       "changes": []
     },
     {
@@ -69,8 +81,28 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Ride the Cyclone",
+          "kind": "performance",
+          "venue": "Porterville Barn Theater",
+          "start": "2026-11-13",
+          "end": "2026-11-29",
+          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+          "evidence": [
+            "Ride the Cyclone (2026)",
+            "Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm )",
+            "November 15, 22, 29 ( Sunday Matinees @2pm )"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Ride the Cyclone",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "reedley-river-city",
@@ -84,8 +116,26 @@
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "The Wizard of Oz",
+          "kind": "performance",
+          "venue": "Historic 1903 Reedley Opera House",
+          "start": "2026-09-25",
+          "end": "2026-10-11",
+          "sourceUrl": "https://www.rctcreedley.com/2026-season",
+          "evidence": [
+            "2026 Season The Wizard of Oz September 25 - October 11"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "The Wizard of Oz",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "selma-arts",
@@ -124,26 +174,8 @@
           "error": "unapproved host or social source"
         }
       ],
-      "candidates": [
-        {
-          "title": "Hamlet",
-          "kind": "performance",
-          "venue": "COS Theatre",
-          "start": "2026-10-08",
-          "end": "2026-10-17",
-          "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
-          "evidence": [
-            "COS Theatre A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "Hamlet",
-          "action": "updated",
-          "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "roger-rockas",
@@ -169,7 +201,20 @@
           "end": "2026-10-18",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
-            "Aug 28 to Oct 18 The Cemetery Club Fri, Aug 28, 2026 8:00 PM Sun, Oct 18, 2026 4:00 PM 2nd Space Theatre (map)"
+            "The Cemetery Club Fri, Aug 28, 2026 8:00 PM Sun, Oct 18, 2026 4:00 PM 2nd Space Theatre (map)",
+            "The Cemetery Club will be playing August 28 - October 18 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Come From Away",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2026-09-25",
+          "end": "2026-11-15",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
           ]
         },
         {
@@ -180,150 +225,8 @@
           "end": "2026-12-20",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
-            "Nov 5 to Dec 20 Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "Shrek the Musical",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-11-20",
-          "end": "2027-01-17",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 20 to Jan 17 Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
-          ]
-        },
-        {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-01-02",
-          "end": "2027-02-21",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 2 to Feb 21 Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "Les Misérables",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-22",
-          "end": "2027-04-04",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 22 to Apr 4 Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
-          ]
-        },
-        {
-          "title": "Private Lives",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-02-26",
-          "end": "2027-04-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Feb 26 to Apr 18 Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "Little Shop of Horrors",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-04-09",
-          "end": "2027-05-23",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Apr 9 to May 23 Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
-          ]
-        },
-        {
-          "title": "Ripcord",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-04-30",
-          "end": "2027-06-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Apr 30 to Jun 20 Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "Clue",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-05-28",
-          "end": "2027-07-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "May 28 to Jul 18 Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
-          ]
-        },
-        {
-          "title": "Eleanor",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-06-25",
-          "end": "2027-08-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jun 25 to Aug 15 Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "Disney’s The Little Mermaid",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-07-23",
-          "end": "2027-09-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jul 23 to Sep 19 Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
-          ]
-        },
-        {
-          "title": "An Old-Fashioned Family Murder",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-08-27",
-          "end": "2027-10-17",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Aug 27 to Oct 17 An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "She Loves Me",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-09-24",
-          "end": "2027-11-14",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 24 to Nov 14 She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map)"
-          ]
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-11-04",
-          "end": "2027-12-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 4 to Dec 19 It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
-          "title": "The Addams Family",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-11-19",
-          "end": "2028-01-16",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 19 to Jan 16 The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map)"
+            "Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map)",
+            "Little Women: A Victorian Christmas Card will be playing November 5 - December 20 at 2nd Space Theatre."
           ]
         },
         {
@@ -334,7 +237,32 @@
           "end": "2026-12-12",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)"
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+            "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+          ]
+        },
+        {
+          "title": "Shrek the Musical",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2026-11-20",
+          "end": "2027-01-17",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Shrek the Musical will be playing November 20, 2026 - January 17, 2027 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-01-02",
+          "end": "2027-02-21",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map)",
+            "Sherlock Holmes and the Adventure of the Fallen Soufflé will be playing January 2 - February 21 at 2nd Space Theatre."
           ]
         },
         {
@@ -345,7 +273,20 @@
           "end": "2027-01-09",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)"
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+            "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+          ]
+        },
+        {
+          "title": "Les Misérables",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-01-22",
+          "end": "2027-04-04",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Les Misérables will be playing January 22 - April 4 at Roger Rocka’s Dinner Theater."
           ]
         },
         {
@@ -356,7 +297,128 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 30 OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)"
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)",
+            "This company performs for the pre-shows of Little Shop of Horrors and Clue ."
+          ]
+        },
+        {
+          "title": "Private Lives",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-02-26",
+          "end": "2027-04-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)",
+            "Private Lives will be playing February 21 - April 18 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Little Shop of Horrors",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-04-09",
+          "end": "2027-05-23",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Little Shop of Horrors will be playing April 9 - May 23 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "Ripcord",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-04-30",
+          "end": "2027-06-20",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map)",
+            "Ripcord will be playing April 30 - June 20 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Clue",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-05-28",
+          "end": "2027-07-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Clue will be playing May 28 - July 18 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "Eleanor",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-06-25",
+          "end": "2027-08-15",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map)",
+            "Eleanor will be playing June 25 - August 15 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Disney’s The Little Mermaid",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-07-23",
+          "end": "2027-09-19",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "Disney’s The Little Mermaid will be playing July 23 - September 19 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "An Old-Fashioned Family Murder",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-08-27",
+          "end": "2027-10-17",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map)",
+            "An Old-Fashioned Family Murder will be playing August 27 - October 17 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "She Loves Me",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-09-24",
+          "end": "2027-11-14",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "She Loves Me will be playing September 24 - November 14 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "It’s a Wonderful Life: A Live Radio Play",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-11-04",
+          "end": "2027-12-19",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map)",
+            "It’s a Wonderful Life: A Live Radio Play will be playing November 4 - December 19 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "The Addams Family",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-11-19",
+          "end": "2028-01-16",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map)",
+            "The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
           ]
         }
       ],
@@ -367,9 +429,14 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "Little Women: A Victorian Christmas",
-          "action": "withheld",
-          "reason": "possible duplicate"
+          "title": "Come From Away",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
+          "action": "updated",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
         },
         {
           "title": "Shrek the Musical",
@@ -382,9 +449,19 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
+          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
+          "action": "updated",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
+        },
+        {
           "title": "Les Misérables",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "OPEN AUDITIONS - Junior Company",
+          "action": "withheld",
+          "reason": "possible duplicate"
         },
         {
           "title": "Private Lives",
@@ -435,21 +512,6 @@
           "title": "The Addams Family",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
-          "action": "updated",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
-        },
-        {
-          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
-          "action": "updated",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
-        },
-        {
-          "title": "OPEN AUDITIONS - Junior Company",
-          "action": "withheld",
-          "reason": "possible duplicate"
         }
       ]
     },
@@ -491,6 +553,28 @@
         }
       ],
       "candidates": [
+        {
+          "title": "Water For Elephants",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-03",
+          "end": "2026-11-04",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "Water For Elephants Musicals Saroyan Theatre Tue, Nov 3 - Wed, Nov 4, 2026"
+          ]
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a LIVE Orchestra",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-21",
+          "end": "2026-11-21",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+          "evidence": [
+            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
+          ]
+        },
         {
           "title": "A Magical Cirque Christmas",
           "kind": "performance",
@@ -582,6 +666,16 @@
       ],
       "changes": [
         {
+          "title": "Water For Elephants",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a LIVE Orchestra",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        },
+        {
           "title": "A Magical Cirque Christmas",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
@@ -613,7 +707,7 @@
         },
         {
           "title": "Shen Yun",
-          "action": "added",
+          "action": "updated",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
         },
         {
@@ -636,7 +730,7 @@
         {
           "title": "Is This a Room",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
           "start": "2026-10-02",
           "end": "2026-10-10",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -647,7 +741,7 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
           "start": "2026-11-13",
           "end": "2026-11-21",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -656,9 +750,20 @@
           ]
         },
         {
+          "title": "The Contemporary Dance Ensemble",
+          "kind": "performance",
+          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
+          "start": "2027-02-12",
+          "end": "2027-02-20",
+          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+          "evidence": [
+            "The Contemporary Dance Ensemble artistic director, Kenneth Balint Feb. 12 - 20, 2027"
+          ]
+        },
+        {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -669,7 +774,7 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -686,6 +791,11 @@
         },
         {
           "title": "The Miraculous Journey of Edward Tulane",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Contemporary Dance Ensemble",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
@@ -781,7 +891,8 @@
           "sourceUrl": "https://www.tcoe.org/StudentEvents",
           "evidence": [
             "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia",
-            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
+            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m.",
+            "A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
           ]
         }
       ],
@@ -796,5 +907,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-10-08T07:48:32.687Z"
+  "completedAt": "2026-10-09T14:21:22.680Z"
 }

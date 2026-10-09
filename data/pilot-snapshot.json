@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 8, 2026",
-  "verifiedAt": "October 8, 2026",
-  "reviewedAt": "October 8, 2026",
-  "reviewSummary": "Last updated: October 8, 2026",
+  "checkedAt": "October 9, 2026",
+  "verifiedAt": "October 9, 2026",
+  "reviewedAt": "October 9, 2026",
+  "reviewSummary": "Last updated: October 9, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1320,7 +1320,7 @@
       "evidence": [
         "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
       ],
-      "verifiedDate": "2026-10-08"
+      "verifiedDate": "2026-10-09"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1420,9 +1420,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)"
+        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-10-08"
+      "verifiedDate": "2026-10-09"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1440,9 +1441,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)"
+        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
       ],
-      "verifiedDate": "2026-10-08"
+      "verifiedDate": "2026-10-09"
     },
     {
       "id": "broadway-fresno-saroyan-4e2e08a424d6",
@@ -1462,7 +1464,7 @@
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-10-08"
+      "verifiedDate": "2026-10-09"
     }
   ],
   "sources": [
