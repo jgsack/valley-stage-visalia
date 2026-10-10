@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 9, 2026",
-  "verifiedAt": "October 9, 2026",
-  "reviewedAt": "October 9, 2026",
-  "reviewSummary": "Last updated: October 9, 2026",
+  "checkedAt": "October 10, 2026",
+  "verifiedAt": "October 10, 2026",
+  "reviewedAt": "October 10, 2026",
+  "reviewSummary": "Last updated: October 10, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1320,7 +1320,7 @@
       "evidence": [
         "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
       ],
-      "verifiedDate": "2026-10-09"
+      "verifiedDate": "2026-10-10"
     },
     {
       "id": "broadway-fresno-saroyan-d8cbf955c9c2",
@@ -1358,11 +1358,12 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "LAF Nutcracker LAF Nutcracker Fresno",
-        "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-        "Venue Saroyan Theatre, Fresno"
+        "LAF Nutcracker in Fresno | Official Box Office | ATG Tickets",
+        "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
+        "Sat, Dec 12, 2026 2:00 PM PT",
+        "Sun, Dec 13, 2026 2:00 PM PT"
       ],
-      "verifiedDate": "2026-10-05"
+      "verifiedDate": "2026-10-10"
     },
     {
       "id": "cos-97d56ff6bf63",
@@ -1371,7 +1372,7 @@
       "city": "Visalia",
       "distance": 3,
       "run": "October 8, 2026–October 17, 2026",
-      "next": "Thu, Oct 8",
+      "next": "See the official performance calendar",
       "performanceCount": "See performance calendar",
       "description": "Hamlet at COS Theatre. See the official page for the complete schedule and details.",
       "status": "now",
@@ -1380,9 +1381,9 @@
       "organizationId": "cos",
       "aiManaged": true,
       "evidence": [
-        "COS Theatre A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
+        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
       ],
-      "verifiedDate": "2026-10-08"
+      "verifiedDate": "2026-10-10"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1464,7 +1465,7 @@
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-10-09"
+      "verifiedDate": "2026-10-10"
     }
   ],
   "sources": [
