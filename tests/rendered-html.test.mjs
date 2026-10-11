@@ -23,8 +23,10 @@ test("renders the Valley Stage prototype", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /<title>Valley Stage \| Live theater near Visalia<\/title>/i);
-  assert.match(html, /Annie/);
-  assert.match(html, /\/posters\/roger-rockas-annie\.jpg/);
+  const playingNow = currentShows(snapshot.shows, pacificDay()).filter((show) => show.status === "now");
+  assert.ok(playingNow.length > 0);
+  assert.ok(html.includes(playingNow[0].title));
+  if (playingNow[0].image) assert.ok(html.includes(playingNow[0].image));
   assert.doesNotMatch(html, /Good Night, Oscar/);
   assert.match(html, /Come From Away/);
   assert.match(html, /class="poster-backdrop"/);
@@ -36,7 +38,7 @@ test("renders the Valley Stage prototype", async () => {
   assert.match(html, /Roger Rocka/);
   assert.match(
     html,
-    new RegExp(`Playing now<span class="count">${currentShows(snapshot.shows, pacificDay()).filter((show) => show.status === "now").length}<\\/span>`),
+    new RegExp(`Playing now<span class="count">${playingNow.length}<\\/span>`),
   );
   assert.match(
     html,

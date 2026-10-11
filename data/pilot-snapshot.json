@@ -585,6 +585,24 @@
       "imageMode": "cover"
     },
     {
+      "id": "encore-frog-and-toad-auditions",
+      "title": "A Year with Frog and Toad Auditions",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "October 25–26, 2026",
+      "next": "Sun, Oct 25 · 4:30 PM",
+      "performanceCount": "2 audition sessions",
+      "description": "Open auditions for Encore's February production. Prepare 16–32 bars of a musical-theatre song and a 30–60 second comedic or high-energy children's-book excerpt. An accompanist, backing track, a cappella singing, and virtual submissions are accepted; see Encore's form for complete requirements and roles.",
+      "status": "auditions",
+      "sourceUrl": "https://www.encoretulare.org/auditions",
+      "detailsUrl": "https://www.encoretulare.org/auditions",
+      "image": "/posters/encore-frog-and-toad-auditions.jpg",
+      "imageMode": "contain",
+      "organizationId": "encore",
+      "verifiedDate": "2026-10-11"
+    },
+    {
       "id": "last-five-years-lindsay",
       "title": "The Last 5 Years",
       "theater": "Lindsay Community Theater",
@@ -1474,7 +1492,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "Encore's redesigned official pages are accessible. The shows page now links directly to the official Little Shop of Horrors ticket page, confirming ten performances September 11–26; later previously verified season listings remain retained while the redesigned pages omit their details.",
+      "note": "Encore's redesigned official pages are accessible, but the auditions page loads published calls from a browser-only public data feed after its initial HTML says none are scheduled. That feed confirms A Year with Frog and Toad auditions October 25–26; the updater now reads it directly.",
       "waiting": false
     },
     {
