@@ -87,6 +87,7 @@ export function validate(candidate,pages,day=today()){
   const page=pages.find(p=>p.url===candidate.sourceUrl);
   if(!page || !["performance","audition"].includes(candidate.kind)) return false;
   if(typeof candidate.title!=="string" || candidate.title.length<2 || candidate.title.length>180) return false;
+  if(/^a modern masterpiece$/i.test(clean(candidate.title))) return false;
   if(typeof candidate.venue!=="string" || !candidate.venue.trim()) return false;
   if(!Array.isArray(candidate.evidence)||!candidate.evidence.length||candidate.evidence.some(q=>typeof q!=="string"||q.length<8||q.length>1200||!page.text.includes(clean(q))))return false;
   const evidence=candidate.evidence.join(" ");
