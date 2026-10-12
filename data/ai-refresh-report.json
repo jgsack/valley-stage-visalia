@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-11T08:43:29.701Z",
-  "completedDay": "2026-10-11",
+  "startedAt": "2026-10-12T09:49:07.246Z",
+  "completedDay": "2026-10-12",
   "organizations": [
     {
       "id": "ice-house",
@@ -11,7 +11,30 @@
         "https://www.visaliaicehouse.com/auditions"
       ],
       "failures": [],
-      "candidates": [],
+      "candidates": [
+        {
+          "title": "The Normal Heart",
+          "kind": "performance",
+          "venue": "Icehouse Theater",
+          "start": "2026-11-01",
+          "end": "2026-11-30",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Normal Heart Directed by JJ Pestano November 2026"
+          ]
+        },
+        {
+          "title": "The Annual Holiday Cabaret",
+          "kind": "performance",
+          "venue": "Icehouse Theater",
+          "start": "2026-12-01",
+          "end": "2026-12-31",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Annual Holiday Cabaret Directed by Charlotte Garcia Da Rosa December 2026"
+          ]
+        }
+      ],
       "changes": []
     },
     {
@@ -22,7 +45,8 @@
         "https://www.encoretulare.org/auditions",
         "https://www.encoretulare.org/assets/ShowTicketAction-CyEC-J8N.js",
         "https://www.encoretulare.org/calendar",
-        "https://www.encoretulare.org/past-productions"
+        "https://www.encoretulare.org/past-productions",
+        "https://www.encoretulare.org/auditions#published-auditions"
       ],
       "failures": [
         {
@@ -30,8 +54,26 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "A Year with Frog and Toad",
+          "kind": "audition",
+          "venue": "Encore Theatre, 324 South N Street, Tulare, CA",
+          "start": "2026-10-25",
+          "end": "2026-10-26",
+          "sourceUrl": "https://www.encoretulare.org/auditions#published-auditions",
+          "evidence": [
+            "Official published Encore audition: A Year with Frog and Toad. Audition dates: 2026-10-25 through 2026-10-26. Sunday, October 25th & Monday, October 26th October 25th, 4:30 - 7:00 PM & October 26th, 7:00 - 9:30 PM Encore Theatre, 324 South N Street, Tulare, CA"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "A Year with Frog and Toad",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "lindsay",
@@ -69,40 +111,25 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [
-        {
-          "title": "Ride the Cyclone",
-          "kind": "performance",
-          "venue": "Porterville Barn Theater",
-          "start": "2026-11-13",
-          "end": "2026-11-29",
-          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
-          "evidence": [
-            "Ride the Cyclone (2026)",
-            "Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm ) November 15, 22, 29 ( Sunday Matinees @2pm )"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "Ride the Cyclone",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "reedley-river-city",
       "pages": [
         "https://www.rctcreedley.com/",
-        "https://www.rctcreedley.com/2026-season",
         "https://www.rctcreedley.com/box-office-hours-1",
         "https://ci.ovationtix.com/36374",
         "https://ci.ovationtix.com/36374/production/1264343",
         "https://ci.ovationtix.com/36374/production/1264344",
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
-      "failures": [],
+      "failures": [
+        {
+          "url": "https://www.rctcreedley.com/2026-season",
+          "error": "page too large"
+        }
+      ],
       "candidates": [],
       "changes": []
     },
@@ -145,65 +172,21 @@
       ],
       "candidates": [
         {
-          "title": "Hamlet",
+          "title": "A Modern Masterpiece",
           "kind": "performance",
           "venue": "COS Theatre",
           "start": "2026-10-08",
           "end": "2026-10-17",
           "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
           "evidence": [
-            "COS Theatre A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
-          ]
-        },
-        {
-          "title": "October 8-17, 2026",
-          "kind": "performance",
-          "venue": "Visalia Campus",
-          "start": "2026-10-08",
-          "end": "2026-10-17",
-          "sourceUrl": "https://www.cos.edu/en-us/academics/fine-arts/cos-performances",
-          "evidence": [
-            "October 8-17, 2026 Column 1 Description November 12-21, 2026 Column 2 Description March 11-20, 2027 Column 3 Description April 30 - May 8, 2027 Column 4 Description | Visalia Campus 915 S. Mooney Blvd., Visalia, CA. 93277"
-          ]
-        },
-        {
-          "title": "November 12-21, 2026",
-          "kind": "performance",
-          "venue": "Visalia Campus",
-          "start": "2026-11-12",
-          "end": "2026-11-21",
-          "sourceUrl": "https://www.cos.edu/en-us/academics/fine-arts/cos-performances",
-          "evidence": [
-            "October 8-17, 2026 Column 1 Description November 12-21, 2026 Column 2 Description March 11-20, 2027 Column 3 Description April 30 - May 8, 2027 Column 4 Description | Visalia Campus 915 S. Mooney Blvd., Visalia, CA. 93277"
-          ]
-        },
-        {
-          "title": "March 11-20, 2027",
-          "kind": "performance",
-          "venue": "Visalia Campus",
-          "start": "2027-03-11",
-          "end": "2027-03-20",
-          "sourceUrl": "https://www.cos.edu/en-us/academics/fine-arts/cos-performances",
-          "evidence": [
-            "October 8-17, 2026 Column 1 Description November 12-21, 2026 Column 2 Description March 11-20, 2027 Column 3 Description April 30 - May 8, 2027 Column 4 Description | Visalia Campus 915 S. Mooney Blvd., Visalia, CA. 93277"
-          ]
-        },
-        {
-          "title": "April 30 - May 8, 2027",
-          "kind": "performance",
-          "venue": "Visalia Campus",
-          "start": "2027-04-30",
-          "end": "2027-05-08",
-          "sourceUrl": "https://www.cos.edu/en-us/academics/fine-arts/cos-performances",
-          "evidence": [
-            "October 8-17, 2026 Column 1 Description November 12-21, 2026 Column 2 Description March 11-20, 2027 Column 3 Description April 30 - May 8, 2027 Column 4 Description | Visalia Campus 915 S. Mooney Blvd., Visalia, CA. 93277"
+            "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
           ]
         }
       ],
       "changes": [
         {
-          "title": "Hamlet",
-          "action": "updated",
+          "title": "A Modern Masterpiece",
+          "action": "added",
           "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd"
         }
       ]
@@ -225,50 +208,6 @@
       "failures": [],
       "candidates": [
         {
-          "title": "The Cemetery Club",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-08-28",
-          "end": "2026-10-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Aug 28 to Oct 18 The Cemetery Club Fri, Aug 28, 2026 8:00 PM Sun, Oct 18, 2026 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Three widows find friendship and laughter as they grapple with love and loss in their monthly visits to their husbands’ graves. But when one tries to move on, the other two sabotage her budding romance. Rated PG-13. The Cemetery Club will be playing August 28 - October 18 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Come From Away",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-09-25",
-          "end": "2026-11-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Little Women: A Victorian Christmas Card",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-11-05",
-          "end": "2026-12-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 5 to Dec 20 Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Returning by popular demand, the timeless story of Jo, Meg, Beth, and Amy is brought to sparkling life against the backdrop of the Civil War. Rated PG Little Women: A Victorian Christmas Card will be playing November 5 - December 20 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Shrek the Musical",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-11-20",
-          "end": "2027-01-17",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 20 to Jan 17 Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Show #6 at Roger Rocka’s Dinner Theater. Shrek the Musical will be playing November 20, 2026 - January 17, 2027 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
           "title": "OPEN AUDITIONS - Private Lives & Ripcord",
           "kind": "audition",
           "venue": "2nd Space Theatre",
@@ -276,18 +215,8 @@
           "end": "2026-12-12",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map) Google Calendar ICS Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
-          ]
-        },
-        {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-01-02",
-          "end": "2027-02-21",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 2 to Feb 21 Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Sherlock Holmes and the Adventure of the Fallen Soufflé will be playing January 2 - February 21 at 2nd Space Theatre."
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+            "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
           ]
         },
         {
@@ -298,237 +227,21 @@
           "end": "2027-01-09",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
-          ]
-        },
-        {
-          "title": "Les Misérables",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-22",
-          "end": "2027-04-04",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 22 to Apr 4 Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Les Misérables will be playing January 22 - April 4 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "OPEN AUDITIONS - Junior Company",
-          "kind": "audition",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-30",
-          "end": "2027-01-30",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
-          "evidence": [
-            "Jan 30 OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map) Google Calendar ICS This company performs for the pre-shows of Little Shop of Horrors and Clue . ABOUT THE JUNIOR COMPANY View Event &#8594;"
-          ]
-        },
-        {
-          "title": "Private Lives",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-02-26",
-          "end": "2027-04-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Feb 26 to Apr 18 Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Private Lives will be playing February 21 - April 18 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Little Shop of Horrors",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-04-09",
-          "end": "2027-05-23",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Apr 9 to May 23 Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Little Shop of Horrors will be playing April 9 - May 23 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Ripcord",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-04-30",
-          "end": "2027-06-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Apr 30 to Jun 20 Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Ripcord will be playing April 30 - June 20 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Clue",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-05-28",
-          "end": "2027-07-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "May 28 to Jul 18 Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Clue will be playing May 28 - July 18 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Eleanor",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-06-25",
-          "end": "2027-08-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jun 25 to Aug 15 Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Eleanor will be playing June 25 - August 15 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Disney’s The Little Mermaid",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-07-23",
-          "end": "2027-09-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jul 23 to Sep 19 Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Disney’s The Little Mermaid will be playing July 23 - September 19 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "An Old-Fashioned Family Murder",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-08-27",
-          "end": "2027-10-17",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Aug 27 to Oct 17 An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS An Old-Fashioned Family Murder will be playing August 27 - October 17 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "She Loves Me",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-09-24",
-          "end": "2027-11-14",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 24 to Nov 14 She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS She Loves Me will be playing September 24 - November 14 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-11-04",
-          "end": "2027-12-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 4 to Dec 19 It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS It’s a Wonderful Life: A Live Radio Play will be playing November 4 - December 19 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "The Addams Family",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-11-19",
-          "end": "2028-01-16",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 19 to Jan 16 The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+            "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
           ]
         }
       ],
       "changes": [
-        {
-          "title": "The Cemetery Club",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Come From Away",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Little Women: A Victorian Christmas Card",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Shrek the Musical",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
         {
           "title": "OPEN AUDITIONS - Private Lives & Ripcord",
           "action": "updated",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
         },
         {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
           "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
           "action": "updated",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
-        },
-        {
-          "title": "Les Misérables",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "OPEN AUDITIONS - Junior Company",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        },
-        {
-          "title": "Private Lives",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Little Shop of Horrors",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Ripcord",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Clue",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Eleanor",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Disney’s The Little Mermaid",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "An Old-Fashioned Family Murder",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "She Loves Me",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Addams Family",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
       ]
     },
@@ -571,9 +284,22 @@
       ],
       "candidates": [
         {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "title": "Water For Elephants",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-03",
+          "end": "2026-11-04",
+          "sourceUrl": "https://us.atgtickets.com/events/water-for-elephants/saroyan-theatre/",
+          "evidence": [
+            "Water For Elephants Water For Elephants Water For Elephants Fresno Water for Elephants is the acclaimed Broadway musical based on the bestselling novel, following a young man who joins a traveling circus and discovers unexpected love and purpose.",
+            "Venue Saroyan Theatre, Fresno (part of a tour ) Genre Musicals Schedule Tues, Nov 3 - Wed, Nov 4, 2026 7:30 PM PT",
+            "Upcoming performances Tue, Nov 3, 2026 7:30 PM PT Buy tickets for Tue, Nov 3, 2026 at 7:30 PM PT Buy tickets Wed, Nov 4, 2026 7:30 PM PT Buy tickets for Wed, Nov 4, 2026 at 7:30 PM PT Buy tickets"
+          ]
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a LIVE Orchestra",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
           "start": "2026-11-21",
           "end": "2026-11-21",
           "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
@@ -589,30 +315,20 @@
           "end": "2026-12-15",
           "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
           "evidence": [
-            "A Magical Cirque Christmas A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE"
+            "A Magical Cirque Christmas A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE",
+            "A Magical Cirque Christmas Embrace the holiday spirit with A MAGICAL CIRQUE CHRISTMAS, a variety show full of nostalgia, charm, and awe-inspiring performances for all ages. Get ready to be dazzled, enchanted, and filled with holiday cheer as you witness the incredible talents of world-class entertainers performing to your favorite holiday music."
           ]
         },
         {
           "title": "World Ballet Company: The Nutcracker",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-12-21",
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
             "World Ballet Company: The Nutcracker WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
-            "Monday December 21 PURCHASE TICKETS HERE Tuesday December 22"
-          ]
-        },
-        {
-          "title": "Be Like Blippi",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-01-30",
-          "end": "2027-01-30",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
+            "World Ballet Company: The Nutcracker Pre-Sale tickets available now! Use code: SNOWFL A Magical Holiday Adventure Awaits! Celebrate the season with The Nutcracker, a heartwarming ballet that brings dreams into reality for audiences of all ages."
           ]
         },
         {
@@ -623,7 +339,7 @@
           "end": "2027-02-04",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
+            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027 Buy tickets for Jersey Boys Buy tickets More information about Jersey Boys More info"
           ]
         },
         {
@@ -634,7 +350,7 @@
           "end": "2027-02-12",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027"
+            "World Ballet Company: The Sleeping Beauty World Ballet Company: The Sleeping Beauty Dance Saroyan Theatre Fri, Feb 12, 2027 Buy tickets for World Ballet Company: The Sleeping Beauty Buy tickets More information about World Ballet Company: The Sleeping Beauty More info"
           ]
         },
         {
@@ -645,7 +361,7 @@
           "end": "2027-03-16",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
+            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027 Buy tickets for The Bodyguard Buy tickets More information about The Bodyguard More info"
           ]
         },
         {
@@ -656,7 +372,7 @@
           "end": "2027-03-21",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+            "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027 Buy tickets for Shen Yun Buy tickets More information about Shen Yun More info"
           ]
         },
         {
@@ -667,15 +383,25 @@
           "end": "2027-06-09",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027 Buy tickets for A Beautiful Noise: The Neil Diamond Musical Buy tickets More information about A Beautiful Noise: The Neil Diamond Musical More info"
           ]
         }
       ],
       "changes": [
         {
-          "title": "Be Like Blippi",
-          "action": "withheld",
-          "reason": "possible duplicate"
+          "title": "Water For Elephants",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "A Magical Cirque Christmas",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "World Ballet Company: The Nutcracker",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
           "title": "Jersey Boys",
@@ -683,14 +409,14 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "World Ballet Company: The Sleeping Beauty",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
-        },
-        {
           "title": "The Bodyguard",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Shen Yun",
+          "action": "updated",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
         },
         {
           "title": "A Beautiful Noise: The Neil Diamond Musical",
@@ -712,7 +438,7 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "University Theatre",
+          "venue": "Fresno State University Theatre",
           "start": "2026-11-13",
           "end": "2026-11-21",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -723,7 +449,7 @@
         {
           "title": "The Contemporary Dance Ensemble",
           "kind": "performance",
-          "venue": "University Theatre",
+          "venue": "Fresno State University Theatre",
           "start": "2027-02-12",
           "end": "2027-02-20",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -734,7 +460,7 @@
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "University Theatre",
+          "venue": "Fresno State University Theatre",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -745,36 +471,12 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "University Theatre",
+          "venue": "Fresno State University Theatre",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
           "evidence": [
             "The Shawshank Redemption adapted for the stage by Owen O'Neil and Dave Johns based on the novella by Stephen King directed by Thomas-Whit Ellis April 30 - May 8, 2027"
-          ]
-        },
-        {
-          "title": "Acting Scholarship Auditions",
-          "kind": "audition",
-          "venue": "Fresno State Theatre and Dance Department",
-          "start": "2026-11-12",
-          "end": "2026-11-12",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/news-events/openhouse.html",
-          "evidence": [
-            "The Department of Theatre and Dance is pleased to announce our 2026 High School Open House on Thursday, November 12, 2026 . This event allows high school juniors and seniors to spend the day at the Fresno State Theatre and Dance Department. The day includes scholarship auditions and interviews, workshops, facility tours, and a pizza-dinner social.",
-            "The Acting Scholarship Auditions consist of a memorized audition package"
-          ]
-        },
-        {
-          "title": "Dance Scholarship Auditions",
-          "kind": "audition",
-          "venue": "Fresno State Theatre and Dance Department",
-          "start": "2026-11-12",
-          "end": "2026-11-12",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/news-events/openhouse.html",
-          "evidence": [
-            "The Department of Theatre and Dance is pleased to announce our 2026 High School Open House on Thursday, November 12, 2026 . This event allows high school juniors and seniors to spend the day at the Fresno State Theatre and Dance Department. The day includes scholarship auditions and interviews, workshops, facility tours, and a pizza-dinner social.",
-            "The Dance Scholarship Auditions consist of a short solo dance work."
           ]
         }
       ],
@@ -856,8 +558,27 @@
         "https://www.kingsplayers.org/"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "A Christmas Double Feature",
+          "kind": "performance",
+          "venue": "Kings Players",
+          "start": "2026-11-20",
+          "end": "2026-12-06",
+          "sourceUrl": "https://www.kingsplayers.org/",
+          "evidence": [
+            "A Christmas Double Feature Directed by Cyndie Maxwell Nov. 20,21,22,27,28,29, Dec. 3,4,5,6",
+            "2026 Season"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "A Christmas Double Feature",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "tcoe-theatre",
@@ -878,18 +599,6 @@
           "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
           "start": "2026-11-19",
           "end": "2026-11-21",
-          "sourceUrl": "https://www.tcoe.org/StudentEvents",
-          "evidence": [
-            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia",
-            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m."
-          ]
-        },
-        {
-          "title": "How to Train Your Dragon JR.",
-          "kind": "performance",
-          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
-          "start": "2026-11-19",
-          "end": "2026-11-21",
           "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
           "evidence": [
             "Our fall main stage production of How to Train Your Dragon JR. performs November 19-21, 2026."
@@ -901,16 +610,11 @@
           "title": "How to Train Your Dragon JR.",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "How to Train Your Dragon JR.",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
       ]
     }
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-10-11T08:45:05.804Z"
+  "completedAt": "2026-10-12T09:50:36.580Z"
 }

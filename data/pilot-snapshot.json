@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 11, 2026",
-  "verifiedAt": "October 11, 2026",
-  "reviewedAt": "October 11, 2026",
-  "reviewSummary": "Last updated: October 11, 2026",
+  "checkedAt": "October 12, 2026",
+  "verifiedAt": "October 12, 2026",
+  "reviewedAt": "October 12, 2026",
+  "reviewSummary": "Last updated: October 12, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1439,9 +1439,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map) Google Calendar ICS Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-10-11"
+      "verifiedDate": "2026-10-12"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1459,9 +1460,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
       ],
-      "verifiedDate": "2026-10-11"
+      "verifiedDate": "2026-10-12"
     },
     {
       "id": "broadway-fresno-saroyan-4e2e08a424d6",
@@ -1479,9 +1481,29 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+        "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027 Buy tickets for Shen Yun Buy tickets More information about Shen Yun More info"
       ],
-      "verifiedDate": "2026-10-10"
+      "verifiedDate": "2026-10-12"
+    },
+    {
+      "id": "cos-823225128e99",
+      "title": "A Modern Masterpiece",
+      "theater": "College of the Sequoias Theatre",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "October 8, 2026–October 17, 2026",
+      "next": "See the official performance calendar",
+      "performanceCount": "See performance calendar",
+      "description": "A Modern Masterpiece at COS Theatre. See the official page for the complete schedule and details.",
+      "status": "now",
+      "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
+      "detailsUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
+      "organizationId": "cos",
+      "aiManaged": true,
+      "evidence": [
+        "A Modern Masterpiece, its the fabulously inventive tale of Hamlet as told from the point view of two minor characters in Shakespeare's play. October 8-17, 2026 at 7:00 pm Matinee October 17th at 1:00 pm"
+      ],
+      "verifiedDate": "2026-10-12"
     }
   ],
   "sources": [
