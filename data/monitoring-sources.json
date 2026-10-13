@@ -282,6 +282,32 @@
         "https://www.tcoe.org/TheatreCo/tickets"
       ],
       "secondaryHosts": []
+    },
+    {
+      "id": "centerstage-clovis",
+      "name": "CenterStage Clovis Community Theatre",
+      "city": "Clovis",
+      "distanceMiles": 47,
+      "status": "active",
+      "officialUrls": [
+        "https://www.centerstageclovis.com/",
+        "https://www.centerstageclovis.com/current-season",
+        "https://www.centerstageclovis.com/bandstand",
+        "https://www.centerstageclovis.com/get-involved",
+        "https://app.arts-people.com/?show=355132"
+      ],
+      "socialDiscoveryTerms": [
+        "audition",
+        "auditions",
+        "casting",
+        "callback",
+        "open call",
+        "season",
+        "show"
+      ],
+      "secondaryHosts": [
+        "app.arts-people.com"
+      ]
     }
   ],
   "requiredFields": [

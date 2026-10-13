@@ -8,7 +8,7 @@ const sourceBaseline = JSON.parse(
   readFileSync(resolve("data/source-monitor-baseline.json"), "utf8"),
 );
 
-assert.equal(monitor.sources.length, 16, "the daily monitor must cover all 16 confirmed sources");
+assert.equal(monitor.sources.length, 17, "the daily monitor must cover all 17 confirmed sources");
 assert.equal(snapshot.sources.length, monitor.sources.length, "the site must show every monitored source");
 
 const monitoredUrls = monitor.sources.flatMap((source) => source.officialUrls);

@@ -1462,6 +1462,27 @@
         "Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
       "verifiedDate": "2026-10-13"
+    },
+    {
+      "id": "centerstage-clovis-bandstand",
+      "title": "Bandstand",
+      "theater": "CenterStage Clovis Community Theatre",
+      "city": "Clovis",
+      "distance": 47,
+      "run": "November 13–21, 2026",
+      "next": "Fri, Nov 13 · 7:30 PM",
+      "performanceCount": "7 performances",
+      "description": "Returning World War II veterans form a swing band and chase a national radio contest in this story of friendship, healing, hope, and music.",
+      "status": "soon",
+      "sourceUrl": "https://www.centerstageclovis.com/current-season",
+      "detailsUrl": "https://app.arts-people.com/?show=355132",
+      "image": "/posters/centerstage-clovis-bandstand.png",
+      "imageMode": "contain",
+      "organizationId": "centerstage-clovis",
+      "evidence": [
+        "The official CenterStage poster and linked ticket inventory list performances November 13, 14, 19, 20, and 21, including 2:00 PM matinees on November 14 and 21."
+      ],
+      "verifiedDate": "2026-10-13"
     }
   ],
   "sources": [
@@ -1543,6 +1564,11 @@
     {
       "name": "TCOE Theatre Company",
       "note": "All three configured TCOE Theatre Company pages were accessible on August 29; the November 19–21 production remains supported by the official materials.",
+      "waiting": false
+    },
+    {
+      "name": "CenterStage Clovis Community Theatre",
+      "note": "The official current-season page, Bandstand production page, and linked Arts People ticket inventory confirm seven Bandstand performances November 13–21, 2026. The official site does not currently publish a dated open audition call.",
       "waiting": false
     }
   ]

@@ -165,8 +165,8 @@
     "city": "Clovis",
     "organizationType": "community_theater",
     "coverageTier": "extended",
-    "status": "research_candidate",
-    "venues": ["Clovis-area venues"],
+    "status": "verified_active",
+    "venues": ["Mercedes Edwards Theatre", "Clovis-area venues"],
     "website": "https://www.centerstageclovis.com/"
   },
   {
