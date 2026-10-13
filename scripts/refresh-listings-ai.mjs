@@ -92,6 +92,8 @@ export function validate(candidate,pages,day=today()){
   if(!Array.isArray(candidate.evidence)||!candidate.evidence.length||candidate.evidence.some(q=>typeof q!=="string"||q.length<8||q.length>1200||!page.text.includes(clean(q))))return false;
   const evidence=candidate.evidence.join(" ");
   if(/\b(concert|screening|film|movie|stand[- ]up)\b/i.test(candidate.title+" "+evidence))return false;
+  const quotedTitle=candidate.title.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  if(new RegExp(`\\b(?:tale|story) of ${quotedTitle}\\b`,"i").test(evidence))return false;
   if(!key(evidence).includes(key(candidate.title)))return false;
   for(const field of ["start","end"]){
     const date=candidate[field];
