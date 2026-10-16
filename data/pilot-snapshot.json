@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 15, 2026",
-  "verifiedAt": "October 15, 2026",
-  "reviewedAt": "October 15, 2026",
-  "reviewSummary": "Last updated: October 15, 2026",
+  "checkedAt": "October 16, 2026",
+  "verifiedAt": "October 16, 2026",
+  "reviewedAt": "October 16, 2026",
+  "reviewSummary": "Last updated: October 16, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1371,14 +1371,15 @@
       "performanceCount": "See performance calendar",
       "description": "LAF Nutcracker at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
-      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
+      "detailsUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "LAF Nutcracker LAF Nutcracker Dance Saroyan Theatre Sat, Dec 12 - Sun, Dec 13, 2026 Buy tickets for LAF Nutcracker"
+        "LAF Nutcracker LAF Nutcracker Fresno",
+        "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT"
       ],
-      "verifiedDate": "2026-10-15"
+      "verifiedDate": "2026-10-16"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
