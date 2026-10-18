@@ -2,6 +2,20 @@
   "version": 1,
   "checkedAt": "2026-10-13T13:34:41.512Z",
   "sources": {
+    "https://www.vusd.org/departments/student-services/vapa/calendar": {
+      "status": "ok",
+      "checkedAt": "2026-10-18T21:18:51.490Z",
+      "finalUrl": "https://www.vusd.org/departments/student-services/vapa/calendar",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "contentLength": 198989,
+      "etag": null,
+      "lastModified": null,
+      "consecutiveFailures": 0,
+      "contentHash": "870c5aa9810f4fcf5eba96c48afd8a42d39fa4a7a1a0b1f3b22e276322b984e0",
+      "signalCount": 59,
+      "eventCount": 0
+    },
     "https://www.visaliaicehouse.com/": {
       "status": "ok",
       "checkedAt": "2026-10-13T13:34:41.512Z",

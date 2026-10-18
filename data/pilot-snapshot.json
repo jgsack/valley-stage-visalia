@@ -1484,6 +1484,54 @@
         "The official CenterStage poster and linked ticket inventory list performances November 13, 14, 19, 20, and 21, including 2:00 PM matinees on November 14 and 21."
       ],
       "verifiedDate": "2026-10-13"
+    },
+    {
+      "id": "its-a-madhouse-mt-whitney",
+      "title": "It's a Madhouse",
+      "theater": "Mt. Whitney High School Drama · Divisadero Middle School",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "October 22–24, 2026",
+      "next": "Thu, Oct 22 · 7:00 PM",
+      "performanceCount": "3 evening performances",
+      "description": "Divisadero Middle School and Mt. Whitney High School present their fall play at Rotary Theater, 330 S. Dollner Street. Performances are October 22, 23, and 24 at 7:00 PM.",
+      "status": "soon",
+      "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar",
+      "detailsUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-10-01",
+      "organizationId": "mt-whitney-high",
+      "verifiedDate": "2026-10-18"
+    },
+    {
+      "id": "golden-west-one-acts-2026",
+      "title": "Golden West One Acts",
+      "theater": "Golden West High School Drama",
+      "city": "Visalia",
+      "distance": 4,
+      "run": "November 5–6, 2026",
+      "next": "Thu, Nov 5 · 7:30 PM",
+      "performanceCount": "2 evening performances",
+      "description": "Golden West High School presents one-act plays at Rotary Theater, 330 S. Dollner Street. Performances are November 5 and 6 at 7:30 PM.",
+      "status": "soon",
+      "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+      "detailsUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+      "organizationId": "golden-west-high",
+      "verifiedDate": "2026-10-18"
+    },
+    {
+      "id": "golden-west-nutcracker-2026",
+      "title": "The Nutcracker",
+      "theater": "Golden West High School Drama",
+      "city": "Visalia",
+      "distance": 4,
+      "run": "December 16–17, 2026",
+      "next": "Wed, Dec 16 · 7:00 PM",
+      "performanceCount": "2 evening performances",
+      "description": "Golden West High School presents The Nutcracker at Rotary Theater, 330 S. Dollner Street. Performances are December 16 and 17 at 7:00 PM.",
+      "status": "soon",
+      "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+      "detailsUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+      "organizationId": "golden-west-high",
+      "verifiedDate": "2026-10-18"
     }
   ],
   "sources": [
@@ -1544,13 +1592,13 @@
     },
     {
       "name": "Mt. Whitney High School",
-      "note": "The official school and district calendars are being watched for the next theatre production.",
-      "waiting": true
+      "note": "The district VAPA calendar confirms Divisadero and Mt. Whitney's It's a Madhouse at Rotary Theater October 22–24, 2026 at 7:00 PM. No verified poster is currently available. The updater checks this calendar and the next six months for this school's events.",
+      "waiting": false
     },
     {
       "name": "Golden West High School",
-      "note": "The official school and district calendars are being watched for the next theatre production.",
-      "waiting": true
+      "note": "The district VAPA calendar confirms Golden West One Acts November 5–6 at 7:30 PM and The Nutcracker December 16–17 at 7:00 PM, both at Rotary Theater. Dates verified October 18, 2026; the next six calendar months are included in automatic checks.",
+      "waiting": false
     },
     {
       "name": "El Diamante High School",

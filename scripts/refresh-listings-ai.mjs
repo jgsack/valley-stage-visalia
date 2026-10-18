@@ -19,6 +19,33 @@ export function pageText(html) {
     .replace(/<[^>]*>/g," ").replace(/&nbsp;|&#160;/g," ").replace(/&amp;/g,"&")
     .replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'"));
 }
+// District calendars contain several schools and long navigation before the events.
+const vusdSchoolNames = {
+  "mt-whitney-high": /\bMWHS\b|Mt\.?\s*Whitney/i,
+  "golden-west-high": /\bGWHS\b|Golden West/i,
+  "redwood-high": /\bRHS\b|Redwood/i,
+  "el-diamante-high": /\bEDHS\b|El Diamante/i,
+};
+const vusdCalendarPath = "/departments/student-services/vapa/calendar";
+export function vusdCalendarText(html, schoolId) {
+  const school = vusdSchoolNames[schoolId];
+  if (!school) return "";
+  return [...html.matchAll(/<div class="fsCalendarInfo">([\s\S]*?)(?=<div class="fsCalendarInfo">|<div class="fsCalendarDaybox|<\/section>)/g)].flatMap(match => {
+    const title = pageText(match[1].match(/class="fsCalendarEventTitle[^>]*>([\s\S]*?)<\/a>/)?.[1] ?? "");
+    if (!school.test(title)) return [];
+    const dates = [...match[1].matchAll(/datetime="([^"]+)"/g)].map(date => date[1]);
+    return [clean(`${title}. Published event times: ${dates.join(" to ")}. ${pageText(match[1])}`)];
+  }).join(" ");
+}
+export function vusdCalendarUrls(source, day) {
+  const root = source.officialUrls.find(url => new URL(url).hostname === "www.vusd.org" && new URL(url).pathname === vusdCalendarPath);
+  if (!root || !vusdSchoolNames[source.id]) return [];
+  const date = new Date(day + "T12:00:00Z");
+  return Array.from({length: 6}, (_, index) => {
+    const month = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + index + 1, 1));
+    return root + "?cal_date=" + month.toISOString().slice(0, 10);
+  });
+}
 async function fetchPage(url, source) {
   for(let i=0;i<5;i++){
     if(!allowed(url,source)) throw Error("unapproved host or social source");
@@ -29,6 +56,9 @@ async function fetchPage(url, source) {
     const reader=r.body.getReader(); let size=0; const chunks=[];
     while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>1500000){await reader.cancel();throw Error("page too large");}chunks.push(value);}
     const html=Buffer.concat(chunks).toString("utf8");
+    if (new URL(url).hostname === "www.vusd.org" && new URL(url).pathname === vusdCalendarPath) {
+      return {url, text:vusdCalendarText(html, source.id), links:[]};
+    }
     return {url,text:pageText(html).slice(0,26000),links:[...html.matchAll(/href=["']([^"'#]+)["']/gi)].flatMap(m=>{
       try {const link=new URL(m[1].replace(/&amp;/g,"&"),url); link.hash="";return allowed(link.href,source)&&/show|season|audition|ticket|production|event|calendar/i.test(link.pathname)?[link.href]:[];}catch{return [];}
     })};
@@ -164,7 +194,7 @@ export async function main(){
     if(source.distanceMiles>snapshot.center.radiusMiles)continue;
     const result={id:source.id,pages:[],failures:[],candidates:[],changes:[]};
     const pages=[];
-    const urls=[...new Set(source.officialUrls)];
+    const urls=[...new Set([...source.officialUrls, ...vusdCalendarUrls(source, day)])];
     // Follow a bounded set of links actually supplied by official pages.
     for(let i=0;i<urls.length;i++){
       const url=urls[i];

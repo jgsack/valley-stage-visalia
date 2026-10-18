@@ -218,6 +218,7 @@
       "status": "watching",
       "officialUrls": [
         "https://redwood.vusd.org/",
+        "https://www.vusd.org/departments/student-services/vapa/calendar",
         "https://www.vusd.org/departments/business-services/business-functions/facilities/construction-projects/vusd-invests/lj-williams-theater"
       ],
       "secondaryHosts": [
@@ -229,9 +230,10 @@
       "name": "Mt. Whitney High School Drama",
       "city": "Visalia",
       "distanceMiles": 3,
-      "status": "watching",
+      "status": "active",
       "officialUrls": [
-        "https://mtwhitney.vusd.org/"
+        "https://mtwhitney.vusd.org/",
+        "https://www.vusd.org/departments/student-services/vapa/calendar"
       ],
       "secondaryHosts": []
     },
@@ -240,9 +242,10 @@
       "name": "Golden West High School Drama",
       "city": "Visalia",
       "distanceMiles": 4,
-      "status": "watching",
+      "status": "active",
       "officialUrls": [
-        "https://goldenwest.vusd.org/"
+        "https://goldenwest.vusd.org/",
+        "https://www.vusd.org/departments/student-services/vapa/calendar"
       ],
       "secondaryHosts": []
     },
@@ -253,7 +256,8 @@
       "distanceMiles": 5,
       "status": "watching",
       "officialUrls": [
-        "https://eldiamante.vusd.org/"
+        "https://eldiamante.vusd.org/",
+        "https://www.vusd.org/departments/student-services/vapa/calendar"
       ],
       "secondaryHosts": []
     },

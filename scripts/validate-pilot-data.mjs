@@ -11,7 +11,7 @@ const sourceBaseline = JSON.parse(
 assert.equal(monitor.sources.length, 17, "the daily monitor must cover all 17 confirmed sources");
 assert.equal(snapshot.sources.length, monitor.sources.length, "the site must show every monitored source");
 
-const monitoredUrls = monitor.sources.flatMap((source) => source.officialUrls);
+const monitoredUrls = [...new Set(monitor.sources.flatMap((source) => source.officialUrls))];
 assert.equal(
   Object.keys(sourceBaseline.sources).length,
   monitoredUrls.length,
