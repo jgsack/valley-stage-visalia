@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-18T10:56:55.406Z",
-  "completedDay": "2026-10-18",
+  "startedAt": "2026-10-19T10:42:25.124Z",
+  "completedDay": "2026-10-19",
   "organizations": [
     {
       "id": "ice-house",
@@ -62,8 +62,9 @@
           "end": "2026-10-26",
           "sourceUrl": "https://www.encoretulare.org/auditions#published-auditions",
           "evidence": [
-            "Official published Encore audition: A Year with Frog and Toad. Audition dates: 2026-10-25 through 2026-10-26. Sunday, October 25th & Monday, October 26th",
-            "Encore Theatre, 324 South N Street, Tulare, CA"
+            "Official published Encore audition: A Year with Frog and Toad. Audition dates: 2026-10-25 through 2026-10-26.",
+            "Sunday, October 25th & Monday, October 26th",
+            "October 25th, 4:30 - 7:00 PM & October 26th, 7:00 - 9:30 PM Encore Theatre, 324 South N Street, Tulare, CA"
           ]
         }
       ],
@@ -86,8 +87,27 @@
         "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Nerdy Prudes Must Die",
+          "kind": "performance",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-10-23",
+          "end": "2026-11-01",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "2026-27 Season",
+            "Fall Musical Nerdy Prudes Must Die Oct 23, 24, 30, & 31 at 7:30 Oct 25 & Nov 1 at 2:00 PM"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Nerdy Prudes Must Die",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "porterville-barn",
@@ -111,40 +131,25 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [
-        {
-          "title": "Ride the Cyclone",
-          "kind": "performance",
-          "venue": "Porterville Barn Theater",
-          "start": "2026-11-13",
-          "end": "2026-11-29",
-          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
-          "evidence": [
-            "Ride the Cyclone (2026)",
-            "Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm ) November 15, 22, 29 ( Sunday Matinees @2pm )"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "Ride the Cyclone",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "reedley-river-city",
       "pages": [
         "https://www.rctcreedley.com/",
-        "https://www.rctcreedley.com/2026-season",
         "https://www.rctcreedley.com/box-office-hours-1",
         "https://ci.ovationtix.com/36374",
         "https://ci.ovationtix.com/36374/production/1264343",
         "https://ci.ovationtix.com/36374/production/1264344",
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
-      "failures": [],
+      "failures": [
+        {
+          "url": "https://www.rctcreedley.com/2026-season",
+          "error": "page too large"
+        }
+      ],
       "candidates": [],
       "changes": []
     },
@@ -193,6 +198,7 @@
       "pages": [
         "https://rogerrockas.com/",
         "https://www.gcplayers.com/see-a-show",
+        "https://www.gcplayers.com/seasonlineup27",
         "https://www.gcplayers.com/gcp-audition-calendar",
         "https://www.gcplayers.com/rr-auditions",
         "https://gcplayers.simpletix.com/",
@@ -201,49 +207,8 @@
         "https://rogerrockas.com/shows/categories/roger-rockas/",
         "https://rogerrockas.com/dinner-shows/seating-map/"
       ],
-      "failures": [
-        {
-          "url": "https://www.gcplayers.com/seasonlineup27",
-          "error": "page too large"
-        }
-      ],
+      "failures": [],
       "candidates": [
-        {
-          "title": "Come From Away",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-09-25",
-          "end": "2026-11-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "The Cemetery Club",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-08-28",
-          "end": "2026-10-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Aug 28 to Oct 18 The Cemetery Club Fri, Aug 28, 2026 8:00 PM Sun, Oct 18, 2026 4:00 PM 2nd Space Theatre (map)",
-            "The Cemetery Club will be playing August 28 - October 18 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Little Women: A Victorian Christmas Card",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-11-05",
-          "end": "2026-12-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 5 to Dec 20 Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map)",
-            "Little Women: A Victorian Christmas Card will be playing November 5 - December 20 at 2nd Space Theatre."
-          ]
-        },
         {
           "title": "Shrek the Musical",
           "kind": "performance",
@@ -252,152 +217,7 @@
           "end": "2027-01-17",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
-            "Nov 20 to Jan 17 Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
             "Shrek the Musical will be playing November 20, 2026 - January 17, 2027 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-01-02",
-          "end": "2027-02-21",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 2 to Feb 21 Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Sherlock Holmes and the Adventure of the Fallen Soufflé will be playing January 2 - February 21 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Les Misérables",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-22",
-          "end": "2027-04-04",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 22 to Apr 4 Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Les Misérables will be playing January 22 - April 4 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Private Lives",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-02-26",
-          "end": "2027-04-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Feb 26 to Apr 18 Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Private Lives will be playing February 21 - April 18 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Little Shop of Horrors",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-04-09",
-          "end": "2027-05-23",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Apr 9 to May 23 Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Little Shop of Horrors will be playing April 9 - May 23 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Ripcord",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-04-30",
-          "end": "2027-06-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Apr 30 to Jun 20 Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Ripcord will be playing April 30 - June 20 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Clue",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-05-28",
-          "end": "2027-07-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "May 28 to Jul 18 Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Clue will be playing May 28 - July 18 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Eleanor",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-06-25",
-          "end": "2027-08-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jun 25 to Aug 15 Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Eleanor will be playing June 25 - August 15 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Disney’s The Little Mermaid",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-07-23",
-          "end": "2027-09-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jul 23 to Sep 19 Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Disney’s The Little Mermaid will be playing July 23 - September 19 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "An Old-Fashioned Family Murder",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-08-27",
-          "end": "2027-10-17",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Aug 27 to Oct 17 An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map)",
-            "An Old-Fashioned Family Murder will be playing August 27 - October 17 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "She Loves Me",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-09-24",
-          "end": "2027-11-14",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 24 to Nov 14 She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "She Loves Me will be playing September 24 - November 14 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-11-04",
-          "end": "2027-12-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 4 to Dec 19 It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map)",
-            "It’s a Wonderful Life: A Live Radio Play will be playing November 4 - December 19 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "The Addams Family",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-11-19",
-          "end": "2028-01-16",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 19 to Jan 16 The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
           ]
         },
         {
@@ -408,7 +228,7 @@
           "end": "2026-12-12",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
             "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
           ]
         },
@@ -420,7 +240,7 @@
           "end": "2027-01-09",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
             "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
           ]
         },
@@ -432,12 +252,32 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 30 OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)",
-            "This company performs for the pre-shows of Little Shop of Horrors and Clue ."
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)"
           ]
         }
       ],
-      "changes": []
+      "changes": [
+        {
+          "title": "Shrek the Musical",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
+          "action": "updated",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
+        },
+        {
+          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
+          "action": "updated",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
+        },
+        {
+          "title": "OPEN AUDITIONS - Junior Company",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        }
+      ]
     },
     {
       "id": "broadway-fresno-saroyan",
@@ -489,14 +329,29 @@
           ]
         },
         {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "title": "Water For Elephants",
           "kind": "performance",
           "venue": "Saroyan Theatre",
-          "start": "2026-11-21",
-          "end": "2026-11-21",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+          "start": "2026-11-03",
+          "end": "2026-11-04",
+          "sourceUrl": "https://us.atgtickets.com/events/water-for-elephants/saroyan-theatre/",
           "evidence": [
-            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
+            "Water For Elephants Water For Elephants Fresno",
+            "Schedule Tues, Nov 3 - Wed, Nov 4, 2026 7:30 PM PT",
+            "Upcoming performances Tue, Nov 3, 2026 7:30 PM PT Buy tickets for Tue, Nov 3, 2026 at 7:30 PM PT Buy tickets Wed, Nov 4, 2026 7:30 PM PT"
+          ]
+        },
+        {
+          "title": "LAF Nutcracker",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-12-12",
+          "end": "2026-12-13",
+          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
+          "evidence": [
+            "LAF Nutcracker LAF Nutcracker Fresno",
+            "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
+            "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT Buy tickets for Sat, Dec 12, 2026 at 2:00 PM PT Buy tickets Sun, Dec 13, 2026 2:00 PM PT"
           ]
         },
         {
@@ -518,7 +373,8 @@
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
-            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
+            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
+            "Monday December 21 PURCHASE TICKETS HERE Tuesday December 22"
           ]
         },
         {
@@ -575,18 +431,29 @@
           "evidence": [
             "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
           ]
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-21",
+          "end": "2026-11-21",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+          "evidence": [
+            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
+          ]
         }
       ],
       "changes": [
         {
-          "title": "Shen Yun",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
+          "title": "Water For Elephants",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
-          "action": "withheld",
-          "reason": "possible duplicate"
+          "title": "LAF Nutcracker",
+          "action": "updated",
+          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
         },
         {
           "title": "A Magical Cirque Christmas",
@@ -622,6 +489,11 @@
           "title": "A Beautiful Noise: The Neil Diamond Musical",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "action": "withheld",
+          "reason": "possible duplicate"
         }
       ]
     },
@@ -638,7 +510,7 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
+          "venue": "Fresno State University Theatre",
           "start": "2026-11-13",
           "end": "2026-11-21",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -647,20 +519,9 @@
           ]
         },
         {
-          "title": "The Contemporary Dance Ensemble",
-          "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
-          "start": "2027-02-12",
-          "end": "2027-02-20",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
-          "evidence": [
-            "The Contemporary Dance Ensemble artistic director, Kenneth Balint Feb. 12 - 20, 2027"
-          ]
-        },
-        {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
+          "venue": "Fresno State University Theatre",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -671,7 +532,7 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building, Fresno",
+          "venue": "Fresno State University Theatre",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -687,6 +548,11 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
+          "title": "Yo Te Esperaba: An Abolition Story",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
           "title": "The Shawshank Redemption",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
@@ -697,11 +563,14 @@
       "id": "redwood-high",
       "pages": [
         "https://redwood.vusd.org/",
+        "https://www.vusd.org/departments/student-services/vapa/calendar",
         "https://www.vusd.org/departments/business-services/business-functions/facilities/construction-projects/vusd-invests/lj-williams-theater",
-        "https://www.vusd.org/departments/student-services/family-and-community-resource-center/calendar-of-events",
-        "https://redwood.vusd.org/calendar-test",
-        "https://www.vusd.org/about-vusd/calendar",
-        "https://redwood.vusd.org/calendar11"
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-01-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-02-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-03-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-04-01"
       ],
       "failures": [],
       "candidates": [],
@@ -711,32 +580,164 @@
       "id": "mt-whitney-high",
       "pages": [
         "https://mtwhitney.vusd.org/",
-        "https://mtwhitney.vusd.org/about-our-school/calendar",
-        "https://mtwhitney.vusd.org/counseling/counselingcalendar",
-        "https://mtwhitney.vusd.org/engagement-and-activities/student-activities/dance-auditions"
+        "https://www.vusd.org/departments/student-services/vapa/calendar",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-01-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-02-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-03-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-04-01"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "DMS & MWHS Fall Play - It's a Madhouse",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-10-22",
+          "end": "2026-10-22",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar",
+          "evidence": [
+            "DMS & MWHS Fall Play - It's a Madhouse. Published event times: 2026-10-22T19:00:00-07:00 to 2026-10-22T20:00:00-07:00.",
+            "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        },
+        {
+          "title": "DMS & MWHS Fall Play - It's a Madhouse",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-10-23",
+          "end": "2026-10-23",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar",
+          "evidence": [
+            "DMS & MWHS Fall Play - It's a Madhouse. Published event times: 2026-10-23T19:00:00-07:00 to 2026-10-23T20:00:00-07:00.",
+            "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        },
+        {
+          "title": "DMS & MWHS Fall Play - It's a Madhouse",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-10-24",
+          "end": "2026-10-24",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar",
+          "evidence": [
+            "DMS & MWHS Fall Play - It's a Madhouse. Published event times: 2026-10-24T19:00:00-07:00 to 2026-10-24T20:00:00-07:00.",
+            "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "DMS & MWHS Fall Play - It's a Madhouse",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        },
+        {
+          "title": "DMS & MWHS Fall Play - It's a Madhouse",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        },
+        {
+          "title": "DMS & MWHS Fall Play - It's a Madhouse",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        }
+      ]
     },
     {
       "id": "golden-west-high",
       "pages": [
         "https://goldenwest.vusd.org/",
-        "https://goldenwest.vusd.org/families/calendar-of-events",
-        "https://goldenwest.vusd.org/families/program-planning-guide-2023-2024/calendar",
-        "https://goldenwest.vusd.org/for-teachers/calendar-of-events",
-        "https://goldenwest.vusd.org/resources/school-year-calendar"
+        "https://www.vusd.org/departments/student-services/vapa/calendar",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-01-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-02-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-03-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-04-01"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Golden West One Acts",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-11-05",
+          "end": "2026-11-05",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+          "evidence": [
+            "Golden West One Acts. Published event times: 2026-11-05T19:30:00-08:00 to 2026-11-05T20:30:00-08:00. Subscribe to Calendar Alerts VAPA Calendar Golden West One Acts 7 : 30 PM - 8 : 30 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        },
+        {
+          "title": "Golden West One Acts",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-11-06",
+          "end": "2026-11-06",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+          "evidence": [
+            "Golden West One Acts. Published event times: 2026-11-06T19:30:00-08:00 to 2026-11-06T20:30:00-08:00. Subscribe to Calendar Alerts VAPA Calendar Golden West One Acts 7 : 30 PM - 8 : 30 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        },
+        {
+          "title": "GWHS Presents \"The Nutcracker\" #1",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-12-16",
+          "end": "2026-12-16",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+          "evidence": [
+            "GWHS Presents \"The Nutcracker\" #1. Published event times: 2026-12-16T19:00:00-08:00 to 2026-12-16T20:00:00-08:00. Subscribe to Calendar Alerts VAPA Calendar GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        },
+        {
+          "title": "GWHS Presents \"The Nutcracker\" #2",
+          "kind": "performance",
+          "venue": "Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA",
+          "start": "2026-12-17",
+          "end": "2026-12-17",
+          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+          "evidence": [
+            "GWHS Presents \"The Nutcracker\" #2. Published event times: 2026-12-17T19:00:00-08:00 to 2026-12-17T20:00:00-08:00. Subscribe to Calendar Alerts VAPA Calendar GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Golden West One Acts",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Golden West One Acts",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "GWHS Presents \"The Nutcracker\" #1",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        },
+        {
+          "title": "GWHS Presents \"The Nutcracker\" #2",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        }
+      ]
     },
     {
       "id": "el-diamante-high",
       "pages": [
         "https://eldiamante.vusd.org/",
-        "https://eldiamante.vusd.org/calendar"
+        "https://www.vusd.org/departments/student-services/vapa/calendar",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-01-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-02-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-03-01",
+        "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-04-01"
       ],
       "failures": [],
       "candidates": [],
@@ -779,7 +780,7 @@
         {
           "title": "How to Train Your Dragon JR.",
           "kind": "performance",
-          "venue": "unspecified (fall main stage production)",
+          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
           "start": "2026-11-19",
           "end": "2026-11-21",
           "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
@@ -789,6 +790,11 @@
         }
       ],
       "changes": [
+        {
+          "title": "How to Train Your Dragon JR.",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
         {
           "title": "How to Train Your Dragon JR.",
           "action": "retained",
@@ -812,5 +818,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-10-18T10:58:21.277Z"
+  "completedAt": "2026-10-19T10:43:45.982Z"
 }
