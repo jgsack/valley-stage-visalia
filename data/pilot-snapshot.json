@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 20, 2026",
-  "verifiedAt": "October 20, 2026",
-  "reviewedAt": "October 20, 2026",
-  "reviewSummary": "Last updated: October 20, 2026",
+  "checkedAt": "October 21, 2026",
+  "verifiedAt": "October 21, 2026",
+  "reviewedAt": "October 21, 2026",
+  "reviewSummary": "Last updated: October 21, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1376,11 +1376,13 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "LAF Nutcracker in Fresno | Official Box Office | ATG Tickets",
-        "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-        "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT Buy tickets for Sat, Dec 12, 2026 at 2:00 PM PT Buy tickets Sun, Dec 13, 2026 2:00 PM PT"
+        "LAF Nutcracker Fresno",
+        "Venue Saroyan Theatre, Fresno",
+        "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
+        "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT",
+        "Sun, Dec 13, 2026 2:00 PM PT"
       ],
-      "verifiedDate": "2026-10-20"
+      "verifiedDate": "2026-10-21"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1418,10 +1420,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre",
-        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM.",
+        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026"
       ],
-      "verifiedDate": "2026-10-20"
+      "verifiedDate": "2026-10-21"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1439,10 +1441,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
-        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM.",
+        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027"
       ],
-      "verifiedDate": "2026-10-19"
+      "verifiedDate": "2026-10-21"
     },
     {
       "id": "broadway-fresno-saroyan-4e2e08a424d6",
@@ -1462,7 +1464,7 @@
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-10-18"
+      "verifiedDate": "2026-10-21"
     },
     {
       "id": "centerstage-clovis-bandstand",
