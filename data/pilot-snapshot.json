@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 21, 2026",
-  "verifiedAt": "October 21, 2026",
-  "reviewedAt": "October 21, 2026",
-  "reviewSummary": "Last updated: October 21, 2026",
+  "checkedAt": "October 22, 2026",
+  "verifiedAt": "October 22, 2026",
+  "reviewedAt": "October 22, 2026",
+  "reviewSummary": "Last updated: October 22, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1420,10 +1420,11 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM.",
-        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026"
+        "OPEN AUDITIONS - Private Lives & Ripcord",
+        "Saturday, December 12, 2026 10:00 AM 12:00 PM",
+        "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-10-21"
+      "verifiedDate": "2026-10-22"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1441,10 +1442,11 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM.",
-        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027"
+        "OPEN AUDITIONS - Little Shop of Horrors & Clue",
+        "Saturday, January 9, 2027 10:00 AM 1:00 PM",
+        "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
       ],
-      "verifiedDate": "2026-10-21"
+      "verifiedDate": "2026-10-22"
     },
     {
       "id": "broadway-fresno-saroyan-4e2e08a424d6",
