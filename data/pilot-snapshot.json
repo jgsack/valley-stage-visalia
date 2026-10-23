@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 22, 2026",
-  "verifiedAt": "October 22, 2026",
-  "reviewedAt": "October 22, 2026",
-  "reviewSummary": "Last updated: October 22, 2026",
+  "checkedAt": "October 23, 2026",
+  "verifiedAt": "October 23, 2026",
+  "reviewedAt": "October 23, 2026",
+  "reviewSummary": "Last updated: October 23, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1377,12 +1377,12 @@
       "aiManaged": true,
       "evidence": [
         "LAF Nutcracker Fresno",
-        "Venue Saroyan Theatre, Fresno",
         "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-        "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT",
-        "Sun, Dec 13, 2026 2:00 PM PT"
+        "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT Buy tickets for Sat, Dec 12, 2026 at 2:00 PM PT",
+        "Sun, Dec 13, 2026 2:00 PM PT Buy tickets for Sun, Dec 13, 2026 at 2:00 PM PT",
+        "Saroyan Theatre, Fresno"
       ],
-      "verifiedDate": "2026-10-21"
+      "verifiedDate": "2026-10-23"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1466,7 +1466,7 @@
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-10-21"
+      "verifiedDate": "2026-10-23"
     },
     {
       "id": "centerstage-clovis-bandstand",
