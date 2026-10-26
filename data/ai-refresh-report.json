@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-25T09:59:40.864Z",
-  "completedDay": "2026-10-25",
+  "startedAt": "2026-10-26T11:34:18.532Z",
+  "completedDay": "2026-10-26",
   "organizations": [
     {
       "id": "ice-house",
@@ -10,7 +10,30 @@
         "https://www.visaliaicehouse.com/auditions-coming-up"
       ],
       "failures": [],
-      "candidates": [],
+      "candidates": [
+        {
+          "title": "The Normal Heart",
+          "kind": "performance",
+          "venue": "Ice House Theater",
+          "start": "2026-11-01",
+          "end": "2026-11-30",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Normal Heart Directed by JJ Pestano November 2026"
+          ]
+        },
+        {
+          "title": "The Annual Holiday Cabaret",
+          "kind": "performance",
+          "venue": "Ice House Theater",
+          "start": "2026-12-01",
+          "end": "2026-12-31",
+          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
+          "evidence": [
+            "The Annual Holiday Cabaret Directed by Charlotte Garcia Da Rosa December 2026"
+          ]
+        }
+      ],
       "changes": []
     },
     {
@@ -39,9 +62,7 @@
           "end": "2026-10-26",
           "sourceUrl": "https://www.encoretulare.org/auditions#published-auditions",
           "evidence": [
-            "Official published Encore audition: A Year with Frog and Toad. Audition dates: 2026-10-25 through 2026-10-26.",
-            "Sunday, October 25th & Monday, October 26th",
-            "Encore Theatre, 324 South N Street, Tulare, CA"
+            "Official published Encore audition: A Year with Frog and Toad. Audition dates: 2026-10-25 through 2026-10-26. Sunday, October 25th & Monday, October 26th October 25th, 4:30 - 7:00 PM & October 26th, 7:00 - 9:30 PM Encore Theatre, 324 South N Street, Tulare, CA"
           ]
         }
       ],
@@ -89,13 +110,31 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Ride the Cyclone",
+          "kind": "performance",
+          "venue": "Porterville Barn Theater",
+          "start": "2026-11-13",
+          "end": "2026-11-29",
+          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+          "evidence": [
+            "Ride the Cyclone (2026)",
+            "Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm ) November 15, 22, 29 ( Sunday Matinees @2pm )"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Ride the Cyclone",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "reedley-river-city",
       "pages": [
-        "https://www.rctcreedley.com/",
         "https://www.rctcreedley.com/2026-season",
         "https://www.rctcreedley.com/box-office-hours-1",
         "https://ci.ovationtix.com/36374",
@@ -103,7 +142,12 @@
         "https://ci.ovationtix.com/36374/production/1264344",
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
-      "failures": [],
+      "failures": [
+        {
+          "url": "https://www.rctcreedley.com/",
+          "error": "page too large"
+        }
+      ],
       "candidates": [],
       "changes": []
     },
@@ -179,18 +223,6 @@
           ]
         },
         {
-          "title": "Private Lives",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-02-26",
-          "end": "2027-04-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Private Lives will be playing February 21 - April 18 at 2nd Space Theatre.",
-            "Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)"
-          ]
-        },
-        {
           "title": "OPEN AUDITIONS - Private Lives & Ripcord",
           "kind": "audition",
           "venue": "2nd Space Theatre",
@@ -198,7 +230,7 @@
           "end": "2026-12-12",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026",
             "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
           ]
         },
@@ -210,7 +242,7 @@
           "end": "2027-01-09",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027",
             "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
           ]
         },
@@ -222,7 +254,7 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)"
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater"
           ]
         }
       ],
@@ -293,11 +325,31 @@
           "venue": "Saroyan Theatre",
           "start": "2026-11-03",
           "end": "2026-11-04",
-          "sourceUrl": "https://us.atgtickets.com/events/water-for-elephants/saroyan-theatre/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
           "evidence": [
-            "Water For Elephants Fresno",
-            "Venue Saroyan Theatre, Fresno (part of a tour ) Genre Musicals Schedule Tues, Nov 3 - Wed, Nov 4, 2026 7:30 PM PT",
-            "Upcoming performances Tue, Nov 3, 2026 7:30 PM PT Buy tickets for Tue, Nov 3, 2026 at 7:30 PM PT Buy tickets Wed, Nov 4, 2026 7:30 PM PT"
+            "Water For Elephants @ Saroyan Theatre November 3-4, 2026 Show Time : 7:30 PM"
+          ]
+        },
+        {
+          "title": "Bluey's Big Play",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-11",
+          "end": "2026-11-12",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "evidence": [
+            "Bluey's Big Play @ Saroyan Theatre November 11-12, 2026 Show Time : 7 PM"
+          ]
+        },
+        {
+          "title": "Freestyle Explosion",
+          "kind": "performance",
+          "venue": "Selland Arena",
+          "start": "2026-11-14",
+          "end": "2026-11-14",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "evidence": [
+            "Freestyle Explosion @ Selland Arena November 14, 2026 Show Time : 7:30 PM"
           ]
         },
         {
@@ -319,20 +371,7 @@
           "end": "2026-11-21",
           "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
           "evidence": [
-            "World Ballet Company: Swan Lake WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
-          ]
-        },
-        {
-          "title": "LAF Nutcracker",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2026-12-12",
-          "end": "2026-12-13",
-          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/",
-          "evidence": [
-            "LAF Nutcracker Fresno",
-            "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-            "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT Buy tickets for Sat, Dec 12, 2026 at 2:00 PM PT Buy tickets Sun, Dec 13, 2026 2:00 PM PT"
+            "WORLD BALLET COMPANY: SWAN LAKE WITH A LIVE ORCHESTRA SAT - NOV 21, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         },
         {
@@ -343,7 +382,7 @@
           "end": "2026-12-15",
           "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
           "evidence": [
-            "A Magical Cirque Christmas A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE A Magical Cirque Christmas"
+            "A MAGICAL CIRQUE CHRISTMAS TUES - DECEMBER 15, 2026 - 7:30PM SAROYAN THEATRE"
           ]
         },
         {
@@ -354,19 +393,18 @@
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
-            "World Ballet Company: The Nutcracker WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
-            "Monday December 21 PURCHASE TICKETS HERE Tuesday December 22"
+            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         },
         {
-          "title": "Be Like Blippi",
+          "title": "Be Like Blippi Tour",
           "kind": "performance",
           "venue": "Saroyan Theatre",
           "start": "2027-01-30",
           "end": "2027-01-30",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
           "evidence": [
-            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
+            "Be Like Blippi Tour @Saroyan Theatre January 30, 2027 Show Time : 2:00 PM"
           ]
         },
         {
@@ -397,9 +435,9 @@
           "venue": "Saroyan Theatre",
           "start": "2027-03-15",
           "end": "2027-03-16",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
           "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
+            "The Bodyguard @Saroyan Theatre March 15 & 16, 2027 Show Time : 7:30 PM"
           ]
         },
         {
@@ -408,9 +446,9 @@
           "venue": "Saroyan Theatre",
           "start": "2027-06-08",
           "end": "2027-06-09",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
           "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+            "A Beautiful Noise: The Neil Diamond Musical @Saroyan Theatre June 8 & 9, 2027 Show Time : 7:30 PM"
           ]
         }
       ],
@@ -421,9 +459,14 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "LAF Nutcracker",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/events/nutcracker/saroyan-theatre/"
+          "title": "Bluey's Big Play",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "World Ballet Company: Swan Lake with a Live Orchestra",
+          "action": "withheld",
+          "reason": "possible duplicate"
         },
         {
           "title": "A Magical Cirque Christmas",
@@ -436,9 +479,9 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "Be Like Blippi",
-          "action": "withheld",
-          "reason": "possible duplicate"
+          "title": "Be Like Blippi Tour",
+          "action": "updated",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/"
         },
         {
           "title": "Jersey Boys",
@@ -481,17 +524,6 @@
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
           "evidence": [
             "The Miraculous Journey of Edward Tulane adapted by Dwayne Hartford from the book by Kate DiCamillo directed by J. Daniel Herring November 13 - 21, 2026"
-          ]
-        },
-        {
-          "title": "The Contemporary Dance Ensemble",
-          "kind": "performance",
-          "venue": "Fresno State University Theatre",
-          "start": "2027-02-12",
-          "end": "2027-02-20",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
-          "evidence": [
-            "The Contemporary Dance Ensemble artistic director, Kenneth Balint Feb. 12 - 20, 2027"
           ]
         },
         {
@@ -641,6 +673,16 @@
           "title": "Golden West One Acts",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "GWHS Presents \"The Nutcracker\" #1",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        },
+        {
+          "title": "GWHS Presents \"The Nutcracker\" #2",
+          "action": "withheld",
+          "reason": "possible duplicate"
         }
       ]
     },
@@ -681,27 +723,8 @@
         "https://www.tcoe.org/TheatreCo/Productions"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "How to Train Your Dragon JR.",
-          "kind": "performance",
-          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
-          "start": "2026-11-19",
-          "end": "2026-11-21",
-          "sourceUrl": "https://www.tcoe.org/StudentEvents",
-          "evidence": [
-            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia",
-            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m."
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "How to Train Your Dragon JR.",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "centerstage-clovis",
@@ -719,5 +742,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-10-25T10:01:03.114Z"
+  "completedAt": "2026-10-26T11:35:46.745Z"
 }
