@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-28T08:21:41.974Z",
-  "completedDay": "2026-10-28",
+  "startedAt": "2026-10-29T13:20:58.910Z",
+  "completedDay": "2026-10-29",
   "organizations": [
     {
       "id": "ice-house",
@@ -10,42 +10,8 @@
         "https://www.visaliaicehouse.com/auditions-coming-up"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "The Normal Heart",
-          "kind": "performance",
-          "venue": "Ice House Theater",
-          "start": "2026-11-01",
-          "end": "2026-11-30",
-          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-          "evidence": [
-            "The Normal Heart Directed by JJ Pestano November 2026"
-          ]
-        },
-        {
-          "title": "The Annual Holiday Cabaret",
-          "kind": "performance",
-          "venue": "Ice House Theater",
-          "start": "2026-12-01",
-          "end": "2026-12-31",
-          "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-          "evidence": [
-            "The Annual Holiday Cabaret Directed by Charlotte Garcia Da Rosa December 2026"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "The Normal Heart",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Annual Holiday Cabaret",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "encore",
@@ -78,8 +44,78 @@
         "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Nerdy Prudes Must Die",
+          "kind": "performance",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-10-23",
+          "end": "2026-11-01",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "2026-27 Season",
+            "Fall Musical Nerdy Prudes Must Die Oct 23, 24, 30, & 31 at 7:30 Oct 25 & Nov 1 at 2:00 PM"
+          ]
+        },
+        {
+          "title": "The Children's Nutcracker",
+          "kind": "performance",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-12-04",
+          "end": "2026-12-13",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "2026-27 Season",
+            "Christmas Show The Children's Nutcracker Dec 4, 5, 11 & 12 at 7:00PM Dec 6 & 13 at 2:00 PM"
+          ]
+        },
+        {
+          "title": "The Lightning Thief The Percy Jackson Musical",
+          "kind": "audition",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-11-02",
+          "end": "2026-11-03",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "2026-27 Season",
+            "LCT High School Musical Lightning Thief The Percy Jackson Musical Jan 15 , 1 6 , 2 2, & 23 at 7:30 Jan 17 & 24 at 2:00 PM Auditions: November 2 & 3 at 6:30 PM"
+          ]
+        },
+        {
+          "title": "The Last 5 Years",
+          "kind": "audition",
+          "venue": "Lindsay Community Theater",
+          "start": "2026-12-22",
+          "end": "2026-12-23",
+          "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
+          "evidence": [
+            "2026-27 Season",
+            "Hot Dog Melodrama Theater The Last 5 Years Feb 26, 27, Mar 5 & 6 at 7:30 PM Feb 28 & Mar 7 at 2:00 PM Auditions Dec 22 & 23 at 6:30"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Nerdy Prudes Must Die",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Children's Nutcracker",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Lightning Thief The Percy Jackson Musical",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        },
+        {
+          "title": "The Last 5 Years",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "porterville-barn",
@@ -178,30 +214,6 @@
       "failures": [],
       "candidates": [
         {
-          "title": "Come From Away",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-10-28",
-          "end": "2026-11-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sep 25 to Nov 15 Come From Away Fri, Sep 25, 2026 8:00 PM Sun, Nov 15, 2026 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Come From Away will be playing September 25 - November 15 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Little Women: A Victorian Christmas",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-11-05",
-          "end": "2026-12-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Nov 5 to Dec 20 Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map)",
-            "Little Women: A Victorian Christmas Card will be playing November 5 - December 20 at 2nd Space Theatre."
-          ]
-        },
-        {
           "title": "Shrek the Musical",
           "kind": "performance",
           "venue": "Roger Rocka's Dinner Theater",
@@ -209,56 +221,7 @@
           "end": "2027-01-17",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
-            "Nov 20 to Jan 17 Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
             "Shrek the Musical will be playing November 20, 2026 - January 17, 2027 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
-          "kind": "audition",
-          "venue": "2nd Space Theatre",
-          "start": "2026-12-12",
-          "end": "2026-12-12",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
-          "evidence": [
-            "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
-            "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
-          ]
-        },
-        {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-01-02",
-          "end": "2027-02-21",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 2 to Feb 21 Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Sherlock Holmes and the Adventure of the Fallen Soufflé will be playing January 2 - February 21 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
-          "kind": "audition",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-09",
-          "end": "2027-01-09",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
-          "evidence": [
-            "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
-            "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
-          ]
-        },
-        {
-          "title": "Les Misérables",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-22",
-          "end": "2027-04-04",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Jan 22 to Apr 4 Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Les Misérables will be playing January 22 - April 4 at Roger Rocka’s Dinner Theater."
           ]
         },
         {
@@ -269,34 +232,13 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 30 OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)",
-            "This company performs for the pre-shows of Little Shop of Horrors and Clue ."
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater"
           ]
         }
       ],
       "changes": [
         {
-          "title": "Little Women: A Victorian Christmas",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        },
-        {
           "title": "Shrek the Musical",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
-          "action": "updated",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
-        },
-        {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Les Misérables",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
@@ -341,20 +283,22 @@
       ],
       "candidates": [
         {
-          "title": "Bluey's Big Play",
+          "title": "Water For Elephants",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
-          "start": "2026-11-11",
-          "end": "2026-11-11",
-          "sourceUrl": "https://events.fresnoconventioncenter.com/blueys-big-play",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-03",
+          "end": "2026-11-04",
+          "sourceUrl": "https://us.atgtickets.com/events/water-for-elephants/saroyan-theatre/",
           "evidence": [
-            "BLUEY'S BIG PLAY WEDNESDAY - NOVEMBER 11, 2026 - 7:00 PM WILLIAM SAROYAN THEATRE"
+            "Water For Elephants in Fresno | Official Box Office | ATG Tickets",
+            "Schedule Tues, Nov 3 - Wed, Nov 4, 2026 7:30 PM PT",
+            "Upcoming performances Tue, Nov 3, 2026 7:30 PM PT"
           ]
         },
         {
           "title": "World Ballet Company: Swan Lake with a Live Orchestra",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-11-21",
           "end": "2026-11-21",
           "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
@@ -372,7 +316,8 @@
           "evidence": [
             "LAF Nutcracker Fresno",
             "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-            "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT Buy tickets for Sat, Dec 12, 2026 at 2:00 PM PT Buy tickets Sun, Dec 13, 2026 2:00 PM PT"
+            "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT",
+            "Sun, Dec 13, 2026 2:00 PM PT"
           ]
         },
         {
@@ -389,13 +334,14 @@
         {
           "title": "World Ballet Company: The Nutcracker",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-12-21",
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
             "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
-            "Monday December 21 PURCHASE TICKETS HERE Tuesday December 22"
+            "Monday December 21",
+            "Tuesday December 22"
           ]
         },
         {
@@ -406,7 +352,7 @@
           "end": "2027-01-30",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
+            "Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
           ]
         },
         {
@@ -417,7 +363,7 @@
           "end": "2027-02-04",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
+            "Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
           ]
         },
         {
@@ -428,7 +374,7 @@
           "end": "2027-02-12",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "World Ballet Company: The Sleeping Beauty with a Live Orchestra World Ballet Company: The Sleeping Beauty with a Live Orchestra Dance Saroyan Theatre Fri, Feb 12, 2027"
+            "World Ballet Company: The Sleeping Beauty with a Live Orchestra Dance Saroyan Theatre Fri, Feb 12, 2027"
           ]
         },
         {
@@ -439,7 +385,7 @@
           "end": "2027-03-16",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
+            "The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
           ]
         },
         {
@@ -450,7 +396,7 @@
           "end": "2027-03-21",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+            "Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
           ]
         },
         {
@@ -461,13 +407,13 @@
           "end": "2027-06-09",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+            "A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
           ]
         }
       ],
       "changes": [
         {
-          "title": "Bluey's Big Play",
+          "title": "Water For Elephants",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
@@ -536,7 +482,7 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "University Theatre, Fresno State",
           "start": "2026-11-13",
           "end": "2026-11-21",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -547,7 +493,7 @@
         {
           "title": "The Contemporary Dance Ensemble",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "University Theatre, Fresno State",
           "start": "2027-02-12",
           "end": "2027-02-20",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -558,7 +504,7 @@
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "University Theatre, Fresno State",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -569,7 +515,7 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "University Theatre, Fresno State",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -657,7 +603,7 @@
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
           "evidence": [
             "Golden West One Acts. Published event times: 2026-11-05T19:30:00-08:00 to 2026-11-05T20:30:00-08:00.",
-            "Golden West One Acts 7 : 30 PM - 8 : 30 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "VAPA Calendar Golden West One Acts 7 : 30 PM - 8 : 30 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         },
         {
@@ -669,7 +615,7 @@
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
           "evidence": [
             "Golden West One Acts. Published event times: 2026-11-06T19:30:00-08:00 to 2026-11-06T20:30:00-08:00.",
-            "Golden West One Acts 7 : 30 PM - 8 : 30 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "VAPA Calendar Golden West One Acts 7 : 30 PM - 8 : 30 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         },
         {
@@ -681,7 +627,7 @@
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
           "evidence": [
             "GWHS Presents \"The Nutcracker\" #1. Published event times: 2026-12-16T19:00:00-08:00 to 2026-12-16T20:00:00-08:00.",
-            "GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "VAPA Calendar GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         },
         {
@@ -693,7 +639,7 @@
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
           "evidence": [
             "GWHS Presents \"The Nutcracker\" #2. Published event times: 2026-12-17T19:00:00-08:00 to 2026-12-17T20:00:00-08:00.",
-            "GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "VAPA Calendar GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         }
       ],
@@ -766,11 +712,28 @@
           "end": "2026-11-21",
           "sourceUrl": "https://www.tcoe.org/StudentEvents",
           "evidence": [
-            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia (Grades 1-12) Fee: $85/student participants (scholarships available). How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
+            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia",
+            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m."
+          ]
+        },
+        {
+          "title": "How to Train Your Dragon JR.",
+          "kind": "performance",
+          "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
+          "start": "2026-11-19",
+          "end": "2026-11-21",
+          "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
+          "evidence": [
+            "Our fall main stage production of How to Train Your Dragon JR. performs November 19-21, 2026."
           ]
         }
       ],
       "changes": [
+        {
+          "title": "How to Train Your Dragon JR.",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
         {
           "title": "How to Train Your Dragon JR.",
           "action": "retained",
@@ -794,5 +757,5 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "completedAt": "2026-10-28T08:22:53.023Z"
+  "completedAt": "2026-10-29T13:22:23.223Z"
 }
