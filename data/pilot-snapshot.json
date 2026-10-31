@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "October 30, 2026",
-  "verifiedAt": "October 30, 2026",
-  "reviewedAt": "October 30, 2026",
-  "reviewSummary": "Last updated: October 30, 2026",
+  "checkedAt": "October 31, 2026",
+  "verifiedAt": "October 31, 2026",
+  "reviewedAt": "October 31, 2026",
+  "reviewSummary": "Last updated: October 31, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1376,12 +1376,11 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "LAF Nutcracker Fresno",
-        "Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
-        "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT",
-        "Sun, Dec 13, 2026 2:00 PM PT"
+        "LAF Nutcracker in Fresno | Official Box Office | ATG Tickets",
+        "Venue Saroyan Theatre, Fresno Genre Dance Schedule Sat, Dec 12 - Sun, Dec 13, 2026 2:00 PM PT",
+        "Upcoming performances Sat, Dec 12, 2026 2:00 PM PT Buy tickets for Sat, Dec 12, 2026 at 2:00 PM PT Buy tickets Sun, Dec 13, 2026 2:00 PM PT Buy tickets for Sun, Dec 13, 2026 at 2:00 PM PT Buy tickets"
       ],
-      "verifiedDate": "2026-10-29"
+      "verifiedDate": "2026-10-31"
     },
     {
       "id": "broadway-fresno-saroyan-d229abc4b862",
@@ -1443,7 +1442,7 @@
         "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
         "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
       ],
-      "verifiedDate": "2026-10-30"
+      "verifiedDate": "2026-10-31"
     },
     {
       "id": "broadway-fresno-saroyan-4e2e08a424d6",
