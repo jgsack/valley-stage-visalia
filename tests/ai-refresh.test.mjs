@@ -1,10 +1,37 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {allowed,validate,merge,pageText,encoreAuditionFeedPage,vusdCalendarText,vusdCalendarUrls} from "../scripts/refresh-listings-ai.mjs";
+import {allowed,validate,merge,pageText,encoreAuditionFeedPage,vusdCalendarText,vusdCalendarUrls,expireListings,publishedRunEnd} from "../scripts/refresh-listings-ai.mjs";
 const source={id:"test",name:"Test Theatre",city:"Visalia",distanceMiles:2,officialUrls:["https://theatre.example/"],secondaryHosts:[]};
 const text="Hamlet at Test Theatre. October 2 to October 4, 2026.";
 const pages=[{url:"https://theatre.example/show",text}];
 const event={title:"Hamlet",kind:"performance",venue:"Test Theatre",start:"2026-10-02",end:"2026-10-04",sourceUrl:pages[0].url,evidence:[text]};
+
+test("expired curated auditions cannot suppress the next season's call", () => {
+  const snapshot={shows:[{id:"old-jc",title:"Junior Company Auditions",theater:"Test Theatre",run:"September 19",status:"auditions",sourceUrl:pages[0].url}]};
+  const fresh={...event,title:"OPEN AUDITIONS - Junior Company",kind:"audition",start:"2027-01-30",end:"2027-01-30"};
+  const changes=merge(snapshot,source,[fresh],"2026-10-31");
+  assert.equal(changes[0].action,"added");
+  assert.equal(snapshot.shows.length,1);
+  assert.match(snapshot.shows[0].run,/January 30, 2027/);
+  merge(snapshot,source,[fresh],"2026-10-31");
+  assert.equal(snapshot.shows.length,1);
+});
+test("expiration respects inclusive end dates, lists, years and undated announcements", () => {
+  assert.equal(publishedRunEnd("October 7, 8 & 10, 2026"),"2026-10-10");
+  assert.equal(publishedRunEnd("November 20, 2026–January 17, 2027"),"2027-01-17");
+  assert.equal(publishedRunEnd("November 20–January 17, 2026"),"2027-01-17");
+  assert.equal(publishedRunEnd("February 30, 2027"),null);
+  const snapshot={shows:[{id:"ends-today",run:"October 31, 2026"},{id:"undated",run:"Summer 2027"},{id:"past",run:"October 22–24, 2026"}]};
+  assert.deepEqual(expireListings(snapshot,"2026-10-31").map(x=>x.id),["past"]);
+  assert.equal(snapshot.shows.length,2);
+});
+test("LAF abbreviation matches the curated Nutcracker without losing its poster", () => {
+  const snapshot={shows:[{id:"laf",title:"Lively Arts Foundation: The Nutcracker",run:"December 12–13",status:"soon",sourceUrl:pages[0].url,image:"/laf.webp"}]};
+  const changes=merge(snapshot,source,[{...event,title:"LAF Nutcracker",start:"2026-12-12",end:"2026-12-13"}],"2026-10-31");
+  assert.equal(changes[0].action,"retained");
+  assert.equal(snapshot.shows.length,1);
+  assert.equal(snapshot.shows[0].image,"/laf.webp");
+});
 test("restrict requests to approved https hosts",()=>{assert.equal(allowed(pages[0].url,source),true); for(const url of ["http://theatre.example","https://evil.example","https://theatre.example:123/","https://user@theatre.example/"])assert.equal(allowed(url,source),false);});
 test("require exact evidence, valid dates, explicit year and current run",()=>{assert.equal(validate(event,pages,"2026-09-16"),true);for(const patch of [{evidence:["invented statement"]},{start:"2026-02-30"},{end:"2026-01-01"},{sourceUrl:"https://evil.example/"}])assert.equal(validate({...event,...patch},pages,"2026-09-16"),false);assert.equal(validate(event,pages,"2026-11-01"),false);});
 test("rejects promotional copy and a referenced play mistaken for event titles",()=>{const promotional="A Modern Masterpiece, its the fabulously inventive tale of Hamlet. October 8-17, 2026.";const page=[{url:pages[0].url,text:promotional}];const candidate={...event,start:"2026-10-08",end:"2026-10-17",evidence:[promotional]};assert.equal(validate({...candidate,title:"A Modern Masterpiece"},page,"2026-10-12"),false);assert.equal(validate({...candidate,title:"Hamlet"},page,"2026-10-12"),false);});

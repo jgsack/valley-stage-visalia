@@ -5,7 +5,29 @@ import { resolve } from "node:path";
 
 export const today = () => new Intl.DateTimeFormat("en-CA", {timeZone:"America/Los_Angeles",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
 const clean = s => String(s ?? "").replace(/\s+/g," ").trim();
-const key = s => clean(s).toLowerCase().replace(/[^a-z0-9]/g,"").replace(/^the/,"").replace(/auditions?|themusical/g,"");
+const key = s => clean(s).toLowerCase().replace(/[^a-z0-9]/g,"").replace(/^the/,"").replace(/auditions?|themusical/g,"").replace(/^lafnutcracker$/, "livelyartsfoundationthenutcracker");
+// Legacy yearless records belong to 2026, as in the public date filter.
+export function publishedRunEnd(run) {
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const date = (year, month, day) => {
+    const value = new Date(Date.UTC(year, month, day));
+    return value.getUTCFullYear() === year && value.getUTCMonth() === month && value.getUTCDate() === day ? value.toISOString().slice(0,10) : null;
+  };
+  const explicit = run.match(/^[A-Za-z]+ \d{1,2}, 20\d{2}[–-]([A-Za-z]+) (\d{1,2}), (20\d{2})$/);
+  if (explicit) return date(Number(explicit[3]), months.indexOf(explicit[1]), Number(explicit[2]));
+  const list = run.match(/^([A-Za-z]+) (\d{1,2}(?:, \d{1,2})* & \d{1,2}), (20\d{2})$/);
+  if (list) return date(Number(list[3]), months.indexOf(list[1]), Math.max(...list[2].split(/, | & /).map(Number)));
+  const match = run.match(/^([A-Za-z]+) (\d{1,2})(?:[–-](?:([A-Za-z]+) )?(\d{1,2}))?(?:, (20\d{2}))?$/);
+  if (!match || months.indexOf(match[1]) < 0) return null;
+  const firstMonth = months.indexOf(match[1]), lastMonth = match[3] ? months.indexOf(match[3]) : firstMonth;
+  if (lastMonth < 0) return null;
+  return date(Number(match[5] ?? 2026) + (lastMonth < firstMonth ? 1 : 0), lastMonth, Number(match[4] ?? match[2]));
+}
+export function expireListings(snapshot, day) {
+  const expired = snapshot.shows.filter(show => { const end = publishedRunEnd(show.run); return end && end < day; });
+  snapshot.shows = snapshot.shows.filter(show => !expired.includes(show));
+  return expired.map(show => ({id:show.id,title:show.title,run:show.run}));
+}
 export function allowed(url, source) {
   try {
     const u = new URL(url);
@@ -135,6 +157,7 @@ export function validate(candidate,pages,day=today()){
   return candidate.start<=candidate.end && candidate.end>=day && candidate.end<=String(Number(day.slice(0,4))+2)+"-12-31";
 }
 export function merge(snapshot,source,events,day=today()){
+  expireListings(snapshot, day);
   const changes=[];
   for(const e of events){
     const hosts=new Set(source.officialUrls.map(u=>new URL(u).hostname));
@@ -190,6 +213,7 @@ export async function main(){
   const monitor=JSON.parse(readFileSync("data/monitoring-sources.json","utf8"));
   const snapshot=JSON.parse(readFileSync("data/pilot-snapshot.json","utf8"));
   const report={startedAt:new Date().toISOString(),completedDay:null,organizations:[],socialStatus:"Not checked: official social API access is not configured.",posterStatus:"Existing posters preserved; new artwork needs separate verification."};
+  report.expirations = expireListings(snapshot, day);
   for(const source of monitor.sources){
     if(source.distanceMiles>snapshot.center.radiusMiles)continue;
     const result={id:source.id,pages:[],failures:[],candidates:[],changes:[]};

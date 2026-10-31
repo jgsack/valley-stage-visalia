@@ -283,9 +283,10 @@
       "officialUrls": [
         "https://www.tcoe.org/TheatreCo",
         "https://www.tcoe.org/TheatreCo/callboard",
-        "https://www.tcoe.org/TheatreCo/tickets"
+        "https://www.tcoe.org/TheatreCo/tickets",
+        "https://tcoessc.ludus.com/show_page.php?show_id=200546498"
       ],
-      "secondaryHosts": []
+      "secondaryHosts": ["tcoessc.ludus.com"]
     },
     {
       "id": "centerstage-clovis",

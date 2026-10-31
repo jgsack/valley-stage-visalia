@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-31",
+  "scope": "Official site, ticketing and public social-discovery reconciliation across the 17 configured organizations",
+  "additions": ["GCP Junior Company auditions January 30, 2027, 9–11 AM"],
+  "corrections": ["Retired 20 dated expired records before duplicate matching", "Removed duplicate LAF Nutcracker and added its title alias", "Replaced Normal Heart audition art with verified official production poster", "Linked TCOE production to its authorized Ludus ticket page and supplied published 7 PM opening time"],
+  "socialStatus": "Incomplete: official Facebook pages returned login/temporary-block screens; Instagram requests failed or returned cache misses. Searches supplied no usable new permanent official posts. These failures are not evidence of no announcements.",
+  "sourceAccess": ["Selma official pages: HTTP 403", "Broadway in Fresno pages: HTTP 403 in daily importer", "COS Facebook: temporarily blocked; Instagram fetch failed", "TCOE Ludus: readable in official web source; deterministic importer returned HTTP 403"],
+  "unresolved": ["TCOE November 21 matinee: current ticket inventory says 1 PM, older StudentEvents material says 2 PM. Listing directs visitors to ticketing for matinee details.", "TCOE announced Singin' in the Rain for summer 2027 but no exact performance or audition dates; withheld pending dates."],
+  "poster": {
+    "productionId": "normal-heart",
+    "file": "/posters/icehouse-normal-heart-production.jpg",
+    "pageUrl": "https://www.visaliaicehouse.com/",
+    "imageUrl": "https://static.wixstatic.com/media/cf6fcc_36f0e59e3f3e4f8abd80cdd30541e489~mv2.jpg/v1/fill/w_599,h_897,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6170.jpg",
+    "retrievedAt": "2026-10-31",
+    "sha256": "a323248b00f6837f120c86538bdb8525ed184c4719e18de1303ed002714edeb5",
+    "type": "image/jpeg",
+    "dimensions": "599x897",
+    "credit": "Visalia Community Players / Ice House Theater",
+    "verification": "Visually inspected: Normal Heart title, Ice House Theater, director JJ Pestano, November performance dates match retained production. Unrelated Kings Players Mousetrap candidate was discarded."
+  }
+}

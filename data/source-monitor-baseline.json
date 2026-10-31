@@ -2,6 +2,14 @@
   "version": 1,
   "checkedAt": "2026-10-13T13:34:41.512Z",
   "sources": {
+    "https://tcoessc.ludus.com/show_page.php?show_id=200546498": {
+      "status": "failed",
+      "checkedAt": "2026-10-31T13:17:56.829Z",
+      "finalUrl": "https://tcoessc.ludus.com/show_page.php?show_id=200546498",
+      "httpStatus": 403,
+      "error": "HTTP 403",
+      "consecutiveFailures": 1
+    },
     "https://www.vusd.org/departments/student-services/vapa/calendar": {
       "status": "ok",
       "checkedAt": "2026-10-18T21:18:51.490Z",
