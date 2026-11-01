@@ -237,12 +237,12 @@
       "city": "Visalia",
       "distance": 3,
       "run": "November 12–21",
-      "next": "Thu, Nov 12",
-      "performanceCount": "Mainstage production",
+      "next": "Thu, Nov 12 · 7:00 PM",
+      "performanceCount": "7 performances",
       "description": "Larissa FastHorse's sharp satire follows four well-meaning teachers struggling to create an elementary-school Thanksgiving pageant that gets everything right.",
       "status": "soon",
-      "sourceUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
-      "detailsUrl": "https://www.facebook.com/COSmusicdancetheatre/posts/pfbid0Mxn6KKD776WyEQSVvCuaX1hCxowNMnYngH29yD59hPaDDreP1P19UdZCrqdDj9cLl",
+      "sourceUrl": "https://app.arts-people.com/?show=359354",
+      "detailsUrl": "https://app.arts-people.com/?show=359354",
       "image": "/posters/cos-thanksgiving-play.jpg",
       "imageMode": "contain"
     },
@@ -1204,26 +1204,6 @@
       "detailsUrl": "https://www.gcplayers.com/jc-auditions",
       "organizationId": "roger-rockas",
       "verifiedDate": "2026-10-31"
-    },
-    {
-      "id": "cos-d6ea60268332",
-      "title": "November 12-21, 2026",
-      "theater": "College of the Sequoias Theatre",
-      "city": "Visalia",
-      "distance": 3,
-      "run": "November 12, 2026–November 21, 2026",
-      "next": "Thu, Nov 12",
-      "performanceCount": "See performance calendar",
-      "description": "November 12-21, 2026 at LJ Williams Theater. See the official page for the complete schedule and details.",
-      "status": "soon",
-      "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
-      "detailsUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
-      "organizationId": "cos",
-      "aiManaged": true,
-      "evidence": [
-        "November 12-21, 2026 Evening Performances: November 12,13,14,19, 20, 21 at 7:00pm Matinee Performance November 21st at 1:00pm"
-      ],
-      "verifiedDate": "2026-11-01"
     }
   ],
   "sources": [

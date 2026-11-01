@@ -6,6 +6,14 @@ const text="Hamlet at Test Theatre. October 2 to October 4, 2026.";
 const pages=[{url:"https://theatre.example/show",text}];
 const event={title:"Hamlet",kind:"performance",venue:"Test Theatre",start:"2026-10-02",end:"2026-10-04",sourceUrl:pages[0].url,evidence:[text]};
 
+test("calendar dates cannot become a production title; numeric play titles remain valid", () => {
+  const quote="November 12-21, 2026 Evening Performances: November 12,13,14,19,20,21 at 7pm";
+  const candidate={...event,title:"November 12-21, 2026",start:"2026-11-12",end:"2026-11-21",evidence:[quote]};
+  assert.equal(validate(candidate,[{url:pages[0].url,text:quote}],"2026-11-01"),false);
+  const real="1984 at Test Theatre. October 2 to October 4, 2026.";
+  assert.equal(validate({...event,title:"1984",evidence:[real]},[{url:pages[0].url,text:real}],"2026-10-01"),true);
+});
+
 test("expired curated auditions cannot suppress the next season's call", () => {
   const snapshot={shows:[{id:"old-jc",title:"Junior Company Auditions",theater:"Test Theatre",run:"September 19",status:"auditions",sourceUrl:pages[0].url}]};
   const fresh={...event,title:"OPEN AUDITIONS - Junior Company",kind:"audition",start:"2027-01-30",end:"2027-01-30"};
