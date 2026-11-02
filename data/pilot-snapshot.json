@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 1, 2026",
-  "verifiedAt": "November 1, 2026",
-  "reviewedAt": "November 1, 2026",
-  "reviewSummary": "Last updated: November 1, 2026",
+  "checkedAt": "November 2, 2026",
+  "verifiedAt": "November 2, 2026",
+  "reviewedAt": "November 2, 2026",
+  "reviewSummary": "Last updated: November 2, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -197,22 +197,6 @@
       "status": "soon",
       "sourceUrl": "https://www.selmaartscenter.com/season-2026",
       "detailsUrl": "https://www.selmaartscenter.com/season-2026"
-    },
-    {
-      "id": "nerdy-prudes-lindsay",
-      "title": "Nerdy Prudes Must Die",
-      "theater": "Lindsay Community Theater",
-      "city": "Lindsay",
-      "distance": 17,
-      "run": "October 23–November 1",
-      "next": "Fri, Oct 23 · 7:30 PM",
-      "performanceCount": "6 performances",
-      "description": "A horror-comedy musical brings high-school rivals, supernatural revenge, and an irreverent score to Lindsay.",
-      "status": "now",
-      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/fall-musical",
-      "image": "/posters/lindsay-nerdy-prudes.png",
-      "imageMode": "contain"
     },
     {
       "id": "normal-heart",
@@ -1093,7 +1077,7 @@
         "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
         "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-11-01"
+      "verifiedDate": "2026-11-02"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1132,9 +1116,9 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+        "Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-11-01"
+      "verifiedDate": "2026-11-02"
     },
     {
       "id": "centerstage-clovis-bandstand",
