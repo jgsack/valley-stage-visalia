@@ -1172,6 +1172,63 @@
       "detailsUrl": "https://www.gcplayers.com/jc-auditions",
       "organizationId": "roger-rockas",
       "verifiedDate": "2026-10-31"
+    },
+    {
+      "id": "simon-garfunkel-story-saroyan-2027",
+      "title": "The Simon & Garfunkel Story",
+      "theater": "Saroyan Theatre",
+      "city": "Fresno",
+      "distance": 44,
+      "run": "February 23, 2027",
+      "next": "Tue, Feb 23",
+      "performanceCount": "1 performance",
+      "description": "A concert-style theater production tells the story of Paul Simon and Art Garfunkel, from their early partnership to the Central Park reunion, with a live band and their best-known songs.",
+      "status": "soon",
+      "sourceUrl": "https://us.atgtickets.com/events/the-simon-and-garfunkel-story/saroyan-theatre/",
+      "detailsUrl": "https://us.atgtickets.com/events/the-simon-and-garfunkel-story/saroyan-theatre/",
+      "image": "/posters/saroyan-simon-garfunkel-story.jpg",
+      "imageMode": "contain",
+      "organizationId": "broadway-fresno-saroyan",
+      "verifiedDate": "2026-11-04",
+      "evidence": ["Schedule Tues, Feb 23, 2027 7:00 PM PT", "The immersive concert-style theater show chronicles the amazing journey shared by the folk-rock duo, Paul Simon and Art Garfunkel."]
+    },
+    {
+      "id": "mt-whitney-once-upon-a-mattress-auditions-2026",
+      "title": "Once Upon a Mattress Auditions",
+      "theater": "Mt. Whitney High School Drama",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "November 4, 2026",
+      "next": "Wed, Nov 4",
+      "performanceCount": "School musical auditions",
+      "description": "Mt. Whitney's Maroon Musical flyer announces auditions Wednesday, November 4, for Once Upon a Mattress, opening February 2027. Pick up a packet in Room 16 or B-27; contact the school for the audition time and location.",
+      "status": "auditions",
+      "sourceUrl": "https://mtwhitney.vusd.org/",
+      "detailsUrl": "https://mtwhitney.vusd.org/",
+      "image": "/posters/mt-whitney-once-upon-a-mattress.jpg",
+      "imageMode": "contain",
+      "organizationId": "mt-whitney-high",
+      "verifiedDate": "2026-11-04",
+      "evidence": ["Official school homepage Musical Auditions flyer: Maroon Musical Opening February 2027; Vocal Workshop Monday Nov 2; Dance Workshop Tuesday Nov 3; Auditions Wednesday Nov 4. The weekday sequence belongs to November 2026 preceding the announced February 2027 production."]
+    },
+    {
+      "id": "mt-whitney-once-upon-a-mattress-2027",
+      "title": "Once Upon a Mattress",
+      "theater": "Mt. Whitney High School Drama",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "February 2027",
+      "next": "See school for performance dates",
+      "performanceCount": "Maroon Musical",
+      "description": "Mt. Whitney High School announces Once Upon a Mattress as its Maroon Musical, opening in February 2027. The official flyer has not yet published individual performance dates or a venue.",
+      "status": "soon",
+      "sourceUrl": "https://mtwhitney.vusd.org/",
+      "detailsUrl": "https://mtwhitney.vusd.org/",
+      "image": "/posters/mt-whitney-once-upon-a-mattress.jpg",
+      "imageMode": "contain",
+      "imageCaption": "Official school audition flyer announcing the February 2027 production.",
+      "organizationId": "mt-whitney-high",
+      "verifiedDate": "2026-11-04"
     }
   ],
   "sources": [
@@ -1232,7 +1289,7 @@
     },
     {
       "name": "Mt. Whitney High School",
-      "note": "The district VAPA calendar confirms Divisadero and Mt. Whitney's It's a Madhouse at Rotary Theater October 22–24, 2026 at 7:00 PM. No verified poster is currently available. The updater checks this calendar and the next six months for this school's events.",
+      "note": "November 4: visually verified the official school homepage Musical Auditions flyer for Once Upon a Mattress, opening February 2027. Auditions Wednesday November 4; no time or audition venue published. Packet pickup Room 16 or B-27 is not treated as the audition venue. The preceding vocal/dance workshop weekday sequence confirms November 2026 in the announced 2026–27 production cycle.",
       "waiting": false
     },
     {

@@ -2,6 +2,20 @@
   "version": 1,
   "checkedAt": "2026-10-13T13:34:41.512Z",
   "sources": {
+    "https://us.atgtickets.com/events/the-simon-and-garfunkel-story/saroyan-theatre/": {
+      "status": "ok",
+      "checkedAt": "2026-11-04T14:19:22.804Z",
+      "finalUrl": "https://us.atgtickets.com/events/the-simon-and-garfunkel-story/saroyan-theatre/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "contentLength": 489997,
+      "etag": null,
+      "lastModified": null,
+      "consecutiveFailures": 0,
+      "contentHash": "954c229154acad0ae9e4bd4ee2ee7f967f485a45ce579e70956523d58211deae",
+      "signalCount": 47,
+      "eventCount": 1
+    },
     "https://tcoessc.ludus.com/show_page.php?show_id=200546498": {
       "status": "failed",
       "checkedAt": "2026-10-31T13:17:56.829Z",
