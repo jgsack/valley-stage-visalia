@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 3, 2026",
-  "verifiedAt": "November 2, 2026",
-  "reviewedAt": "November 3, 2026",
-  "reviewSummary": "Last updated: November 3, 2026",
+  "checkedAt": "November 4, 2026",
+  "verifiedAt": "November 4, 2026",
+  "reviewedAt": "November 4, 2026",
+  "reviewSummary": "Last updated: November 4, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -881,22 +881,6 @@
       "imageMode": "contain"
     },
     {
-      "id": "lindsay-lightning-thief-auditions",
-      "title": "The Lightning Thief Auditions",
-      "theater": "Lindsay Community Theater",
-      "city": "Lindsay",
-      "distance": 17,
-      "run": "November 2–3",
-      "next": "Mon, Nov 2 · 6:30 PM",
-      "performanceCount": "2 audition evenings",
-      "description": "Auditions for Lindsay's high-school production of The Lightning Thief.",
-      "status": "auditions",
-      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/lct-high-school",
-      "image": "/posters/lindsay-lightning-thief.png",
-      "imageMode": "contain"
-    },
-    {
       "id": "lindsay-last-five-years-auditions",
       "title": "The Last 5 Years Auditions",
       "theater": "Lindsay Community Theater",
@@ -1074,10 +1058,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre",
         "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-11-02"
+      "verifiedDate": "2026-11-04"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1095,10 +1079,10 @@
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+        "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater",
         "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
       ],
-      "verifiedDate": "2026-11-01"
+      "verifiedDate": "2026-11-04"
     },
     {
       "id": "broadway-fresno-saroyan-4e2e08a424d6",
