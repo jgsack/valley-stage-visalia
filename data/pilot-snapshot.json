@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 4, 2026",
+  "checkedAt": "November 5, 2026",
   "verifiedAt": "November 4, 2026",
-  "reviewedAt": "November 4, 2026",
-  "reviewSummary": "Last updated: November 4, 2026",
+  "reviewedAt": "November 5, 2026",
+  "reviewSummary": "Last updated: November 5, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -527,22 +527,6 @@
       "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-james-and-the-giant-peach.jpg",
       "imageMode": "cover"
-    },
-    {
-      "id": "water-for-elephants-saroyan",
-      "title": "Water for Elephants",
-      "theater": "Saroyan Theatre",
-      "city": "Fresno",
-      "distance": 44,
-      "run": "November 3–4",
-      "next": "Tue, Nov 3 · 7:30 PM",
-      "performanceCount": "2 performances",
-      "description": "The bestselling novel becomes a spectacle-filled Broadway musical about a young man who jumps a moving train and finds a new home, purpose, and love with a traveling circus.",
-      "status": "soon",
-      "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-      "detailsUrl": "https://us.atgtickets.com/events/water-for-elephants/saroyan-theatre/",
-      "image": "/posters/saroyan-water-for-elephants.jpg",
-      "imageMode": "contain"
     },
     {
       "id": "blueys-big-play-saroyan",
@@ -1190,26 +1174,10 @@
       "imageMode": "contain",
       "organizationId": "broadway-fresno-saroyan",
       "verifiedDate": "2026-11-04",
-      "evidence": ["Schedule Tues, Feb 23, 2027 7:00 PM PT", "The immersive concert-style theater show chronicles the amazing journey shared by the folk-rock duo, Paul Simon and Art Garfunkel."]
-    },
-    {
-      "id": "mt-whitney-once-upon-a-mattress-auditions-2026",
-      "title": "Once Upon a Mattress Auditions",
-      "theater": "Mt. Whitney High School Drama",
-      "city": "Visalia",
-      "distance": 3,
-      "run": "November 4, 2026",
-      "next": "Wed, Nov 4",
-      "performanceCount": "School musical auditions",
-      "description": "Mt. Whitney's Maroon Musical flyer announces auditions Wednesday, November 4, for Once Upon a Mattress, opening February 2027. Pick up a packet in Room 16 or B-27; contact the school for the audition time and location.",
-      "status": "auditions",
-      "sourceUrl": "https://mtwhitney.vusd.org/",
-      "detailsUrl": "https://mtwhitney.vusd.org/",
-      "image": "/posters/mt-whitney-once-upon-a-mattress.jpg",
-      "imageMode": "contain",
-      "organizationId": "mt-whitney-high",
-      "verifiedDate": "2026-11-04",
-      "evidence": ["Official school homepage Musical Auditions flyer: Maroon Musical Opening February 2027; Vocal Workshop Monday Nov 2; Dance Workshop Tuesday Nov 3; Auditions Wednesday Nov 4. The weekday sequence belongs to November 2026 preceding the announced February 2027 production."]
+      "evidence": [
+        "Schedule Tues, Feb 23, 2027 7:00 PM PT",
+        "The immersive concert-style theater show chronicles the amazing journey shared by the folk-rock duo, Paul Simon and Art Garfunkel."
+      ]
     },
     {
       "id": "mt-whitney-once-upon-a-mattress-2027",
