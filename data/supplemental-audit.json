@@ -30,6 +30,17 @@
           "verification": "Viewed title, Maroon Musical Opening February2027, November2Monday/3Tuesday workshops and November4Wednesday auditions. Calendar sequence verified for2026; exact auditiontime/venue not supplied. Packet pickup rooms not presumed audition venue."
         }
       ]
+    },
+    {
+      "checkedAt": "2026-11-06",
+      "result": "Lindsay Aladdin performance run corrected to May21–30,2027. Specific page lists May21,22,28,29 7:30PM and May23,30 2PM; the official licensor independently confirms Lindsay's May21–30,2027 licensed run. Broad season page still lists May15–24. Added specific production page to monitor.",
+      "evidenceUrls": [
+        "https://www.lindsaycommunitytheater.com/theater-season/childrens-theater",
+        "https://www.lindsaycommunitytheater.com/theater-season",
+        "https://www.mtishows.com.au/productions-map.php?node_id=1713&t=1776288317"
+      ],
+      "unresolved": "Audition dates conflict: specific page March15–16 at4PM; season March16–17. Removed unqualified exact schedule from normalized run and disclosed both source claims in description. No inferred resolution.",
+      "access": "All six southern sites200; ATG calendar recovered from429 to200. School/social restrictions unchanged. No new verified posters or other productions."
     }
   ],
   "scope": "Official site, ticketing and public social-discovery reconciliation across the 17 configured organizations",

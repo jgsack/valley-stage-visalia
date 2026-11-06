@@ -2,6 +2,20 @@
   "version": 1,
   "checkedAt": "2026-10-13T13:34:41.512Z",
   "sources": {
+    "https://www.lindsaycommunitytheater.com/theater-season/childrens-theater": {
+      "status": "ok",
+      "checkedAt": "2026-11-06T14:24:22.524Z",
+      "finalUrl": "https://www.lindsaycommunitytheater.com/theater-season/childrens-theater",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "contentLength": 142806,
+      "etag": null,
+      "lastModified": null,
+      "consecutiveFailures": 0,
+      "contentHash": "dc3bb237ca746aaedade0e94452c0470b1290ede8839dd5b4c7495e25b0177c1",
+      "signalCount": 14,
+      "eventCount": 0
+    },
     "https://us.atgtickets.com/events/the-simon-and-garfunkel-story/saroyan-theatre/": {
       "status": "ok",
       "checkedAt": "2026-11-04T14:19:22.804Z",
