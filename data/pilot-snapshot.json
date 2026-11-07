@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 6, 2026",
-  "verifiedAt": "November 6, 2026",
-  "reviewedAt": "November 6, 2026",
-  "reviewSummary": "Last updated: November 6, 2026",
+  "checkedAt": "November 7, 2026",
+  "verifiedAt": "November 7, 2026",
+  "reviewedAt": "November 7, 2026",
+  "reviewSummary": "Last updated: November 7, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1086,7 +1086,7 @@
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-11-06"
+      "verifiedDate": "2026-11-07"
     },
     {
       "id": "centerstage-clovis-bandstand",
@@ -1108,22 +1108,6 @@
         "The official CenterStage poster and linked ticket inventory list performances November 13, 14, 19, 20, and 21, including 2:00 PM matinees on November 14 and 21."
       ],
       "verifiedDate": "2026-10-13"
-    },
-    {
-      "id": "golden-west-one-acts-2026",
-      "title": "Golden West One Acts",
-      "theater": "Golden West High School Drama",
-      "city": "Visalia",
-      "distance": 4,
-      "run": "November 5–6, 2026",
-      "next": "Thu, Nov 5 · 7:30 PM",
-      "performanceCount": "2 evening performances",
-      "description": "Golden West High School presents one-act plays at Rotary Theater, 330 S. Dollner Street. Performances are November 5 and 6 at 7:30 PM.",
-      "status": "soon",
-      "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
-      "detailsUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-11-01",
-      "organizationId": "golden-west-high",
-      "verifiedDate": "2026-10-18"
     },
     {
       "id": "golden-west-nutcracker-2026",
