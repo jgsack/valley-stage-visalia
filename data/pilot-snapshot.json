@@ -237,12 +237,12 @@
       "city": "Tulare",
       "distance": 10,
       "run": "November 6–21",
-      "next": "Fri, Nov 6",
-      "performanceCount": "Dates confirmed on official poster",
-      "description": "Aaron Sorkin's gripping courtroom drama about duty, honor, and an illegal order hidden inside the chain of command.",
-      "status": "soon",
+      "next": "Sat, Nov 7 · 7 PM",
+      "performanceCount": "9 remaining performances",
+      "description": "Aaron Sorkin's gripping courtroom drama about duty, honor, and an illegal order hidden inside the chain of command. Remaining performances: November 7, 12–14, and 19–21 at 7 PM; November 8 and 15 at 2 PM. November 12 has restricted ticket inventory; contact the box office for availability.",
+      "status": "now",
       "sourceUrl": "https://www.encoretulare.org/shows",
-      "detailsUrl": "https://www.encoretulare.org/shows",
+      "detailsUrl": "https://app.arts-people.com/index.php?show=347650",
       "image": "/posters/encore-a-few-good-men.jpg",
       "imageMode": "cover"
     },
@@ -1191,7 +1191,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "Encore's redesigned official pages are accessible, but the auditions page loads published calls from a browser-only public data feed after its initial HTML says none are scheduled. That feed confirms A Year with Frog and Toad auditions October 25–26; the updater now reads it directly.",
+      "note": "November 7: Encore's redesigned season text is incomplete, but its Get Tickets link leads to official Arts People inventory confirming nine remaining A Few Good Men performances through November 21, with exact times. That ticket page is now monitored independently. Audition calls are checked through the official page's public data feed; no new future audition verified. Current social posts could not be verified because access is restricted.",
       "waiting": false
     },
     {

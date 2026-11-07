@@ -2,6 +2,20 @@
   "version": 1,
   "checkedAt": "2026-10-13T13:34:41.512Z",
   "sources": {
+    "https://app.arts-people.com/index.php?show=347650": {
+      "status": "ok",
+      "checkedAt": "2026-11-07T14:36:09.421Z",
+      "finalUrl": "https://app.arts-people.com/index.php?show=347650",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "contentLength": 12167,
+      "etag": null,
+      "lastModified": null,
+      "consecutiveFailures": 0,
+      "contentHash": "b0f4553090f8c8ecc106e039f1024d67e38ea09ee3ed379843d41586aeb90406",
+      "signalCount": 13,
+      "eventCount": 0
+    },
     "https://www.lindsaycommunitytheater.com/theater-season/childrens-theater": {
       "status": "ok",
       "checkedAt": "2026-11-06T14:24:22.524Z",
