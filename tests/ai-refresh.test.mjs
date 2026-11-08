@@ -14,6 +14,15 @@ test("calendar dates cannot become a production title; numeric play titles remai
   assert.equal(validate({...event,title:"1984",evidence:[real]},[{url:pages[0].url,text:real}],"2026-10-01"),true);
 });
 
+test("ticket-index department headings are not production titles", () => {
+  for (const title of ["COS Theatre", "COS Theater Arts", "College of the Sequoias Theatre Arts"]) {
+    const quote = `${title} November 12-21, 2026 Evening Performances at 7pm`;
+    assert.equal(validate({...event,title,start:"2026-11-12",end:"2026-11-21",evidence:[quote]},[{url:pages[0].url,text:quote}],"2026-11-08"),false);
+  }
+  const quote="The Thanksgiving Play November 12-21, 2026 at COS Theatre";
+  assert.equal(validate({...event,title:"The Thanksgiving Play",start:"2026-11-12",end:"2026-11-21",evidence:[quote]},[{url:pages[0].url,text:quote}],"2026-11-08"),true);
+});
+
 test("expired curated auditions cannot suppress the next season's call", () => {
   const snapshot={shows:[{id:"old-jc",title:"Junior Company Auditions",theater:"Test Theatre",run:"September 19",status:"auditions",sourceUrl:pages[0].url}]};
   const fresh={...event,title:"OPEN AUDITIONS - Junior Company",kind:"audition",start:"2027-01-30",end:"2027-01-30"};

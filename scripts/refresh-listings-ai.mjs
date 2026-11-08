@@ -143,6 +143,8 @@ export function validate(candidate,pages,day=today()){
   if(new RegExp(`^${month}\\s+\\d{1,2}(?:\\s*[-–]\\s*(?:${month}\\s+)?\\d{1,2})?(?:,\\s*20\\d{2})?$`,"i").test(clean(candidate.title))) return false;
   if(/^20\d{2}-\d{2}-\d{2}(?:\s*(?:to|[–-])\s*20\d{2}-\d{2}-\d{2})?$/i.test(clean(candidate.title))) return false;
   if(/^a modern masterpiece$/i.test(clean(candidate.title))) return false;
+  // Ticket indexes sometimes expose a department heading instead of the show title.
+  if(/^(?:COS|College of the Sequoias)\s+(?:theat(?:re|er)(?:\s+arts)?|performing arts)$/i.test(clean(candidate.title))) return false;
   if(typeof candidate.venue!=="string" || !candidate.venue.trim()) return false;
   if(!Array.isArray(candidate.evidence)||!candidate.evidence.length||candidate.evidence.some(q=>typeof q!=="string"||q.length<8||q.length>1200||!page.text.includes(clean(q))))return false;
   const evidence=candidate.evidence.join(" ");
