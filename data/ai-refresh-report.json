@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-07T13:56:13.283Z",
-  "completedDay": "2026-11-07",
+  "startedAt": "2026-11-08T08:01:16.609Z",
+  "completedDay": "2026-11-08",
   "organizations": [
     {
       "id": "ice-house",
@@ -42,6 +42,7 @@
         "https://www.encoretulare.org/",
         "https://www.encoretulare.org/shows",
         "https://www.encoretulare.org/auditions",
+        "https://app.arts-people.com/index.php?show=347650",
         "https://www.encoretulare.org/assets/ShowTicketAction-YBUsdZzv.js",
         "https://www.encoretulare.org/calendar",
         "https://www.encoretulare.org/past-productions"
@@ -52,8 +53,27 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Aaron Sorkin's A Few Good Men",
+          "kind": "performance",
+          "venue": "Encore Theatre Company, 324 S. N Street, Tulare, CA 93274",
+          "start": "2026-11-08",
+          "end": "2026-11-21",
+          "sourceUrl": "https://app.arts-people.com/index.php?show=347650",
+          "evidence": [
+            "Encore Theatre Company HOME Aaron Sorkin's A Few Good Men is a gripping courtroom drama focusing on the court-martial of two U.S. Marines accused of murdering a fellow soldier at Guantanamo Bay.",
+            "Please select a performance Sun, Nov 8th, 2026 at 2:00 pm Thu, Nov 12th, 2026 at 7:00 pm *See below Fri, Nov 13th, 2026 at 7:00 pm Sat, Nov 14th, 2026 at 7:00 pm Sun, Nov 15th, 2026 at 2:00 pm Thu, Nov 19th, 2026 at 7:00 pm Fri, Nov 20th, 2026 at 7:00 pm Sat, Nov 21st, 2026 at 7:00 pm"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Aaron Sorkin's A Few Good Men",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        }
+      ]
     },
     {
       "id": "lindsay",
@@ -92,8 +112,27 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Ride the Cyclone",
+          "kind": "performance",
+          "venue": "Porterville Barn Theater",
+          "start": "2026-11-13",
+          "end": "2026-11-29",
+          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+          "evidence": [
+            "Ride the Cyclone (2026)",
+            "Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm ) November 15, 22, 29 ( Sunday Matinees @2pm )"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Ride the Cyclone",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "reedley-river-city",
@@ -147,8 +186,26 @@
           "error": "unapproved host or social source"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "COS Theatre",
+          "kind": "performance",
+          "venue": "COS Box Office, 915 S Mooney Blvd, Visalia, CA, 93277",
+          "start": "2026-11-12",
+          "end": "2026-11-21",
+          "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
+          "evidence": [
+            "COS Theatre November 12-21, 2026 Evening Performances: November 12,13,14,19, 20, 21 at 7:00pm Matinee Performance November 21st at 1:00pm"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "COS Theatre",
+          "action": "added",
+          "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd"
+        }
+      ]
     },
     {
       "id": "roger-rockas",
@@ -170,7 +227,7 @@
           "title": "Come From Away",
           "kind": "performance",
           "venue": "Roger Rocka's Dinner Theater",
-          "start": "2026-11-07",
+          "start": "2026-11-08",
           "end": "2026-11-15",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
@@ -179,10 +236,10 @@
           ]
         },
         {
-          "title": "Little Women: A Victorian Christmas",
+          "title": "Little Women: A Victorian Christmas Card",
           "kind": "performance",
           "venue": "2nd Space Theatre",
-          "start": "2026-11-07",
+          "start": "2026-11-08",
           "end": "2026-12-20",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
@@ -258,20 +315,7 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "Jan 30 OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)",
-            "This company performs for the pre-shows of Little Shop of Horrors and Clue ."
-          ]
-        },
-        {
-          "title": "Private Lives",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-02-26",
-          "end": "2027-04-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Feb 26 to Apr 18 Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Private Lives will be playing February 21 - April 18 at 2nd Space Theatre."
+            "Jan 30 OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)"
           ]
         },
         {
@@ -323,7 +367,7 @@
           ]
         },
         {
-          "title": "Disney’s The Little Mermaid",
+          "title": "Disney's The Little Mermaid",
           "kind": "performance",
           "venue": "Roger Rocka's Dinner Theater",
           "start": "2027-07-23",
@@ -359,7 +403,7 @@
           ]
         },
         {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
+          "title": "It's a Wonderful Life: A Live Radio Play",
           "kind": "performance",
           "venue": "2nd Space Theatre",
           "start": "2027-11-04",
@@ -427,7 +471,7 @@
         {
           "title": "World Ballet Company: Swan Lake with a Live Orchestra",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-11-21",
           "end": "2026-11-21",
           "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
@@ -449,24 +493,12 @@
         {
           "title": "World Ballet Company: The Nutcracker",
           "kind": "performance",
-          "venue": "William Saroyan Theatre",
+          "venue": "Saroyan Theatre",
           "start": "2026-12-21",
           "end": "2026-12-22",
           "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
           "evidence": [
-            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE",
-            "Monday December 21 PURCHASE TICKETS HERE Tuesday December 22"
-          ]
-        },
-        {
-          "title": "Be Like Blippi",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-01-30",
-          "end": "2027-01-30",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "Be Like Blippi Be Like Blippi Family Saroyan Theatre Sat, Jan 30, 2027"
+            "WORLD BALLET COMPANY: THE NUTCRACKER DECEMBER 21 & 22, 2026 - 7PM WILLIAM SAROYAN THEATRE"
           ]
         },
         {
@@ -488,7 +520,7 @@
           "end": "2027-02-12",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
-            "World Ballet Company: The Sleeping Beauty with a Live Orchestra World Ballet Company: The Sleeping Beauty with a Live Orchestra Dance Saroyan Theatre Fri, Feb 12, 2027"
+            "World Ballet Company: The Sleeping Beauty with a Live Orchestra Dance Saroyan Theatre Fri, Feb 12, 2027"
           ]
         },
         {
@@ -523,6 +555,39 @@
           "evidence": [
             "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
           ]
+        },
+        {
+          "title": "Bluey's Big Play",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2026-11-11",
+          "end": "2026-11-12",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "evidence": [
+            "Bluey's Big Play @ Saroyan Theatre November 11-12, 2026 Show Time : 7 PM"
+          ]
+        },
+        {
+          "title": "The Bodyguard",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-03-15",
+          "end": "2027-03-16",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "evidence": [
+            "The Bodyguard @Saroyan Theatre March 15 & 16, 2027 Show Time : 7:30 PM"
+          ]
+        },
+        {
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-06-08",
+          "end": "2027-06-09",
+          "sourceUrl": "https://events.fresnoconventioncenter.com/",
+          "evidence": [
+            "A Beautiful Noise: The Neil Diamond Musical @Saroyan Theatre June 8 & 9, 2027 Show Time : 7:30 PM"
+          ]
         }
       ],
       "changes": [
@@ -540,11 +605,6 @@
           "title": "World Ballet Company: The Nutcracker",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Be Like Blippi",
-          "action": "withheld",
-          "reason": "possible duplicate"
         },
         {
           "title": "Jersey Boys",
@@ -565,6 +625,21 @@
           "title": "Shen Yun",
           "action": "updated",
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
+        },
+        {
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "Bluey's Big Play",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Bodyguard",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
           "title": "A Beautiful Noise: The Neil Diamond Musical",
@@ -591,7 +666,7 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building",
+          "venue": "Fresno State University Theatre",
           "start": "2026-11-13",
           "end": "2026-11-21",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -602,7 +677,7 @@
         {
           "title": "The Contemporary Dance Ensemble",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building",
+          "venue": "Fresno State University Theatre",
           "start": "2027-02-12",
           "end": "2027-02-20",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -613,7 +688,7 @@
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building",
+          "venue": "Fresno State University Theatre",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -624,28 +699,44 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "Fresno State University Theatre, Speech Arts Building",
+          "venue": "Fresno State University Theatre",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
           "evidence": [
             "The Shawshank Redemption adapted for the stage by Owen O'Neil and Dave Johns based on the novella by Stephen King directed by Thomas-Whit Ellis April 30 - May 8, 2027"
           ]
+        },
+        {
+          "title": "Acting Scholarship Auditions",
+          "kind": "audition",
+          "venue": "Fresno State Theatre and Dance Department, Speech Arts Building",
+          "start": "2026-11-12",
+          "end": "2026-11-12",
+          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/news-events/openhouse.html",
+          "evidence": [
+            "our 2026 High School Open House on Thursday, November 12, 2026",
+            "11:45 am - 12:45 pm | Scholarship Auditions and Interviews/Facility Tours",
+            "The Acting Scholarship Auditions consist of a memorized audition package"
+          ]
+        },
+        {
+          "title": "Dance Scholarship Auditions",
+          "kind": "audition",
+          "venue": "Fresno State Theatre and Dance Department, Speech Arts Building",
+          "start": "2026-11-12",
+          "end": "2026-11-12",
+          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/news-events/openhouse.html",
+          "evidence": [
+            "our 2026 High School Open House on Thursday, November 12, 2026",
+            "11:45 am - 12:45 pm | Scholarship Auditions and Interviews/Facility Tours",
+            "The Dance Scholarship Auditions consist of a short solo dance work"
+          ]
         }
       ],
       "changes": [
         {
           "title": "The Miraculous Journey of Edward Tulane",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Yo Te Esperaba: An Abolition Story",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Shawshank Redemption",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
@@ -795,12 +886,6 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "expirations": [
-    {
-      "id": "golden-west-one-acts-2026",
-      "title": "Golden West One Acts",
-      "run": "November 5–6, 2026"
-    }
-  ],
-  "completedAt": "2026-11-07T13:57:29.554Z"
+  "expirations": [],
+  "completedAt": "2026-11-08T08:02:39.730Z"
 }

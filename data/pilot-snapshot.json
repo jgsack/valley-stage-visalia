@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 7, 2026",
-  "verifiedAt": "November 7, 2026",
-  "reviewedAt": "November 7, 2026",
-  "reviewSummary": "Last updated: November 7, 2026",
+  "checkedAt": "November 8, 2026",
+  "verifiedAt": "November 8, 2026",
+  "reviewedAt": "November 8, 2026",
+  "reviewSummary": "Last updated: November 8, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1086,7 +1086,7 @@
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-11-07"
+      "verifiedDate": "2026-11-08"
     },
     {
       "id": "centerstage-clovis-bandstand",
@@ -1181,6 +1181,26 @@
       "imageCaption": "Official school audition flyer announcing the February 2027 production.",
       "organizationId": "mt-whitney-high",
       "verifiedDate": "2026-11-04"
+    },
+    {
+      "id": "cos-1ff5a6163373",
+      "title": "COS Theatre",
+      "theater": "College of the Sequoias Theatre",
+      "city": "Visalia",
+      "distance": 3,
+      "run": "November 12, 2026–November 21, 2026",
+      "next": "Thu, Nov 12",
+      "performanceCount": "See performance calendar",
+      "description": "COS Theatre at COS Box Office, 915 S Mooney Blvd, Visalia, CA, 93277. See the official page for the complete schedule and details.",
+      "status": "soon",
+      "sourceUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
+      "detailsUrl": "https://app.arts-people.com/index.php?ticketing=cosfd",
+      "organizationId": "cos",
+      "aiManaged": true,
+      "evidence": [
+        "COS Theatre November 12-21, 2026 Evening Performances: November 12,13,14,19, 20, 21 at 7:00pm Matinee Performance November 21st at 1:00pm"
+      ],
+      "verifiedDate": "2026-11-08"
     }
   ],
   "sources": [
