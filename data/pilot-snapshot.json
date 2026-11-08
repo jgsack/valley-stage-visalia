@@ -152,6 +152,29 @@
   },
   "shows": [
     {
+      "id": "mean-girls-selma-2027",
+      "title": "Mean Girls",
+      "theater": "Selma Arts Center",
+      "city": "Selma",
+      "distance": 31,
+      "run": "January 8–30, 2027",
+      "next": "Fri, Jan 8",
+      "performanceCount": "Run announced · tickets coming soon",
+      "description": "Selma Arts Center presents the musical Mean Girls, January 8–30, 2027. Cady Heron navigates high-school friendships, popularity, and the Plastics. Individual showtimes have not yet been announced.",
+      "status": "soon",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=1726883946106932&set=pcb.1726883976106929",
+      "detailsUrl": "https://www.facebook.com/photo/?fbid=1726883946106932&set=pcb.1726883976106929",
+      "image": "/posters/selma-mean-girls-2027.jpg",
+      "imageMode": "contain",
+      "imageCaption": "Official cast announcement from Selma Arts Center.",
+      "organizationId": "selma-arts",
+      "verifiedDate": "2026-11-08",
+      "evidence": [
+        "Official Selma Arts Center Facebook photo, published October 26: introducing the cast for Selma Arts Center's upcoming production of Mean Girls The Musical; playing January 8–30, 2027 at the Selma Arts Center; tickets coming soon.",
+        "Music Theatre International's licensed production list independently identifies Mean Girls, Selma Arts Center, Selma CA, January 8–30, 2027."
+      ]
+    },
+    {
       "id": "come-from-away-gcp",
       "title": "Come From Away",
       "theater": "Good Company Players · Roger Rocka's",
@@ -1211,7 +1234,7 @@
     },
     {
       "name": "Selma Arts Center",
-      "note": "September 6: the previously verified run ends today. Official pages returned access errors and ticketing exposed no readable remaining schedule; the stale September 3 next-performance notice was removed.",
+      "note": "November 8: opened Selma's permanent official Facebook photo in a supported browser and visually verified its Mean Girls cast announcement, January 8–30, 2027, with tickets coming soon. Saved full official artwork. MTI's licensed production list corroborates the run. Website pages remain HTTP403 to direct retrieval; browser access to this specific Facebook post succeeded without sign-in.",
       "waiting": false
     },
     {

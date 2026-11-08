@@ -3,6 +3,21 @@
   "followups": [
     {
       "checkedAt": "2026-11-08",
+      "result": "User-nominated Selma Mean Girls Facebook photo opened successfully in the supported in-app browser after web retrieval failed. Dismissed optional sign-in overlay without logging in. Official account identity and full cast announcement visually verified: January 8–30, 2027 at Selma Arts Center; tickets coming soon. MTI licensed production list corroborates dates. Added upcoming production and explicitly mapped official Selma Facebook account for mandatory daily discovery. No showtimes or audition call inferred.",
+      "evidenceUrl": "https://www.facebook.com/photo/?fbid=1726883946106932&set=pcb.1726883976106929",
+      "corroborationUrl": "https://www.mtishows.com.au/productions-map.php?node_id=19244012&t=1756962038",
+      "poster": {
+        "file": "/posters/selma-mean-girls-2027.jpg",
+        "sha256": "deae0a0812d64f25726b2a7c34e125c6392ff899a9cd8a265e0f1cc6b8e635f1",
+        "dimensions": "1080x1440",
+        "type": "image/jpeg",
+        "credit": "Selma Arts Center",
+        "verification": "Full image viewed after browser asset export; complete title, official cast, venue, dates and tickets-coming-soon text legible. Cast-announcement artwork, not an audition poster.",
+        "imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/869729743_1437049908534327_5852770428796047632_n.png?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s1080x1440&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=t8yT07l4sGwQ7kNvwH-wVH9&_nc_oc=AdrX5uI2XYdQIOqGKRGNPWcrx79SoQLUd4Igdo6rH41xwV2Jigz1uf2jxuRaJYzSLKO8bZudkPh7kHeCe2EJ2Btp&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=otVBHVtTbkV1gzF6YeRbfA&_nc_ss=7b289&oh=00_AQSkVMVzmg8bgY0Ar6wGMfLtfhu6uO2jozbQdTAZgMjdvA&oe=6AF68F10"
+      }
+    },
+    {
+      "checkedAt": "2026-11-08",
       "result": "All 17 organizations rechecked in independent source groups. Removed erroneous COS Theatre department-heading duplicate of The Thanksgiving Play and added a deterministic rejection regression test. TCOE's current tickets page now explicitly corroborates November 21's 1 PM Dragon JR matinee. Advanced Encore next performance to November 8 at 2 PM, eight remaining. Added published Kings Players times, Fresno State opening times and specific ticket links, and Saroyan Blippi/Sleeping Beauty/Elmo times and detail links. Corrected Shrek's performance link, which previously led to auditions. No newly verified productions, auditions or posters; no expirations today.",
       "access": "Selma's three pages and Broadway Fresno's five pages remain HTTP403. Ludus HTTP403. School and southern official feeds accessible; official social attempts return temporary blocks, login pages or fetch failures, so no new social announcement is asserted. Lindsay's Aladdin audition date conflict persists; Shawshank April30 inventory and official season corroborate opening over ticket prose typo April20."
     },

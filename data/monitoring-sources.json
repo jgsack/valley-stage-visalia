@@ -134,6 +134,14 @@
         "https://www.selmaartscenter.com/season-2026",
         "https://www.selmaartscenter.com/audition"
       ],
+      "officialSocialAccounts": [
+        {
+          "platform": "facebook",
+          "handle": "@SelmaArtsCenter",
+          "url": "https://www.facebook.com/SelmaArtsCenter/"
+        }
+      ],
+      "socialDiscoveryTerms": ["audition", "auditions", "casting", "season", "show", "Mean Girls"],
       "secondaryHosts": [
         "ci.ovationtix.com"
       ]
