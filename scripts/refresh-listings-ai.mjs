@@ -144,7 +144,7 @@ export function validate(candidate,pages,day=today()){
   if(/^20\d{2}-\d{2}-\d{2}(?:\s*(?:to|[–-])\s*20\d{2}-\d{2}-\d{2})?$/i.test(clean(candidate.title))) return false;
   if(/^a modern masterpiece$/i.test(clean(candidate.title))) return false;
   // Ticket indexes sometimes expose a department heading instead of the show title.
-  if(/^(?:COS|College of the Sequoias)\s+(?:theat(?:re|er)(?:\s+arts)?|performing arts)$/i.test(clean(candidate.title))) return false;
+  if(/^(?:COS|College of the Sequoias)\s+(?:theat(?:re|er)(?:\s+arts)?|performing arts)(?:\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d.*)?$/i.test(clean(candidate.title))) return false;
   if(typeof candidate.venue!=="string" || !candidate.venue.trim()) return false;
   if(!Array.isArray(candidate.evidence)||!candidate.evidence.length||candidate.evidence.some(q=>typeof q!=="string"||q.length<8||q.length>1200||!page.text.includes(clean(q))))return false;
   const evidence=candidate.evidence.join(" ");
@@ -165,8 +165,10 @@ export function merge(snapshot,source,events,day=today()){
   expireListings(snapshot, day);
   const changes=[];
   for(const e of events){
-    const hosts=new Set(source.officialUrls.map(u=>new URL(u).hostname));
-    const related=snapshot.shows.filter(s=>s.organizationId===source.id || hosts.has(new URL(s.sourceUrl).hostname));
+    // Shared ticketing/social hosts do not establish organization identity.
+    const sharedHost=host=>/(?:^|\.)(?:arts-people\.com|facebook\.com|instagram\.com|ovationtix\.com|simpletix\.com|ludus\.com|atgtickets\.com|ticketmaster\.com)$/.test(host);
+    const hosts=new Set(source.officialUrls.map(u=>new URL(u).hostname).filter(host=>!sharedHost(host)));
+    const related=snapshot.shows.filter(s=>s.organizationId ? s.organizationId===source.id : source.officialUrls.includes(s.sourceUrl) || hosts.has(new URL(s.sourceUrl).hostname));
     const sameKind=s=> (s.status==="auditions")===(e.kind==="audition");
     const existing=related.filter(s=>sameKind(s)&&key(s.title)===key(e.title));
     if(existing.length>1){changes.push({title:e.title,action:"withheld",reason:"multiple existing productions"});continue;}
@@ -182,7 +184,7 @@ export function merge(snapshot,source,events,day=today()){
     }
     const id=previous?.id??source.id+"-"+createHash("sha256").update(key(e.title)+e.kind+e.start).digest("hex").slice(0,12);
     const next=e.start>=day?new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"short",month:"short",day:"numeric"}).format(new Date(e.start+"T12:00:00Z")):"See the official "+(e.kind==="audition"?"audition details":"performance calendar");
-    const show={...previous,id,title:e.title,theater:previous?.theater??related[0]?.theater??source.name,city:source.city,distance:source.distanceMiles,run,next,
+    const show={...previous,id,title:e.title,theater:previous?.theater??source.name,city:source.city,distance:source.distanceMiles,run,next,
       performanceCount:e.kind==="audition"?"See audition details":"See performance calendar",
       description:e.title+" at "+e.venue+". See the official page for the complete schedule and details.",
       status:e.kind==="audition"?"auditions":e.start<=day?"now":"soon",sourceUrl:e.sourceUrl,detailsUrl:e.sourceUrl,

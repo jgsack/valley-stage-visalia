@@ -15,12 +15,26 @@ test("calendar dates cannot become a production title; numeric play titles remai
 });
 
 test("ticket-index department headings are not production titles", () => {
-  for (const title of ["COS Theatre", "COS Theater Arts", "College of the Sequoias Theatre Arts"]) {
+  for (const title of ["COS Theatre", "COS Theater Arts", "College of the Sequoias Theatre Arts", "COS Theatre November 12-21, 2026"]) {
     const quote = `${title} November 12-21, 2026 Evening Performances at 7pm`;
     assert.equal(validate({...event,title,start:"2026-11-12",end:"2026-11-21",evidence:[quote]},[{url:pages[0].url,text:quote}],"2026-11-08"),false);
   }
   const quote="The Thanksgiving Play November 12-21, 2026 at COS Theatre";
   assert.equal(validate({...event,title:"The Thanksgiving Play",start:"2026-11-12",end:"2026-11-21",evidence:[quote]},[{url:pages[0].url,text:quote}],"2026-11-08"),true);
+});
+
+test("shared social and ticket hosts cannot merge different organizations", () => {
+  const cos={...source,id:"cos",name:"COS Theatre Arts",officialUrls:["https://www.cos.edu/performances","https://www.facebook.com/COSmusicdancetheatre/","https://app.arts-people.com/index.php?ticketing=cosfd"]};
+  const other={id:"selma-hamlet",title:"Hamlet",theater:"Selma Arts Center",organizationId:"selma-arts",run:"October 2–4, 2026",status:"soon",sourceUrl:"https://www.facebook.com/photo/?fbid=123"};
+  const snapshot={shows:[other]};
+  const fresh={...event,sourceUrl:cos.officialUrls[2]};
+  assert.equal(merge(snapshot,cos,[fresh],"2026-10-01")[0].action,"added");
+  assert.equal(snapshot.shows.length,2);
+  assert.equal(snapshot.shows[1].theater,"COS Theatre Arts");
+  assert.equal(snapshot.shows[0],other);
+  const unassigned={shows:[{...other,organizationId:undefined,sourceUrl:"https://app.arts-people.com/?show=other"}]};
+  assert.equal(merge(unassigned,cos,[fresh],"2026-10-01")[0].action,"added");
+  assert.equal(unassigned.shows[1].theater,"COS Theatre Arts");
 });
 
 test("expired curated auditions cannot suppress the next season's call", () => {

@@ -2,6 +2,13 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-09",
+      "additionalConflict": "Lindsay Last5Years specific page December21–22 auditions conflicts with 2026–27 season December22–23, both6:30PM; withheld exactdate label and disclosed both claims. Undated springmusical page stale; explicit2026–27 season remains authority for Tigers.",
+      "result": "All 17 organizations rechecked in independent read-only groups. No new verified production, audition or poster, and no expired runs. Removed another generic COS department-plus-date duplicate. Expanded the department-heading guard to reject date suffixes. Fixed organization matching so unrelated Facebook or shared ticketing hosts cannot inherit another theater's name or merge its production; regression tests cover explicit and unassigned organization identities. Advanced Encore to November12 7PM, seven remaining. Corrected Les Miserables performance link and opening8PM. Withheld Bluey's next-performance time because specificATG lists6:30PM versus conventioncalendar7PM.",
+      "evidence": ["https://app.arts-people.com/index.php?show=347650", "https://www.gcplayers.com/see-a-show/les-miserables", "https://us.atgtickets.com/events/blueys-big-play/saroyan-theatre/", "https://events.fresnoconventioncenter.com/blueys-big-play"],
+      "access": "Selma3 and BroadwayFresno5 pages HTTP403; Ludus403. Other assigned official feeds accessible. Official-social attempts were temporary-block, login, fetchfailure or cachemiss today; yesterday's directly viewed Selma MeanGirls permanentphoto remains verified evidence, not invalidated. VUSDNov–May calendars accessible; no new qualifying theaterdates. LindsayAladdin audition conflict unchanged."
+    },
+    {
       "checkedAt": "2026-11-08",
       "result": "User-nominated Selma Mean Girls Facebook photo opened successfully in the supported in-app browser after web retrieval failed. Dismissed optional sign-in overlay without logging in. Official account identity and full cast announcement visually verified: January 8–30, 2027 at Selma Arts Center; tickets coming soon. MTI licensed production list corroborates dates. Added upcoming production and explicitly mapped official Selma Facebook account for mandatory daily discovery. No showtimes or audition call inferred.",
       "evidenceUrl": "https://www.facebook.com/photo/?fbid=1726883946106932&set=pcb.1726883976106929",
