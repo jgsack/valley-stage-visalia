@@ -2,6 +2,11 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-10",
+      "result": "All 17 organizations checked in independent read-only groups. No new verified production, audition, poster or expiration. Daily automated commit cb2430a successfully published today's date and retained prior content corrections; COS false-heading regression did not recur. Encore and Kings ticket inventories unchanged. VUSD November–May calendar and school feeds accessible. Existing Lindsay and Saroyan conflicts remain unresolved; no speculative times published.",
+      "access": "New direct-request HTTP403 for Ice House's three configured pages and Kings homepage; Kings linked Arts People inventory remains200. Selma3/BroadwayFresno5 and TCOELudus403 persist. Official-social attempts produced temporaryblocks, login pages, fetchfailures or cachemiss; no new announcement verified. Prior browser-verified SelmaMeanGirls evidence and artwork retained."
+    },
+    {
       "checkedAt": "2026-11-09",
       "additionalConflict": "Lindsay Last5Years specific page December21–22 auditions conflicts with 2026–27 season December22–23, both6:30PM; withheld exactdate label and disclosed both claims. Undated springmusical page stale; explicit2026–27 season remains authority for Tigers.",
       "result": "All 17 organizations rechecked in independent read-only groups. No new verified production, audition or poster, and no expired runs. Removed another generic COS department-plus-date duplicate. Expanded the department-heading guard to reject date suffixes. Fixed organization matching so unrelated Facebook or shared ticketing hosts cannot inherit another theater's name or merge its production; regression tests cover explicit and unassigned organization identities. Advanced Encore to November12 7PM, seven remaining. Corrected Les Miserables performance link and opening8PM. Withheld Bluey's next-performance time because specificATG lists6:30PM versus conventioncalendar7PM.",

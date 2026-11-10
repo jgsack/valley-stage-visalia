@@ -1209,7 +1209,7 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "October 31: official site and linked ticket page confirm The Normal Heart; its new production poster has replaced the expired audition artwork. Facebook returned a temporary-block/login page, so current social announcements remain unverified.",
+      "note": "November 10: all three configured Ice House website pages returned HTTP403 to direct requests, a regression from yesterday's successful access. Existing Normal Heart production and verified artwork retained; no cancellation inferred. Official social retrieval returned temporary-block or fetch failures, so no new announcement verified.",
       "waiting": false
     },
     {
@@ -1279,7 +1279,7 @@
     },
     {
       "name": "Kings Players",
-      "note": "The official schedule confirms The Mousetrap concluded after its August 30 matinee; it has been removed from current listings. The season page continues to supply future productions and auditions.",
+      "note": "November 10: Kings Players homepage returned HTTP403 to direct requests, but the official Arts People ticket page remains HTTP200 and confirms the unchanged ten Christmas Double Feature performances. No cancellation or new audition inferred from homepage access failure.",
       "waiting": false
     },
     {
