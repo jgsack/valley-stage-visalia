@@ -152,6 +152,54 @@
   },
   "shows": [
     {
+      "id": "redwood-drama-one-acts-2027",
+      "title": "Drama One Acts",
+      "theater": "Redwood High School Theatre",
+      "city": "Visalia",
+      "distance": 1,
+      "run": "May 26–28, 2027",
+      "next": "Wed, May 26",
+      "performanceCount": "3 dates announced",
+      "description": "Redwood High School’s calendar lists Drama One Acts on May 26–28. The entries are marked all-day; they do not specify curtain times or a venue.",
+      "status": "soon",
+      "sourceUrl": "https://redwood.vusd.org/calendar-test?cal_date=2027-05-01",
+      "detailsUrl": "https://redwood.vusd.org/calendar-test?cal_date=2027-05-01",
+      "organizationId": "redwood-high",
+      "verifiedDate": "2026-11-11"
+    },
+    {
+      "id": "el-diamante-winter-musical-2027",
+      "title": "Winter Musical",
+      "run": "January 21–23, 2027",
+      "next": "Thu, Jan 21 · 7:00 PM",
+      "performanceCount": "4 performances",
+      "description": "El Diamante High School’s calendar lists performances at LJ Williams Theater: January 21 and 22 at 7:00 PM, and January 23 at 2:00 and 7:00 PM. The production title has not been announced.",
+      "theater": "El Diamante High School Drama",
+      "city": "Visalia",
+      "distance": 5,
+      "status": "soon",
+      "sourceUrl": "https://eldiamante.vusd.org/calendar?cal_date=2027-01-01",
+      "detailsUrl": "https://eldiamante.vusd.org/calendar?cal_date=2027-01-01",
+      "organizationId": "el-diamante-high",
+      "verifiedDate": "2026-11-11"
+    },
+    {
+      "id": "el-diamante-spring-show-2027",
+      "title": "Drama Spring Show",
+      "run": "April 8–10, 2027",
+      "next": "Thu, Apr 8 · 7:00 PM",
+      "performanceCount": "3 performances",
+      "description": "El Diamante High School’s calendar lists three performances at the EDHS Theater, April 8–10 at 7:00 PM. The production title has not been announced.",
+      "theater": "El Diamante High School Drama",
+      "city": "Visalia",
+      "distance": 5,
+      "status": "soon",
+      "sourceUrl": "https://eldiamante.vusd.org/calendar?cal_date=2027-04-01",
+      "detailsUrl": "https://eldiamante.vusd.org/calendar?cal_date=2027-04-01",
+      "organizationId": "el-diamante-high",
+      "verifiedDate": "2026-11-11"
+    },
+    {
       "id": "mean-girls-selma-2027",
       "title": "Mean Girls",
       "theater": "Selma Arts Center",
@@ -181,12 +229,12 @@
       "city": "Fresno",
       "distance": 46,
       "run": "September 25–November 15",
-      "next": "Fri, Sep 25 · 8:00 PM",
-      "performanceCount": "See the official performance calendar",
-      "description": "The acclaimed musical shares the true story of thousands of travelers welcomed by the people of Gander, Newfoundland, after September 11.",
+      "next": "Thu, Nov 12 · 7:30 PM",
+      "performanceCount": "4 remaining performances",
+      "description": "The musical tells the true story of travelers welcomed by Gander, Newfoundland, after September 11. Remaining curtain times: November 12 at 7:30 PM, November 13 and 14 at 8:00 PM, and November 15 at 1:30 PM. Meal seating starts earlier.",
       "status": "now",
       "sourceUrl": "https://www.gcplayers.com/see-a-show/comefromaway",
-      "detailsUrl": "https://www.gcplayers.com/see-a-show/comefromaway",
+      "detailsUrl": "https://rogerrockas.com/shows/categories/roger-rockas/come-from-away/",
       "image": "/posters/gcp-come-from-away.jpg",
       "imageMode": "contain",
       "featured": true
@@ -372,7 +420,7 @@
       "run": "December 11–13",
       "next": "Fri, Dec 11 · 7:30 PM",
       "performanceCount": "4 performances",
-      "description": "A compact holiday engagement bringing local performers together on the Ice House stage.",
+      "description": "Local performers come together on the Ice House stage. Performances are December 11 at 7:30 PM, December 12 at 2:00 and 7:30 PM, and December 13 at 2:00 PM.",
       "status": "soon",
       "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
       "detailsUrl": "https://www.onthestage.tickets/show/the-visalia-players/6967274997fa065b04425dc4"
@@ -558,11 +606,11 @@
       "city": "Fresno",
       "distance": 44,
       "run": "November 11–12",
-      "next": "Wed, Nov 11",
+      "next": "Wed, Nov 11 · 6:30 PM",
       "performanceCount": "2 performances",
-      "description": "Bluey, Bingo, Mum, and Dad come to life through puppetry, music, and play in this family stage adventure written by Bluey creator Joe Brumm.",
-      "status": "soon",
-      "sourceUrl": "https://events.fresnoconventioncenter.com/blueys-big-play",
+      "description": "Bluey, Bingo, Mum, and Dad come to life through puppetry, music, and play in this family stage adventure written by Bluey creator Joe Brumm. Both November 11 and 12 performances begin at 6:30 PM.",
+      "status": "now",
+      "sourceUrl": "https://www.eventsfresno.com/events/2026/httpsusatgticketscomeventsblueys-big-playsaroyan-theatrecalendar2026-11-11",
       "detailsUrl": "https://us.atgtickets.com/events/blueys-big-play/saroyan-theatre/",
       "image": "/posters/saroyan-blueys-big-play.jpg",
       "imageMode": "contain"
@@ -578,8 +626,8 @@
       "performanceCount": "1 performance",
       "description": "World Ballet Company brings Tchaikovsky's classic ballet to the Saroyan stage with a live orchestra.",
       "status": "soon",
-      "sourceUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
-      "detailsUrl": "https://events.fresnoconventioncenter.com/swan-lake-2026",
+      "sourceUrl": "https://worldballetcompany.com/event/saroyan-theatre-2/",
+      "detailsUrl": "https://worldballetcompany.com/event/saroyan-theatre-2/",
       "image": "/posters/saroyan-swan-lake.jpg",
       "imageMode": "contain"
     },
@@ -590,8 +638,8 @@
       "city": "Fresno",
       "distance": 44,
       "run": "December 12–13",
-      "next": "Sat, Dec 12 - 2:00 PM",
-      "performanceCount": "December 12-13 - 2:00 PM",
+      "next": "Sat, Dec 12",
+      "performanceCount": "2 performances",
       "description": "Marie journeys through the Land of Snow and Sweets in Lively Arts Foundation's production, featuring former Joffrey Ballet stars Molly Groeschel and Lucas Segovia.",
       "status": "soon",
       "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
@@ -626,8 +674,8 @@
       "performanceCount": "2 performances",
       "description": "World Ballet Company's holiday production features 40 dancers, hand-crafted sets, and more than 150 costumes in a family-friendly staging of the classic ballet.",
       "status": "soon",
-      "sourceUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
-      "detailsUrl": "https://events.fresnoconventioncenter.com/nutcracker-2026",
+      "sourceUrl": "https://worldballetcompany.com/event/saroyan-theatre/",
+      "detailsUrl": "https://worldballetcompany.com/event/saroyan-theatre/",
       "image": "/posters/saroyan-nutcracker.jpg",
       "imageMode": "contain"
     },
@@ -934,48 +982,6 @@
       "imageMode": "contain"
     },
     {
-      "id": "guys-and-dolls-reedley",
-      "title": "Guys and Dolls",
-      "theater": "Reedley River City Theatre Company",
-      "city": "Reedley",
-      "distance": 34,
-      "run": "February 27–March 15, 2027",
-      "next": "Performances begin Sat, Feb 27",
-      "performanceCount": "Dates announced · exact times pending",
-      "description": "A classic musical comedy following gamblers, showgirls, and two unlikely romances in 1950s New York.",
-      "status": "soon",
-      "sourceUrl": "https://www.rctcreedley.com/2026-season",
-      "detailsUrl": "https://www.rctcreedley.com/2026-season"
-    },
-    {
-      "id": "legendary-summer-reedley",
-      "title": "A Legendary Summer",
-      "theater": "Reedley River City Theatre Company",
-      "city": "Reedley",
-      "distance": 34,
-      "run": "May 15–31, 2027",
-      "next": "Performances begin Sat, May 15",
-      "performanceCount": "Dates announced · exact times pending",
-      "description": "River City Theatre Company announced late-spring 2027 production.",
-      "status": "soon",
-      "sourceUrl": "https://www.rctcreedley.com/2026-season",
-      "detailsUrl": "https://www.rctcreedley.com/2026-season"
-    },
-    {
-      "id": "into-the-woods-reedley",
-      "title": "Into the Woods",
-      "theater": "Reedley's River City Theatre Company",
-      "city": "Reedley",
-      "distance": 34,
-      "run": "July 31-August 16, 2027",
-      "next": "Performances begin Sat, Jul 31",
-      "performanceCount": "Dates announced - exact times pending",
-      "description": "Reedley River City Theatre Company's summer production is listed on its official 2026-27 season.",
-      "status": "soon",
-      "sourceUrl": "https://www.rctcreedley.com/2026-season",
-      "detailsUrl": "https://www.rctcreedley.com/2026-season"
-    },
-    {
       "id": "contemporary-dance-ensemble-fresno-state",
       "title": "The Contemporary Dance Ensemble",
       "theater": "Fresno State Theatre Arts",
@@ -1036,7 +1042,7 @@
       "city": "Fresno",
       "distance": 44,
       "run": "February 18, 2027",
-      "next": "Thu, Feb 18 · 6:00 PM",
+      "next": "Thu, Feb 18",
       "performanceCount": "See performance calendar",
       "description": "Elmo's Got the Moves: Sesame Street at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
@@ -1209,7 +1215,7 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "November 10: all three configured Ice House website pages returned HTTP403 to direct requests, a regression from yesterday's successful access. Existing Normal Heart production and verified artwork retained; no cancellation inferred. Official social retrieval returned temporary-block or fetch failures, so no new announcement verified.",
+      "note": "November 11: all three configured Ice House pages returned HTTP200. The Normal Heart run is unchanged; the Holiday Cabaret ticket page confirms four December 11–13 performances. Official social retrieval remains incomplete.",
       "waiting": false
     },
     {
@@ -1229,7 +1235,7 @@
     },
     {
       "name": "Reedley River City Theatre",
-      "note": "The official 2026-27 season confirms The Wizard of Oz, Seussical the Musical, Guys and Dolls, A Legendary Summer, and Into the Woods. A September 2 official Facebook post confirms Seussical auditions on September 12 and supplies the verified audition poster.",
+      "note": "November 11: the official 2026 season and ticketing partner confirm Guys and Dolls, A Legendary Summer, and Into the Woods took place in 2026, not 2027. Removed the three expired entries; December Seussical remains listed.",
       "waiting": false
     },
     {
@@ -1244,7 +1250,7 @@
     },
     {
       "name": "Saroyan Theatre",
-      "note": "November 9: Broadway Fresno pages remain HTTP403; official convention-center and ATG feeds are accessible. Bluey's specific ATG page lists both performances at 6:30 PM, conflicting with the convention-center calendar's 7 PM. Removed the unqualified next-performance time pending reconciliation; dates November 11–12 retained. Other currently published productions remain supported.",
+      "note": "November 11: the old convention-center pages redirect to the new Events Fresno calendar. The new calendar and ATG both confirm Bluey at 6:30 PM on November 11 and 12. Broadway Fresno pages were reachable on direct retry.",
       "waiting": false
     },
     {
@@ -1259,7 +1265,7 @@
     },
     {
       "name": "Redwood High School",
-      "note": "Redwood Theatre official Instagram post confirms Beauty IS the Beast at Rotary Theater October 7, 8, and 10 at 7:00 PM; poster verified and added.",
+      "note": "November 11: Redwood's official school calendar confirms Drama One Acts May 26–28, 2027. Its all-day entries do not supply curtain times or a venue.",
       "waiting": false
     },
     {
@@ -1274,12 +1280,12 @@
     },
     {
       "name": "El Diamante High School",
-      "note": "The official school calendar lists a Drama Fall Show at EDHS Theater on October 1-3 at 7:00 PM; title not yet published.",
+      "note": "November 11: the school calendar confirms four Winter Musical performances January 21–23 and three Drama Spring Show performances April 8–10, 2027. Titles not announced. Identical April 8 calendar entries count as one performance.",
       "waiting": false
     },
     {
       "name": "Kings Players",
-      "note": "November 10: Kings Players homepage returned HTTP403 to direct requests, but the official Arts People ticket page remains HTTP200 and confirms the unchanged ten Christmas Double Feature performances. No cancellation or new audition inferred from homepage access failure.",
+      "note": "November 11: the Kings Players homepage and linked Arts People inventory returned HTTP200. Ten Christmas Double Feature performances remain confirmed.",
       "waiting": false
     },
     {

@@ -2,6 +2,12 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-11",
+      "redwood": "Added Drama One Acts, May 26–28, 2027, from Redwood's official calendar. All-day entries are not curtain times.",
+      "result": "Reviewed all 17 configured organizations. Added two El Diamante productions with school-calendar labels, dates, times and venues; titles not yet announced. Removed three Reedley listings whose runs ended in 2026, not 2027: Guys and Dolls, A Legendary Summer and Into the Woods, corroborated by the official season and TheaterMania ticket listings. Bluey is playing November 11–12 at 6:30 PM, confirmed by ATG and the replacement Events Fresno calendar. Approved the official redirect host, repaired World Ballet links, corrected four Come From Away curtain times and added all four Holiday Cabaret times. Withheld exact Elmo and Lively Arts Foundation Nutcracker times because Events Fresno and ATG disagree. No new auditions or posters verified.",
+      "access": "Legacy Fresno Convention Center URLs redirect to Events Fresno; Broadway Fresno pages returned HTTP200 on direct audit despite the automated run's earlier HTTP403. Selma website and TCOE Ludus HTTP403 persist. CenterStage Wix pages HTTP403; Bandstand ticket inventory HTTP200. Ice House and Kings Players website access recovered. Several official social pages remained blocked or unavailable; no unsupported announcement was imported."
+    },
+    {
       "checkedAt": "2026-11-10",
       "result": "All 17 organizations checked in independent read-only groups. No new verified production, audition, poster or expiration. Daily automated commit cb2430a successfully published today's date and retained prior content corrections; COS false-heading regression did not recur. Encore and Kings ticket inventories unchanged. VUSD November–May calendar and school feeds accessible. Existing Lindsay and Saroyan conflicts remain unresolved; no speculative times published.",
       "access": "New direct-request HTTP403 for Ice House's three configured pages and Kings homepage; Kings linked Arts People inventory remains200. Selma3/BroadwayFresno5 and TCOELudus403 persist. Official-social attempts produced temporaryblocks, login pages, fetchfailures or cachemiss; no new announcement verified. Prior browser-verified SelmaMeanGirls evidence and artwork retained."
