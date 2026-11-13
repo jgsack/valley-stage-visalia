@@ -2,6 +2,11 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-13",
+      "result": "The fallback workflow completed and expired Bluey's Big Play. Reviewed all 17 configured organizations. No new verified productions, auditions or posters. Updated the next performances for Come From Away, Little Women, The Thanksgiving Play and A Few Good Men. Marked Ride the Cyclone, Bandstand and Edward Tulane as now playing.",
+      "access": "Direct HTTP403 persisted for Ice House, Encore, Kings Players homepage, Selma, Broadway Fresno and TCOE Ludus; linked ticketing alternatives were checked. El Diamante calendar requests returned HTTP429, with the two known production months verified on sequential retry. Official social access was incomplete due to temporary blocks, fetch failures and cache misses; no unsupported announcement was imported."
+    },
+    {
       "checkedAt": "2026-11-12",
       "artworkReview": "Verified Kings Players' Christmas Double Feature flyer against its Arts People ticket page (show 309075); no local copy published because reuse permission was not established. Rejected the Ice House Holiday Cabaret image candidate because it actually reads The Father.",
       "result": "Updated next performances for Bluey, Little Women and The Normal Heart. The Normal Heart remaining dates come from its official production poster, corroborated for the run by OnTheStage. Marked Little Women, The Normal Heart and The Thanksgiving Play as playing now. No new shows, auditions, posters or expirations verified.",
