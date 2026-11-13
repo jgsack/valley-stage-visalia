@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 12, 2026",
+  "checkedAt": "November 13, 2026",
   "verifiedAt": "November 12, 2026",
-  "reviewedAt": "November 12, 2026",
-  "reviewSummary": "Last updated: November 12, 2026",
+  "reviewedAt": "November 13, 2026",
+  "reviewSummary": "Last updated: November 13, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -598,22 +598,6 @@
       "detailsUrl": "https://www.encoretulare.org/shows",
       "image": "/posters/encore-james-and-the-giant-peach.jpg",
       "imageMode": "cover"
-    },
-    {
-      "id": "blueys-big-play-saroyan",
-      "title": "Bluey's Big Play",
-      "theater": "Saroyan Theatre",
-      "city": "Fresno",
-      "distance": 44,
-      "run": "November 11–12",
-      "next": "Thu, Nov 12 · 6:30 PM",
-      "performanceCount": "2 performances",
-      "description": "Bluey, Bingo, Mum, and Dad come to life through puppetry, music, and play in this family stage adventure written by Bluey creator Joe Brumm. Both November 11 and 12 performances begin at 6:30 PM.",
-      "status": "now",
-      "sourceUrl": "https://www.eventsfresno.com/events/2026/httpsusatgticketscomeventsblueys-big-playsaroyan-theatrecalendar2026-11-11",
-      "detailsUrl": "https://us.atgtickets.com/events/blueys-big-play/saroyan-theatre/",
-      "image": "/posters/saroyan-blueys-big-play.jpg",
-      "imageMode": "contain"
     },
     {
       "id": "swan-lake-saroyan",
