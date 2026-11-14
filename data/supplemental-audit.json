@@ -2,6 +2,12 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-14",
+      "calendarAccess": "Some individual Visalia school calendar requests returned HTTP429. Sequential El Diamante January and April retries succeeded and confirmed the already-listed productions.",
+      "result": "Updated eight next performances and remaining counts where previously shown. No new verified productions, auditions, posters or expirations.",
+      "access": "Ice House, Encore and Kings official sites recovered on direct checks. Selma and Broadway Fresno pages and TCOE Ludus still returned HTTP403. Legacy Fresno links redirect to Events Fresno. Social retrieval was incomplete due to blocks, cache misses or fetch failures; no unverified posts imported."
+    },
+    {
       "checkedAt": "2026-11-13",
       "result": "The fallback workflow completed and expired Bluey's Big Play. Reviewed all 17 configured organizations. No new verified productions, auditions or posters. Updated the next performances for Come From Away, Little Women, The Thanksgiving Play and A Few Good Men. Marked Ride the Cyclone, Bandstand and Edward Tulane as now playing.",
       "access": "Direct HTTP403 persisted for Ice House, Encore, Kings Players homepage, Selma, Broadway Fresno and TCOE Ludus; linked ticketing alternatives were checked. El Diamante calendar requests returned HTTP429, with the two known production months verified on sequential retry. Official social access was incomplete due to temporary blocks, fetch failures and cache misses; no unsupported announcement was imported."
