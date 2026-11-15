@@ -2,6 +2,11 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-15",
+      "result": "Updated eight next performances, including the final Come From Away curtain at 1:30 PM. Replaced Lindsay's stale We Are the Tigers detail link with the verified current season page. No new verified listings, artwork or expirations.",
+      "access": "Selma, Broadway Fresno and TCOE Ludus returned HTTP403. Southern official sites and ticket feeds returned HTTP200; legacy Fresno venue addresses still redirect to Events Fresno. Official social retrieval remained incomplete due to blocks or retrieval failures."
+    },
+    {
       "checkedAt": "2026-11-14",
       "calendarAccess": "Some individual Visalia school calendar requests returned HTTP429. Sequential El Diamante January and April retries succeeded and confirmed the already-listed productions.",
       "result": "Updated eight next performances and remaining counts where previously shown. No new verified productions, auditions, posters or expirations.",
