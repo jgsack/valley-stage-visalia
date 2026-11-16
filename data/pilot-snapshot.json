@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 15, 2026",
-  "verifiedAt": "November 15, 2026",
-  "reviewedAt": "November 15, 2026",
-  "reviewSummary": "Last updated: November 15, 2026",
+  "checkedAt": "November 16, 2026",
+  "verifiedAt": "November 16, 2026",
+  "reviewedAt": "November 16, 2026",
+  "reviewSummary": "Last updated: November 16, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -221,23 +221,6 @@
         "Official Selma Arts Center Facebook photo, published October 26: introducing the cast for Selma Arts Center's upcoming production of Mean Girls The Musical; playing January 8–30, 2027 at the Selma Arts Center; tickets coming soon.",
         "Music Theatre International's licensed production list independently identifies Mean Girls, Selma Arts Center, Selma CA, January 8–30, 2027."
       ]
-    },
-    {
-      "id": "come-from-away-gcp",
-      "title": "Come From Away",
-      "theater": "Good Company Players · Roger Rocka's",
-      "city": "Fresno",
-      "distance": 46,
-      "run": "September 25–November 15",
-      "next": "Sun, Nov 15 · 1:30 PM",
-      "performanceCount": "Final performance",
-      "description": "The musical tells the true story of travelers welcomed by Gander, Newfoundland, after September 11. Final curtain: November 15 at 1:30 PM. Meal seating starts earlier.",
-      "status": "now",
-      "sourceUrl": "https://www.gcplayers.com/see-a-show/comefromaway",
-      "detailsUrl": "https://rogerrockas.com/shows/categories/roger-rockas/come-from-away/",
-      "image": "/posters/gcp-come-from-away.jpg",
-      "imageMode": "contain",
-      "featured": true
     },
     {
       "id": "little-women-christmas-gcp",
@@ -1041,24 +1024,24 @@
     },
     {
       "id": "roger-rockas-e4d05dad792f",
-      "title": "OPEN AUDITIONS - Private Lives & Ripcord",
+      "title": "Open Auditions - Private Lives & Ripcord",
       "theater": "Good Company Players · Roger Rocka's",
       "city": "Fresno",
       "distance": 46,
       "run": "December 12, 2026",
       "next": "Sat, Dec 12",
       "performanceCount": "See audition details",
-      "description": "OPEN AUDITIONS - Private Lives & Ripcord at 2nd Space Theatre. See the official page for the complete schedule and details.",
+      "description": "Open Auditions - Private Lives & Ripcord at 2nd Space Theatre. See the official page for the complete schedule and details.",
       "status": "auditions",
       "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
       "detailsUrl": "https://www.gcplayers.com/gcp-audition-calendar",
       "organizationId": "roger-rockas",
       "aiManaged": true,
       "evidence": [
-        "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord",
+        "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
         "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
       ],
-      "verifiedDate": "2026-11-15"
+      "verifiedDate": "2026-11-16"
     },
     {
       "id": "roger-rockas-470a65e55033",
@@ -1097,9 +1080,9 @@
       "organizationId": "broadway-fresno-saroyan",
       "aiManaged": true,
       "evidence": [
-        "Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+        "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
-      "verifiedDate": "2026-11-11"
+      "verifiedDate": "2026-11-16"
     },
     {
       "id": "centerstage-clovis-bandstand",
