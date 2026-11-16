@@ -28,7 +28,6 @@ test("renders the Valley Stage prototype", async () => {
   assert.ok(html.includes(playingNow[0].title));
   if (playingNow[0].image) assert.ok(html.includes(playingNow[0].image));
   assert.doesNotMatch(html, /Good Night, Oscar/);
-  assert.match(html, /Come From Away/);
   assert.match(html, /class="poster-backdrop"/);
   assert.match(html, /class="poster-art"/);
   assert.match(html, /On the valley marquee/);

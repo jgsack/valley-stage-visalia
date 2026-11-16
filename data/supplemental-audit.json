@@ -2,6 +2,11 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-16",
+      "result": "The fallback expired Come From Away after its November 15 close. Updated five verified next performances. No new productions, auditions or eligible artwork. No official Diary of a Wimpy Kid cancellation or replacement notice was verified.",
+      "access": "Direct HTTP403 for Ice House, Encore, Kings Players homepage, Selma, CenterStage and TCOE Ludus; accessible ticketing and public alternatives were checked. Broadway Fresno recovered on direct checks. All 40 VUSD calendar pages loaded after retries. Some official social pages remained blocked or unavailable."
+    },
+    {
       "checkedAt": "2026-11-15",
       "result": "Updated eight next performances, including the final Come From Away curtain at 1:30 PM. Replaced Lindsay's stale We Are the Tigers detail link with the verified current season page. No new verified listings, artwork or expirations.",
       "access": "Selma, Broadway Fresno and TCOE Ludus returned HTTP403. Southern official sites and ticket feeds returned HTTP200; legacy Fresno venue addresses still redirect to Events Fresno. Official social retrieval remained incomplete due to blocks or retrieval failures."
