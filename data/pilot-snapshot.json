@@ -615,22 +615,6 @@
       "imageMode": "cover"
     },
     {
-      "id": "magical-cirque-christmas-saroyan",
-      "title": "A Magical Cirque Christmas",
-      "theater": "Saroyan Theatre",
-      "city": "Fresno",
-      "distance": 44,
-      "run": "December 15",
-      "next": "Tue, Dec 15 · 7:30 PM",
-      "performanceCount": "1 performance",
-      "description": "A holiday variety show combines world-class cirque performances, seasonal music, nostalgia, and family-friendly spectacle.",
-      "status": "soon",
-      "sourceUrl": "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
-      "detailsUrl": "https://us.atgtickets.com/events/magical-cirque-christmas/saroyan-theatre/",
-      "image": "/posters/saroyan-magical-cirque-christmas.jpg",
-      "imageMode": "contain"
-    },
-    {
       "id": "nutcracker-saroyan",
       "title": "World Ballet Company: The Nutcracker",
       "theater": "Saroyan Theatre",
@@ -1182,12 +1166,12 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "November 16: the three configured Ice House pages returned HTTP403 to direct requests; linked OnTheStage ticketing was reachable. The verified production poster confirms three remaining Normal Heart performances.",
+      "note": "November 17: the three configured Ice House pages and linked ticketing returned HTTP200. The Normal Heart remaining schedule is unchanged; no new dated audition verified.",
       "waiting": false
     },
     {
       "name": "Encore Theatre",
-      "note": "November 16: the Encore homepage, shows and auditions pages returned HTTP403 to direct requests. Linked Arts People inventory confirms three remaining A Few Good Men performances. No new audition verified.",
+      "note": "November 17: Encore website and linked Arts People inventory returned HTTP200. Three A Few Good Men performances remain; the auditions page lists no upcoming call.",
       "waiting": false
     },
     {
@@ -1252,7 +1236,7 @@
     },
     {
       "name": "Kings Players",
-      "note": "November 16: the homepage returned HTTP403 to direct requests but was readable through web retrieval. Linked Arts People inventory confirms ten Christmas Double Feature performances.",
+      "note": "November 17: the Kings Players homepage and linked Arts People inventory returned HTTP200. Ten Christmas Double Feature performances remain listed.",
       "waiting": false
     },
     {
