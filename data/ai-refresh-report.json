@@ -1,13 +1,14 @@
 {
-  "startedAt": "2026-11-16T14:20:18.852Z",
-  "completedDay": "2026-11-16",
+  "startedAt": "2026-11-17T08:16:50.979Z",
+  "completedDay": "2026-11-17",
   "organizations": [
     {
       "id": "ice-house",
       "pages": [
         "https://www.visaliaicehouse.com/",
         "https://www.visaliaicehouse.com/projects-6",
-        "https://www.visaliaicehouse.com/auditions-coming-up"
+        "https://www.visaliaicehouse.com/auditions-coming-up",
+        "https://www.visaliaicehouse.com/auditions"
       ],
       "failures": [],
       "candidates": [
@@ -62,8 +63,9 @@
           "end": "2026-11-21",
           "sourceUrl": "https://app.arts-people.com/index.php?show=347650",
           "evidence": [
-            "Encore Theatre Company HOME Aaron Sorkin's A Few Good Men is a gripping courtroom drama",
-            "Please select a performance Thu, Nov 19th, 2026 at 7:00 pm Fri, Nov 20th, 2026 at 7:00 pm Sat, Nov 21st, 2026 at 7:00 pm"
+            "Aaron Sorkin's A Few Good Men is a gripping courtroom drama",
+            "Please select a performance Thu, Nov 19th, 2026 at 7:00 pm Fri, Nov 20th, 2026 at 7:00 pm Sat, Nov 21st, 2026 at 7:00 pm",
+            "Encore Theatre Company"
           ]
         }
       ],
@@ -218,7 +220,7 @@
           ]
         },
         {
-          "title": "Little Women: A Victorian Christmas Card",
+          "title": "Little Women: A Victorian Christmas",
           "kind": "performance",
           "venue": "2nd Space Theatre",
           "start": "2026-11-05",
@@ -227,6 +229,42 @@
           "evidence": [
             "Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map)",
             "Little Women: A Victorian Christmas Card will be playing November 5 - December 20 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
+          "kind": "audition",
+          "venue": "2nd Space Theatre",
+          "start": "2026-12-12",
+          "end": "2026-12-12",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+          "evidence": [
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
+            "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+          ]
+        },
+        {
+          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
+          "kind": "audition",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-01-09",
+          "end": "2027-01-09",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+          "evidence": [
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
+            "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+          ]
+        },
+        {
+          "title": "OPEN AUDITIONS - Junior Company",
+          "kind": "audition",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-01-30",
+          "end": "2027-01-30",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
+          "evidence": [
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)",
+            "This company performs for the pre-shows of Little Shop of Horrors and Clue ."
           ]
         },
         {
@@ -372,41 +410,6 @@
             "The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map)",
             "The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
           ]
-        },
-        {
-          "title": "Open Auditions - Private Lives & Ripcord",
-          "kind": "audition",
-          "venue": "2nd Space Theatre",
-          "start": "2026-12-12",
-          "end": "2026-12-12",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
-          "evidence": [
-            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
-            "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
-          ]
-        },
-        {
-          "title": "Open Auditions - Little Shop of Horrors & Clue",
-          "kind": "audition",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-09",
-          "end": "2027-01-09",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
-          "evidence": [
-            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
-            "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
-          ]
-        },
-        {
-          "title": "Open Auditions - Junior Company",
-          "kind": "audition",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-30",
-          "end": "2027-01-30",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
-          "evidence": [
-            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)"
-          ]
         }
       ],
       "changes": [
@@ -416,17 +419,17 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
+          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
+          "action": "updated",
+          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
+        },
+        {
           "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
           "title": "Les Misérables",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Little Shop of Horrors",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
@@ -459,26 +462,6 @@
           "title": "She Loves Me",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Addams Family",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "Open Auditions - Private Lives & Ripcord",
-          "action": "updated",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
-        },
-        {
-          "title": "Open Auditions - Junior Company",
-          "action": "withheld",
-          "reason": "possible duplicate"
         }
       ]
     },
@@ -533,28 +516,6 @@
           ]
         },
         {
-          "title": "The Bodyguard",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-03-15",
-          "end": "2027-03-16",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
-          ]
-        },
-        {
-          "title": "A Beautiful Noise: The Neil Diamond Musical",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-06-08",
-          "end": "2027-06-09",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
-          ]
-        },
-        {
           "title": "World Ballet Company: The Sleeping Beauty with a Live Orchestra",
           "kind": "performance",
           "venue": "Saroyan Theatre",
@@ -566,6 +527,17 @@
           ]
         },
         {
+          "title": "The Bodyguard",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-03-15",
+          "end": "2027-03-16",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
+          ]
+        },
+        {
           "title": "Shen Yun",
           "kind": "performance",
           "venue": "Saroyan Theatre",
@@ -574,6 +546,17 @@
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
             "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+          ]
+        },
+        {
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-06-08",
+          "end": "2027-06-09",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
           ]
         }
       ],
@@ -592,16 +575,6 @@
           "title": "A Beautiful Noise: The Neil Diamond Musical",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "World Ballet Company: The Sleeping Beauty with a Live Orchestra",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        },
-        {
-          "title": "Shen Yun",
-          "action": "updated",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
         }
       ]
     },
@@ -632,6 +605,17 @@
           ]
         },
         {
+          "title": "The Contemporary Dance Ensemble",
+          "kind": "performance",
+          "venue": "Fresno State University Theatre",
+          "start": "2027-02-12",
+          "end": "2027-02-20",
+          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
+          "evidence": [
+            "The Contemporary Dance Ensemble artistic director, Kenneth Balint Feb. 12 - 20, 2027"
+          ]
+        },
+        {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
           "venue": "Fresno State University Theatre",
@@ -655,6 +639,16 @@
         }
       ],
       "changes": [
+        {
+          "title": "The Miraculous Journey of Edward Tulane",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Contemporary Dance Ensemble",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "action": "retained",
@@ -723,7 +717,7 @@
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
           "evidence": [
             "GWHS Presents \"The Nutcracker\" #1. Published event times: 2026-12-16T19:00:00-08:00 to 2026-12-16T20:00:00-08:00.",
-            "GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "VAPA Calendar GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         },
         {
@@ -735,7 +729,7 @@
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
           "evidence": [
             "GWHS Presents \"The Nutcracker\" #2. Published event times: 2026-12-17T19:00:00-08:00 to 2026-12-17T20:00:00-08:00.",
-            "GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "VAPA Calendar GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         }
       ],
@@ -765,19 +759,7 @@
         "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2027-05-01"
       ],
       "failures": [],
-      "candidates": [
-        {
-          "title": "EDHS Spring Pitch Night -Thesis Films",
-          "kind": "performance",
-          "venue": "El Diamante High School, 5100 W Whitendale Ave, Visalia, CA 93277, USA",
-          "start": "2026-12-11",
-          "end": "2026-12-11",
-          "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
-          "evidence": [
-            "EDHS Spring Pitch Night -Thesis Films. Published event times: 2026-12-11T18:00:00-08:00 to 2026-12-11T19:00:00-08:00."
-          ]
-        }
-      ],
+      "candidates": [],
       "changes": []
     },
     {
@@ -808,19 +790,34 @@
       ],
       "candidates": [
         {
-          "title": "How to Train Your Dragon JR.",
+          "title": "How To Train Your Dragon JR",
           "kind": "performance",
           "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
           "start": "2026-11-19",
           "end": "2026-11-21",
           "sourceUrl": "https://www.tcoe.org/StudentEvents",
           "evidence": [
-            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia (Grades 1-12)",
-            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
+            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia (Grades 1-12) Fee: $85/student participants (scholarships available). How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
+          ]
+        },
+        {
+          "title": "How to Train Your Dragon JR.",
+          "kind": "performance",
+          "venue": "Visalia",
+          "start": "2026-11-19",
+          "end": "2026-11-21",
+          "sourceUrl": "https://www.tcoe.org/TheatreCo/callboard",
+          "evidence": [
+            "Our fall main stage production of How to Train Your Dragon JR. performs November 19-21, 2026."
           ]
         }
       ],
       "changes": [
+        {
+          "title": "How To Train Your Dragon JR",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
         {
           "title": "How to Train Your Dragon JR.",
           "action": "retained",
@@ -844,12 +841,6 @@
   ],
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
-  "expirations": [
-    {
-      "id": "come-from-away-gcp",
-      "title": "Come From Away",
-      "run": "September 25–November 15"
-    }
-  ],
-  "completedAt": "2026-11-16T14:21:33.900Z"
+  "expirations": [],
+  "completedAt": "2026-11-17T08:18:11.970Z"
 }
