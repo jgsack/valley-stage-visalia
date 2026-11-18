@@ -2,6 +2,12 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-18",
+      "artwork": "Visually verified official poster ACC-2026---PORTRAIT-POSTER.jpg: Chris Mangels, December1 2026 at7PM in COS Theatre, one-night-only concert reading benefiting COS Theatre Arts. Recorded production format and venue; no local artwork copy published because reuse permission was not established.",
+      "result": "Added COS A Christmas Carol, Professor Chris Mangels' one-man show December1 at7PM, from official linked Arts People inventory359440. Updated Edward Tulane's next performance. Restored LAF Nutcracker2PM on December12–13 after Events Fresno and ATG agreed. Cirque remains withheld pending reconfirmation, not labeled canceled. No new auditions or expired runs verified.",
+      "access": "Southern configured and linked official pages returned HTTP200. CenterStage website recovered. Selma, Broadway Fresno and TCOE Ludus remained HTTP403 in direct requests. Social discovery remained incomplete due to platform blocks, cache misses and fetch failures."
+    },
+    {
       "checkedAt": "2026-11-17",
       "result": "Withheld A Magical Cirque Christmas (Fresno, December 15) pending box-office reconfirmation. The ATG event link returned HTTP404 and the current venue and producer calendars no longer show Fresno. An older cached listing is not current confirmation; no cancellation notice was verified. No new productions, auditions, posters or expired runs.",
       "evidence": ["https://www.magicalcirquechristmas.com/", "https://www.eventsfresno.com/events", "https://us.atgtickets.com/events/magical-cirque-christmas/saroyan-theatre/"],
