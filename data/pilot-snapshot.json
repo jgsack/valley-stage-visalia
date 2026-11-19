@@ -327,7 +327,7 @@
       "city": "Fresno",
       "distance": 48,
       "run": "November 13–21",
-      "next": "Wed, Nov 18 · 7:30 PM",
+      "next": "Thu, Nov 19 · 7:30 PM",
       "performanceCount": "8 performances",
       "description": "A cherished toy rabbit travels through loss, kindness, and discovery in this stage adaptation of Kate DiCamillo's novel.",
       "status": "now",
@@ -362,7 +362,7 @@
       "next": "Thu, Nov 19 · 7:00 PM",
       "performanceCount": "4 performances",
       "description": "Hiccup and Toothless take flight in a youth musical adaptation filled with adventure, friendship, and fire-breathing fun. Performances at LJ Williams Theater, 1001 W. Main Street, Visalia: November 19 and 20 at 7:00 PM, and November 21 at 1:00 PM and 7:00 PM.",
-      "status": "soon",
+      "status": "now",
       "sourceUrl": "https://www.tcoe.org/TheatreCo/tickets",
       "detailsUrl": "https://tcoessc.ludus.com/show_page.php?show_id=200546498",
       "image": "/posters/tcoe-how-to-train-your-dragon.jpg",
@@ -905,20 +905,6 @@
       "detailsUrl": "https://www.gcplayers.com/see-a-show/addams-family",
       "image": "/posters/gcp-addams-family-2027.webp",
       "imageMode": "contain"
-    },
-    {
-      "id": "lindsay-last-five-years-auditions",
-      "title": "The Last 5 Years Auditions",
-      "theater": "Lindsay Community Theater",
-      "city": "Lindsay",
-      "distance": 17,
-      "run": "December 2026",
-      "next": "Confirm dates with Lindsay",
-      "performanceCount": "Audition dates conflict",
-      "description": "The specific Last 5 Years page lists auditions December 21–22 at 6:30 PM, while the 2026–27 season page lists December 22–23 at 6:30 PM. Confirm the audition dates with Lindsay Community Theater before attending.",
-      "status": "auditions",
-      "sourceUrl": "https://www.lindsaycommunitytheater.com/theater-season",
-      "detailsUrl": "https://www.lindsaycommunitytheater.com/theater-season/hot-dog-melodrama"
     },
     {
       "id": "lindsay-we-are-the-tigers-auditions",

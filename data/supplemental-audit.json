@@ -2,6 +2,12 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-19",
+      "result": "Updated Edward Tulane's next performance and marked TCOE Dragon JR as now playing. Retained Lindsay Last5Years February26–March7,2027 after current MTI licensor corroboration despite removal from Lindsay's season page. Withheld the Last5Years audition listing because its conflicting calls disappeared from current official pages without alternative live corroboration. No cancellation inferred. No new shows, auditions or expirations.",
+      "evidence": ["https://www.mtishows.co.uk/productions-map.php?show_id=1577", "https://www.lindsaycommunitytheater.com/theater-season", "https://www.lindsaycommunitytheater.com/theater-season/hot-dog-melodrama"],
+      "access": "Encore website, Selma, direct ATG and TCOE Ludus returned HTTP403; ATG rendered public alternatives remained readable. Other ticket feeds were accessible, Broadway Fresno and CenterStage recovered. All40 school calendars loaded. Social checks remained incomplete due to blocks and retrieval failures."
+    },
+    {
       "checkedAt": "2026-11-18",
       "artwork": "Visually verified official poster ACC-2026---PORTRAIT-POSTER.jpg: Chris Mangels, December1 2026 at7PM in COS Theatre, one-night-only concert reading benefiting COS Theatre Arts. Recorded production format and venue; no local artwork copy published because reuse permission was not established.",
       "result": "Added COS A Christmas Carol, Professor Chris Mangels' one-man show December1 at7PM, from official linked Arts People inventory359440. Updated Edward Tulane's next performance. Restored LAF Nutcracker2PM on December12–13 after Events Fresno and ATG agreed. Cirque remains withheld pending reconfirmation, not labeled canceled. No new auditions or expired runs verified.",
