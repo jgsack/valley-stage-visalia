@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-20T11:27:49.589Z",
-  "completedDay": "2026-11-20",
+  "startedAt": "2026-11-21T08:13:58.936Z",
+  "completedDay": "2026-11-21",
   "organizations": [
     {
       "id": "ice-house",
@@ -54,8 +54,27 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Aaron Sorkin's A Few Good Men",
+          "kind": "performance",
+          "venue": "Encore Theatre Company",
+          "start": "2026-11-21",
+          "end": "2026-11-21",
+          "sourceUrl": "https://app.arts-people.com/index.php?show=347650",
+          "evidence": [
+            "Aaron Sorkin's A Few Good Men is a gripping courtroom drama",
+            "Please select a performance Sat, Nov 21st, 2026 at 7:00 pm All seats are $20"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Aaron Sorkin's A Few Good Men",
+          "action": "withheld",
+          "reason": "possible duplicate"
+        }
+      ]
     },
     {
       "id": "lindsay",
@@ -157,7 +176,6 @@
       "pages": [
         "https://rogerrockas.com/",
         "https://www.gcplayers.com/see-a-show",
-        "https://www.gcplayers.com/seasonlineup27",
         "https://www.gcplayers.com/gcp-audition-calendar",
         "https://www.gcplayers.com/rr-auditions",
         "https://gcplayers.simpletix.com/",
@@ -166,7 +184,12 @@
         "https://rogerrockas.com/shows/categories/roger-rockas/",
         "https://rogerrockas.com/dinner-shows/seating-map/"
       ],
-      "failures": [],
+      "failures": [
+        {
+          "url": "https://www.gcplayers.com/seasonlineup27",
+          "error": "page too large"
+        }
+      ],
       "candidates": [
         {
           "title": "Shrek the Musical",
@@ -187,7 +210,7 @@
           "end": "2026-12-12",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre",
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
             "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
           ]
         },
@@ -199,7 +222,7 @@
           "end": "2027-01-09",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater",
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
             "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
           ]
         },
@@ -211,7 +234,8 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater"
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)",
+            "This company performs for the pre-shows of Little Shop of Horrors and Clue ."
           ]
         }
       ],
@@ -289,28 +313,6 @@
           ]
         },
         {
-          "title": "The Bodyguard",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-03-15",
-          "end": "2027-03-16",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
-          ]
-        },
-        {
-          "title": "A Beautiful Noise: The Neil Diamond Musical",
-          "kind": "performance",
-          "venue": "Saroyan Theatre",
-          "start": "2027-06-08",
-          "end": "2027-06-09",
-          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-          "evidence": [
-            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
-          ]
-        },
-        {
           "title": "World Ballet Company: The Sleeping Beauty with a Live Orchestra",
           "kind": "performance",
           "venue": "Saroyan Theatre",
@@ -319,6 +321,17 @@
           "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
           "evidence": [
             "World Ballet Company: The Sleeping Beauty with a Live Orchestra World Ballet Company: The Sleeping Beauty with a Live Orchestra Dance Saroyan Theatre Fri, Feb 12, 2027"
+          ]
+        },
+        {
+          "title": "The Bodyguard",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-03-15",
+          "end": "2027-03-16",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
           ]
         },
         {
@@ -331,6 +344,17 @@
           "evidence": [
             "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
           ]
+        },
+        {
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-06-08",
+          "end": "2027-06-09",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+          ]
         }
       ],
       "changes": [
@@ -340,9 +364,9 @@
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
         {
-          "title": "The Bodyguard",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+          "title": "Shen Yun",
+          "action": "updated",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/"
         },
         {
           "title": "A Beautiful Noise: The Neil Diamond Musical",
@@ -369,29 +393,18 @@
         {
           "title": "The Miraculous Journey of Edward Tulane",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building",
           "start": "2026-11-13",
           "end": "2026-11-21",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/students/auditions.html",
-          "evidence": [
-            "The Miraculous Journey of Edward Tulane From the Book by Kate DiCamillo | Adapted by Dwayne Hartford Directed by J. Daniel Herring Performances: November 13 – 21, 2026"
-          ]
-        },
-        {
-          "title": "The Contemporary Dance Ensemble",
-          "kind": "performance",
-          "venue": "Fresno State University Theatre",
-          "start": "2027-02-12",
-          "end": "2027-02-20",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
           "evidence": [
-            "The Contemporary Dance Ensemble artistic director, Kenneth Balint Feb. 12 - 20, 2027"
+            "The Miraculous Journey of Edward Tulane adapted by Dwayne Hartford from the book by Kate DiCamillo directed by J. Daniel Herring November 13 - 21, 2026"
           ]
         },
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -402,7 +415,7 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -414,11 +427,6 @@
       "changes": [
         {
           "title": "The Miraculous Journey of Edward Tulane",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "The Contemporary Dance Ensemble",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         },
@@ -489,8 +497,7 @@
           "end": "2026-12-16",
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
           "evidence": [
-            "GWHS Presents \"The Nutcracker\" #1. Published event times: 2026-12-16T19:00:00-08:00 to 2026-12-16T20:00:00-08:00.",
-            "GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "GWHS Presents \"The Nutcracker\" #1. Published event times: 2026-12-16T19:00:00-08:00 to 2026-12-16T20:00:00-08:00. Subscribe to Calendar Alerts VAPA Calendar GWHS Presents \"The Nutcracker\" #1 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         },
         {
@@ -501,8 +508,7 @@
           "end": "2026-12-17",
           "sourceUrl": "https://www.vusd.org/departments/student-services/vapa/calendar?cal_date=2026-12-01",
           "evidence": [
-            "GWHS Presents \"The Nutcracker\" #2. Published event times: 2026-12-17T19:00:00-08:00 to 2026-12-17T20:00:00-08:00.",
-            "GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
+            "GWHS Presents \"The Nutcracker\" #2. Published event times: 2026-12-17T19:00:00-08:00 to 2026-12-17T20:00:00-08:00. Subscribe to Calendar Alerts VAPA Calendar GWHS Presents \"The Nutcracker\" #2 7 : 00 PM - 8 : 00 PM Rotary Theater, 330 S Dollner St, Visalia, CA 93291, USA"
           ]
         }
       ],
@@ -563,20 +569,21 @@
       ],
       "candidates": [
         {
-          "title": "How To Train Your Dragon JR",
+          "title": "How to Train Your Dragon JR.",
           "kind": "performance",
           "venue": "L.J. Williams Theater, 1001 W. Main St., Visalia",
           "start": "2026-11-19",
           "end": "2026-11-21",
           "sourceUrl": "https://www.tcoe.org/StudentEvents",
           "evidence": [
-            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia (Grades 1-12) Fee: $85/student participants (scholarships available). How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
+            "Theatre Company Fall Musical November 19-21 2026 L.J. Williams Theater, 1001 W. Main St., Visalia",
+            "How To Train Your Dragon JR will be performed Thursday, Friday, and Saturday ev enings with shows at 7:00 p.m. A Saturday matinee will be performed at 2:00 p.m. A school show will be offered Friday morning, November 20 ,at 9:30 a.m."
           ]
         }
       ],
       "changes": [
         {
-          "title": "How To Train Your Dragon JR",
+          "title": "How to Train Your Dragon JR.",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
         }
@@ -599,5 +606,5 @@
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
   "expirations": [],
-  "completedAt": "2026-11-20T11:28:59.164Z"
+  "completedAt": "2026-11-21T08:15:20.612Z"
 }
