@@ -152,6 +152,24 @@
   },
   "shows": [
     {
+      "id": "encore-lion-witch-wardrobe-2026",
+      "title": "The Lion, the Witch and the Wardrobe",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "December 4–13, 2026",
+      "next": "Fri, Dec 4 · 6:30 PM",
+      "performanceCount": "6 performances",
+      "description": "Encore's Stages production, adapted by Don Quinn from the story by C. S. Lewis and directed by Megan Elick Jackson. December 4, 5, 11 and 12 at 6:30 PM; December 6 and 13 at 2:00 PM. At Encore Theatre, 324 S. N Street, Tulare.",
+      "status": "soon",
+      "sourceUrl": "https://www.encoretulare.org/shows/the-lion-the-witch-and-the-wardrobe",
+      "detailsUrl": "https://app.arts-people.com/index.php?show=378197",
+      "image": "/posters/encore-lion-witch-wardrobe.webp",
+      "imageMode": "contain",
+      "organizationId": "encore",
+      "verifiedDate": "2026-11-21"
+    },
+    {
       "id": "cos-a-christmas-carol-2026",
       "title": "A Christmas Carol",
       "theater": "College of the Sequoias Theatre",
@@ -1177,7 +1195,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "November 17: Encore website and linked Arts People inventory returned HTTP200. Three A Few Good Men performances remain; the auditions page lists no upcoming call.",
+      "note": "November 21: Verified The Lion, the Witch and the Wardrobe on its individual production page and official ticket calendar (378197): December 4–13, six performances. General shows page claims the stage is dark; it is not complete inventory. Auditions page lists no current calls.",
       "waiting": false
     },
     {
