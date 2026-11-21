@@ -2,6 +2,11 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-21",
+      "result": "Updated ten next performances. Swan Lake is now playing today. Final-day performances at COS, TCOE, Fresno State, Encore, Ice House and CenterStage remain published through their end date; no premature expirations. No new verified productions, auditions or eligible artwork.",
+      "access": "Selma, Encore, direct ATG and TCOE Ludus returned HTTP403; accessible venue, producer and ticket alternatives were checked. Broadway Fresno, CenterStage and other linked inventory were reachable. Legacy Fresno links redirect to Events Fresno. Official social discovery remained incomplete."
+    },
+    {
       "checkedAt": "2026-11-20",
       "result": "Updated seven next performances and marked Shrek and Kings Players' Christmas Double Feature as now playing. Encore and The Normal Heart each have two remaining performances. Kings November29 matinee is sold out but its run remains scheduled. No new verified productions, auditions, eligible artwork or expired runs.",
       "access": "Southern official pages and linked inventory were reachable. Selma, Broadway Fresno and TCOE Ludus returned HTTP403 directly. Legacy Fresno venue addresses redirect to Events Fresno. Official social discovery remained incomplete due to blocks and retrieval failures."
