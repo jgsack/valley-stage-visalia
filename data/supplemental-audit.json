@@ -3,6 +3,24 @@
   "followups": [
     {
       "checkedAt": "2026-11-21",
+      "result": "User-reported omission verified: added Encore Stages The Lion, the Witch and the Wardrobe, December 4–13, 2026, six performances. Fridays/Saturdays 6:30 PM, Sundays 2 PM. General shows page claims the stage is dark; global ticket link now points to show 378197. Previous monitoring retained show-specific URL 347650 for A Few Good Men; it does not cover this new production. This establishes a discovery coverage gap, not when the new page first appeared.",
+      "evidence": [
+        "https://www.encoretulare.org/shows/the-lion-the-witch-and-the-wardrobe",
+        "https://app.arts-people.com/index.php?show=378197"
+      ],
+      "poster": {
+        "file": "/posters/encore-lion-witch-wardrobe.webp",
+        "pageUrl": "https://www.encoretulare.org/shows/the-lion-the-witch-and-the-wardrobe",
+        "imageUrl": "https://fjtoututnvrvkuuxyjro.supabase.co/storage/v1/object/public/show-media/shows/af7fcea3-d3fb-4db2-86bd-1a100dbae08d.webp",
+        "retrievedAt": "2026-11-21",
+        "sha256": "7ef21b9c0700726f0b26450e0d19fef79a10c9ed416aea0716437dd7b6e85d98",
+        "dimensions": "1056x1632",
+        "type": "image/webp",
+        "verification": "Downloaded from official production page and visually inspected full artwork: title, Stages, director, venue and December 4–13, 2026 match."
+      }
+    },
+    {
+      "checkedAt": "2026-11-21",
       "result": "Updated ten next performances. Swan Lake is now playing today. Final-day performances at COS, TCOE, Fresno State, Encore, Ice House and CenterStage remain published through their end date; no premature expirations. No new verified productions, auditions or eligible artwork.",
       "access": "Selma, Encore, direct ATG and TCOE Ludus returned HTTP403; accessible venue, producer and ticket alternatives were checked. Broadway Fresno, CenterStage and other linked inventory were reachable. Legacy Fresno links redirect to Events Fresno. Official social discovery remained incomplete."
     },

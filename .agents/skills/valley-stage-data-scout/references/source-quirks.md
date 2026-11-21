@@ -72,6 +72,7 @@ Never bypass a login, paywall, CAPTCHA, or access control. Search-engine thumbna
 
 - Individual show pages often contain better posters and details than the general season or home page.
 - Prefer the production page and its locally saved image after verifying dates against ticketing when available.
+- On November 21, 2026, the general shows page claimed the stage was dark while the global Get Tickets link and an individual production page listed The Lion, the Witch and the Wardrobe. Always follow the current global ticket destination; a saved show-specific ticket URL covers only that production and cannot establish that the theater has no other shows.
 
 ## Porterville Barn Theater and Reedley River City Theatre
 
