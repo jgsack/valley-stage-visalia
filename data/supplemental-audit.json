@@ -2,6 +2,13 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-22",
+      "result": "The fallback expired seven runs after November21: The Normal Heart, The Thanksgiving Play, A Few Good Men, Edward Tulane, Dragon JR, Swan Lake and Bandstand. Advanced four ongoing shows to verified Sunday matinees. Preserved the upstream Encore Lion Witch Wardrobe addition and analytics changes. No new verified audition or eligible artwork.",
+      "access": "Encore recovered HTTP200; auditions explicitly says no calls. Its general shows page is empty despite live Lion/Witch ticket inventory; no cancellation inferred. Selma and TCOE Ludus returned403. Legacy Fresno venue pages redirect to Events Fresno; direct ATG403 but rendered alternatives were readable. All40 district/school calendar months loaded after8 transient429 retries. Redwood TheatreProgram link redirects to Google sign-in. Facebook temporary blocks, Instagram fetch failures and cache misses left social discovery incomplete; no unsupported social announcement imported.",
+      "discoveryFollowup": "Registered Selma season-2027 and youth pages. Search indexes surface additional2027 productions and a tentative ShrekJR placement call, but both official pages returned403; dates and audition remain withheld until the full primary page or permanent official post can be opened. Existing independently verified Mean Girls listing retained.",
+      "evidence": ["https://www.selmaartscenter.com/season-2027", "https://www.selmaartscenter.com/youth", "https://www.encoretulare.org/auditions", "https://app.arts-people.com/index.php?show=378197"]
+    },
+    {
       "checkedAt": "2026-11-21",
       "result": "User-reported omission verified: added Encore Stages The Lion, the Witch and the Wardrobe, December 4–13, 2026, six performances. Fridays/Saturdays 6:30 PM, Sundays 2 PM. General shows page claims the stage is dark; global ticket link now points to show 378197. Previous monitoring retained show-specific URL 347650 for A Few Good Men; it does not cover this new production. This establishes a discovery coverage gap, not when the new page first appeared.",
       "evidence": [

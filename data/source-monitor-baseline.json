@@ -370,6 +370,22 @@
       "error": "HTTP 403",
       "consecutiveFailures": 1
     },
+    "https://www.selmaartscenter.com/season-2027": {
+      "status": "failed",
+      "checkedAt": "2026-11-22T20:51:09Z",
+      "finalUrl": "https://www.selmaartscenter.com/season-2027",
+      "httpStatus": 403,
+      "error": "HTTP 403",
+      "consecutiveFailures": 1
+    },
+    "https://www.selmaartscenter.com/youth": {
+      "status": "failed",
+      "checkedAt": "2026-11-22T20:51:09Z",
+      "finalUrl": "https://www.selmaartscenter.com/youth",
+      "httpStatus": 403,
+      "error": "HTTP 403",
+      "consecutiveFailures": 1
+    },
     "https://www.selmaartscenter.com/audition": {
       "status": "failed",
       "checkedAt": "2026-10-13T13:34:41.512Z",
