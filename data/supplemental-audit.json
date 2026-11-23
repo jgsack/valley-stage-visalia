@@ -2,6 +2,22 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-23",
+      "result": "Advanced Little Women and Shrek to November 27 at 8 PM, and Ride the Cyclone and Kings Christmas Double Feature to November 27 at 7 PM. Added verified 10 AM starts and durations to two existing GCP audition calls. Added Shen Yun's corroborated March 20 at 7:30 PM and its individual ticket link; March 21 time remains disputed. No new productions, auditions, expirations or eligible artwork.",
+      "access": "Ice House's three URLs, Kings homepage, Selma's five feeds, four CenterStage website pages and direct ATG requests returned HTTP403; readable official ticket/rendered alternatives checked where available. Legacy venue links redirect to Events Fresno. Encore remains reachable but general inventory is incomplete. Social discovery remains incomplete due to Facebook temporary blocks, Instagram fetch errors and cache misses; this is not evidence of no announcements.",
+      "socialMapping": "Registered GCP, Fresno State Theatre and Events Fresno Facebook/Instagram accounts linked by their current official websites.",
+      "schools": "All 40 district and school calendar months through June 2027 returned HTTP200 with no new dated theatrical production or acting call. Mt. Whitney's public calendar is /about-our-school/calendar, not /calendar. Existing school and COS spring listings unchanged; COS Carol ticketing confirms December 1 at 7 PM. TCOE summer Singin' in the Rain still lacks exact dates. TCOE Ludus returned403; COS/VUSD Facebook temporarily blocked and school/TCOE Instagram retrieval incomplete.",
+      "evidence": [
+        "https://www.gcplayers.com/see-a-show",
+        "https://www.gcplayers.com/gcp-audition-calendar",
+        "https://cah.fresnostate.edu/about/cah-social-media.html",
+        "https://www.eventsfresno.com/events",
+        "https://us.atgtickets.com/events/shen-yun/saroyan-theatre/",
+        "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
+        "https://app.arts-people.com/?show=309075"
+      ]
+    },
+    {
       "checkedAt": "2026-11-22",
       "result": "The fallback expired seven runs after November21: The Normal Heart, The Thanksgiving Play, A Few Good Men, Edward Tulane, Dragon JR, Swan Lake and Bandstand. Advanced four ongoing shows to verified Sunday matinees. Preserved the upstream Encore Lion Witch Wardrobe addition and analytics changes. No new verified audition or eligible artwork.",
       "access": "Encore recovered HTTP200; auditions explicitly says no calls. Its general shows page is empty despite live Lion/Witch ticket inventory; no cancellation inferred. Selma and TCOE Ludus returned403. Legacy Fresno venue pages redirect to Events Fresno; direct ATG403 but rendered alternatives were readable. All40 district/school calendar months loaded after8 transient429 retries. Redwood TheatreProgram link redirects to Google sign-in. Facebook temporary blocks, Instagram fetch failures and cache misses left social discovery incomplete; no unsupported social announcement imported.",

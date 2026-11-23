@@ -179,6 +179,10 @@
         "https://www.gcplayers.com/rr-auditions",
         "https://gcplayers.simpletix.com/"
       ],
+      "officialSocialAccounts": [
+        { "platform": "facebook", "handle": "@Good.Company.Players", "url": "https://www.facebook.com/Good.Company.Players/" },
+        { "platform": "instagram", "handle": "@goodcompanyplayers", "url": "https://www.instagram.com/goodcompanyplayers/" }
+      ],
       "secondaryHosts": [
         "tickets.gcplayers.com",
         "gcplayers.simpletix.com",
@@ -206,6 +210,10 @@
         "https://events.fresnoconventioncenter.com/a-magical-cirque-christmas",
         "https://events.fresnoconventioncenter.com/nutcracker-2026"
       ],
+      "officialSocialAccounts": [
+        { "platform": "facebook", "handle": "@eventsfresno", "url": "https://www.facebook.com/eventsfresno/" },
+        { "platform": "instagram", "handle": "@eventsfresno", "url": "https://www.instagram.com/eventsfresno/" }
+      ],
       "secondaryHosts": [
         "us.atgtickets.com",
         "www.eventsfresno.com",
@@ -221,6 +229,10 @@
       "officialUrls": [
         "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
         "https://cah.fresnostate.edu/theatrearts/students/auditions.html"
+      ],
+      "officialSocialAccounts": [
+        { "platform": "facebook", "handle": "@FresnoStateTheatre", "url": "https://www.facebook.com/FresnoStateTheatre/" },
+        { "platform": "instagram", "handle": "@fresnostatetheatre", "url": "https://www.instagram.com/fresnostatetheatre/" }
       ],
       "secondaryHosts": []
     },
