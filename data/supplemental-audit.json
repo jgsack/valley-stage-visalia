@@ -2,6 +2,13 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-24",
+      "schools": "All 40 district and high-school calendar months through June 2027 returned HTTP200 after 12 transient429 retries. School listings and COS A Christmas Carol December 1 at 7 PM are unchanged. TCOE Singin' in the Rain still has no exact dates or acting call. Ludus returned403; COS/VUSD Facebook temporarily blocked, COS season post cache miss, and school/TCOE social retrieval incomplete.",
+      "result": "No new verified productions, acting auditions, artwork, schedule corrections or expirations. The 55 retained listings remain unchanged. Barn and Kings next perform November 27 at 7 PM; Encore's live ticket inventory still confirms six Lion/Witch/Wardrobe performances December 4–13.",
+      "access": "Direct Ice House (three pages), Encore (three pages), Kings homepage, Selma (five feeds), CenterStage (four website feeds) and ATG (three configured feeds) returned HTTP403. Readable official ticket/rendered alternatives were checked where available. GCP, Fresno State and Broadway feeds returned200 locally; Broadway returned403 in the cloud importer. Legacy Fresno URLs redirect to Events Fresno. Social discovery remains incomplete due to Facebook temporary-block pages, Instagram fetch failures and cache misses; no unsupported announcement imported.",
+      "evidence": ["https://app.arts-people.com/index.php?show=378197", "https://app.arts-people.com/?show=309075", "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/"]
+    },
+    {
       "checkedAt": "2026-11-23",
       "result": "Advanced Little Women and Shrek to November 27 at 8 PM, and Ride the Cyclone and Kings Christmas Double Feature to November 27 at 7 PM. Added verified 10 AM starts and durations to two existing GCP audition calls. Added Shen Yun's corroborated March 20 at 7:30 PM and its individual ticket link; March 21 time remains disputed. No new productions, auditions, expirations or eligible artwork.",
       "access": "Ice House's three URLs, Kings homepage, Selma's five feeds, four CenterStage website pages and direct ATG requests returned HTTP403; readable official ticket/rendered alternatives checked where available. Legacy venue links redirect to Events Fresno. Encore remains reachable but general inventory is incomplete. Social discovery remains incomplete due to Facebook temporary blocks, Instagram fetch errors and cache misses; this is not evidence of no announcements.",

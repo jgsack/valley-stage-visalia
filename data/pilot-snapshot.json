@@ -1079,7 +1079,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "November 21: Verified The Lion, the Witch and the Wardrobe on its individual production page and official ticket calendar (378197): December 4–13, six performances. General shows page claims the stage is dark; it is not complete inventory. Auditions page lists no current calls.",
+      "note": "November 24: direct homepage, shows and audition requests returned HTTP403. Readable official alternatives and live ticket calendar (378197) confirm The Lion, the Witch and the Wardrobe December 4–13, six performances. General shows inventory is incomplete; rendered auditions page lists no current calls.",
       "waiting": false
     },
     {
