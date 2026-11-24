@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-23T12:19:57.497Z",
-  "completedDay": "2026-11-23",
+  "startedAt": "2026-11-24T10:14:16.390Z",
+  "completedDay": "2026-11-24",
   "organizations": [
     {
       "id": "ice-house",
@@ -44,9 +44,10 @@
         "https://www.encoretulare.org/shows",
         "https://www.encoretulare.org/auditions",
         "https://app.arts-people.com/index.php?show=347650",
-        "https://www.encoretulare.org/assets/ShowTicketAction-Bt-vW2Ep.js",
+        "https://www.encoretulare.org/assets/ShowTicketAction-gXLnT7Kt.js",
         "https://www.encoretulare.org/calendar",
-        "https://www.encoretulare.org/past-productions"
+        "https://www.encoretulare.org/past-productions",
+        "https://www.encoretulare.org/auditions#published-auditions"
       ],
       "failures": [
         {
@@ -94,27 +95,8 @@
           "error": "unsupported document format"
         }
       ],
-      "candidates": [
-        {
-          "title": "Ride the Cyclone",
-          "kind": "performance",
-          "venue": "Porterville Barn Theater",
-          "start": "2026-11-27",
-          "end": "2026-11-29",
-          "sourceUrl": "https://portervillebarntheater.com/barnwiki/ride-the-cyclone-2026/",
-          "evidence": [
-            "Ride the Cyclone (2026)",
-            "Run Dates: November 13, 14, 20, 21, 27, 28 ( Friday &#038; Saturday Evenings @7pm ) November 15, 22, 29 ( Sunday Matinees @2pm )"
-          ]
-        }
-      ],
-      "changes": [
-        {
-          "title": "Ride the Cyclone",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        }
-      ]
+      "candidates": [],
+      "changes": []
     },
     {
       "id": "reedley-river-city",
@@ -128,8 +110,27 @@
         "https://ci.ovationtix.com/36374/production/1264345"
       ],
       "failures": [],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Seussical the Musical",
+          "kind": "performance",
+          "venue": "Historic 1903 Reedley Opera House",
+          "start": "2026-12-05",
+          "end": "2026-12-20",
+          "sourceUrl": "https://www.rctcreedley.com/2026-season",
+          "evidence": [
+            "Reedley’s River City Theater 2026 Season",
+            "Seussical the Musical December 5 - 20"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Seussical the Musical",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "selma-arts",
@@ -203,164 +204,7 @@
           "end": "2027-01-17",
           "sourceUrl": "https://www.gcplayers.com/see-a-show",
           "evidence": [
-            "Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Shrek the Musical will be playing November 20, 2026 - January 17, 2027 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Little Women: A Victorian Christmas",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2026-11-05",
-          "end": "2026-12-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Little Women: A Victorian Christmas Thu, Nov 5, 2026 7:30 PM Sun, Dec 20, 2026 4:00 PM 2nd Space Theatre (map)",
-            "Little Women: A Victorian Christmas Card will be playing November 5 - December 20 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-01-02",
-          "end": "2027-02-21",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Sherlock Holmes and the Adventure of the Fallen Soufflé will be playing January 2 - February 21 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Les Misérables",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-01-22",
-          "end": "2027-04-04",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Les Misérables will be playing January 22 - April 4 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Private Lives",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-02-26",
-          "end": "2027-04-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Private Lives will be playing February 21 - April 18 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Little Shop of Horrors",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-04-09",
-          "end": "2027-05-23",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Little Shop of Horrors will be playing April 9 - May 23 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Ripcord",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-04-30",
-          "end": "2027-06-20",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Ripcord will be playing April 30 - June 20 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Clue",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-05-28",
-          "end": "2027-07-18",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Clue will be playing May 28 - July 18 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "Eleanor",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-06-25",
-          "end": "2027-08-15",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map)",
-            "Eleanor will be playing June 25 - August 15 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "Disney’s The Little Mermaid",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-07-23",
-          "end": "2027-09-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "Disney’s The Little Mermaid will be playing July 23 - September 19 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "An Old-Fashioned Family Murder",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-08-27",
-          "end": "2027-10-17",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map)",
-            "An Old-Fashioned Family Murder will be playing August 27 - October 17 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "She Loves Me",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-09-24",
-          "end": "2027-11-14",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "She Loves Me will be playing September 24 - November 14 at Roger Rocka’s Dinner Theater."
-          ]
-        },
-        {
-          "title": "It’s a Wonderful Life: A Live Radio Play",
-          "kind": "performance",
-          "venue": "2nd Space Theatre",
-          "start": "2027-11-04",
-          "end": "2027-12-19",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map)",
-            "It’s a Wonderful Life: A Live Radio Play will be playing November 4 - December 19 at 2nd Space Theatre."
-          ]
-        },
-        {
-          "title": "The Addams Family",
-          "kind": "performance",
-          "venue": "Roger Rocka's Dinner Theater",
-          "start": "2027-11-19",
-          "end": "2028-01-16",
-          "sourceUrl": "https://www.gcplayers.com/see-a-show",
-          "evidence": [
-            "The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map)",
-            "The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
+            "Shrek the Musical Fri, Nov 20, 2026 8:00 PM Sun, Jan 17, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Show #6 at Roger Rocka’s Dinner Theater. Shrek the Musical will be playing November 20, 2026 - January 17, 2027 at Roger Rocka’s Dinner Theater."
           ]
         },
         {
@@ -371,8 +215,18 @@
           "end": "2026-12-12",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
-            "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+            "OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map) Google Calendar ICS Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
+          ]
+        },
+        {
+          "title": "Sherlock Holmes and the Adventure of the Fallen Soufflé",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-01-02",
+          "end": "2027-02-21",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Sherlock Holmes and the Adventure of the Fallen Soufflé Sat, Jan 2, 2027 8:00 PM Sun, Feb 21, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Sherlock Holmes and the Adventure of the Fallen Soufflé will be playing January 2 - February 21 at 2nd Space Theatre."
           ]
         },
         {
@@ -383,8 +237,18 @@
           "end": "2027-01-09",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
-            "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+            "OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
+          ]
+        },
+        {
+          "title": "Les Misérables",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-01-22",
+          "end": "2027-04-04",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Les Misérables Fri, Jan 22, 2027 8:00 PM Sun, Apr 4, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Les Misérables will be playing January 22 - April 4 at Roger Rocka’s Dinner Theater."
           ]
         },
         {
@@ -395,7 +259,117 @@
           "end": "2027-01-30",
           "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
           "evidence": [
-            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map)"
+            "OPEN AUDITIONS - Junior Company Saturday, January 30, 2027 9:00 AM 11:00 AM Roger Rocka's Dinner Theater (map) Google Calendar ICS This company performs for the pre-shows of Little Shop of Horrors and Clue ."
+          ]
+        },
+        {
+          "title": "Private Lives",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-02-26",
+          "end": "2027-04-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Private Lives Fri, Feb 26, 2027 8:00 PM Sun, Apr 18, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Private Lives will be playing February 21 - April 18 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Little Shop of Horrors",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-04-09",
+          "end": "2027-05-23",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Little Shop of Horrors Fri, Apr 9, 2027 8:00 PM Sun, May 23, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Little Shop of Horrors will be playing April 9 - May 23 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "Ripcord",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-04-30",
+          "end": "2027-06-20",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Ripcord Fri, Apr 30, 2027 8:00 PM Sun, Jun 20, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Ripcord will be playing April 30 - June 20 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Clue",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-05-28",
+          "end": "2027-07-18",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Clue Fri, May 28, 2027 8:00 PM Sun, Jul 18, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Clue will be playing May 28 - July 18 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "Eleanor",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-06-25",
+          "end": "2027-08-15",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Eleanor Fri, Jun 25, 2027 8:00 PM Sun, Aug 15, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS Eleanor will be playing June 25 - August 15 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "Disney’s The Little Mermaid",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-07-23",
+          "end": "2027-09-19",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "Disney’s The Little Mermaid Fri, Jul 23, 2027 8:00 PM Sun, Sep 19, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS Disney’s The Little Mermaid will be playing July 23 - September 19 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "An Old-Fashioned Family Murder",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-08-27",
+          "end": "2027-10-17",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "An Old-Fashioned Family Murder Fri, Aug 27, 2027 8:00 PM Sun, Oct 17, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS An Old-Fashioned Family Murder will be playing August 27 - October 17 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "She Loves Me",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-09-24",
+          "end": "2027-11-14",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "She Loves Me Fri, Sep 24, 2027 8:00 PM Sun, Nov 14, 2027 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS She Loves Me will be playing September 24 - November 14 at Roger Rocka’s Dinner Theater."
+          ]
+        },
+        {
+          "title": "It’s a Wonderful Life: A Live Radio Play",
+          "kind": "performance",
+          "venue": "2nd Space Theatre",
+          "start": "2027-11-04",
+          "end": "2027-12-19",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "It’s a Wonderful Life: A Live Radio Play Thu, Nov 4, 2027 8:00 PM Sun, Dec 19, 2027 4:00 PM 2nd Space Theatre (map) Google Calendar ICS It’s a Wonderful Life: A Live Radio Play will be playing November 4 - December 19 at 2nd Space Theatre."
+          ]
+        },
+        {
+          "title": "The Addams Family",
+          "kind": "performance",
+          "venue": "Roger Rocka's Dinner Theater",
+          "start": "2027-11-19",
+          "end": "2028-01-16",
+          "sourceUrl": "https://www.gcplayers.com/see-a-show",
+          "evidence": [
+            "The Addams Family Fri, Nov 19, 2027 8:00 PM Sun, Jan 16, 2028 4:00 PM Roger Rocka's Dinner Theater (map) Google Calendar ICS The Addams Family will be playing November 19 - January 16, 2028 at Roger Rocka’s Dinner Theater."
           ]
         }
       ],
@@ -459,16 +433,6 @@
           "title": "The Addams Family",
           "action": "retained",
           "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
-        {
-          "title": "OPEN AUDITIONS - Private Lives & Ripcord",
-          "action": "updated",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
-        },
-        {
-          "title": "OPEN AUDITIONS - Little Shop of Horrors & Clue",
-          "action": "updated",
-          "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar"
         }
       ]
     },
@@ -510,8 +474,69 @@
           "error": "HTTP 403"
         }
       ],
-      "candidates": [],
-      "changes": []
+      "candidates": [
+        {
+          "title": "Jersey Boys",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-02-02",
+          "end": "2027-02-04",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "Jersey Boys Jersey Boys Musicals Saroyan Theatre Tue, Feb 2 - Thu, Feb 4, 2027"
+          ]
+        },
+        {
+          "title": "The Bodyguard",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-03-15",
+          "end": "2027-03-16",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "The Bodyguard The Bodyguard Musicals Saroyan Theatre Mon, Mar 15 - Tue, Mar 16, 2027"
+          ]
+        },
+        {
+          "title": "Shen Yun",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-03-20",
+          "end": "2027-03-21",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
+          ]
+        },
+        {
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "kind": "performance",
+          "venue": "Saroyan Theatre",
+          "start": "2027-06-08",
+          "end": "2027-06-09",
+          "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+          "evidence": [
+            "A Beautiful Noise: The Neil Diamond Musical A Beautiful Noise: The Neil Diamond Musical Musicals Saroyan Theatre Tue, Jun 8 - Wed, Jun 9, 2027"
+          ]
+        }
+      ],
+      "changes": [
+        {
+          "title": "Jersey Boys",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "The Bodyguard",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        },
+        {
+          "title": "A Beautiful Noise: The Neil Diamond Musical",
+          "action": "retained",
+          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
+        }
+      ]
     },
     {
       "id": "fresno-state",
@@ -529,20 +554,9 @@
       ],
       "candidates": [
         {
-          "title": "The Contemporary Dance Ensemble",
-          "kind": "performance",
-          "venue": "Fresno State University Theatre",
-          "start": "2027-02-12",
-          "end": "2027-02-20",
-          "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
-          "evidence": [
-            "The Contemporary Dance Ensemble artistic director, Kenneth Balint Feb. 12 - 20, 2027"
-          ]
-        },
-        {
           "title": "Yo Te Esperaba: An Abolition Story",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building",
           "start": "2027-03-11",
           "end": "2027-03-14",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -553,7 +567,7 @@
         {
           "title": "The Shawshank Redemption",
           "kind": "performance",
-          "venue": "Fresno State University Theatre",
+          "venue": "Fresno State University Theatre, Speech Arts Building",
           "start": "2027-04-30",
           "end": "2027-05-08",
           "sourceUrl": "https://cah.fresnostate.edu/theatrearts/performances/current-season.html",
@@ -563,11 +577,6 @@
         }
       ],
       "changes": [
-        {
-          "title": "The Contemporary Dance Ensemble",
-          "action": "retained",
-          "reason": "existing curated listing; extracted evidence recorded for reconciliation"
-        },
         {
           "title": "Yo Te Esperaba: An Abolition Story",
           "action": "retained",
@@ -650,18 +659,7 @@
           ]
         }
       ],
-      "changes": [
-        {
-          "title": "GWHS Presents \"The Nutcracker\" #1",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        },
-        {
-          "title": "GWHS Presents \"The Nutcracker\" #2",
-          "action": "withheld",
-          "reason": "possible duplicate"
-        }
-      ]
+      "changes": []
     },
     {
       "id": "el-diamante-high",
@@ -725,5 +723,5 @@
   "socialStatus": "Not checked: official social API access is not configured.",
   "posterStatus": "Existing posters preserved; new artwork needs separate verification.",
   "expirations": [],
-  "completedAt": "2026-11-23T12:21:06.046Z"
+  "completedAt": "2026-11-24T10:15:26.997Z"
 }
