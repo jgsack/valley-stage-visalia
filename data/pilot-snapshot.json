@@ -3,10 +3,10 @@
     "label": "Visalia, CA 93291",
     "radiusMiles": 50
   },
-  "checkedAt": "November 24, 2026",
-  "verifiedAt": "November 23, 2026",
-  "reviewedAt": "November 24, 2026",
-  "reviewSummary": "Last updated: November 24, 2026",
+  "checkedAt": "November 25, 2026",
+  "verifiedAt": "November 25, 2026",
+  "reviewedAt": "November 25, 2026",
+  "reviewSummary": "Last updated: November 25, 2026",
   "socialDiscovery": {
     "checkedAt": "August 29, 2026",
     "tasksCompleted": 17,
@@ -1069,6 +1069,28 @@
       "imageCaption": "Official school audition flyer announcing the February 2027 production.",
       "organizationId": "mt-whitney-high",
       "verifiedDate": "2026-11-04"
+    },
+    {
+      "id": "encore-2da3eca8399e",
+      "title": "Seussical the Musical",
+      "theater": "Encore Theatre Company",
+      "city": "Tulare",
+      "distance": 10,
+      "run": "December 8, 2026–December 9, 2026",
+      "next": "Tue, Dec 8",
+      "performanceCount": "See audition details",
+      "description": "Seussical the Musical at Encore Theatre Company. See the official page for the complete schedule and details.",
+      "status": "auditions",
+      "sourceUrl": "https://www.encoretulare.org/",
+      "detailsUrl": "https://www.encoretulare.org/",
+      "organizationId": "encore",
+      "aiManaged": true,
+      "evidence": [
+        "Seussical the Musical Students in grades 3–12 are invited to audition for our spring Stages production. Auditions are December 8 (grades 3–6) and December 9 (grades 7–12) at 5:30 PM.",
+        "© 2026 Encore Theatre Company",
+        "Encore Theatre Company 324 S. N Street, Tulare, CA 93274"
+      ],
+      "verifiedDate": "2026-11-25"
     }
   ],
   "sources": [
