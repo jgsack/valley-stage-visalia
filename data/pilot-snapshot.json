@@ -1072,14 +1072,14 @@
     },
     {
       "id": "encore-2da3eca8399e",
-      "title": "Seussical the Musical",
+      "title": "Seussical the Musical Auditions",
       "theater": "Encore Theatre Company",
       "city": "Tulare",
       "distance": 10,
-      "run": "December 8, 2026–December 9, 2026",
-      "next": "Tue, Dec 8",
-      "performanceCount": "See audition details",
-      "description": "Seussical the Musical at Encore Theatre Company. See the official page for the complete schedule and details.",
+      "run": "December 8–9, 2026",
+      "next": "Tue, Dec 8 · 5:30 PM",
+      "performanceCount": "2 grade-specific audition sessions",
+      "description": "Students in grades 3–12 are invited to audition for Encore's spring Stages production. Grades 3–6 audition December 8; grades 7–12 audition December 9. Both sessions begin at 5:30 PM. See Encore's official announcement for attendance requirements.",
       "status": "auditions",
       "sourceUrl": "https://www.encoretulare.org/",
       "detailsUrl": "https://www.encoretulare.org/",
@@ -1101,7 +1101,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "November 24: direct homepage, shows and audition requests returned HTTP403. Readable official alternatives and live ticket calendar (378197) confirm The Lion, the Witch and the Wardrobe December 4–13, six performances. General shows inventory is incomplete; rendered auditions page lists no current calls.",
+      "note": "November 25: the cloud importer retrieved a new official homepage announcement for Seussical auditions December 8 (grades 3–6) and December 9 (grades 7–12), both at 5:30 PM. Local website requests returned HTTP403 or retrieval errors, so a separate rendered confirmation was unavailable. Live ticket calendar (378197) still confirms six Lion/Witch/Wardrobe performances December 4–13.",
       "waiting": false
     },
     {
