@@ -941,8 +941,8 @@
       "city": "Fresno",
       "distance": 46,
       "run": "December 12, 2026",
-      "next": "Sat, Dec 12",
-      "performanceCount": "See audition details",
+      "next": "Sat, Dec 12 · 10:00 AM",
+      "performanceCount": "Open audition · 10:00 AM–noon",
       "description": "OPEN AUDITIONS - Private Lives & Ripcord at 2nd Space Theatre. See the official page for the complete schedule and details.",
       "status": "auditions",
       "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
@@ -962,8 +962,8 @@
       "city": "Fresno",
       "distance": 46,
       "run": "January 9, 2027",
-      "next": "Sat, Jan 9",
-      "performanceCount": "See audition details",
+      "next": "Sat, Jan 9 · 10:00 AM",
+      "performanceCount": "Open audition · 10:00 AM–1:00 PM",
       "description": "OPEN AUDITIONS - Little Shop of Horrors & Clue at Roger Rocka's Dinner Theater. See the official page for the complete schedule and details.",
       "status": "auditions",
       "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
@@ -1101,7 +1101,7 @@
     },
     {
       "name": "Encore Theatre",
-      "note": "November 25: the cloud importer retrieved a new official homepage announcement for Seussical auditions December 8 (grades 3–6) and December 9 (grades 7–12), both at 5:30 PM. Local website requests returned HTTP403 or retrieval errors, so a separate rendered confirmation was unavailable. Live ticket calendar (378197) still confirms six Lion/Witch/Wardrobe performances December 4–13.",
+      "note": "November 26: the readable official homepage independently confirms Seussical auditions December 8 (grades 3–6) and December 9 (grades 7–12), both at 5:30 PM, for Stages Spring 2027. The older auditions page is incomplete. Direct requests still returned HTTP403. Live ticket calendar (378197) confirms six Lion/Witch/Wardrobe performances December 4–13.",
       "waiting": false
     },
     {

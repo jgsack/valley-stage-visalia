@@ -80,6 +80,24 @@ test("district calendar preserves event dates and venue while isolating each sch
   assert.doesNotMatch(vusdCalendarText(html, "golden-west-high"), /Madhouse/);
 });
 
+test("unchanged extraction preserves reviewed upcoming times, but changed evidence or dates do not", () => {
+  const snapshot={shows:[]};
+  merge(snapshot,source,[event],"2026-09-16");
+  snapshot.shows[0].next="Fri, Oct 2 · 7:30 PM";
+  snapshot.shows[0].performanceCount="3 performances";
+  merge(snapshot,source,[event],"2026-09-17");
+  assert.equal(snapshot.shows[0].next,"Fri, Oct 2 · 7:30 PM");
+  assert.equal(snapshot.shows[0].performanceCount,"3 performances");
+  merge(snapshot,source,[{...event,evidence:[text+" Revised schedule."]}],"2026-09-18");
+  assert.equal(snapshot.shows[0].next,"Fri, Oct 2");
+  snapshot.shows[0].next="Fri, Oct 2 · 7:30 PM";
+  merge(snapshot,source,[{...event,start:"2026-10-03"}],"2026-09-19");
+  assert.equal(snapshot.shows[0].next,"Sat, Oct 3");
+  snapshot.shows[0].next="Sat, Oct 3 · 7:30 PM";
+  merge(snapshot,source,[{...event,start:"2026-10-03"}],"2026-10-04");
+  assert.equal(snapshot.shows[0].next,"See the official performance calendar");
+});
+
 test("district calendar lookup rolls six future months across the year boundary", () => {
   const root = "https://www.vusd.org/departments/student-services/vapa/calendar";
   const urls = vusdCalendarUrls({id:"mt-whitney-high",officialUrls:[root]}, "2026-10-18");

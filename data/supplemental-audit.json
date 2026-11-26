@@ -2,6 +2,14 @@
   "checkedAt": "2026-10-31",
   "followups": [
     {
+      "checkedAt": "2026-11-26",
+      "schools": "All 40 district and high-school calendar months through June 2027 returnedHTTP200 without retries. Existing school schedules, COS Carol December 1 at 7 PM and spring runs are unchanged. TCOE summer Singin' in the Rain remains undated, Ludus403; official school/COS/TCOE social retrieval incomplete.",
+      "result": "No new productions, acting auditions, expirations or eligible artwork. Encore Seussical call independently corroborated on the readable official homepage: December 8 grades 3–6 and December 9 grades 7–12, both 5:30 PM. The linked audition page's older no-calls text is incomplete. Restored two GCP audition start times/durations after the cloud importer erased them despite unchanged evidence; the live official calendar still confirms 10 AM starts.",
+      "monitorFix": "Preserve reviewed next labels and counts only when the exact evidence and upcoming date are unchanged. Changed evidence, changed dates and already-started runs still replace stale labels. Added regression tests for all cases.",
+      "evidence": ["https://www.encoretulare.org/", "https://www.gcplayers.com/gcp-audition-calendar", "https://app.arts-people.com/index.php?show=378197"],
+      "access": "Direct Ice House three pages, Encore three pages, Kings homepage, Selma five feeds, CenterStage four pages and ATG three feeds returned403. Readable official ticket/rendered alternatives checked; GCP, Fresno State and Broadway reachable locally. Legacy Fresno URLs redirect to Events Fresno. Social discovery remains incomplete because of temporary blocks, fetch failures and cache misses. No primary corroboration for the Shadowlands secondary lead; withheld."
+    },
+    {
       "checkedAt": "2026-11-25",
       "schools": "All 40 district and school calendar months through June 2027 returnedHTTP200 without retries. Existing school listings and COS Carol December 1 at 7 PM are unchanged. TCOE summer Singin' in the Rain remains undated; Ludus returned403. School/COS/TCOE social discovery remained incomplete.",
       "result": "The cloud daily importer added Encore's Seussical acting auditions from its official homepage: December 8 for grades 3–6 and December 9 for grades 7–12, both at 5:30 PM. Expanded the imported card to include those published details and an audition-specific title. No other verified additions, corrections, expirations or eligible new artwork.",

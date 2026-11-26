@@ -189,6 +189,14 @@ export function merge(snapshot,source,events,day=today()){
       description:e.title+" at "+e.venue+". See the official page for the complete schedule and details.",
       status:e.kind==="audition"?"auditions":e.start<=day?"now":"soon",sourceUrl:e.sourceUrl,detailsUrl:e.sourceUrl,
       organizationId:source.id,aiManaged:true,evidence:e.evidence,verifiedDate:day};
+    // A date-only extraction must not erase a reviewed time while its exact
+    // evidence and upcoming date are unchanged. Changed evidence/dates still
+    // replace the old schedule and require fresh reconciliation.
+    if(previous && e.start>=day && previous.next?.startsWith(next) &&
+      JSON.stringify(previous.evidence)===JSON.stringify(e.evidence)) {
+      show.next=previous.next;
+      show.performanceCount=previous.performanceCount??show.performanceCount;
+    }
     if(previous)snapshot.shows[snapshot.shows.indexOf(previous)]=show;else snapshot.shows.push(show);
     changes.push({title:e.title,action:previous?"updated":"added",sourceUrl:e.sourceUrl});
   }
