@@ -14,6 +14,15 @@ test("calendar dates cannot become a production title; numeric play titles remai
   assert.equal(validate({...event,title:"1984",evidence:[real]},[{url:pages[0].url,text:real}],"2026-10-01"),true);
 });
 
+test("month-only announcements cannot become invented first-to-last-day runs", () => {
+  for(const quote of ["The Normal Heart Directed by JJ Pestano November 2026", "The Normal Heart Nov 2026"]) {
+    const candidate={...event,title:"The Normal Heart",start:"2026-11-01",end:"2026-11-30",evidence:[quote]};
+    assert.equal(validate(candidate,[{url:pages[0].url,text:quote}],"2026-11-27"),false);
+  }
+  const quote="The Normal Heart November 6–21, 2026";
+  assert.equal(validate({...event,title:"The Normal Heart",start:"2026-11-06",end:"2026-11-21",evidence:[quote]},[{url:pages[0].url,text:quote}],"2026-11-01"),true);
+});
+
 test("ticket-index department headings are not production titles", () => {
   for (const title of ["COS Theatre", "COS Theater Arts", "College of the Sequoias Theatre Arts", "COS Theatre November 12-21, 2026"]) {
     const quote = `${title} November 12-21, 2026 Evening Performances at 7pm`;

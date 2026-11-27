@@ -983,14 +983,14 @@
       "city": "Fresno",
       "distance": 44,
       "run": "March 20, 2027–March 21, 2027",
-      "next": "Sat, Mar 20",
+      "next": "Sat, Mar 20 · 7:30 PM",
       "performanceCount": "See performance calendar",
       "description": "Shen Yun at Saroyan Theatre. See the official page for the complete schedule and details.",
       "status": "soon",
       "sourceUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
-      "detailsUrl": "https://us.atgtickets.com/venues/saroyan-theatre/whats-on/",
+      "detailsUrl": "https://us.atgtickets.com/events/shen-yun/saroyan-theatre/",
       "organizationId": "broadway-fresno-saroyan",
-      "aiManaged": true,
+      "aiManaged": false,
       "evidence": [
         "Shen Yun Shen Yun Dance Saroyan Theatre Sat, Mar 20 - Sun, Mar 21, 2027"
       ],
@@ -1090,26 +1090,6 @@
         "Encore Theatre Company 324 S. N Street, Tulare, CA 93274"
       ],
       "verifiedDate": "2026-11-25"
-    },
-    {
-      "id": "ice-house-7a8f25c23b6d",
-      "title": "The Normal Heart",
-      "theater": "Ice House Theatre / Visalia Players",
-      "city": "Visalia",
-      "distance": 2,
-      "run": "November 1, 2026–November 30, 2026",
-      "next": "See the official performance calendar",
-      "performanceCount": "See performance calendar",
-      "description": "The Normal Heart at Ice House Theater. See the official page for the complete schedule and details.",
-      "status": "now",
-      "sourceUrl": "https://www.visaliaicehouse.com/projects-6",
-      "detailsUrl": "https://www.visaliaicehouse.com/projects-6",
-      "organizationId": "ice-house",
-      "aiManaged": true,
-      "evidence": [
-        "The Normal Heart Directed by JJ Pestano November 2026"
-      ],
-      "verifiedDate": "2026-11-27"
     }
   ],
   "sources": [

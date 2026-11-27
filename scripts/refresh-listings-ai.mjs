@@ -148,6 +148,11 @@ export function validate(candidate,pages,day=today()){
   if(typeof candidate.venue!=="string" || !candidate.venue.trim()) return false;
   if(!Array.isArray(candidate.evidence)||!candidate.evidence.length||candidate.evidence.some(q=>typeof q!=="string"||q.length<8||q.length>1200||!page.text.includes(clean(q))))return false;
   const evidence=candidate.evidence.join(" ");
+  // A month announcement is not an exact run. Never fabricate its first/last
+  // days (for example, "November 2026" becoming November 1–30).
+  const calendarMonth="(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)";
+  const publishedDay=new RegExp(`\\b${calendarMonth}\\.?\\s+\\d{1,2}(?!\\d)|\\b\\d{1,2}\\s+${calendarMonth}\\b|\\b20\\d{2}-\\d{2}-\\d{2}\\b|\\b\\d{1,2}/\\d{1,2}/(?:20)?\\d{2}\\b`,"i");
+  if(!publishedDay.test(evidence))return false;
   if(/\b(concert|screening|film|movie|stand[- ]up)\b/i.test(candidate.title+" "+evidence))return false;
   const quotedTitle=candidate.title.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
   if(new RegExp(`\\b(?:tale|story) of ${quotedTitle}\\b`,"i").test(evidence))return false;
