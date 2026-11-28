@@ -267,7 +267,7 @@
       "city": "Fresno",
       "distance": 46,
       "run": "November 5–December 20",
-      "next": "Fri, Nov 27 · 8:00 PM",
+      "next": "Sat, Nov 28 · 8:00 PM",
       "performanceCount": "Thursday–Sunday performances",
       "description": "Jo, Meg, Beth, and Amy's timeless story unfolds against a Civil War-era Christmas backdrop in this returning holiday production.",
       "status": "now",
@@ -297,7 +297,7 @@
       "city": "Porterville",
       "distance": 31,
       "run": "November 13–29",
-      "next": "Fri, Nov 27 · 7:00 PM",
+      "next": "Sat, Nov 28 · 7:00 PM",
       "performanceCount": "9 performances",
       "description": "Six teenagers from a Canadian chamber choir awaken in limbo after a roller-coaster accident and compete for one chance to return to life.",
       "status": "now",
@@ -313,7 +313,7 @@
       "city": "Hanford",
       "distance": 22,
       "run": "November 20–December 6",
-      "next": "Fri, Nov 27 · 7:00 PM",
+      "next": "Sat, Nov 28 · 7:00 PM",
       "performanceCount": "10 performances",
       "description": "Two holiday one-acts pair O. Henry's tender Gift of the Magi with the comedy Scrooge Has Left the Building. November 20, 21, 27, 28 and December 3, 4 at 7 PM; November 22, 29 and December 5, 6 at 2 PM.",
       "status": "now",
@@ -627,7 +627,7 @@
       "city": "Fresno",
       "distance": 46,
       "run": "November 20, 2026–January 17, 2027",
-      "next": "Fri, Nov 27 · 8:00 PM",
+      "next": "Sat, Nov 28 · 8:00 PM",
       "performanceCount": "Run announced",
       "description": "The irreverent fairy-tale musical follows Shrek, Donkey, and Princess Fiona on a big-hearted quest that turns storybook expectations upside down.",
       "status": "now",
@@ -941,14 +941,14 @@
       "city": "Fresno",
       "distance": 46,
       "run": "December 12, 2026",
-      "next": "Sat, Dec 12",
-      "performanceCount": "See audition details",
+      "next": "Sat, Dec 12 · 10:00 AM",
+      "performanceCount": "Open audition · 10:00 AM–noon",
       "description": "OPEN AUDITIONS - Private Lives & Ripcord at 2nd Space Theatre. See the official page for the complete schedule and details.",
       "status": "auditions",
       "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
       "detailsUrl": "https://www.gcplayers.com/gcp-audition-calendar",
       "organizationId": "roger-rockas",
-      "aiManaged": true,
+      "aiManaged": false,
       "evidence": [
         "Dec 12 OPEN AUDITIONS - Private Lives & Ripcord Saturday, December 12, 2026 10:00 AM 12:00 PM 2nd Space Theatre (map)",
         "Auditions for Private Lives and Ripcord will be held on December 12, 2026 at 2nd Space Theatre at 10AM."
@@ -962,14 +962,14 @@
       "city": "Fresno",
       "distance": 46,
       "run": "January 9, 2027",
-      "next": "Sat, Jan 9",
-      "performanceCount": "See audition details",
+      "next": "Sat, Jan 9 · 10:00 AM",
+      "performanceCount": "Open audition · 10:00 AM–1:00 PM",
       "description": "OPEN AUDITIONS - Little Shop of Horrors & Clue at Roger Rocka's Dinner Theater. See the official page for the complete schedule and details.",
       "status": "auditions",
       "sourceUrl": "https://www.gcplayers.com/gcp-audition-calendar",
       "detailsUrl": "https://www.gcplayers.com/gcp-audition-calendar",
       "organizationId": "roger-rockas",
-      "aiManaged": true,
+      "aiManaged": false,
       "evidence": [
         "Jan 9 OPEN AUDITIONS - Little Shop of Horrors & Clue Saturday, January 9, 2027 10:00 AM 1:00 PM Roger Rocka's Dinner Theater (map)",
         "Auditions for Little Shop of Horrors and Clue will be held on January 9, 2027 at Roger Rocka’s Dinner Theater at 10AM."
@@ -1083,7 +1083,7 @@
       "sourceUrl": "https://www.encoretulare.org/",
       "detailsUrl": "https://www.encoretulare.org/",
       "organizationId": "encore",
-      "aiManaged": true,
+      "aiManaged": false,
       "evidence": [
         "Seussical the Musical Students in grades 3–12 are invited to audition for our spring Stages production. Auditions are December 8 (grades 3–6) and December 9 (grades 7–12) at 5:30 PM.",
         "© 2026 Encore Theatre Company",
@@ -1095,12 +1095,12 @@
   "sources": [
     {
       "name": "Ice House Theatre",
-      "note": "November 23: direct website requests returned HTTP403; readable official alternatives confirm Holiday Cabaret December 11–13. The Normal Heart closed November 21 and is expired. Audition page still shows an old June call; no new dated audition verified.",
+      "note": "November 28: all three configured website pages recovered HTTP200. Holiday Cabaret December 11–13 is unchanged. The Normal Heart closed November 21 and remains expired. Audition page still shows an old June call; no new dated audition verified.",
       "waiting": false
     },
     {
       "name": "Encore Theatre",
-      "note": "November 26: the readable official homepage independently confirms Seussical auditions December 8 (grades 3–6) and December 9 (grades 7–12), both at 5:30 PM, for Stages Spring 2027. The older auditions page is incomplete. Direct requests still returned HTTP403. Live ticket calendar (378197) confirms six Lion/Witch/Wardrobe performances December 4–13.",
+      "note": "November 28: all three website pages recovered HTTP200. The homepage confirms Seussical auditions December 8 (grades 3–6) and December 9 (grades 7–12), both at 5:30 PM, for Stages Spring 2027. The older auditions page is incomplete. Live ticket calendar (378197) confirms six Lion/Witch/Wardrobe performances December 4–13.",
       "waiting": false
     },
     {
@@ -1165,7 +1165,7 @@
     },
     {
       "name": "Kings Players",
-      "note": "November 17: the Kings Players homepage and linked Arts People inventory returned HTTP200. Ten Christmas Double Feature performances remain listed.",
+      "note": "November 28: homepage recovered HTTP200 and linked Arts People inventory confirms the remaining Christmas Double Feature schedule. November 28 and 29 are sold out, not canceled.",
       "waiting": false
     },
     {
@@ -1175,7 +1175,7 @@
     },
     {
       "name": "CenterStage Clovis Community Theatre",
-      "note": "November 23: four website pages returned HTTP403 directly; rendered public pages and linked ticket inventory were checked. Bandstand closed November 21 and is expired. No new dated acting audition verified.",
+      "note": "November 28: all four website feeds recovered HTTP200; linked Arts People inventory is reachable. Bandstand closed November 21 and remains expired. No new dated acting audition verified.",
       "waiting": false
     }
   ]
